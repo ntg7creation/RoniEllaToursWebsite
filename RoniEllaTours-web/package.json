@@ -1,0 +1,28 @@
+{
+  "name": "roniella-tours-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:browser": "node scripts/verify-site.mjs",
+    "review:browser": "node scripts/review-browser.mjs after",
+    "test:gallery": "node scripts/verify-gallery.mjs",
+    "test:video-library": "node scripts/verify-video-library.mjs",
+    "test:translations": "node --test scripts/translation.test.mjs",
+    "test:languages": "node scripts/verify-languages.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "vite": "^5.4.11"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

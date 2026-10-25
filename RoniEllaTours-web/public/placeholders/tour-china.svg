@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">תמונה זמנית - סין</title>
+  <desc id="desc">Placeholder image for the China tour.</desc>
+  <rect width="1200" height="760" fill="#f4eee2"/>
+  <rect x="56" y="56" width="1088" height="648" rx="34" fill="#ead8ba"/>
+  <path d="M90 565 C230 480 385 520 520 440 C695 337 845 392 1010 284 C1070 245 1110 224 1144 224 L1144 704 L56 704 L56 604 Z" fill="#89764e"/>
+  <path d="M0 610 C220 535 455 625 654 530 C880 424 1020 498 1200 408 L1200 760 L0 760 Z" fill="#b65f43" opacity=".86"/>
+  <circle cx="850" cy="196" r="88" fill="#cfae63"/>
+  
+  
+</svg>

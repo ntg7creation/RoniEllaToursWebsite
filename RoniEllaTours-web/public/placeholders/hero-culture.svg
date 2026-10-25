@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">תמונה זמנית - מסע תרבותי</title>
+  <desc id="desc">Placeholder image for the RoniElla Tours homepage hero.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#876347"/>
+      <stop offset="55%" stop-color="#8b5e3c"/>
+      <stop offset="100%" stop-color="#d9b26f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0 675 C240 590 430 650 620 575 C800 505 1010 535 1190 468 C1375 400 1500 425 1600 350 L1600 900 L0 900 Z" fill="#654633" opacity=".82"/>
+  <path d="M160 642 L330 420 L500 642 Z" fill="#c99655" opacity=".94"/>
+  <path d="M335 642 L485 468 L635 642 Z" fill="#f0cf91" opacity=".75"/>
+  <circle cx="1210" cy="285" r="115" fill="#f3d58a" opacity=".72"/>
+</svg>
