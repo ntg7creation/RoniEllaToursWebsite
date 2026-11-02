@@ -4,7 +4,8 @@ import { fileURLToPath } from "node:url";
 import { LocalContentManifestSchema, parseSiteContent, type PublicSiteContent } from "@roniella/shared/site-content";
 import { registeredMedia, validateRuntimeContent } from "./runtime-content.js";
 
-export interface MediaFile { path: string; filename: string }
+export type MediaFile = { path: string; filename: string; staticPath?: never }
+  | { staticPath: string; filename: string; path?: never };
 export interface ContentRepository {
   getPublicContent(): Promise<PublicSiteContent>;
   getMedia?(filename: string): Promise<MediaFile | undefined>;

@@ -5,6 +5,7 @@ import { registeredMedia, validateRuntimeContent } from "./runtime-content.js";
 export interface SupabaseOptions {
   origin: string; secretKey: string; mediaDirectory: URL;
   timeoutMs: number; cacheMs: number;
+  staticMediaFiles?: ReadonlySet<string>;
 }
 type Snapshot = { content: PublicSiteContent; files: Map<string, MediaFile>; expires: number };
 export class SupabaseContentRepository implements ContentRepository {
@@ -23,7 +24,7 @@ export class SupabaseContentRepository implements ContentRepository {
     if (!response.ok) { await response.body?.cancel(); throw Error(`Content database read failed (${response.status})`); }
     const content = parseSiteContent(await response.json());
     validateRuntimeContent(content);
-    const files = await registeredMedia(content, this.options.mediaDirectory);
+    const files = await registeredMedia(content, this.options.mediaDirectory, this.options.staticMediaFiles);
     return { content, files, expires: Date.now() + this.options.cacheMs };
   }
   private async snapshot(): Promise<Snapshot> {

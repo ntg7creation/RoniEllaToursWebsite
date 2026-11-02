@@ -28,9 +28,9 @@ npm.cmd run check:deployment
 
 See the [deployment guide](rebuild/documents/deployment.md) and
 [design research](rebuild/documents/design-research.md).
-The checked-in deployment package currently targets Docker; configuration for
-two Vercel projects (frontend and backend) is the next step. Committing this code
-does not provision Supabase or run its migrations.
+For the two Vercel projects, follow the [Vercel setup guide](rebuild/documents/vercel-deployment.md).
+The deployment package also supports Docker. Committing this code does not
+provision Supabase or run its migrations.
 
 Keep real credentials in ignored environment files or hosting environment
 settings. Commit only the supplied environment templates. Local design exports,

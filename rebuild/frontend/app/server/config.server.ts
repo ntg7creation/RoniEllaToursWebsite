@@ -1,3 +1,6 @@
+const deployment = process.env.DEPLOYMENT_ENV ?? "local";
+const previewSiteOrigin = deployment === "preview" && process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}` : undefined;
 function origin(name: string, fallback: string): string {
   const url = new URL(process.env[name] ?? fallback);
   if (
@@ -15,21 +18,21 @@ function origin(name: string, fallback: string): string {
 }
 export const serverConfig = {
   backendOrigin: origin("BACKEND_ORIGIN", "http://127.0.0.1:3001"),
-  siteOrigin: origin("SITE_ORIGIN", "http://localhost:3000"),
+  siteOrigin: origin("SITE_ORIGIN", previewSiteOrigin ?? "http://localhost:3000"),
   requestTimeoutMs: Number(process.env.CONTENT_TIMEOUT_MS ?? 12000),
   noindex: process.env.ALLOW_INDEXING !== "true",
   apiToken: process.env.BACKEND_API_TOKEN ?? "",
 };
-const deployment = process.env.DEPLOYMENT_ENV ?? "local";
 if (!["local", "preview", "production"].includes(deployment)) throw Error("Invalid DEPLOYMENT_ENV");
-if (deployment !== "local" && (!process.env.SITE_ORIGIN || !process.env.BACKEND_ORIGIN || serverConfig.apiToken.length < 32))
+if (deployment !== "local" && (!(process.env.SITE_ORIGIN || previewSiteOrigin) || !process.env.BACKEND_ORIGIN || serverConfig.apiToken.length < 32))
   throw Error("Hosted SSR requires SITE_ORIGIN, BACKEND_ORIGIN and BACKEND_API_TOKEN (32+ characters)");
 if (serverConfig.apiToken && !/^[A-Za-z0-9_-]{32,256}$/.test(serverConfig.apiToken)) throw Error("Invalid BACKEND_API_TOKEN format");
 if (process.env.ALLOW_INDEXING && !["true", "false"].includes(process.env.ALLOW_INDEXING)) throw Error("ALLOW_INDEXING must be true or false");
 if (!serverConfig.noindex && (deployment !== "production" || !serverConfig.siteOrigin.startsWith("https://")))
   throw Error("Indexing requires DEPLOYMENT_ENV=production and an explicit HTTPS SITE_ORIGIN");
 export function backendHeaders(): HeadersInit {
-  return { Accept: "application/json", ...(serverConfig.apiToken ? { Authorization: `Bearer ${serverConfig.apiToken}` } : {}) };
+  return { Accept: "application/json", ...(serverConfig.apiToken ? { Authorization: `Bearer ${serverConfig.apiToken}` } : {}),
+    ...(process.env.BACKEND_VERCEL_BYPASS_SECRET ? { "x-vercel-protection-bypass": process.env.BACKEND_VERCEL_BYPASS_SECRET } : {}) };
 }
 if (
   !Number.isInteger(serverConfig.requestTimeoutMs) ||

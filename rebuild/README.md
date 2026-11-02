@@ -1,5 +1,9 @@
 # Roniella Tours rebuild
 
+**Vercel:** [two-project import settings and environment variables](documents/vercel-deployment.md).
+Use `npm.cmd run check:vercel` to build and test both deployable artifacts locally.
+The GitHub branch for this rebuild is `rebuild-deployment`.
+
 **Deployment preparation:** [frontend/backend/Supabase deployment guide](documents/deployment.md). The project now includes a text-first PostgreSQL schema, a safe initial content seed, a Supabase repository adapter, separate Docker targets, Compose/HTTPS examples and a validation-only CI workflow. Nothing is deployed automatically. `npm.cmd run check:deployment` validates the setup locally.
 
 The application runs from **editable JSON files and photos in [`backend/content/`](backend/content/README.md)**: 40 pages, six distinct tours, 15 articles, five guide biographies, policies, destination/category/author archives, contact details and navigation. Text was freshly copied from the public site on **2 November 2026**. The April Uzbekistan itinerary now includes Khiva and nine days. The old application remains unchanged.

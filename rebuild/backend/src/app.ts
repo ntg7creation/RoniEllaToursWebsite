@@ -34,8 +34,9 @@ export function createApp(repository: ContentRepository, options: { apiToken?: s
     }
     const file = await repository.getMedia?.(req.params.filename);
     if (!file) { res.status(404).end(); return; }
+    if (file.staticPath) { res.redirect(307, file.staticPath); return; }
     res.set("X-Content-Type-Options", "nosniff");
-    res.sendFile(file.filename, { root: dirname(file.path), dotfiles: "deny" }, error => {
+    res.sendFile(file.filename, { root: dirname(file.path!), dotfiles: "deny" }, error => {
       if (error && "code" in error && ["ECONNABORTED", "ECONNRESET"].includes(String(error.code))) return;
       if (error && !req.destroyed && !res.destroyed) next(error);
     });

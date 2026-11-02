@@ -1,5 +1,11 @@
 # Deploying RoniElla Tours
 
+**For the selected Vercel hosting setup, use the [two-project Vercel guide](vercel-deployment.md).**
+It supersedes the Docker-specific hosting steps below. On Vercel, photos are
+backend static assets rather than files inside the API function. The schema,
+content editing, migration and backup guidance below still applies. The user has
+now applied the initial schema and seed to Supabase; do not repeat that seed.
+
 This checkout now contains the three deployment pieces: a React/Vite Node SSR frontend, an Express backend, and a Supabase PostgreSQL content schema. **Nothing has been deployed or provisioned.** You run the hosted commands below when ready.
 
 The hosting package is portable Docker, so the frontend and backend can run as two managed container services or together on a server using Compose. Supabase hosts the database. An optional Caddy configuration supplies HTTPS when you manage the server yourself.

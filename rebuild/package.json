@@ -35,12 +35,18 @@
     "db:check": "node --env-file=deploy/.env --import tsx scripts/check-supabase.ts",
     "deploy:preflight": "node --env-file=deploy/.env --import tsx scripts/deployment-preflight.ts",
     "test:deployment": "tsx scripts/deployment-e2e.ts",
-    "check:deployment": "npm run typecheck && npm test && npm run db:verify && npm run build && npm run test:deployment"
+    "build:vercel:web": "npm run build -w @roniella/shared && npm run build -w @roniella/frontend && node scripts/build-vercel.mjs frontend",
+    "build:vercel:api": "npm run build -w @roniella/shared && node scripts/build-vercel.mjs backend",
+    "build:vercel": "npm run build:vercel:api && npm run build:vercel:web",
+    "test:vercel": "tsx scripts/deployment-e2e.ts --vercel",
+    "check:deployment": "npm run typecheck && npm test && npm run db:verify && npm run build && npm run test:deployment",
+    "check:vercel": "npm run check:deployment && npm run build:vercel && npm run test:vercel"
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.5.14",
     "@types/node": "^24.10.0",
     "concurrently": "9.2.5",
+    "esbuild": "0.28.2",
     "playwright": "^1.56.1",
     "supabase": "3.0.0",
     "tsx": "4.20.6",

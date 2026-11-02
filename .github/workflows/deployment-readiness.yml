@@ -20,7 +20,7 @@ jobs:
           cache: npm
           cache-dependency-path: rebuild/package-lock.json
       - run: npm ci
-      - run: npm run check:deployment
+      - run: npm run check:vercel
       - name: Build both runtime images
         run: docker compose --env-file deploy/local.env.example -f deploy/compose.yml build
       - name: Exercise the two containers locally

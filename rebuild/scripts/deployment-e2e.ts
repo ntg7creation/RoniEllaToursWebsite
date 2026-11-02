@@ -9,6 +9,10 @@ import { fileURLToPath } from "node:url";
 import { migratedTestDatabase } from "./database-test-support.js";
 
 const root = fileURLToPath(new URL("../",import.meta.url));
+const vercel = process.argv.includes("--vercel");
+const harness = resolve(root,"scripts/serve-vercel-output.mjs");
+const bypass = "local-only-vercel-protection-test";
+const protectionHeaders: Record<string,string> = vercel ? { "x-vercel-protection-bypass": bypass } : {};
 const require = createRequire(new URL("../frontend/package.json",import.meta.url));
 const serve = resolve(dirname(require.resolve("@react-router/serve/package.json")),"dist/cli.js");
 const db = await migratedTestDatabase();
@@ -52,17 +56,19 @@ try {
   await db.exec(await readFile(new URL("../supabase/seed.sql",import.meta.url),"utf8"));
   await new Promise<void>(resolve=>bridge.listen(0,"127.0.0.1",resolve));
   const address=bridge.address(); assert.ok(address && typeof address!=="string");
-  const api=start(["dist/server.js"],"backend",{
+  const api=start(vercel ? [harness] : ["dist/server.js"],"backend",{
     DEPLOYMENT_ENV:"local",CONTENT_PROVIDER:"supabase",API_HOST:"127.0.0.1",API_PORT:"4101",
     SUPABASE_URL:`http://127.0.0.1:${address.port}`,SUPABASE_SECRET_KEY:secret,BACKEND_API_TOKEN:token,
     CONTENT_CACHE_MS:"0",SUPABASE_TIMEOUT_MS:"1000",
+    PORT:"4101", ...(vercel ? { TEST_BACKEND_PROTECTION:bypass } : {}),
   });
   await ready(apiOrigin+"/ready",api);
-  const webEnv={HOST:"127.0.0.1",PORT:"4100",BACKEND_ORIGIN:apiOrigin,BACKEND_API_TOKEN:token,SITE_ORIGIN:canonical,CONTENT_TIMEOUT_MS:"3000"};
-  const web=start([serve,"./build/server/index.js"],"frontend",{...webEnv,DEPLOYMENT_ENV:"production",ALLOW_INDEXING:"true"});
+  const webEnv={HOST:"127.0.0.1",PORT:"4100",BACKEND_ORIGIN:apiOrigin,BACKEND_API_TOKEN:token,SITE_ORIGIN:canonical,CONTENT_TIMEOUT_MS:"3000", ...(vercel ? { BACKEND_VERCEL_BYPASS_SECRET:bypass } : {})};
+  const webArgs=vercel ? [harness] : [serve,"./build/server/index.js"];
+  const web=start(webArgs,"frontend",{...webEnv,DEPLOYMENT_ENV:"production",ALLOW_INDEXING:"true"});
   await ready(origin+"/health",web);
-  assert.equal((await fetch(apiOrigin+"/api/v1/content")).status,401);
-  const content=await(await fetch(apiOrigin+"/api/v1/content",{headers:{Authorization:`Bearer ${token}`}})).json();
+  assert.equal((await fetch(apiOrigin+"/api/v1/content",{headers:protectionHeaders})).status,401);
+  const content=await(await fetch(apiOrigin+"/api/v1/content",{headers:{...protectionHeaders,Authorization:`Bearer ${token}`}})).json();
   assert.equal(content.pages.length,40);
   for(const page of content.pages) {
     const response=await fetch(origin+page.path);
@@ -85,6 +91,30 @@ try {
   assert.equal([...galleryHtml.matchAll(/data-photo-id="/g)].length,24);
   const mediaResponse=await fetch(origin+content.gallery.photos[0].src);
   assert.equal(mediaResponse.status,200); assert.ok((await mediaResponse.arrayBuffer()).byteLength>1000);
+  if (vercel) {
+    const photo=content.gallery.photos[0].src.split("/").at(-1);
+    const redirect=await fetch(apiOrigin+"/api/v1/media/"+photo,{redirect:"manual",headers:{...protectionHeaders,Authorization:`Bearer ${token}`}});
+    assert.equal(redirect.status,307); assert.equal(redirect.headers.get("location"),"/photos/"+photo);
+    assert.equal((await fetch(origin+"/media/not-in-album.jpg")).status,404);
+    assert.equal((await fetch(apiOrigin+"/photos/content.json",{headers:protectionHeaders})).status,404);
+    assert.equal((await fetch(origin+"/assets/fonts/assistant.css")).status,200);
+    const script=galleryHtml.match(/(?:src|href)="(\/assets\/entry\.client-[^"]+\.js)"/);
+    assert.ok(script); assert.equal((await fetch(origin+script[1])).status,200);
+    const dataRedirect=await fetch(origin+"/gallery.data"); assert.equal(dataRedirect.status,202);
+    assert.ok((await dataRedirect.text()).includes("/gallery/"));
+    const data=await fetch(origin+"/gallery/_.data"); assert.equal(data.status,200);
+    assert.match(data.headers.get("content-type") ?? "", /text\/x-script/);
+    assert.ok((await data.text()).includes("gallery"));
+    for(const project of ["frontend","backend"]) {
+      const base=new URL(`../${project}/.vercel/output/`,import.meta.url);
+      const functionFiles=await readdir(new URL("functions/server.func/",base));
+      assert.deepEqual(functionFiles.sort(),[".vc-config.json","index.mjs"]);
+      const config=JSON.parse(await readFile(new URL("config.json",base),"utf8"));
+      assert.equal(config.version,3); assert.equal(config.routes.at(-1).dest,"/server");
+      const code=await readFile(new URL("functions/server.func/index.mjs",base),"utf8");
+      assert.ok(!code.includes(secret) && !code.includes(token) && !code.includes(bypass));
+    }
+  }
   await db.exec("update public.content_copy set value='כותרת מעודכנת מתוך מסד הנתונים' where area='home.hero' and slot='heading'");
   assert.ok(htmlText(await(await fetch(origin)).text()).includes("כותרת מעודכנת מתוך מסד הנתונים"));
   await db.exec(`insert into public.content_pages(id,path,page_type,title,seo_title,source_retrieved_at,position,published)
@@ -104,17 +134,21 @@ try {
   assert.ok(!(await failure.text()).includes("Private upstream diagnostic"));
   available=true; assert.equal((await fetch(origin)).status,200);
   await stop(web);
-  const preview=start([serve,"./build/server/index.js"],"frontend",{...webEnv,DEPLOYMENT_ENV:"preview",ALLOW_INDEXING:"false"});
+  const previewEnv:NodeJS.ProcessEnv={...webEnv,DEPLOYMENT_ENV:"preview",ALLOW_INDEXING:"false"};
+  if (vercel) { previewEnv.SITE_ORIGIN=undefined; previewEnv.VERCEL_URL="roniella-preview-test.vercel.app"; }
+  const preview=start(webArgs,"frontend",previewEnv);
   await ready(origin+"/health",preview);
   const previewResponse=await fetch(origin); assert.match(previewResponse.headers.get("x-robots-tag")!,/noindex/);
+  if (vercel) assert.ok((await previewResponse.text()).includes('rel="canonical" href="https://roniella-preview-test.vercel.app/"'));
   assert.match(await(await fetch(origin+"/robots.txt")).text(),/Disallow: \/\n/);
   assert.equal((await fetch(origin+"/sitemap.xml")).status,404);
   const assets=new URL("../frontend/build/client/assets/",import.meta.url);
   for(const file of (await readdir(assets)).filter(file=>file.endsWith(".js"))) {
     const js=await readFile(new URL(file,assets),"utf8");
-    assert.ok(!js.includes("SUPABASE_SECRET_KEY") && !js.includes("BACKEND_API_TOKEN") && !js.includes(secret) && !js.includes(token),"Server secrets must never enter browser bundles");
+    assert.ok(!js.includes("SUPABASE_SECRET_KEY") && !js.includes("BACKEND_API_TOKEN") && !js.includes("BACKEND_VERCEL_BYPASS_SECRET") && !js.includes(secret) && !js.includes(token),"Server secrets must never enter browser bundles");
   }
   assert.ok(calls>40);
+  if (vercel) console.log("PASS: actual Vercel function bundles under local HTTP harness; static backend photos, protected API/CDN requests, streamed same-origin images, client assets/data route, preview origin, no photos/secrets bundled into functions. Hosted Vercel runtime not exercised.");
   console.log("PASS: production SSR → authenticated backend → Supabase HTTP adapter → real PostgreSQL; 40 pages/72 redirects; live database edits and new routes without rebuild; drafts/404s; gallery/backend media; production sitemap/canonicals; preview noindex; failed database readiness/503/recovery; no secrets in HTML/client bundles. Local test only, no hosted services contacted.");
 } catch(error) {
   for(const child of children) console.error(child.output);

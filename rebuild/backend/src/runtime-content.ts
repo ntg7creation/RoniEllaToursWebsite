@@ -26,13 +26,18 @@ export function validateRuntimeContent(content: PublicSiteContent) {
     throw Error("Page path conflicts with a reserved application endpoint");
 }
 
-export async function registeredMedia(content: PublicSiteContent, directory: URL) {
-  const root = await realpath(fileURLToPath(directory));
+export async function registeredMedia(content: PublicSiteContent, directory: URL, staticFiles?: ReadonlySet<string>) {
+  const root = staticFiles ? "" : await realpath(fileURLToPath(directory));
   const files = new Map<string, MediaFile>();
   for (const asset of [...content.media, ...(content.gallery?.photos ?? [])]) {
     for (const src of new Set([asset.src, ...asset.variants.map(v => v.src)])) {
       const filename = basename(src);
       if (files.has(filename)) continue;
+      if (staticFiles) {
+        if (!staticFiles.has(filename)) throw Error(`Media is missing from this deployment: ${filename}`);
+        files.set(filename, { filename, staticPath: `/photos/${filename}` });
+        continue;
+      }
       const path = await realpath(fileURLToPath(new URL(filename, directory)));
       const rel = relative(root, path);
       if (rel === ".." || rel.startsWith(`..${sep}`) || isAbsolute(rel) || !(await stat(path)).isFile())
