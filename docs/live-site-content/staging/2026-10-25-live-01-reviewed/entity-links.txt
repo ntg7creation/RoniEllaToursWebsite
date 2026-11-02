@@ -1,0 +1,3380 @@
+{
+  "schemaVersion": 1,
+  "crawlRunId": "2026-10-25-live-01",
+  "entities": [
+    {
+      "entityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "guideProfileSection",
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "displayName": "איל מירון",
+      "sourceSelector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "headingBlockOrder": 6,
+      "biographyBlockOrders": [
+        7
+      ],
+      "note": "References original ordered source blocks; no separate biography copy or invented guide page."
+    },
+    {
+      "entityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "guideProfileSection",
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "displayName": "רוני אלה",
+      "sourceSelector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "headingBlockOrder": 8,
+      "biographyBlockOrders": [
+        9
+      ],
+      "note": "References original ordered source blocks; no separate biography copy or invented guide page."
+    },
+    {
+      "entityId": "guide-dac8c52b-6bfb-44a4-b0e4-317aa5d910d5",
+      "kind": "guideProfileSection",
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "displayName": "רוית פרבר",
+      "sourceSelector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "headingBlockOrder": 10,
+      "biographyBlockOrders": [
+        11
+      ],
+      "note": "References original ordered source blocks; no separate biography copy or invented guide page."
+    },
+    {
+      "entityId": "guide-14c1550c-7621-498c-b97f-328642996f34",
+      "kind": "guideProfileSection",
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "displayName": "חיים כראל",
+      "sourceSelector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "headingBlockOrder": 12,
+      "biographyBlockOrders": [
+        13
+      ],
+      "note": "References original ordered source blocks; no separate biography copy or invented guide page."
+    },
+    {
+      "entityId": "guide-9764db78-d0f3-4318-8d1f-6c3dab6b8269",
+      "kind": "guideProfileSection",
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "displayName": "רחלי קרייסברג",
+      "sourceSelector": "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "headingBlockOrder": 14,
+      "biographyBlockOrders": [
+        15
+      ],
+      "note": "References original ordered source blocks; no separate biography copy or invented guide page."
+    }
+  ],
+  "relationships": [
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לאוזבקיסטן – מסע מרתק אל ליבה של דרך המשי",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – מסע תרבותי אל ליבה של האימפריה הסינית",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – חוויה של פעם בחיים",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בייג’ינג – בירת סין",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אתונה – בירת יוון והלב הפועם של התרבות המערבית",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על סין העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על יוון העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לקהיר",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(9) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לפירמידות",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(10) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לסכר אסואן",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(11) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאלכסנדריה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(11) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(11) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(12) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מקדשי דנדרה / זודיאק של דנדרה",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(12) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(12) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(13) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לממפיס סקארה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(13) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(13) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(14) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לכנסייה תלויה / כנסיית אל-מועלק",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(14) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(14) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(15) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאבו סימבל",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(15) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(15) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מהרו להרשם",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h4:nth-of-type(6) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "toPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Roni",
+        "url": "https://roniellatours.com/author/roni/"
+      }
+    },
+    {
+      "fromPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "toPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Roni",
+        "url": "https://roniellatours.com/author/roni/"
+      }
+    },
+    {
+      "fromPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "toPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Oren tal",
+        "url": "https://roniellatours.com/author/orental/"
+      }
+    },
+    {
+      "fromPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להרשמה לחצו כאן",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(7) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "toPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Roni",
+        "url": "https://roniellatours.com/author/roni/"
+      }
+    },
+    {
+      "fromPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לחצו כאן להרשמה",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h4:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "toPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Roni",
+        "url": "https://roniellatours.com/author/roni/"
+      }
+    },
+    {
+      "fromPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "https://roniellatours.com/הטיולים-שלנו/סין-צונג-גואה/",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A1%D7%99%D7%9F-%D7%A6%D7%95%D7%A0%D7%92-%D7%92%D7%95%D7%90%D7%94/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(22) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "toPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Yaniv Ozana",
+        "url": "https://roniellatours.com/author/yozana/"
+      }
+    },
+    {
+      "fromPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "toPageId": "page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לחץ כאן לעמוד הטיול באתר",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-4/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(20) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "toPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Yaniv Ozana",
+        "url": "https://roniellatours.com/author/yozana/"
+      }
+    },
+    {
+      "fromPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "toPageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בלוג",
+        "url": "https://roniellatours.com/%d7%91%d7%9c%d7%95%d7%92/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "toPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "kind": "structuredAuthor",
+      "confidence": "observed",
+      "evidence": {
+        "name": "Yaniv Ozana",
+        "url": "https://roniellatours.com/author/yozana/"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין\n\nטיולים מאורגנים לסין",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/#chinaArchive",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-755bedb3-7919-41b7-8ba1-2f3de93b2b47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן\n\nטיולים מאורגנים לאוזבקיסטן",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "איל מירון",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "רוני אלה",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מדיניות הפרטיות",
+        "url": "https://roniellatours.com/privacy-policy",
+        "sourceSelector": "form:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > span:nth-of-type(1) > label:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן מרץ 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן אפריל 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין – צ’ונג גואה, האימפריה באמצע העולם – מאי 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לאוזבקיסטן – מסע מרתק אל ליבה של דרך המשי",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – מסע תרבותי אל ליבה של האימפריה הסינית",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – חוויה של פעם בחיים",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "להמשך קריאה »",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-357b4143-9236-4375-a9ea-b8c86e8f5c17",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-4c573761-052a-4365-98fe-78b021e4cf4b",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-233e9f1f-20f0-4fdb-af54-ccea5804ee39",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-df1f53e2-e60a-494d-8089-e928f7441bbb",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-fe5b238c-8e40-4c47-86ac-931d5f95672d",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "https://roniellatours.com/",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d17a3366-d3b4-4007-86de-6c51165a6c69",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-d17a3366-d3b4-4007-86de-6c51165a6c69",
+      "toPageId": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מדיניות הפרטיות",
+        "url": "https://roniellatours.com/privacy-policy",
+        "sourceSelector": "form:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1) > label:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן מרץ 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן אפריל 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין – צ’ונג גואה, האימפריה באמצע העולם – מאי 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין – צ’ונג גואה, האימפריה באמצע העולם – ספטמבר 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן סוכות 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "צפון יוון",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "טיול עומק לארץ האלים והגיבורים\nעם ד\"ר אייל מירון"
+        },
+        {
+          "blockOrder": 11,
+          "rawValue": "הצצה לטיול עומק לצפון יוון עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 9,
+          "rawValue": "הצצה לטיול לסין עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toEntityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "האימפריה באמצע העולם\n\nעם רוני אלה"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 9,
+          "rawValue": "הצצה לטיול לסין עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toEntityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "האימפריה באמצע העולם\n\nעם רוני אלה"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 6,
+          "rawValue": "הצצה לטיול לאוזבקיסטן עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toEntityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 5,
+          "rawValue": "אוזבקיסטן ניצבת בלב אסיה המרכזית, במרחב שבו נפגשו במשך מאות שנים תרבויות, דתות ואימפריות. כאן עברו שיירות הסוחרים של דרך המשי, כאן פעלו מלומדים, אסטרונומים ומשוררים, וכאן קמו ערים מפוארות שהפכו לסמלים של עושר, ידע ויצירה אנושית. מסגדים עטורי כיפות טורקיז, מדרסות מפוארות, שווקים צבעוניים, ארמונות של שליטים וקרוואנסראים עתיקים מספרים את סיפורה של אחת הזירות החשובות בתולדות העולם הישן.\nבמסע עומק זה של טיולי העולם העתיק, בהובלת ד”ר רחלי קרייסברג ובניהולו הלוגיסטי של רוני אלה, נצא להיכרות מרתקת עם נופיה, עברה ותרבותה של אוזבקיסטן. לאורך הדרך נחבר בין היסטוריה, דת, אמנות, פוליטיקה וחיי היום יום, ונלמד כיצד הפך האזור למוקד השפעה שחיבר בין סין, הודו, פרס, רוסיה והמזרח התיכון.\nנבקר בארבע הערים המרכזיות של אוזבקיסטן: טשקנט, חיווה, בוכרה וסמרקנד. כל אחת מהן מייצגת פרק אחר בסיפורה של דרך המשי. בטשקנט נפגוש את אוזבקיסטן המודרנית לצד אתרי הדת והמורשת הלאומית; בחיווה נסייר בעיר עתיקה שנשתמרה כמעט בשלמותה ונראה כיצד נראו ערי המסחר של מרכז אסיה לפני מאות שנים; בבוכרה נעמיק באחד המרכזים החשובים של האסלאם ושל יהדות מרכז אסיה; ובסמרקנד נגלה את בירתה המפוארת של האימפריה הטימורית, אחת הערים האגדיות בתולדות העולם.\nלאורך המסע נפגוש את סיפוריהם של שליטים, כובשים, מלומדים ומיסטיקנים. נשמע על טימור לנג שבנה אימפריה אדירה, על האסטרונום אולוג בק שהפך את סמרקנד למרכז מדעי עולמי, ועל אנשי הדת והסופיות שעיצבו את אופיו הרוחני של האזור. נבקר במאוזוליאומים, במדרסות, במסגדים ובאתרי קבורה מפוארים, ונלמד כיצד התפתחו כאן מסורות אדריכליות ייחודיות המשלבות השפעות פרסיות, טורקיות ומונגוליות.\nמקום מיוחד במסע יוקדש ליהדות בוכרה, אחת הקהילות היהודיות העתיקות והמרתקות בעולם. נבקר ברובע היהודי, בבתי הכנסת ובבית העלמין היהודי, ונכיר את סיפורם של יהודי מרכז אסיה, את הקשרים שטיפחו עם ארץ ישראל ואת דרכם הייחודית לשמר את זהותם במשך דורות רבים בלב העולם המוסלמי.\nבין האתרים ההיסטוריים נפגוש גם את אוזבקיסטן של ימינו. נסייר בשווקים הומים, נטעם ממטעמי המטבח המקומי, נכיר מלאכות מסורתיות, נשב בבתי תה ונחווה את הכנסת האורחים הידועה של תושבי האזור. נדון גם בתקופה הסובייטית, בתהליכי העצמאות של המדינה ובאתגרים העומדים בפני החברה האוזבקית במאה ה־21.\nזהו מסע תרבותי והיסטורי מקיף, המיועד למטיילים המבקשים להבין לעומק את הסיפור שמאחורי האתרים, המבנים והנופים. מעבר ליופיין של הערים ולפאר האדריכלי שלהן, אוזבקיסטן מציעה מפגש עם מרחב אנושי והיסטורי ייחודי, שבו זיכרונותיה של דרך המשי עדיין ניכרים בכל כיכר, שוק וסמטה.\nאוזבקיסטן אינה רק יעד לטיול. היא מסע אל אחת מצמתי התרבות החשובים בהיסטוריה האנושית, חוויה של גילוי, למידה והשראה, הממשיכה להדהד זמן רב גם לאחר החזרה הביתה."
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toEntityId": "guide-9764db78-d0f3-4318-8d1f-6c3dab6b8269",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "אוזבקיסטן\n\nעם המדריכה ד״ר רחלי קרייסברג"
+        },
+        {
+          "blockOrder": 5,
+          "rawValue": "אוזבקיסטן ניצבת בלב אסיה המרכזית, במרחב שבו נפגשו במשך מאות שנים תרבויות, דתות ואימפריות. כאן עברו שיירות הסוחרים של דרך המשי, כאן פעלו מלומדים, אסטרונומים ומשוררים, וכאן קמו ערים מפוארות שהפכו לסמלים של עושר, ידע ויצירה אנושית. מסגדים עטורי כיפות טורקיז, מדרסות מפוארות, שווקים צבעוניים, ארמונות של שליטים וקרוואנסראים עתיקים מספרים את סיפורה של אחת הזירות החשובות בתולדות העולם הישן.\nבמסע עומק זה של טיולי העולם העתיק, בהובלת ד”ר רחלי קרייסברג ובניהולו הלוגיסטי של רוני אלה, נצא להיכרות מרתקת עם נופיה, עברה ותרבותה של אוזבקיסטן. לאורך הדרך נחבר בין היסטוריה, דת, אמנות, פוליטיקה וחיי היום יום, ונלמד כיצד הפך האזור למוקד השפעה שחיבר בין סין, הודו, פרס, רוסיה והמזרח התיכון.\nנבקר בארבע הערים המרכזיות של אוזבקיסטן: טשקנט, חיווה, בוכרה וסמרקנד. כל אחת מהן מייצגת פרק אחר בסיפורה של דרך המשי. בטשקנט נפגוש את אוזבקיסטן המודרנית לצד אתרי הדת והמורשת הלאומית; בחיווה נסייר בעיר עתיקה שנשתמרה כמעט בשלמותה ונראה כיצד נראו ערי המסחר של מרכז אסיה לפני מאות שנים; בבוכרה נעמיק באחד המרכזים החשובים של האסלאם ושל יהדות מרכז אסיה; ובסמרקנד נגלה את בירתה המפוארת של האימפריה הטימורית, אחת הערים האגדיות בתולדות העולם.\nלאורך המסע נפגוש את סיפוריהם של שליטים, כובשים, מלומדים ומיסטיקנים. נשמע על טימור לנג שבנה אימפריה אדירה, על האסטרונום אולוג בק שהפך את סמרקנד למרכז מדעי עולמי, ועל אנשי הדת והסופיות שעיצבו את אופיו הרוחני של האזור. נבקר במאוזוליאומים, במדרסות, במסגדים ובאתרי קבורה מפוארים, ונלמד כיצד התפתחו כאן מסורות אדריכליות ייחודיות המשלבות השפעות פרסיות, טורקיות ומונגוליות.\nמקום מיוחד במסע יוקדש ליהדות בוכרה, אחת הקהילות היהודיות העתיקות והמרתקות בעולם. נבקר ברובע היהודי, בבתי הכנסת ובבית העלמין היהודי, ונכיר את סיפורם של יהודי מרכז אסיה, את הקשרים שטיפחו עם ארץ ישראל ואת דרכם הייחודית לשמר את זהותם במשך דורות רבים בלב העולם המוסלמי.\nבין האתרים ההיסטוריים נפגוש גם את אוזבקיסטן של ימינו. נסייר בשווקים הומים, נטעם ממטעמי המטבח המקומי, נכיר מלאכות מסורתיות, נשב בבתי תה ונחווה את הכנסת האורחים הידועה של תושבי האזור. נדון גם בתקופה הסובייטית, בתהליכי העצמאות של המדינה ובאתגרים העומדים בפני החברה האוזבקית במאה ה־21.\nזהו מסע תרבותי והיסטורי מקיף, המיועד למטיילים המבקשים להבין לעומק את הסיפור שמאחורי האתרים, המבנים והנופים. מעבר ליופיין של הערים ולפאר האדריכלי שלהן, אוזבקיסטן מציעה מפגש עם מרחב אנושי והיסטורי ייחודי, שבו זיכרונותיה של דרך המשי עדיין ניכרים בכל כיכר, שוק וסמטה.\nאוזבקיסטן אינה רק יעד לטיול. היא מסע אל אחת מצמתי התרבות החשובים בהיסטוריה האנושית, חוויה של גילוי, למידה והשראה, הממשיכה להדהד זמן רב גם לאחר החזרה הביתה."
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "אוזבקיסטן\n\nעם המדריכים ד\"ר אייל מירון ורוני אלה"
+        },
+        {
+          "blockOrder": 5,
+          "rawValue": "אוזבקיסטן ניצבת בלב אסיה המרכזית, במרחב שבו נפגשו במשך מאות שנים תרבויות, דתות ואימפריות. כאן עברו שיירות הסוחרים של דרך המשי, כאן פעלו מלומדים, אסטרונומים ומשוררים, וכאן קמו ערים מפוארות שהפכו לסמלים של עושר, ידע ויצירה אנושית. מסגדים עטורי כיפות טורקיז, מדרסות מפוארות, שווקים צבעוניים, ארמונות של שליטים וקרוואנסראים עתיקים מספרים את סיפורה של אחת הזירות החשובות בתולדות העולם הישן.\nבמסע עומק זה של טיולי העולם העתיק, בהובלת ד”ר אייל מירון ובניהולה הלוגיסטי של רוני אלה, נצא להיכרות מרתקת עם נופיה, עברה ותרבותה של אוזבקיסטן. לאורך הדרך נחבר בין היסטוריה, דת, אמנות, פוליטיקה וחיי היום יום, ונלמד כיצד הפך האזור למוקד השפעה שחיבר בין סין, הודו, פרס, רוסיה והמזרח התיכון.\nנבקר בארבע הערים המרכזיות של אוזבקיסטן: טשקנט, חיווה, בוכרה וסמרקנד. כל אחת מהן מייצגת פרק אחר בסיפורה של דרך המשי. בטשקנט נפגוש את אוזבקיסטן המודרנית לצד אתרי הדת והמורשת הלאומית; בחיווה נסייר בעיר עתיקה שנשתמרה כמעט בשלמותה ונראה כיצד נראו ערי המסחר של מרכז אסיה לפני מאות שנים; בבוכרה נעמיק באחד המרכזים החשובים של האסלאם ושל יהדות מרכז אסיה; ובסמרקנד נגלה את בירתה המפוארת של האימפריה הטימורית, אחת הערים האגדיות בתולדות העולם.\nלאורך המסע נפגוש את סיפוריהם של שליטים, כובשים, מלומדים ומיסטיקנים. נשמע על טימור לנג שבנה אימפריה אדירה, על האסטרונום אולוג בק שהפך את סמרקנד למרכז מדעי עולמי, ועל אנשי הדת והסופיות שעיצבו את אופיו הרוחני של האזור. נבקר במאוזוליאומים, במדרסות, במסגדים ובאתרי קבורה מפוארים, ונלמד כיצד התפתחו כאן מסורות אדריכליות ייחודיות המשלבות השפעות פרסיות, טורקיות ומונגוליות.\nמקום מיוחד במסע יוקדש ליהדות בוכרה, אחת הקהילות היהודיות העתיקות והמרתקות בעולם. נבקר ברובע היהודי, בבתי הכנסת ובבית העלמין היהודי, ונכיר את סיפורם של יהודי מרכז אסיה, את הקשרים שטיפחו עם ארץ ישראל ואת דרכם הייחודית לשמר את זהותם במשך דורות רבים בלב העולם המוסלמי.\nבין האתרים ההיסטוריים נפגוש גם את אוזבקיסטן של ימינו. נסייר בשווקים הומים, נטעם ממטעמי המטבח המקומי, נכיר מלאכות מסורתיות, נשב בבתי תה ונחווה את הכנסת האורחים הידועה של תושבי האזור. נדון גם בתקופה הסובייטית, בתהליכי העצמאות של המדינה ובאתגרים העומדים בפני החברה האוזבקית במאה ה־21.\nזהו מסע תרבותי והיסטורי מקיף, המיועד למטיילים המבקשים להבין לעומק את הסיפור שמאחורי האתרים, המבנים והנופים. מעבר ליופיין של הערים ולפאר האדריכלי שלהן, אוזבקיסטן מציעה מפגש עם מרחב אנושי והיסטורי ייחודי, שבו זיכרונותיה של דרך המשי עדיין ניכרים בכל כיכר, שוק וסמטה.\nאוזבקיסטן אינה רק יעד לטיול. היא מסע אל אחת מצמתי התרבות החשובים בהיסטוריה האנושית, חוויה של גילוי, למידה והשראה, הממשיכה להדהד זמן רב גם לאחר החזרה הביתה."
+        },
+        {
+          "blockOrder": 6,
+          "rawValue": "הצצה לטיול לאוזבקיסטן עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toEntityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "אוזבקיסטן\n\nעם המדריכים ד\"ר אייל מירון ורוני אלה"
+        },
+        {
+          "blockOrder": 5,
+          "rawValue": "אוזבקיסטן ניצבת בלב אסיה המרכזית, במרחב שבו נפגשו במשך מאות שנים תרבויות, דתות ואימפריות. כאן עברו שיירות הסוחרים של דרך המשי, כאן פעלו מלומדים, אסטרונומים ומשוררים, וכאן קמו ערים מפוארות שהפכו לסמלים של עושר, ידע ויצירה אנושית. מסגדים עטורי כיפות טורקיז, מדרסות מפוארות, שווקים צבעוניים, ארמונות של שליטים וקרוואנסראים עתיקים מספרים את סיפורה של אחת הזירות החשובות בתולדות העולם הישן.\nבמסע עומק זה של טיולי העולם העתיק, בהובלת ד”ר אייל מירון ובניהולה הלוגיסטי של רוני אלה, נצא להיכרות מרתקת עם נופיה, עברה ותרבותה של אוזבקיסטן. לאורך הדרך נחבר בין היסטוריה, דת, אמנות, פוליטיקה וחיי היום יום, ונלמד כיצד הפך האזור למוקד השפעה שחיבר בין סין, הודו, פרס, רוסיה והמזרח התיכון.\nנבקר בארבע הערים המרכזיות של אוזבקיסטן: טשקנט, חיווה, בוכרה וסמרקנד. כל אחת מהן מייצגת פרק אחר בסיפורה של דרך המשי. בטשקנט נפגוש את אוזבקיסטן המודרנית לצד אתרי הדת והמורשת הלאומית; בחיווה נסייר בעיר עתיקה שנשתמרה כמעט בשלמותה ונראה כיצד נראו ערי המסחר של מרכז אסיה לפני מאות שנים; בבוכרה נעמיק באחד המרכזים החשובים של האסלאם ושל יהדות מרכז אסיה; ובסמרקנד נגלה את בירתה המפוארת של האימפריה הטימורית, אחת הערים האגדיות בתולדות העולם.\nלאורך המסע נפגוש את סיפוריהם של שליטים, כובשים, מלומדים ומיסטיקנים. נשמע על טימור לנג שבנה אימפריה אדירה, על האסטרונום אולוג בק שהפך את סמרקנד למרכז מדעי עולמי, ועל אנשי הדת והסופיות שעיצבו את אופיו הרוחני של האזור. נבקר במאוזוליאומים, במדרסות, במסגדים ובאתרי קבורה מפוארים, ונלמד כיצד התפתחו כאן מסורות אדריכליות ייחודיות המשלבות השפעות פרסיות, טורקיות ומונגוליות.\nמקום מיוחד במסע יוקדש ליהדות בוכרה, אחת הקהילות היהודיות העתיקות והמרתקות בעולם. נבקר ברובע היהודי, בבתי הכנסת ובבית העלמין היהודי, ונכיר את סיפורם של יהודי מרכז אסיה, את הקשרים שטיפחו עם ארץ ישראל ואת דרכם הייחודית לשמר את זהותם במשך דורות רבים בלב העולם המוסלמי.\nבין האתרים ההיסטוריים נפגוש גם את אוזבקיסטן של ימינו. נסייר בשווקים הומים, נטעם ממטעמי המטבח המקומי, נכיר מלאכות מסורתיות, נשב בבתי תה ונחווה את הכנסת האורחים הידועה של תושבי האזור. נדון גם בתקופה הסובייטית, בתהליכי העצמאות של המדינה ובאתגרים העומדים בפני החברה האוזבקית במאה ה־21.\nזהו מסע תרבותי והיסטורי מקיף, המיועד למטיילים המבקשים להבין לעומק את הסיפור שמאחורי האתרים, המבנים והנופים. מעבר ליופיין של הערים ולפאר האדריכלי שלהן, אוזבקיסטן מציעה מפגש עם מרחב אנושי והיסטורי ייחודי, שבו זיכרונותיה של דרך המשי עדיין ניכרים בכל כיכר, שוק וסמטה.\nאוזבקיסטן אינה רק יעד לטיול. היא מסע אל אחת מצמתי התרבות החשובים בהיסטוריה האנושית, חוויה של גילוי, למידה והשראה, הממשיכה להדהד זמן רב גם לאחר החזרה הביתה."
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיולים",
+        "url": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "המדריכים שלנו",
+        "url": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+        "sourceSelector": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > h4:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toEntityId": "guide-760d65e8-6151-4a44-b227-ce61dc8f49fc",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 9,
+          "rawValue": "הצצה לטיול לאוזבקיסטן עם ד\"ר אייל מירון: לחצו על הסרטון"
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toEntityId": "guide-3874d8f6-73b4-4231-a899-a5cae4207369",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 6,
+          "rawValue": "במסע עומק של טיולי העולם העתיק, בהדרכת רוני אלה וד”ר רחלי קרייסברג, נכיר את ההיסטוריה, התרבות והמורשת של אוזבקיסטן. נבקר בטשקנט, בוכרה וסמרקנד, ונגלה כיצד הפך האזור לגשר בין סין, הודו, פרס והמזרח התיכון."
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toEntityId": "guide-9764db78-d0f3-4318-8d1f-6c3dab6b8269",
+      "kind": "mentionsGuide",
+      "confidence": "observed",
+      "evidence": [
+        {
+          "blockOrder": 3,
+          "rawValue": "אוזבקיסטן\n\nעם המדריכה ד״ר רחלי קרייסברג"
+        },
+        {
+          "blockOrder": 6,
+          "rawValue": "במסע עומק של טיולי העולם העתיק, בהדרכת רוני אלה וד”ר רחלי קרייסברג, נכיר את ההיסטוריה, התרבות והמורשת של אוזבקיסטן. נבקר בטשקנט, בוכרה וסמרקנד, ונגלה כיצד הפך האזור לגשר בין סין, הודו, פרס והמזרח התיכון."
+        }
+      ],
+      "note": "Observed name mention; assignment and role need review of the exact context."
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לאוזבקיסטן – מסע מרתק אל ליבה של דרך המשי",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – מסע תרבותי אל ליבה של האימפריה הסינית",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – חוויה של פעם בחיים",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בייג’ינג – בירת סין",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אתונה – בירת יוון והלב הפועם של התרבות המערבית",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על סין העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על יוון העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לקהיר",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לפירמידות",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(9) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(9) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לסכר אסואן",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(10) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(10) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאלכסנדריה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(11) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(11) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מקדשי דנדרה / זודיאק של דנדרה",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(12) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(12) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לממפיס סקארה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(13) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(13) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לכנסייה תלויה / כנסיית אל-מועלק",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(14) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(14) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאבו סימבל",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(15) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(15) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן מרץ 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן אפריל 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן סוכות 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "אוזבקיסטן מרץ 2027"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "אוזבקיסטן אפריל 2027"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "אוזבקיסטן סוכות 2027"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "אוזבקיסטן",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "צפון יוון",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "toPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a6%d7%a4%d7%95%d7%9f-%d7%99%d7%95%d7%95%d7%9f-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "יוון",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%99%D7%95%D7%95%D7%9F/",
+        "cardText": "צפון יוון"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "יוון",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%99%D7%95%D7%95%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "toPageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "יוון",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%99%D7%95%D7%95%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן מרץ 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-%d7%9e%d7%a8%d7%a5-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן אפריל 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין – צ’ונג גואה, האימפריה באמצע העולם – מאי 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%9e%d7%90%d7%99-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "סין – צ’ונג גואה, האימפריה באמצע העולם – ספטמבר 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%a1%d7%99%d7%9f-%d7%a6%d7%95%d7%a0%d7%92-%d7%92%d7%95%d7%90%d7%94-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-2027/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אוזבקיסטן סוכות 2027",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "לפרטים",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "toPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f-2027-%d7%90%d7%a4%d7%a8%d7%99%d7%9c-2/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "אוזבקיסטן מרץ 2027"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "אוזבקיסטן אפריל 2027"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "סין – צ’ונג גואה, האימפריה באמצע העולם – מאי 2027"
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "סין – צ’ונג גואה, האימפריה באמצע העולם – ספטמבר 2027"
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "אוזבקיסטן סוכות 2027"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": "לפרטים"
+      }
+    },
+    {
+      "fromPageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "toPageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "kind": "listedInDestination",
+      "confidence": "observed",
+      "evidence": {
+        "destinationLabel": "סין",
+        "listingPage": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+        "cardText": ""
+      }
+    },
+    {
+      "fromPageId": "page-9a9eb7fe-463a-4a45-9ea3-57a93672d117",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לאוזבקיסטן – מסע מרתק אל ליבה של דרך המשי",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%90%d7%95%d7%96%d7%91%d7%a7%d7%99%d7%a1%d7%98%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – מסע תרבותי אל ליבה של האימפריה הסינית",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a1%d7%a2-%d7%aa%d7%a8%d7%91%d7%95%d7%aa%d7%99-%d7%90%d7%99%d7%9e%d7%a4%d7%a8%d7%99%d7%94-%d7%a1%d7%99%d7%a0%d7%99%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול מאורגן לסין – חוויה של פעם בחיים",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "toPageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9e%d7%90%d7%95%d7%a8%d7%92%d7%9f-%d7%9c%d7%a1%d7%99%d7%9f-%d7%97%d7%95%d7%95%d7%99%d7%94-%d7%a9%d7%9c-%d7%a4%d7%a2%d7%9d-%d7%91%d7%97%d7%99%d7%99%d7%9d/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לקהיר",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a7%d7%94%d7%99%d7%a8/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לפירמידות",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a4%d7%99%d7%a8%d7%9e%d7%99%d7%93%d7%95%d7%aa/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לסכר אסואן",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%a1%d7%9b%d7%a8-%d7%90%d7%a1%d7%95%d7%90%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאלכסנדריה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%9c%d7%9b%d7%a1%d7%a0%d7%93%d7%a8%d7%99%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "מקדשי דנדרה / זודיאק של דנדרה",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9e%d7%a7%d7%93%d7%a9%d7%99-%d7%93%d7%a0%d7%93%d7%a8%d7%94-%d7%96%d7%95%d7%93%d7%99%d7%90%d7%a7-%d7%a9%d7%9c-%d7%93%d7%a0%d7%93%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(5) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לממפיס סקארה",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%9e%d7%9e%d7%a4%d7%99%d7%a1-%d7%a1%d7%a7%d7%90%d7%a8%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(6) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לכנסייה תלויה / כנסיית אל-מועלק",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%aa%d7%9c%d7%95%d7%99%d7%94-%d7%9b%d7%a0%d7%a1%d7%99%d7%99%d7%94-%d7%90%d7%9c-%d7%9e%d7%95%d7%a2%d7%9c%d7%a7/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(7) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "טיול לאבו סימבל",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "toPageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%98%d7%99%d7%95%d7%9c-%d7%9c%d7%90%d7%91%d7%95-%d7%a1%d7%99%d7%9e%d7%91%d7%9c/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(8) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "בייג’ינג – בירת סין",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%91%d7%99%d7%99%d7%92%d7%99%d7%a0%d7%92-%d7%91%d7%99%d7%a8%d7%aa-%d7%a1%d7%99%d7%9f/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "אתונה – בירת יוון והלב הפועם של התרבות המערבית",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%90%d7%aa%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a8%d7%aa-%d7%99%d7%95%d7%95%d7%9f-%d7%95%d7%94%d7%9c%d7%91-%d7%94%d7%a4%d7%95%d7%a2%d7%9d-%d7%a9%d7%9c-%d7%94%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על סין העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%a1%d7%99%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "חמישה דברים שלא ידעתם על יוון העתיקה",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > h2:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "toPageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "",
+        "url": "https://roniellatours.com/%d7%97%d7%9e%d7%99%d7%a9%d7%94-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%a9%d7%9c%d7%90-%d7%99%d7%93%d7%a2%d7%aa%d7%9d-%d7%a2%d7%9c-%d7%99%d7%95%d7%95%d7%9f-%d7%94%d7%a2%d7%aa%d7%99%d7%a7%d7%94/",
+        "sourceSelector": "main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(4) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    },
+    {
+      "fromPageId": "page-755bedb3-7919-41b7-8ba1-2f3de93b2b47",
+      "toPageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "kind": "mainContentLink",
+      "confidence": "observed",
+      "evidence": {
+        "text": "דף הבית",
+        "url": "https://roniellatours.com/",
+        "sourceSelector": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "kind": "tourFamilyAndDeparture",
+      "note": "Distinct dated trip source pages remain separate page IDs. No new evergreen family/entity or deduplicated itinerary has been invented."
+    },
+    {
+      "kind": "guideProfiles",
+      "note": "Guide biographies are ordered sections of the guides page, not invented independent pages. Relationships need owner-reviewed names/IDs before the later adapter."
+    },
+    {
+      "kind": "datesPricesStatuses",
+      "note": "Exact strings and unverified normalization candidates reside on each source page. Contradictions require review."
+    }
+  ],
+  "modelExtensionsNeeded": [
+    "Archive block levels 1–6, tables, FAQ, anchors and source links extend the scaffold block union.",
+    "Source/provenance, aliases, taxonomy/author archives and full SEO evidence need a later archive adapter.",
+    "Dated source trip pages must be mapped explicitly to Tour/Departure later; do not merge by destination/title.",
+    "Guide profiles need stable section/entity IDs after review.",
+    "Image-based testimonials cannot be converted to quotes without approved transcription."
+  ]
+}

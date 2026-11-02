@@ -1,0 +1,26 @@
+{
+  "id": "page-df1f53e2-e60a-494d-8089-e928f7441bbb",
+  "path": "/gallery/",
+  "slug": "gallery",
+  "pageType": "gallery",
+  "title": "גלריה",
+  "heroMediaId": null,
+  "seo": {
+    "title": "גלריה - טיולי העולם העתיק",
+    "description": null,
+    "canonicalPath": "/gallery/"
+  },
+  "blocks": [
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "הכל\n\nיוון\n\nסין\n\nמצרים"
+    }
+  ],
+  "cards": [],
+  "publicationDate": null,
+  "modificationDate": null,
+  "videos": [],
+  "sourceRetrievedAt": "2026-11-02T15:04:37.005Z"
+}

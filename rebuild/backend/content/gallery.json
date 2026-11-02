@@ -1,0 +1,2107 @@
+{
+  "schemaVersion": 1,
+  "provider": "google-photos",
+  "albumUrl": "https://photos.app.goo.gl/zgdjSyHAmB78Yfd19",
+  "heading": "רגעים שנשארים איתנו",
+  "introduction": "מפגשים, נופים ורגעים קטנים מהדרך. בכל ביקור, זיכרונות אחרים מאלבום המסעות שלנו.",
+  "sourceLabel": "מתוך אלבום המסעות שלנו",
+  "shuffleLabel": "לגלות עוד רגעים",
+  "openAlbumLabel": "לאלבום המלא ב־Google Photos",
+  "photoAltPrefix": "תצלום מאלבום המסעות של טיולי העולם העתיק",
+  "displayCount": 24,
+  "syncedAt": "2026-11-02T16:16:18.002Z",
+  "albumTitle": "Images for website",
+  "photos": [
+    {
+      "id": "album-3bec6fadd5e76ac7f1c0",
+      "src": "/media/album-3bec6fadd5e76ac7f1c0-1600-163a35336afb.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 1",
+      "variants": [
+        {
+          "src": "/media/album-3bec6fadd5e76ac7f1c0-480-a08a04b310d5.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-3bec6fadd5e76ac7f1c0-1600-163a35336afb.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-6c37727669a588ccaabf",
+      "src": "/media/album-6c37727669a588ccaabf-1600-2d260b7d72da.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 2",
+      "variants": [
+        {
+          "src": "/media/album-6c37727669a588ccaabf-480-61a6e62900f8.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-6c37727669a588ccaabf-1600-2d260b7d72da.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-90c534bc348a5a480187",
+      "src": "/media/album-90c534bc348a5a480187-1600-bad8c162b763.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 3",
+      "variants": [
+        {
+          "src": "/media/album-90c534bc348a5a480187-480-9515600b8c2e.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-90c534bc348a5a480187-1600-bad8c162b763.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-9f365c75d6eccd4177be",
+      "src": "/media/album-9f365c75d6eccd4177be-1600-73f611270aec.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 4",
+      "variants": [
+        {
+          "src": "/media/album-9f365c75d6eccd4177be-480-a0ee3bd087ac.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-9f365c75d6eccd4177be-1600-73f611270aec.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-aba4de310b7de18e2251",
+      "src": "/media/album-aba4de310b7de18e2251-1600-276c17803c4f.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 5",
+      "variants": [
+        {
+          "src": "/media/album-aba4de310b7de18e2251-480-9aa0295d19cb.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-aba4de310b7de18e2251-1600-276c17803c4f.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-5a058c03a5d904c52899",
+      "src": "/media/album-5a058c03a5d904c52899-1600-2ad69144b31e.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 6",
+      "variants": [
+        {
+          "src": "/media/album-5a058c03a5d904c52899-480-7c2b725e1a94.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-5a058c03a5d904c52899-1600-2ad69144b31e.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-8df531a398443a06d40b",
+      "src": "/media/album-8df531a398443a06d40b-1600-63f4e279d4e9.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 7",
+      "variants": [
+        {
+          "src": "/media/album-8df531a398443a06d40b-480-d80ae3019449.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-8df531a398443a06d40b-1600-63f4e279d4e9.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-fa28a712723a2cf5cf66",
+      "src": "/media/album-fa28a712723a2cf5cf66-1600-082162ab733c.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 8",
+      "variants": [
+        {
+          "src": "/media/album-fa28a712723a2cf5cf66-480-795f15e3dac5.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-fa28a712723a2cf5cf66-1600-082162ab733c.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-264bb8fa8402b0a3620a",
+      "src": "/media/album-264bb8fa8402b0a3620a-1600-2186143a0966.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 9",
+      "variants": [
+        {
+          "src": "/media/album-264bb8fa8402b0a3620a-480-d670f0dd424e.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-264bb8fa8402b0a3620a-1600-2186143a0966.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-84803927656a0fd5c08d",
+      "src": "/media/album-84803927656a0fd5c08d-1600-e35003e426ec.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 10",
+      "variants": [
+        {
+          "src": "/media/album-84803927656a0fd5c08d-480-7454325cf083.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-84803927656a0fd5c08d-1600-e35003e426ec.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-5d533a13d27f5a46ce81",
+      "src": "/media/album-5d533a13d27f5a46ce81-1600-1675be3fca95.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 11",
+      "variants": [
+        {
+          "src": "/media/album-5d533a13d27f5a46ce81-480-61a4007c19a0.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-5d533a13d27f5a46ce81-1600-1675be3fca95.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-8fab532ea0005725a01c",
+      "src": "/media/album-8fab532ea0005725a01c-1600-53a52a401537.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 12",
+      "variants": [
+        {
+          "src": "/media/album-8fab532ea0005725a01c-480-a94d75824e08.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-8fab532ea0005725a01c-1600-53a52a401537.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-f1ea1c1f09191eca7fd4",
+      "src": "/media/album-f1ea1c1f09191eca7fd4-1600-0e495e9abfc1.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 13",
+      "variants": [
+        {
+          "src": "/media/album-f1ea1c1f09191eca7fd4-480-5284df9a655e.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-f1ea1c1f09191eca7fd4-1600-0e495e9abfc1.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-ac107b78f77c9bc6c8ac",
+      "src": "/media/album-ac107b78f77c9bc6c8ac-1600-22967e1287cb.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 14",
+      "variants": [
+        {
+          "src": "/media/album-ac107b78f77c9bc6c8ac-480-819ad114e1e6.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-ac107b78f77c9bc6c8ac-1600-22967e1287cb.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-29d53e20fe0305ffe94e",
+      "src": "/media/album-29d53e20fe0305ffe94e-1600-4c2b4bb79a3b.jpg",
+      "width": 1600,
+      "height": 1201,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 15",
+      "variants": [
+        {
+          "src": "/media/album-29d53e20fe0305ffe94e-480-610016a255fc.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-29d53e20fe0305ffe94e-1600-4c2b4bb79a3b.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-69ebfe5b07500a2458a3",
+      "src": "/media/album-69ebfe5b07500a2458a3-1600-4cf51cd19517.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 16",
+      "variants": [
+        {
+          "src": "/media/album-69ebfe5b07500a2458a3-480-2307ced7f2dc.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-69ebfe5b07500a2458a3-1600-4cf51cd19517.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-cd681cd5b53f3baf2c83",
+      "src": "/media/album-cd681cd5b53f3baf2c83-1600-d2f6e1dd0d00.jpg",
+      "width": 1600,
+      "height": 739,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 17",
+      "variants": [
+        {
+          "src": "/media/album-cd681cd5b53f3baf2c83-480-1a92f30217f5.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-cd681cd5b53f3baf2c83-1600-d2f6e1dd0d00.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-d0474a382b4fb4304d9c",
+      "src": "/media/album-d0474a382b4fb4304d9c-1600-4adef997d236.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 18",
+      "variants": [
+        {
+          "src": "/media/album-d0474a382b4fb4304d9c-480-ede8dce90dfb.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-d0474a382b4fb4304d9c-1600-4adef997d236.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-cf819bf87d0ba6516269",
+      "src": "/media/album-cf819bf87d0ba6516269-1600-7b0837457768.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 19",
+      "variants": [
+        {
+          "src": "/media/album-cf819bf87d0ba6516269-480-936cf1ddb930.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-cf819bf87d0ba6516269-1600-7b0837457768.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-850b490537fd887faa9d",
+      "src": "/media/album-850b490537fd887faa9d-1600-91cdeb279761.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 20",
+      "variants": [
+        {
+          "src": "/media/album-850b490537fd887faa9d-480-666b8da918af.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-850b490537fd887faa9d-1600-91cdeb279761.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-efaa67cb058227831485",
+      "src": "/media/album-efaa67cb058227831485-1600-781e57437901.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 21",
+      "variants": [
+        {
+          "src": "/media/album-efaa67cb058227831485-480-3ecc0ea92283.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-efaa67cb058227831485-1600-781e57437901.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-6340570b62fe1eba5d80",
+      "src": "/media/album-6340570b62fe1eba5d80-1600-d97f8bda524c.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 22",
+      "variants": [
+        {
+          "src": "/media/album-6340570b62fe1eba5d80-480-09c5cef7c68e.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-6340570b62fe1eba5d80-1600-d97f8bda524c.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-f30e245fd003ea8f50fe",
+      "src": "/media/album-f30e245fd003ea8f50fe-1600-53e76e60e812.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 23",
+      "variants": [
+        {
+          "src": "/media/album-f30e245fd003ea8f50fe-480-33fcfd571b35.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-f30e245fd003ea8f50fe-1600-53e76e60e812.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-07734f10576159918d09",
+      "src": "/media/album-07734f10576159918d09-1600-a912739d2fae.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 24",
+      "variants": [
+        {
+          "src": "/media/album-07734f10576159918d09-480-52df56b0ad81.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-07734f10576159918d09-1600-a912739d2fae.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-91a51cf5b094d8f77ee5",
+      "src": "/media/album-91a51cf5b094d8f77ee5-1600-70917f83dd45.jpg",
+      "width": 739,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 25",
+      "variants": [
+        {
+          "src": "/media/album-91a51cf5b094d8f77ee5-480-213d1b65f70b.jpg",
+          "width": 221
+        },
+        {
+          "src": "/media/album-91a51cf5b094d8f77ee5-1600-70917f83dd45.jpg",
+          "width": 739
+        }
+      ]
+    },
+    {
+      "id": "album-f2a9c329426b585e59eb",
+      "src": "/media/album-f2a9c329426b585e59eb-1600-002d4e7376d9.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 26",
+      "variants": [
+        {
+          "src": "/media/album-f2a9c329426b585e59eb-480-ad297eccdba0.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-f2a9c329426b585e59eb-1600-002d4e7376d9.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-03eb0ac39434bb37b1e4",
+      "src": "/media/album-03eb0ac39434bb37b1e4-1600-f83a44f541c7.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 27",
+      "variants": [
+        {
+          "src": "/media/album-03eb0ac39434bb37b1e4-480-9b5e92ea9c45.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-03eb0ac39434bb37b1e4-1600-f83a44f541c7.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-49d8c3476ed85dbfd573",
+      "src": "/media/album-49d8c3476ed85dbfd573-1600-f4aebf40f754.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 28",
+      "variants": [
+        {
+          "src": "/media/album-49d8c3476ed85dbfd573-480-9451aec069c9.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-49d8c3476ed85dbfd573-1600-f4aebf40f754.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-a4ecb13e8439c658d759",
+      "src": "/media/album-a4ecb13e8439c658d759-1600-d7cb9ba96abb.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 29",
+      "variants": [
+        {
+          "src": "/media/album-a4ecb13e8439c658d759-480-1d35b8531626.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-a4ecb13e8439c658d759-1600-d7cb9ba96abb.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-e79ef074fcfa8874785a",
+      "src": "/media/album-e79ef074fcfa8874785a-1600-df40545b8fa3.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 30",
+      "variants": [
+        {
+          "src": "/media/album-e79ef074fcfa8874785a-480-0cc41dc8ac2f.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-e79ef074fcfa8874785a-1600-df40545b8fa3.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-dd69ec5320b9fd25c399",
+      "src": "/media/album-dd69ec5320b9fd25c399-1600-fc844012db08.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 31",
+      "variants": [
+        {
+          "src": "/media/album-dd69ec5320b9fd25c399-480-09e7f762b407.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-dd69ec5320b9fd25c399-1600-fc844012db08.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-6bbc767deb53bc534224",
+      "src": "/media/album-6bbc767deb53bc534224-1600-cd5049e0abc4.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 32",
+      "variants": [
+        {
+          "src": "/media/album-6bbc767deb53bc534224-480-5f1141cd82fb.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-6bbc767deb53bc534224-1600-cd5049e0abc4.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-3a0d5779389fca75c261",
+      "src": "/media/album-3a0d5779389fca75c261-1600-d4d4860f875c.jpg",
+      "width": 1600,
+      "height": 739,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 33",
+      "variants": [
+        {
+          "src": "/media/album-3a0d5779389fca75c261-480-90a863537eef.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-3a0d5779389fca75c261-1600-d4d4860f875c.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-73c65126cba40cdcf47a",
+      "src": "/media/album-73c65126cba40cdcf47a-1600-896473e86f25.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 34",
+      "variants": [
+        {
+          "src": "/media/album-73c65126cba40cdcf47a-480-5968815f0e67.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-73c65126cba40cdcf47a-1600-896473e86f25.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-83a511e91e94af038ce1",
+      "src": "/media/album-83a511e91e94af038ce1-1600-0c7ff9bd7b26.jpg",
+      "width": 1600,
+      "height": 739,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 35",
+      "variants": [
+        {
+          "src": "/media/album-83a511e91e94af038ce1-480-2c4ea611b54f.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-83a511e91e94af038ce1-1600-0c7ff9bd7b26.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-90d342d225c94ebcde57",
+      "src": "/media/album-90d342d225c94ebcde57-1600-aed82f4b988f.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 36",
+      "variants": [
+        {
+          "src": "/media/album-90d342d225c94ebcde57-480-e81a8d6a6611.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-90d342d225c94ebcde57-1600-aed82f4b988f.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-93b3f3c9f4e615f5848e",
+      "src": "/media/album-93b3f3c9f4e615f5848e-1600-fd9b3727ea61.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 37",
+      "variants": [
+        {
+          "src": "/media/album-93b3f3c9f4e615f5848e-480-0b43fca589f7.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-93b3f3c9f4e615f5848e-1600-fd9b3727ea61.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-94feee48ddd171431c9f",
+      "src": "/media/album-94feee48ddd171431c9f-1600-8097d7418337.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 38",
+      "variants": [
+        {
+          "src": "/media/album-94feee48ddd171431c9f-480-1440d3643ddd.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-94feee48ddd171431c9f-1600-8097d7418337.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-803893dd57d95a6090b6",
+      "src": "/media/album-803893dd57d95a6090b6-1600-afcbf3a305ca.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 39",
+      "variants": [
+        {
+          "src": "/media/album-803893dd57d95a6090b6-480-fcc5c2b72713.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-803893dd57d95a6090b6-1600-afcbf3a305ca.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-7ab4a457228e3c33feac",
+      "src": "/media/album-7ab4a457228e3c33feac-1600-6b3a7c30a713.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 40",
+      "variants": [
+        {
+          "src": "/media/album-7ab4a457228e3c33feac-480-3d211012c681.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-7ab4a457228e3c33feac-1600-6b3a7c30a713.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-0997c696e88a8c92fa9e",
+      "src": "/media/album-0997c696e88a8c92fa9e-1600-5dc6acc19890.jpg",
+      "width": 1600,
+      "height": 739,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 41",
+      "variants": [
+        {
+          "src": "/media/album-0997c696e88a8c92fa9e-480-5f8713bebb1f.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-0997c696e88a8c92fa9e-1600-5dc6acc19890.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-bf92fcbd5273160723fe",
+      "src": "/media/album-bf92fcbd5273160723fe-1600-b4c4e92f6e60.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 42",
+      "variants": [
+        {
+          "src": "/media/album-bf92fcbd5273160723fe-480-c7370b8ebb01.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-bf92fcbd5273160723fe-1600-b4c4e92f6e60.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-72a40830408b54e0501a",
+      "src": "/media/album-72a40830408b54e0501a-1600-90913362db94.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 43",
+      "variants": [
+        {
+          "src": "/media/album-72a40830408b54e0501a-480-59644d14b2a8.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-72a40830408b54e0501a-1600-90913362db94.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-5355e921670c10cb81bd",
+      "src": "/media/album-5355e921670c10cb81bd-1600-bbd9a9178773.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 44",
+      "variants": [
+        {
+          "src": "/media/album-5355e921670c10cb81bd-480-51cf8ee03c03.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-5355e921670c10cb81bd-1600-bbd9a9178773.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-220cd78f45b8d518ca08",
+      "src": "/media/album-220cd78f45b8d518ca08-1600-7bd57b187f8b.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 45",
+      "variants": [
+        {
+          "src": "/media/album-220cd78f45b8d518ca08-480-25c9429468d2.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-220cd78f45b8d518ca08-1600-7bd57b187f8b.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-294ee87e009808dbf98d",
+      "src": "/media/album-294ee87e009808dbf98d-1600-c410aafee7be.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 46",
+      "variants": [
+        {
+          "src": "/media/album-294ee87e009808dbf98d-480-5b33dd1af076.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-294ee87e009808dbf98d-1600-c410aafee7be.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-2d76b42c5e29ffdd2180",
+      "src": "/media/album-2d76b42c5e29ffdd2180-1600-c1c0d6fe8069.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 47",
+      "variants": [
+        {
+          "src": "/media/album-2d76b42c5e29ffdd2180-480-e4e2b8601920.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-2d76b42c5e29ffdd2180-1600-c1c0d6fe8069.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-ae99e8a1d57989af22fe",
+      "src": "/media/album-ae99e8a1d57989af22fe-1600-6599597e77d7.jpg",
+      "width": 1600,
+      "height": 739,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 48",
+      "variants": [
+        {
+          "src": "/media/album-ae99e8a1d57989af22fe-480-3d1592afd6db.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-ae99e8a1d57989af22fe-1600-6599597e77d7.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-47532ddaac894a787f14",
+      "src": "/media/album-47532ddaac894a787f14-1600-2fcce5d574a2.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 49",
+      "variants": [
+        {
+          "src": "/media/album-47532ddaac894a787f14-480-4b83c168dbf2.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-47532ddaac894a787f14-1600-2fcce5d574a2.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-a78cbf5592009bf8c6fd",
+      "src": "/media/album-a78cbf5592009bf8c6fd-1600-9407d7e78e19.jpg",
+      "width": 1600,
+      "height": 901,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 50",
+      "variants": [
+        {
+          "src": "/media/album-a78cbf5592009bf8c6fd-480-a7f0c5ed70b6.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-a78cbf5592009bf8c6fd-1600-9407d7e78e19.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-df3c15e6bb50040e10a3",
+      "src": "/media/album-df3c15e6bb50040e10a3-1600-f1287be57d3c.jpg",
+      "width": 901,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 51",
+      "variants": [
+        {
+          "src": "/media/album-df3c15e6bb50040e10a3-480-d5db1132fa5c.jpg",
+          "width": 270
+        },
+        {
+          "src": "/media/album-df3c15e6bb50040e10a3-1600-f1287be57d3c.jpg",
+          "width": 901
+        }
+      ]
+    },
+    {
+      "id": "album-09b910ee685026b398d1",
+      "src": "/media/album-09b910ee685026b398d1-1600-a3e60e7e2356.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 52",
+      "variants": [
+        {
+          "src": "/media/album-09b910ee685026b398d1-480-fd2f8d803901.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-09b910ee685026b398d1-1600-a3e60e7e2356.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-417a29df87649c55a883",
+      "src": "/media/album-417a29df87649c55a883-1600-10befe580319.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 53",
+      "variants": [
+        {
+          "src": "/media/album-417a29df87649c55a883-480-ef88c7bbf6ab.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-417a29df87649c55a883-1600-10befe580319.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-fd9a89a0bc0d3011726a",
+      "src": "/media/album-fd9a89a0bc0d3011726a-1600-8197b99286dd.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 54",
+      "variants": [
+        {
+          "src": "/media/album-fd9a89a0bc0d3011726a-480-f6d0f1d2b506.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-fd9a89a0bc0d3011726a-1600-8197b99286dd.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-53ec2f4ee0d9043e1ee9",
+      "src": "/media/album-53ec2f4ee0d9043e1ee9-1600-30a5210af97d.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 55",
+      "variants": [
+        {
+          "src": "/media/album-53ec2f4ee0d9043e1ee9-480-38842adbfc20.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-53ec2f4ee0d9043e1ee9-1600-30a5210af97d.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-0342aaadf98a0892b70f",
+      "src": "/media/album-0342aaadf98a0892b70f-1600-0ae4fd800025.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 56",
+      "variants": [
+        {
+          "src": "/media/album-0342aaadf98a0892b70f-480-9580cd0f52e7.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-0342aaadf98a0892b70f-1600-0ae4fd800025.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-73e916339a4d91a1a220",
+      "src": "/media/album-73e916339a4d91a1a220-1600-3dc926f2821d.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 57",
+      "variants": [
+        {
+          "src": "/media/album-73e916339a4d91a1a220-480-c79e17e62b3f.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-73e916339a4d91a1a220-1600-3dc926f2821d.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-f2323e6f4f8bb1be434b",
+      "src": "/media/album-f2323e6f4f8bb1be434b-1600-fcbf44ebda75.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 58",
+      "variants": [
+        {
+          "src": "/media/album-f2323e6f4f8bb1be434b-480-8ff50398ffaa.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-f2323e6f4f8bb1be434b-1600-fcbf44ebda75.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-56d3658e54c9748b8688",
+      "src": "/media/album-56d3658e54c9748b8688-1600-21eb0e579ad7.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 59",
+      "variants": [
+        {
+          "src": "/media/album-56d3658e54c9748b8688-480-5d3eb63223dc.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-56d3658e54c9748b8688-1600-21eb0e579ad7.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-9dd26e1b62da88bfa2ca",
+      "src": "/media/album-9dd26e1b62da88bfa2ca-1600-fe0ec59a9d1b.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 60",
+      "variants": [
+        {
+          "src": "/media/album-9dd26e1b62da88bfa2ca-480-dec2cdff3f12.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-9dd26e1b62da88bfa2ca-1600-fe0ec59a9d1b.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-00a68f66a91dac581f67",
+      "src": "/media/album-00a68f66a91dac581f67-1600-bae4202daecf.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 61",
+      "variants": [
+        {
+          "src": "/media/album-00a68f66a91dac581f67-480-dc2d2892e5bd.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-00a68f66a91dac581f67-1600-bae4202daecf.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-b53cb407fb1249e6e2a8",
+      "src": "/media/album-b53cb407fb1249e6e2a8-1600-23afea84480a.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 62",
+      "variants": [
+        {
+          "src": "/media/album-b53cb407fb1249e6e2a8-480-8101132d946d.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-b53cb407fb1249e6e2a8-1600-23afea84480a.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-d3607dfc8674f84e6b88",
+      "src": "/media/album-d3607dfc8674f84e6b88-1600-4d6a1c1ca73a.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 63",
+      "variants": [
+        {
+          "src": "/media/album-d3607dfc8674f84e6b88-480-1d3d44f187fa.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-d3607dfc8674f84e6b88-1600-4d6a1c1ca73a.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-693305b022aca8ec3a34",
+      "src": "/media/album-693305b022aca8ec3a34-1600-cf8c493534b9.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 64",
+      "variants": [
+        {
+          "src": "/media/album-693305b022aca8ec3a34-480-2166a567ff63.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-693305b022aca8ec3a34-1600-cf8c493534b9.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-ec207106b1448a8c100d",
+      "src": "/media/album-ec207106b1448a8c100d-1600-c94bbd59b3dc.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 65",
+      "variants": [
+        {
+          "src": "/media/album-ec207106b1448a8c100d-480-c2bd6a476489.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-ec207106b1448a8c100d-1600-c94bbd59b3dc.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-e1ec6d1319fe101c16a8",
+      "src": "/media/album-e1ec6d1319fe101c16a8-1600-638764dc04c3.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 66",
+      "variants": [
+        {
+          "src": "/media/album-e1ec6d1319fe101c16a8-480-071571b9ceba.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-e1ec6d1319fe101c16a8-1600-638764dc04c3.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-af5cecd269eb74ddac92",
+      "src": "/media/album-af5cecd269eb74ddac92-1600-dd3cafb4d121.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 67",
+      "variants": [
+        {
+          "src": "/media/album-af5cecd269eb74ddac92-480-93a859ea119c.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-af5cecd269eb74ddac92-1600-dd3cafb4d121.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-e3bbff9915b27248db0e",
+      "src": "/media/album-e3bbff9915b27248db0e-1600-37f51b76502f.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 68",
+      "variants": [
+        {
+          "src": "/media/album-e3bbff9915b27248db0e-480-8628c0f51107.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-e3bbff9915b27248db0e-1600-37f51b76502f.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-8562adae879aebe46841",
+      "src": "/media/album-8562adae879aebe46841-1600-e5dd4559e71f.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 69",
+      "variants": [
+        {
+          "src": "/media/album-8562adae879aebe46841-480-78085bbd15e0.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-8562adae879aebe46841-1600-e5dd4559e71f.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-05e56fe4a2bfc11c9028",
+      "src": "/media/album-05e56fe4a2bfc11c9028-1600-253f8362e217.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 70",
+      "variants": [
+        {
+          "src": "/media/album-05e56fe4a2bfc11c9028-480-0192eea1ac01.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-05e56fe4a2bfc11c9028-1600-253f8362e217.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-e795510276193f1e42ec",
+      "src": "/media/album-e795510276193f1e42ec-1600-93a2a8de90bb.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 71",
+      "variants": [
+        {
+          "src": "/media/album-e795510276193f1e42ec-480-8d011d24b447.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-e795510276193f1e42ec-1600-93a2a8de90bb.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-653ba0b9c46a0cb38682",
+      "src": "/media/album-653ba0b9c46a0cb38682-1600-8495cb84dcec.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 72",
+      "variants": [
+        {
+          "src": "/media/album-653ba0b9c46a0cb38682-480-9575ff48e79a.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-653ba0b9c46a0cb38682-1600-8495cb84dcec.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-3dbc9f12e17113ee397b",
+      "src": "/media/album-3dbc9f12e17113ee397b-1600-b61a5fc6f9bc.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 73",
+      "variants": [
+        {
+          "src": "/media/album-3dbc9f12e17113ee397b-480-7c751851dfc7.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-3dbc9f12e17113ee397b-1600-b61a5fc6f9bc.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-56a3e36c86e464c8c0ad",
+      "src": "/media/album-56a3e36c86e464c8c0ad-1600-a93002af51fb.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 74",
+      "variants": [
+        {
+          "src": "/media/album-56a3e36c86e464c8c0ad-480-d74dfaa8244b.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-56a3e36c86e464c8c0ad-1600-a93002af51fb.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-bd3e4a09d80b1878f63d",
+      "src": "/media/album-bd3e4a09d80b1878f63d-1600-974f5f17ed1d.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 75",
+      "variants": [
+        {
+          "src": "/media/album-bd3e4a09d80b1878f63d-480-60ff683eb457.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-bd3e4a09d80b1878f63d-1600-974f5f17ed1d.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-42b34ddef0a3d439bf71",
+      "src": "/media/album-42b34ddef0a3d439bf71-1600-552d6163d168.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 76",
+      "variants": [
+        {
+          "src": "/media/album-42b34ddef0a3d439bf71-480-4a512b068332.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-42b34ddef0a3d439bf71-1600-552d6163d168.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-efb038cae8ae030f52e6",
+      "src": "/media/album-efb038cae8ae030f52e6-1600-2842332b7f91.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 77",
+      "variants": [
+        {
+          "src": "/media/album-efb038cae8ae030f52e6-480-1f11f88987c7.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-efb038cae8ae030f52e6-1600-2842332b7f91.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-1b5da6e97e3606846035",
+      "src": "/media/album-1b5da6e97e3606846035-1600-99df74b11084.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 78",
+      "variants": [
+        {
+          "src": "/media/album-1b5da6e97e3606846035-480-a10af976f3c7.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-1b5da6e97e3606846035-1600-99df74b11084.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-53afbf8398ba8e5bf908",
+      "src": "/media/album-53afbf8398ba8e5bf908-1600-ab42493bbac3.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 79",
+      "variants": [
+        {
+          "src": "/media/album-53afbf8398ba8e5bf908-480-9731ca752009.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-53afbf8398ba8e5bf908-1600-ab42493bbac3.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-b60b8fe78de543be59c9",
+      "src": "/media/album-b60b8fe78de543be59c9-1600-1f4890ec7165.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 80",
+      "variants": [
+        {
+          "src": "/media/album-b60b8fe78de543be59c9-480-e5c5a960e103.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-b60b8fe78de543be59c9-1600-1f4890ec7165.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-173a5e37f0f6401f8f2f",
+      "src": "/media/album-173a5e37f0f6401f8f2f-1600-1e17278df9e4.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 81",
+      "variants": [
+        {
+          "src": "/media/album-173a5e37f0f6401f8f2f-480-b0e1ffd81a39.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-173a5e37f0f6401f8f2f-1600-1e17278df9e4.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-7d5fc4290393b0829f51",
+      "src": "/media/album-7d5fc4290393b0829f51-1600-9a1b57f4c1dc.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 82",
+      "variants": [
+        {
+          "src": "/media/album-7d5fc4290393b0829f51-480-eb6c10c40113.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-7d5fc4290393b0829f51-1600-9a1b57f4c1dc.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-dc61023e84f038f93088",
+      "src": "/media/album-dc61023e84f038f93088-1600-c0fe73e22d67.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 83",
+      "variants": [
+        {
+          "src": "/media/album-dc61023e84f038f93088-480-b7df8913a48e.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-dc61023e84f038f93088-1600-c0fe73e22d67.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-dadf58bab1f2a8d1a301",
+      "src": "/media/album-dadf58bab1f2a8d1a301-1600-33d8e0227128.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 84",
+      "variants": [
+        {
+          "src": "/media/album-dadf58bab1f2a8d1a301-480-8b7ee07a9916.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-dadf58bab1f2a8d1a301-1600-33d8e0227128.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-381b59cbc2a7365d33c3",
+      "src": "/media/album-381b59cbc2a7365d33c3-1600-6635ce4e4b04.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 85",
+      "variants": [
+        {
+          "src": "/media/album-381b59cbc2a7365d33c3-480-980e758df2d2.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-381b59cbc2a7365d33c3-1600-6635ce4e4b04.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-5b3907251e45d1f5632d",
+      "src": "/media/album-5b3907251e45d1f5632d-1600-09d0e087ea1b.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 86",
+      "variants": [
+        {
+          "src": "/media/album-5b3907251e45d1f5632d-480-1c0d00f3a032.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-5b3907251e45d1f5632d-1600-09d0e087ea1b.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-59512713ad796f3bcda7",
+      "src": "/media/album-59512713ad796f3bcda7-1600-c29239d519af.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 87",
+      "variants": [
+        {
+          "src": "/media/album-59512713ad796f3bcda7-480-4ab6796a0760.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-59512713ad796f3bcda7-1600-c29239d519af.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-a8b5b934d0172439c262",
+      "src": "/media/album-a8b5b934d0172439c262-1600-bb4b80287de3.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 88",
+      "variants": [
+        {
+          "src": "/media/album-a8b5b934d0172439c262-480-1dacae249b3d.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-a8b5b934d0172439c262-1600-bb4b80287de3.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-1450099ab6fa052f50e7",
+      "src": "/media/album-1450099ab6fa052f50e7-1600-f904512aefb9.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 89",
+      "variants": [
+        {
+          "src": "/media/album-1450099ab6fa052f50e7-480-edb2c506e106.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-1450099ab6fa052f50e7-1600-f904512aefb9.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-4e058aa87a907a12f9a8",
+      "src": "/media/album-4e058aa87a907a12f9a8-1600-67d75a7b18a8.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 90",
+      "variants": [
+        {
+          "src": "/media/album-4e058aa87a907a12f9a8-480-5897993eb237.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-4e058aa87a907a12f9a8-1600-67d75a7b18a8.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-b6a9dce1459deb641e30",
+      "src": "/media/album-b6a9dce1459deb641e30-1600-5ef8ea6c8e60.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 91",
+      "variants": [
+        {
+          "src": "/media/album-b6a9dce1459deb641e30-480-e720500b0578.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-b6a9dce1459deb641e30-1600-5ef8ea6c8e60.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-a088e0cba1ccb1bb8258",
+      "src": "/media/album-a088e0cba1ccb1bb8258-1600-1908b3f38d46.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 92",
+      "variants": [
+        {
+          "src": "/media/album-a088e0cba1ccb1bb8258-480-c4b43a028e8c.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-a088e0cba1ccb1bb8258-1600-1908b3f38d46.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-405d85dc8eb8c49e0553",
+      "src": "/media/album-405d85dc8eb8c49e0553-1600-d13da2aa79bb.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 93",
+      "variants": [
+        {
+          "src": "/media/album-405d85dc8eb8c49e0553-480-b6be5d07626a.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-405d85dc8eb8c49e0553-1600-d13da2aa79bb.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-645e647e3f78949ff52b",
+      "src": "/media/album-645e647e3f78949ff52b-1600-576ff9dd060e.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 94",
+      "variants": [
+        {
+          "src": "/media/album-645e647e3f78949ff52b-480-6404674bd6be.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-645e647e3f78949ff52b-1600-576ff9dd060e.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-e5f7bb16e6082b6db514",
+      "src": "/media/album-e5f7bb16e6082b6db514-1600-eaf4e1af0589.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 95",
+      "variants": [
+        {
+          "src": "/media/album-e5f7bb16e6082b6db514-480-3bad29bc0c1e.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-e5f7bb16e6082b6db514-1600-eaf4e1af0589.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-d2e632488833da017b59",
+      "src": "/media/album-d2e632488833da017b59-1600-a1cd80429bc4.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 96",
+      "variants": [
+        {
+          "src": "/media/album-d2e632488833da017b59-480-23ef10a35ff0.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-d2e632488833da017b59-1600-a1cd80429bc4.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-8d8714bd32d2fd19b48a",
+      "src": "/media/album-8d8714bd32d2fd19b48a-1600-65fe0357654e.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 97",
+      "variants": [
+        {
+          "src": "/media/album-8d8714bd32d2fd19b48a-480-08c5b17fd538.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-8d8714bd32d2fd19b48a-1600-65fe0357654e.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-e9b009d8fcf4b591c3b9",
+      "src": "/media/album-e9b009d8fcf4b591c3b9-1600-f45642816e12.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 98",
+      "variants": [
+        {
+          "src": "/media/album-e9b009d8fcf4b591c3b9-480-946bf1b30013.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-e9b009d8fcf4b591c3b9-1600-f45642816e12.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-d15370b97dd15205e1d9",
+      "src": "/media/album-d15370b97dd15205e1d9-1600-315d3c0b6410.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 99",
+      "variants": [
+        {
+          "src": "/media/album-d15370b97dd15205e1d9-480-92d42ed71383.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-d15370b97dd15205e1d9-1600-315d3c0b6410.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-d99ccc69b8e2ac1ec77c",
+      "src": "/media/album-d99ccc69b8e2ac1ec77c-1600-090858a9e786.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 100",
+      "variants": [
+        {
+          "src": "/media/album-d99ccc69b8e2ac1ec77c-480-189cd992d59a.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-d99ccc69b8e2ac1ec77c-1600-090858a9e786.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-06488592971436de00af",
+      "src": "/media/album-06488592971436de00af-1600-eae4adfe709c.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 101",
+      "variants": [
+        {
+          "src": "/media/album-06488592971436de00af-480-f355850d0ee7.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-06488592971436de00af-1600-eae4adfe709c.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-3c46446fb5342af242ae",
+      "src": "/media/album-3c46446fb5342af242ae-1600-dd9182589bd1.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 102",
+      "variants": [
+        {
+          "src": "/media/album-3c46446fb5342af242ae-480-b8de8193f3c3.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-3c46446fb5342af242ae-1600-dd9182589bd1.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-49b333593aa27d4479c0",
+      "src": "/media/album-49b333593aa27d4479c0-1600-6995f58fbaed.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 103",
+      "variants": [
+        {
+          "src": "/media/album-49b333593aa27d4479c0-480-c1063d9364b9.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-49b333593aa27d4479c0-1600-6995f58fbaed.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-c4dd5fa5f02ed65f2654",
+      "src": "/media/album-c4dd5fa5f02ed65f2654-1600-d3a80e52b77a.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 104",
+      "variants": [
+        {
+          "src": "/media/album-c4dd5fa5f02ed65f2654-480-8908f7fa0a86.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-c4dd5fa5f02ed65f2654-1600-d3a80e52b77a.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-87a06059d99d802b2553",
+      "src": "/media/album-87a06059d99d802b2553-1600-94d909eea98c.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 105",
+      "variants": [
+        {
+          "src": "/media/album-87a06059d99d802b2553-480-b7a5a5042ea4.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-87a06059d99d802b2553-1600-94d909eea98c.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-82e09dbc9f0fa45a7750",
+      "src": "/media/album-82e09dbc9f0fa45a7750-1600-9c531137abeb.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 106",
+      "variants": [
+        {
+          "src": "/media/album-82e09dbc9f0fa45a7750-480-42ce3b169ca4.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-82e09dbc9f0fa45a7750-1600-9c531137abeb.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-3e0f5ecc1aa8d8497683",
+      "src": "/media/album-3e0f5ecc1aa8d8497683-1600-1124758cf22c.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 107",
+      "variants": [
+        {
+          "src": "/media/album-3e0f5ecc1aa8d8497683-480-cb965199baa6.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-3e0f5ecc1aa8d8497683-1600-1124758cf22c.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-d0d90cc1129fe027eece",
+      "src": "/media/album-d0d90cc1129fe027eece-1600-86ace251a965.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 108",
+      "variants": [
+        {
+          "src": "/media/album-d0d90cc1129fe027eece-480-c9857ea13ecd.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-d0d90cc1129fe027eece-1600-86ace251a965.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-afa57a89dee44ef3c47b",
+      "src": "/media/album-afa57a89dee44ef3c47b-1600-8cdefc727994.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 109",
+      "variants": [
+        {
+          "src": "/media/album-afa57a89dee44ef3c47b-480-6a6ccfdff351.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-afa57a89dee44ef3c47b-1600-8cdefc727994.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-0c60504a4ce1f8ffd023",
+      "src": "/media/album-0c60504a4ce1f8ffd023-1600-6460771b62ae.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 110",
+      "variants": [
+        {
+          "src": "/media/album-0c60504a4ce1f8ffd023-480-51ec95c00890.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-0c60504a4ce1f8ffd023-1600-6460771b62ae.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-7900e250e5f0c43301d3",
+      "src": "/media/album-7900e250e5f0c43301d3-1600-7b85cf1d081f.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 111",
+      "variants": [
+        {
+          "src": "/media/album-7900e250e5f0c43301d3-480-6fc39f6af61e.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-7900e250e5f0c43301d3-1600-7b85cf1d081f.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-5a0dc6bb0215459b5c46",
+      "src": "/media/album-5a0dc6bb0215459b5c46-1600-63f9a9597bfb.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 112",
+      "variants": [
+        {
+          "src": "/media/album-5a0dc6bb0215459b5c46-480-bb467586cbd0.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-5a0dc6bb0215459b5c46-1600-63f9a9597bfb.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-8dbc865f9760728a7463",
+      "src": "/media/album-8dbc865f9760728a7463-1600-3f81cd68dd96.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 113",
+      "variants": [
+        {
+          "src": "/media/album-8dbc865f9760728a7463-480-a8932ba38000.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-8dbc865f9760728a7463-1600-3f81cd68dd96.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-6e12f5e651b91014510a",
+      "src": "/media/album-6e12f5e651b91014510a-1600-c2190af54a19.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 114",
+      "variants": [
+        {
+          "src": "/media/album-6e12f5e651b91014510a-480-f4e75bb54b68.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-6e12f5e651b91014510a-1600-c2190af54a19.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-2cdaf8790b4cbff5887c",
+      "src": "/media/album-2cdaf8790b4cbff5887c-1600-0c0dcf6e2d96.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 115",
+      "variants": [
+        {
+          "src": "/media/album-2cdaf8790b4cbff5887c-480-c190fcbbb057.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-2cdaf8790b4cbff5887c-1600-0c0dcf6e2d96.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-27d59b2b72ea55e0b0f5",
+      "src": "/media/album-27d59b2b72ea55e0b0f5-1600-8966d0470400.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 116",
+      "variants": [
+        {
+          "src": "/media/album-27d59b2b72ea55e0b0f5-480-f2d95226df9b.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-27d59b2b72ea55e0b0f5-1600-8966d0470400.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-c3c4d6d50a20e49c3a63",
+      "src": "/media/album-c3c4d6d50a20e49c3a63-1600-277d2c31d45e.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 117",
+      "variants": [
+        {
+          "src": "/media/album-c3c4d6d50a20e49c3a63-480-edc997e6cfb4.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-c3c4d6d50a20e49c3a63-1600-277d2c31d45e.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-c182c4bdb2d93f6c0304",
+      "src": "/media/album-c182c4bdb2d93f6c0304-1600-f8d0a57eaaf9.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 118",
+      "variants": [
+        {
+          "src": "/media/album-c182c4bdb2d93f6c0304-480-5f2b158b6edb.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-c182c4bdb2d93f6c0304-1600-f8d0a57eaaf9.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-b4ab498986272bcdf24c",
+      "src": "/media/album-b4ab498986272bcdf24c-1600-e33303435f2e.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 119",
+      "variants": [
+        {
+          "src": "/media/album-b4ab498986272bcdf24c-480-02ea337f753b.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-b4ab498986272bcdf24c-1600-e33303435f2e.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-a96515a4dc155b69384b",
+      "src": "/media/album-a96515a4dc155b69384b-1600-d1d1a7fe092a.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 120",
+      "variants": [
+        {
+          "src": "/media/album-a96515a4dc155b69384b-480-e05adb0a9932.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-a96515a4dc155b69384b-1600-d1d1a7fe092a.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-89a2d73ec61ac7a9a0b7",
+      "src": "/media/album-89a2d73ec61ac7a9a0b7-1600-1c5fddf53113.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 121",
+      "variants": [
+        {
+          "src": "/media/album-89a2d73ec61ac7a9a0b7-480-9924312fe94f.jpg",
+          "width": 480
+        },
+        {
+          "src": "/media/album-89a2d73ec61ac7a9a0b7-1600-1c5fddf53113.jpg",
+          "width": 1600
+        }
+      ]
+    },
+    {
+      "id": "album-fe273539f8d1f2fcf79e",
+      "src": "/media/album-fe273539f8d1f2fcf79e-1600-4f9512d6fbf3.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 122",
+      "variants": [
+        {
+          "src": "/media/album-fe273539f8d1f2fcf79e-480-dfcf209428e7.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-fe273539f8d1f2fcf79e-1600-4f9512d6fbf3.jpg",
+          "width": 1200
+        }
+      ]
+    },
+    {
+      "id": "album-6cc72b30c351dc8104ea",
+      "src": "/media/album-6cc72b30c351dc8104ea-1600-6fd33c72d2a1.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "תצלום מאלבום המסעות של טיולי העולם העתיק · 123",
+      "variants": [
+        {
+          "src": "/media/album-6cc72b30c351dc8104ea-480-27da9c292e7f.jpg",
+          "width": 360
+        },
+        {
+          "src": "/media/album-6cc72b30c351dc8104ea-1600-6fd33c72d2a1.jpg",
+          "width": 1200
+        }
+      ]
+    }
+  ]
+}

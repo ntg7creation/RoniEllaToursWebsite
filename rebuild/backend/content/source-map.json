@@ -1,0 +1,261 @@
+{
+  "origin": "https://roniellatours.com/",
+  "crawlRunId": "2026-11-02-live-refresh",
+  "pages": [
+    {
+      "id": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "sourceUrl": "https://roniellatours.com/%D7%91%D7%9C%D7%95%D7%92/",
+      "retrievedAt": "2026-11-02T15:04:08.362Z",
+      "path": "/blog/"
+    },
+    {
+      "id": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%90%D7%91%D7%95-%D7%A1%D7%99%D7%9E%D7%91%D7%9C/",
+      "retrievedAt": "2026-11-02T15:04:09.751Z",
+      "path": "/blog/abu-simbel/"
+    },
+    {
+      "id": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "sourceUrl": "https://roniellatours.com/%D7%9B%D7%A0%D7%A1%D7%99%D7%99%D7%94-%D7%AA%D7%9C%D7%95%D7%99%D7%94-%D7%9B%D7%A0%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C-%D7%9E%D7%95%D7%A2%D7%9C%D7%A7/",
+      "retrievedAt": "2026-11-02T15:04:11.117Z",
+      "path": "/blog/hanging-church/"
+    },
+    {
+      "id": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%9E%D7%9E%D7%A4%D7%99%D7%A1-%D7%A1%D7%A7%D7%90%D7%A8%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:12.454Z",
+      "path": "/blog/memphis-saqqara/"
+    },
+    {
+      "id": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%A7%D7%94%D7%99%D7%A8/",
+      "retrievedAt": "2026-11-02T15:04:13.791Z",
+      "path": "/blog/cairo/"
+    },
+    {
+      "id": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8%D7%99%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:15.124Z",
+      "path": "/blog/alexandria/"
+    },
+    {
+      "id": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "sourceUrl": "https://roniellatours.com/%D7%9E%D7%A7%D7%93%D7%A9%D7%99-%D7%93%D7%A0%D7%93%D7%A8%D7%94-%D7%96%D7%95%D7%93%D7%99%D7%90%D7%A7-%D7%A9%D7%9C-%D7%93%D7%A0%D7%93%D7%A8%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:16.462Z",
+      "path": "/blog/dendera-zodiac/"
+    },
+    {
+      "id": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%A1%D7%9B%D7%A8-%D7%90%D7%A1%D7%95%D7%90%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:17.803Z",
+      "path": "/blog/aswan-dam/"
+    },
+    {
+      "id": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "sourceUrl": "https://roniellatours.com/%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9C%D7%90-%D7%99%D7%93%D7%A2%D7%AA%D7%9D-%D7%A2%D7%9C-%D7%99%D7%95%D7%95%D7%9F-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:19.232Z",
+      "path": "/blog/ancient-greece-facts/"
+    },
+    {
+      "id": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "sourceUrl": "https://roniellatours.com/%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9C%D7%90-%D7%99%D7%93%D7%A2%D7%AA%D7%9D-%D7%A2%D7%9C-%D7%A1%D7%99%D7%9F-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:20.620Z",
+      "path": "/blog/ancient-china-facts/"
+    },
+    {
+      "id": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%A4%D7%99%D7%A8%D7%9E%D7%99%D7%93%D7%95%D7%AA/",
+      "retrievedAt": "2026-11-02T15:04:21.940Z",
+      "path": "/blog/pyramids/"
+    },
+    {
+      "id": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "sourceUrl": "https://roniellatours.com/%D7%90%D7%AA%D7%95%D7%A0%D7%94-%D7%91%D7%99%D7%A8%D7%AA-%D7%99%D7%95%D7%95%D7%9F-%D7%95%D7%94%D7%9C%D7%91-%D7%94%D7%A4%D7%95%D7%A2%D7%9D-%D7%A9%D7%9C-%D7%94%D7%AA%D7%A8%D7%91%D7%95%D7%AA-%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:23.323Z",
+      "path": "/blog/athens/"
+    },
+    {
+      "id": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "sourceUrl": "https://roniellatours.com/%D7%91%D7%99%D7%99%D7%92%D7%99%D7%A0%D7%92-%D7%91%D7%99%D7%A8%D7%AA-%D7%A1%D7%99%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:24.752Z",
+      "path": "/blog/beijing/"
+    },
+    {
+      "id": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%90%D7%95%D7%A8%D7%92%D7%9F-%D7%9C%D7%A1%D7%99%D7%9F-%D7%97%D7%95%D7%95%D7%99%D7%94-%D7%A9%D7%9C-%D7%A4%D7%A2%D7%9D-%D7%91%D7%97%D7%99%D7%99%D7%9D/",
+      "retrievedAt": "2026-11-02T15:04:26.136Z",
+      "path": "/blog/china-experience/"
+    },
+    {
+      "id": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "sourceUrl": "https://roniellatours.com/%D7%9E%D7%A1%D7%A2-%D7%AA%D7%A8%D7%91%D7%95%D7%AA%D7%99-%D7%90%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%94-%D7%A1%D7%99%D7%A0%D7%99%D7%AA/",
+      "retrievedAt": "2026-11-02T15:04:27.586Z",
+      "path": "/blog/china-cultural-journey/"
+    },
+    {
+      "id": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "sourceUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%90%D7%95%D7%A8%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:28.920Z",
+      "path": "/blog/uzbekistan-silk-road/"
+    },
+    {
+      "id": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "sourceUrl": "https://roniellatours.com/",
+      "retrievedAt": "2026-11-02T15:04:30.400Z",
+      "path": "/"
+    },
+    {
+      "id": "page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA/",
+      "retrievedAt": "2026-11-02T15:04:31.764Z",
+      "path": "/accessibility/"
+    },
+    {
+      "id": "page-357b4143-9236-4375-a9ea-b8c86e8f5c17",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA/",
+      "retrievedAt": "2026-11-02T15:04:33.064Z",
+      "path": "/testimonials/"
+    },
+    {
+      "id": "page-4c573761-052a-4365-98fe-78b021e4cf4b",
+      "sourceUrl": "https://roniellatours.com/%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D-%D7%95%D7%AA%D7%A0%D7%90%D7%99%D7%9D/",
+      "retrievedAt": "2026-11-02T15:04:34.402Z",
+      "path": "/prices-and-terms/"
+    },
+    {
+      "id": "page-233e9f1f-20f0-4fdb-af54-ccea5804ee39",
+      "sourceUrl": "https://roniellatours.com/%D7%95%D7%99%D7%93%D7%99%D7%90%D7%95/",
+      "retrievedAt": "2026-11-02T15:04:35.660Z",
+      "path": "/videos/"
+    },
+    {
+      "id": "page-df1f53e2-e60a-494d-8089-e928f7441bbb",
+      "sourceUrl": "https://roniellatours.com/%D7%92%D7%9C%D7%A8%D7%99%D7%94/",
+      "retrievedAt": "2026-11-02T15:04:37.005Z",
+      "path": "/gallery/"
+    },
+    {
+      "id": "page-fe5b238c-8e40-4c47-86ac-931d5f95672d",
+      "sourceUrl": "https://roniellatours.com/%D7%9E%D7%99-%D7%90%D7%A0%D7%97%D7%A0%D7%95/",
+      "retrievedAt": "2026-11-02T15:04:38.333Z",
+      "path": "/about/"
+    },
+    {
+      "id": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "sourceUrl": "https://roniellatours.com/privacy-policy/",
+      "retrievedAt": "2026-11-02T15:04:39.624Z",
+      "path": "/privacy/"
+    },
+    {
+      "id": "page-d17a3366-d3b4-4007-86de-6c51165a6c69",
+      "sourceUrl": "https://roniellatours.com/%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%A7%D7%A9%D7%A8/",
+      "retrievedAt": "2026-11-02T15:04:40.934Z",
+      "path": "/contact/"
+    },
+    {
+      "id": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+      "retrievedAt": "2026-11-02T15:04:42.276Z",
+      "path": "/guides/"
+    },
+    {
+      "id": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+      "retrievedAt": "2026-11-02T15:04:43.650Z",
+      "path": "/tours/"
+    },
+    {
+      "id": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+      "retrievedAt": "2026-11-02T15:04:45.193Z",
+      "path": "/tours/northern-greece/"
+    },
+    {
+      "id": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A1%D7%99%D7%9F-%D7%A6%D7%95%D7%A0%D7%92-%D7%92%D7%95%D7%90%D7%94-%D7%9E%D7%90%D7%99-2027/",
+      "retrievedAt": "2026-11-02T15:04:46.675Z",
+      "path": "/tours/china-may-2027/"
+    },
+    {
+      "id": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A1%D7%99%D7%9F-%D7%A6%D7%95%D7%A0%D7%92-%D7%92%D7%95%D7%90%D7%94-%D7%A1%D7%A4%D7%98%D7%9E%D7%91%D7%A8-2027/",
+      "retrievedAt": "2026-11-02T15:04:48.037Z",
+      "path": "/tours/china-september-2027/"
+    },
+    {
+      "id": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F-2027-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2/",
+      "retrievedAt": "2026-11-02T15:04:49.417Z",
+      "path": "/tours/uzbekistan-sukkot-2027/"
+    },
+    {
+      "id": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F-%D7%9E%D7%A8%D7%A5-2027/",
+      "retrievedAt": "2026-11-02T15:04:50.758Z",
+      "path": "/tours/uzbekistan-march-2027/"
+    },
+    {
+      "id": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F-2027-%D7%90%D7%A4%D7%A8%D7%99%D7%9C/",
+      "retrievedAt": "2026-11-02T15:04:52.102Z",
+      "path": "/tours/uzbekistan-april-2027/"
+    },
+    {
+      "id": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "sourceUrl": "https://roniellatours.com/category/%D7%9B%D7%9C%D7%9C%D7%99/",
+      "retrievedAt": "2026-11-02T15:04:53.352Z",
+      "path": "/category/general/"
+    },
+    {
+      "id": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:54.710Z",
+      "path": "/destinations/uzbekistan/"
+    },
+    {
+      "id": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%99%D7%95%D7%95%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:56.019Z",
+      "path": "/destinations/greece/"
+    },
+    {
+      "id": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "sourceUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA/%D7%A1%D7%99%D7%9F/",
+      "retrievedAt": "2026-11-02T15:04:57.353Z",
+      "path": "/destinations/china/"
+    },
+    {
+      "id": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "sourceUrl": "https://roniellatours.com/author/yozana/",
+      "retrievedAt": "2026-11-02T15:04:59.923Z",
+      "path": "/authors/yaniv-ozana/"
+    },
+    {
+      "id": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "sourceUrl": "https://roniellatours.com/author/orental/",
+      "retrievedAt": "2026-11-02T15:05:01.233Z",
+      "path": "/authors/oren-tal/"
+    },
+    {
+      "id": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "sourceUrl": "https://roniellatours.com/author/roni/",
+      "retrievedAt": "2026-11-02T15:05:02.545Z",
+      "path": "/authors/roni/"
+    }
+  ],
+  "unavailable": [
+    {
+      "pageId": "page-9a9eb7fe-463a-4a45-9ea3-57a93672d117",
+      "file": "staging/2026-11-02-live-refresh/pages/page-9a9eb7fe-463a-4a45-9ea3-57a93672d117.txt",
+      "publicPath": null,
+      "httpStatus": 404
+    },
+    {
+      "pageId": "page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2",
+      "file": "staging/2026-11-02-live-refresh/pages/page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2.txt",
+      "publicPath": null,
+      "httpStatus": 404
+    }
+  ],
+  "note": "Public crawl evidence stays in docs/live-site-content; this folder contains editable runtime content."
+}

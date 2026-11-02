@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "crawlRunId": "2026-11-02-live-refresh",
+  "baselineManifest": "manifest.txt",
+  "differences": [
+    {
+      "pageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "existingFile": "pages/page-e2ae99d4-4867-4f00-b5de-725583543af6.txt",
+      "baselineRecordHash": "sha256:eb2209d844d9bf626729ed1d28a01ba2caa6d81f0759588de0f91b928b83435d",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-e2ae99d4-4867-4f00-b5de-725583543af6.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "existingFile": "pages/page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4.txt",
+      "baselineRecordHash": "sha256:ea264916c4a432a506c1fc2a0a99909e8cb7f313c69b8c0417a58b0224463e87",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "existingFile": "pages/page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a.txt",
+      "baselineRecordHash": "sha256:d8fc9219e8f82276d1419b53886fe2f09fbbfc8225af122f26739aceece3e87c",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "existingFile": "pages/page-abef17c9-f313-4611-8203-e47d306b916a.txt",
+      "baselineRecordHash": "sha256:50ffd8af4031aa1f4bb55b3560ba66b3ff10cdecda385e3a8a2f2e29fbcf011e",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-abef17c9-f313-4611-8203-e47d306b916a.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "existingFile": "pages/page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7.txt",
+      "baselineRecordHash": "sha256:b7f1a473bec4d00257b90c8cd58816295efce4f308f1b713edbc4ca4d33a6084",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "existingFile": "pages/page-0ece30a3-48a0-4586-bed3-100457f83c8d.txt",
+      "baselineRecordHash": "sha256:9852a966fcf8dee94b0ec58a18d70d7fe85528286412897142d430f7ecefd731",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-0ece30a3-48a0-4586-bed3-100457f83c8d.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "existingFile": "pages/page-7f6996d9-3dde-4d7a-8d00-5309944361a2.txt",
+      "baselineRecordHash": "sha256:e8bf1b1b8a780c649273ef3bec7b13849163f035d2aead507e361ffcca9625f3",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-7f6996d9-3dde-4d7a-8d00-5309944361a2.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "existingFile": "pages/page-56dcafb5-3628-4c18-953c-02b0deb8adc9.txt",
+      "baselineRecordHash": "sha256:febf1c1f869455d1006bbf70b99e86fa71c54aa47f1167b3eb88efb1f19a4151",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-56dcafb5-3628-4c18-953c-02b0deb8adc9.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "existingFile": "pages/page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19.txt",
+      "baselineRecordHash": "sha256:bb8e28a395c796ce49f35fc46b1a11154e2366ecf76dc6013cb4271c424c9ad2",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "existingFile": "pages/page-d0f02c63-5adc-429a-9207-067f632a39c3.txt",
+      "baselineRecordHash": "sha256:16ac580c6a32aaacf32d059e3960eb30136b52f66c864e666254cc8729d9630f",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-d0f02c63-5adc-429a-9207-067f632a39c3.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "existingFile": "pages/page-d642ebf1-f724-414e-8d32-a5c213cdd9be.txt",
+      "baselineRecordHash": "sha256:eca2a1c6974a3455e44f51bc9922b198690934fa36c53579c0d413d427c00231",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-d642ebf1-f724-414e-8d32-a5c213cdd9be.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "existingFile": "pages/page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a.txt",
+      "baselineRecordHash": "sha256:c3e51944de1a7844c4541b07ffc00639991bed688de627a6f089ec1be8c5e550",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "existingFile": "pages/page-a8b24e49-16c5-4b84-a519-0de512ec4252.txt",
+      "baselineRecordHash": "sha256:ed7e7a94c662aeb58ed589c900174c96362e1b3e7aac47ef9efd5fa4ece44b56",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-a8b24e49-16c5-4b84-a519-0de512ec4252.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "existingFile": "pages/page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68.txt",
+      "baselineRecordHash": "sha256:0f89fb8325b55bfe22eea2d57c47e5cc32a70df19988e6db395ea7412da8f58a",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "existingFile": "pages/page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91.txt",
+      "baselineRecordHash": "sha256:72297548d31a7815c65672e1fd16b1f4fefc7637220d35150f1fdf007364200f",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "existingFile": "pages/page-96557157-6056-4ad0-b9a5-890867a778b1.txt",
+      "baselineRecordHash": "sha256:b02413da8027a5c0f01e2820686a823ab26d901cf916769c75066ebd8bbe5f94",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-96557157-6056-4ad0-b9a5-890867a778b1.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "existingFile": "pages/page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795.txt",
+      "baselineRecordHash": "sha256:7e6448adc998f1893b9955dee1339a0ace834c997f5e086604fd02179ccfbc72",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f",
+      "existingFile": "pages/page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f.txt",
+      "baselineRecordHash": "sha256:dee3c8334b9d6c4ffc15727566843ed0dc46c1f8fecaa83fb067699ef1f346ce",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-357b4143-9236-4375-a9ea-b8c86e8f5c17",
+      "existingFile": "pages/page-357b4143-9236-4375-a9ea-b8c86e8f5c17.txt",
+      "baselineRecordHash": "sha256:83faa10763e2b0cb9d1f588c1cbdc483eda236b1d68f72031b5fd8bd03292541",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-357b4143-9236-4375-a9ea-b8c86e8f5c17.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-4c573761-052a-4365-98fe-78b021e4cf4b",
+      "existingFile": "pages/page-4c573761-052a-4365-98fe-78b021e4cf4b.txt",
+      "baselineRecordHash": "sha256:5637ea9a570c10808073b5d7e429e24eca4888f5cbbe39aebfa442b151abda17",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-4c573761-052a-4365-98fe-78b021e4cf4b.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-233e9f1f-20f0-4fdb-af54-ccea5804ee39",
+      "existingFile": "pages/page-233e9f1f-20f0-4fdb-af54-ccea5804ee39.txt",
+      "baselineRecordHash": "sha256:16dd96b729f07e5d00aa784cc14ccbb1ab828b6abdc90254c2bde0ab68b07853",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-233e9f1f-20f0-4fdb-af54-ccea5804ee39.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-df1f53e2-e60a-494d-8089-e928f7441bbb",
+      "existingFile": "pages/page-df1f53e2-e60a-494d-8089-e928f7441bbb.txt",
+      "baselineRecordHash": "sha256:62319bd87e0ac7dfd8d5306507d3d40e3800e460b87c0a3209e4c76832683e3d",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-df1f53e2-e60a-494d-8089-e928f7441bbb.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-fe5b238c-8e40-4c47-86ac-931d5f95672d",
+      "existingFile": "pages/page-fe5b238c-8e40-4c47-86ac-931d5f95672d.txt",
+      "baselineRecordHash": "sha256:f05572e7bc57b3f74b783cce23e60b8326bd45dac11cfe8d494c286654a8b83c",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-fe5b238c-8e40-4c47-86ac-931d5f95672d.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "existingFile": "pages/page-2e63b934-ac47-4c06-9869-8a08048796bc.txt",
+      "baselineRecordHash": "sha256:1a751702cc5890f17b627fdd427ebf7d324dcef1f5a089633fc127c3b72129e4",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-2e63b934-ac47-4c06-9869-8a08048796bc.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-d17a3366-d3b4-4007-86de-6c51165a6c69",
+      "existingFile": "pages/page-d17a3366-d3b4-4007-86de-6c51165a6c69.txt",
+      "baselineRecordHash": "sha256:c42915a133986594ac730b21d1ed4899fbe8febac40489335f2cdb8dc111c903",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-d17a3366-d3b4-4007-86de-6c51165a6c69.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "existingFile": "pages/page-1dda50ad-a058-4262-9e38-a99f8ec1e657.txt",
+      "baselineRecordHash": "sha256:dcbb1d09a7ec5f606be97d004e51623c7028f39a931cd1c509dbc1fd540f709a",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-1dda50ad-a058-4262-9e38-a99f8ec1e657.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "existingFile": "pages/page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f.txt",
+      "baselineRecordHash": "sha256:9129cda518a121bd53cfb2fe06ac88390128bb058ede1fa6ab1b6aa146212cb4",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "existingFile": "pages/page-91f21a4c-b40b-431c-a1d6-6e2e966c0929.txt",
+      "baselineRecordHash": "sha256:af9e6e8eed530f0bf0a282d14e5f03685a2b21dcb54f19f43e28d945784c9aeb",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-91f21a4c-b40b-431c-a1d6-6e2e966c0929.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "existingFile": "pages/page-8b705230-ab4d-496c-8e06-f2bcc6254ac6.txt",
+      "baselineRecordHash": "sha256:444c4b4d43ab8d0f3f0118f9438c614d2e21eeab544a99d92460d7506c778027",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-8b705230-ab4d-496c-8e06-f2bcc6254ac6.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "existingFile": "pages/page-ab41fae7-625a-40f8-8ef7-83dd3e578e47.txt",
+      "baselineRecordHash": "sha256:6bae7723b0cdf0f1065539dc290ca713be10c9d26133c0ae5d593b4df67d3adb",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-ab41fae7-625a-40f8-8ef7-83dd3e578e47.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "existingFile": "pages/page-ea3b483b-a1af-4c08-a715-16a97d3b0082.txt",
+      "baselineRecordHash": "sha256:a825c0cd3f8ec2f21298d298dbe63fe5ae7cefd887a73ce11016e88a1e2ad983",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-ea3b483b-a1af-4c08-a715-16a97d3b0082.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "existingFile": "pages/page-99086b24-3a6e-4817-b05a-9617a417b886.txt",
+      "baselineRecordHash": "sha256:42e44a875f6f54fff9e1ac5721f9e2c1dbeefa9171321c5573017f80e3ba243e",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-99086b24-3a6e-4817-b05a-9617a417b886.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "existingFile": "pages/page-1259e55f-578c-4db2-90b6-274d43d51283.txt",
+      "baselineRecordHash": "sha256:9c430d912867ac3d964076b34272e4cb9f0880cedd7e3a3f81117d0411287cfa",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-1259e55f-578c-4db2-90b6-274d43d51283.txt",
+      "sourceChanged": true,
+      "mainTextChanged": true,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "existingFile": "pages/page-496b135a-ca6c-4c36-b312-22502e4f12e1.txt",
+      "baselineRecordHash": "sha256:11b70492bce0aa98a0a89903a1f2ad64d057b3902fa4ebc3ea09e8e93c96af03",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-496b135a-ca6c-4c36-b312-22502e4f12e1.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "existingFile": "pages/page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8.txt",
+      "baselineRecordHash": "sha256:174969086d320039d3e28aa04fb6273de43b9c0c421b89d962b1f364a48f7b75",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "existingFile": "pages/page-bf7483c1-f008-4008-902e-91ceef37abd1.txt",
+      "baselineRecordHash": "sha256:8e2bb4b69a5521f91f3e7118393ccafdbe3ba5452f28687c8afa323bbdddc261",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-bf7483c1-f008-4008-902e-91ceef37abd1.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "existingFile": "pages/page-8101b7c5-4a69-4feb-859a-e988f656b78c.txt",
+      "baselineRecordHash": "sha256:b1c2e82e40788becc3b842327d4880128d74a4d834c577d631447db88392b2c7",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-8101b7c5-4a69-4feb-859a-e988f656b78c.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-9a9eb7fe-463a-4a45-9ea3-57a93672d117",
+      "existingFile": "pages/page-9a9eb7fe-463a-4a45-9ea3-57a93672d117.txt",
+      "baselineRecordHash": "sha256:832dc1566920e32c5e5384f3d2cc789e967a699f810fda8716a3276b553c160d",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-9a9eb7fe-463a-4a45-9ea3-57a93672d117.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "existingFile": "pages/page-8b5c126b-4175-4479-8bf8-8581747abd8f.txt",
+      "baselineRecordHash": "sha256:c03cbbe116576bceaa7aa87714f232fa922022e220e157a8ea3702780ca0f5ac",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-8b5c126b-4175-4479-8bf8-8581747abd8f.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "existingFile": "pages/page-02732de0-5f00-435f-b924-831070d3c2bd.txt",
+      "baselineRecordHash": "sha256:822c56d2b8169278d42fb6765022b26e2006becff130538d54a2468c719366a8",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-02732de0-5f00-435f-b924-831070d3c2bd.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "existingFile": "pages/page-28aeda68-0dc8-47bd-ae07-87107734b74d.txt",
+      "baselineRecordHash": "sha256:9ea7dc1b400b251ab152dcc7cae8dac0bf9a4e2d0a2ee7f37ca33ecc1115bb6c",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-28aeda68-0dc8-47bd-ae07-87107734b74d.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    },
+    {
+      "pageId": "page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2",
+      "existingFile": "pages/page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2.txt",
+      "baselineRecordHash": "sha256:0357044a9f55e7bbedc10b173f663ecf4ffaba89c9417b5a0742199062077009",
+      "stagedFile": "staging/2026-11-02-live-refresh/pages/page-6b2d8e43-5ffc-42de-b3ef-a80e6e98e8a2.txt",
+      "sourceChanged": true,
+      "mainTextChanged": false,
+      "publicPathPreserved": true,
+      "note": "Existing record untouched. Review staged source and manually corrected fields before merging."
+    }
+  ],
+  "newPageIds": [],
+  "automaticOverwrite": false
+}

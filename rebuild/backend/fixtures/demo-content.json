@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "demo": true,
+  "sampleNotice": "אתר הדגמה — המסלולים, התאריכים, המחירים, התנאים וההמלצות הם תוכן לדוגמה בלבד ואינם הצעה להזמנה.",
+  "siteSettings": {
+    "businessName": "Roniella Tours",
+    "language": "he",
+    "timezone": "Asia/Jerusalem",
+    "contact": {
+      "phone": "073-3744686",
+      "email": "roniellatours@gmail.com",
+      "address": "דרך בית לחם 74, ירושלים — פרט שנצפה באתר הקיים, לאישור"
+    },
+    "navigation": [
+      {
+        "label": "ראשי",
+        "path": "/"
+      },
+      {
+        "label": "הטיולים שלנו",
+        "path": "/tours/"
+      },
+      {
+        "label": "מי אנחנו",
+        "path": "/about/"
+      },
+      {
+        "label": "המדריכים שלנו",
+        "path": "/guides/"
+      },
+      {
+        "label": "בלוג",
+        "path": "/blog/"
+      },
+      {
+        "label": "גלריה",
+        "path": "/gallery/"
+      },
+      {
+        "label": "וידיאו",
+        "path": "/videos/"
+      },
+      {
+        "label": "המלצות",
+        "path": "/testimonials/"
+      },
+      {
+        "label": "יצירת קשר",
+        "path": "/contact/"
+      }
+    ],
+    "footerLinks": [
+      {
+        "label": "יצירת קשר",
+        "path": "/contact/"
+      },
+      {
+        "label": "מדיניות פרטיות — טיוטה",
+        "path": "/privacy/"
+      },
+      {
+        "label": "הצהרת נגישות — טיוטה",
+        "path": "/accessibility/"
+      }
+    ],
+    "featuredTourIds": [
+      "tour-silk-road",
+      "tour-greece"
+    ],
+    "featuredPostIds": [
+      "post-travel-journal",
+      "post-greece-notes"
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-home",
+      "path": "/",
+      "pageType": "home",
+      "title": "Roniella Tours — מסעות של תרבות",
+      "seo": {
+        "title": "Roniella Tours — מסעות של תרבות | Roniella Tours — הדגמה",
+        "description": "מסעות לדוגמה בעקבות מקומות, אנשים וסיפורים. זוהי תשתית חדשה לאתר, עם תוכן קצר להמחשה בלבד.",
+        "canonicalPath": "/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "מסעות לדוגמה בעקבות מקומות, אנשים וסיפורים. זוהי תשתית חדשה לאתר, עם תוכן קצר להמחשה בלבד."
+        }
+      ]
+    },
+    {
+      "id": "page-tours",
+      "path": "/tours/",
+      "pageType": "tours",
+      "title": "הטיולים שלנו",
+      "seo": {
+        "title": "הטיולים שלנו | Roniella Tours — הדגמה",
+        "description": "שני מסלולים לדוגמה. בחרו מסלול כדי לעיין בתכנית היומית ובמבנה היציאות.",
+        "canonicalPath": "/tours/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "שני מסלולים לדוגמה. בחרו מסלול כדי לעיין בתכנית היומית ובמבנה היציאות."
+        }
+      ]
+    },
+    {
+      "id": "page-about",
+      "path": "/about/",
+      "pageType": "about",
+      "title": "מי אנחנו",
+      "seo": {
+        "title": "מי אנחנו | Roniella Tours — הדגמה",
+        "description": "Roniella Tours עוסק בטיולי תרבות והיסטוריה. טקסט ההיכרות כאן הוא טיוטה קצרה, המבוססת על מבנה האתר הקיים וזקוקה לאישור.",
+        "canonicalPath": "/about/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Roniella Tours עוסק בטיולי תרבות והיסטוריה. טקסט ההיכרות כאן הוא טיוטה קצרה, המבוססת על מבנה האתר הקיים וזקוקה לאישור."
+        }
+      ]
+    },
+    {
+      "id": "page-guides",
+      "path": "/guides/",
+      "pageType": "guides",
+      "title": "המדריכים שלנו",
+      "seo": {
+        "title": "המדריכים שלנו | Roniella Tours — הדגמה",
+        "description": "הדמויות והביוגרפיות ברשימה זו בדיוניות ונועדו להדגים את מבנה התוכן.",
+        "canonicalPath": "/guides/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "הדמויות והביוגרפיות ברשימה זו בדיוניות ונועדו להדגים את מבנה התוכן."
+        }
+      ]
+    },
+    {
+      "id": "page-blog",
+      "path": "/blog/",
+      "pageType": "blog",
+      "title": "בלוג",
+      "seo": {
+        "title": "בלוג | Roniella Tours — הדגמה",
+        "description": "יומני מסע קצרים לדוגמה. מאמרים יכולים להופיע בכתובות עצמאיות בשורש האתר.",
+        "canonicalPath": "/blog/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "יומני מסע קצרים לדוגמה. מאמרים יכולים להופיע בכתובות עצמאיות בשורש האתר."
+        }
+      ]
+    },
+    {
+      "id": "page-gallery",
+      "path": "/gallery/",
+      "pageType": "gallery",
+      "title": "גלריה",
+      "seo": {
+        "title": "גלריה | Roniella Tours — הדגמה",
+        "description": "איורים מקומיים לדוגמה, מקובצים לפי יעד. אלו אינם צילומים מטיולים אמיתיים.",
+        "canonicalPath": "/gallery/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "איורים מקומיים לדוגמה, מקובצים לפי יעד. אלו אינם צילומים מטיולים אמיתיים."
+        }
+      ]
+    },
+    {
+      "id": "page-videos",
+      "path": "/videos/",
+      "pageType": "videos",
+      "title": "וידיאו",
+      "seo": {
+        "title": "וידיאו | Roniella Tours — הדגמה",
+        "description": "קישור חיצוני להמחשת מבנה רשומת וידיאו. אין טעינה אוטומטית של נגנים או שירותי צד שלישי.",
+        "canonicalPath": "/videos/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "קישור חיצוני להמחשת מבנה רשומת וידיאו. אין טעינה אוטומטית של נגנים או שירותי צד שלישי."
+        }
+      ]
+    },
+    {
+      "id": "page-testimonials",
+      "path": "/testimonials/",
+      "pageType": "testimonials",
+      "title": "המלצות",
+      "seo": {
+        "title": "המלצות | Roniella Tours — הדגמה",
+        "description": "הציטוט הבא נכתב לצורכי בדיקת התצוגה בלבד; הוא אינו המלצה של לקוח אמיתי.",
+        "canonicalPath": "/testimonials/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "הציטוט הבא נכתב לצורכי בדיקת התצוגה בלבד; הוא אינו המלצה של לקוח אמיתי."
+        }
+      ]
+    },
+    {
+      "id": "page-contact",
+      "path": "/contact/",
+      "pageType": "contact",
+      "title": "יצירת קשר",
+      "seo": {
+        "title": "יצירת קשר | Roniella Tours — הדגמה",
+        "description": "אפשר ליצור קשר בטלפון או בדואר אלקטרוני. באתר ההדגמה אין טופס שליחת פרטים.",
+        "canonicalPath": "/contact/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "אפשר ליצור קשר בטלפון או בדואר אלקטרוני. באתר ההדגמה אין טופס שליחת פרטים."
+        }
+      ]
+    },
+    {
+      "id": "page-privacy",
+      "path": "/privacy/",
+      "pageType": "privacy",
+      "title": "מדיניות פרטיות — טיוטה",
+      "seo": {
+        "title": "מדיניות פרטיות — טיוטה | Roniella Tours — הדגמה",
+        "description": "מציין מקום בלבד. נדרש נוסח פרטיות מאושר לפני פרסום האתר. הדגמה זו אינה כוללת טפסי איסוף מידע או כלי מדידה.",
+        "canonicalPath": "/privacy/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "מציין מקום בלבד. נדרש נוסח פרטיות מאושר לפני פרסום האתר. הדגמה זו אינה כוללת טפסי איסוף מידע או כלי מדידה."
+        }
+      ],
+      "draft": true
+    },
+    {
+      "id": "page-accessibility",
+      "path": "/accessibility/",
+      "pageType": "accessibility",
+      "title": "הצהרת נגישות — טיוטה",
+      "seo": {
+        "title": "הצהרת נגישות — טיוטה | Roniella Tours — הדגמה",
+        "description": "מציין מקום בלבד. יש להשלים בדיקת נגישות והצהרה מאושרת עם פרטי קשר לפני פרסום. אין כאן טענה לעמידה בתקן.",
+        "canonicalPath": "/accessibility/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "מציין מקום בלבד. יש להשלים בדיקת נגישות והצהרה מאושרת עם פרטי קשר לפני פרסום. אין כאן טענה לעמידה בתקן."
+        }
+      ],
+      "draft": true
+    }
+  ],
+  "destinations": [
+    {
+      "id": "destination-uzbekistan",
+      "slug": "uzbekistan",
+      "name": "אוזבקיסטן",
+      "summary": "יעד לדוגמה למסע בעקבות ערים עתיקות ודרכי מסחר.",
+      "heroMediaId": "media-arches"
+    },
+    {
+      "id": "destination-greece",
+      "slug": "greece",
+      "name": "יוון",
+      "summary": "יעד לדוגמה למסע בעקבות נוף, תרבות ומורשת.",
+      "heroMediaId": "media-hills"
+    }
+  ],
+  "tours": [
+    {
+      "id": "tour-silk-road",
+      "slug": "silk-road-demo",
+      "path": "/tours/silk-road-demo/",
+      "title": "דרך המשי — מסלול לדוגמה",
+      "summary": "שלושה ימי הדגמה בעקבות אדריכלות, שווקים וסיפורים מקומיים.",
+      "seo": {
+        "title": "דרך המשי — מסלול לדוגמה | Roniella Tours — הדגמה",
+        "description": "מסלול הדגמה בן שלושה ימים: מבוא, מדריכים, יציאות ומסלול יומי.",
+        "canonicalPath": "/tours/silk-road-demo/"
+      },
+      "destinationId": "destination-uzbekistan",
+      "guideIds": [
+        "guide-noa",
+        "guide-daniel"
+      ],
+      "durationDays": 3,
+      "heroMediaId": "media-arches",
+      "highlights": [
+        "מבט על כיכר העיר העתיקה",
+        "סיור דוגמה בשוק מקומי",
+        "שיחה על דרכי מסחר"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "מפגש בכיכר העתיקה",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "נפתח את מסלול ההדגמה בהיכרות עם הכיכר והמבנים שסביבה. נקדיש זמן להתבוננות בפרטי האדריכלות."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "סיפורים לאורך דרך המשי",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "נצא לסיור דוגמה בין סמטאות ושווקים ונשוחח על מפגש בין תרבויות."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "הליכה נינוחה בסמטאות",
+                "מפגש מסכם בקבוצה"
+              ]
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "title": "מבט אחרון וסיכום המסע",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "נסכם את הסיפורים שפגשנו ונשאיר זמן לשאלות ולשיחה משותפת. כל הסדרי הנסיעה כאן הם המחשה בלבד."
+            }
+          ]
+        }
+      ],
+      "inclusions": [
+        "הדרכה לדוגמה לאורך המסלול",
+        "סיורי ההדגמה המתוארים בתכנית"
+      ],
+      "exclusions": [
+        "טיסות ושירותים שלא פורטו",
+        "ביטוח והוצאות אישיות"
+      ],
+      "generalTerms": [
+        {
+          "type": "paragraph",
+          "text": "תנאים לדוגמה בלבד, שאינם חוזה או התחייבות. לפני פרסום נדרשים אישור תכנית, תמחור, מדיניות ביטול ופרטי ספקים."
+        }
+      ]
+    },
+    {
+      "id": "tour-greece",
+      "slug": "greece-demo",
+      "path": "/tours/greece-demo/",
+      "title": "יוון — מסלול לדוגמה",
+      "summary": "יומיים לדוגמה של היכרות עם נוף, מורשת ותרבות ביוון.",
+      "seo": {
+        "title": "יוון — מסלול לדוגמה | Roniella Tours — הדגמה",
+        "description": "מסלול לדוגמה ביוון עם תכנית יומית וללא יציאות מתוכננות.",
+        "canonicalPath": "/tours/greece-demo/"
+      },
+      "destinationId": "destination-greece",
+      "guideIds": [
+        "guide-noa"
+      ],
+      "durationDays": 2,
+      "heroMediaId": "media-hills",
+      "highlights": [
+        "התבוננות בנוף",
+        "שיחה על שימור מורשת"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "בין נוף לסיפור",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "יום דוגמה המשלב הליכה קצרה ושיחה על הקשר בין הנוף לסיפור המקומי."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "title": "מורשת במבט מקרוב",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "נקדיש את יום ההדגמה השני למפגש עם רעיונות של שימור ומורשת. התכנית אינה מסלול מאושר."
+            }
+          ]
+        }
+      ],
+      "inclusions": [
+        "הדרכה לדוגמה"
+      ],
+      "exclusions": [
+        "כל שירות שלא אושר במפורש"
+      ],
+      "generalTerms": [
+        {
+          "type": "paragraph",
+          "text": "זהו מסלול המחשה ללא יציאות, מחיר או אפשרות הזמנה."
+        }
+      ]
+    }
+  ],
+  "departures": [
+    {
+      "id": "departure-silk-spring",
+      "tourId": "tour-silk-road",
+      "startDate": "2027-02-10",
+      "endDate": "2027-02-12",
+      "bookingStatus": "enquiryOpen",
+      "price": {
+        "minorUnits": 125000,
+        "currency": "USD"
+      },
+      "singleRoomSupplement": {
+        "minorUnits": 20000,
+        "currency": "USD"
+      },
+      "terms": [
+        {
+          "type": "paragraph",
+          "text": "יציאת הדגמה בלבד; אין הרשמה או מכירה."
+        }
+      ]
+    },
+    {
+      "id": "departure-silk-autumn",
+      "tourId": "tour-silk-road",
+      "startDate": "2027-10-10",
+      "endDate": "2027-10-12",
+      "bookingStatus": "limited",
+      "price": null
+    },
+    {
+      "id": "departure-silk-undated",
+      "tourId": "tour-silk-road",
+      "startDate": null,
+      "endDate": null,
+      "bookingStatus": "closed",
+      "price": null
+    }
+  ],
+  "guides": [
+    {
+      "id": "guide-noa",
+      "name": "נועה — מדריכת הדגמה",
+      "role": "דמות בדיונית להדגמת הדרכה",
+      "biography": [
+        {
+          "type": "paragraph",
+          "text": "ביוגרפיה לדוגמה בלבד. כאן יוצג בעתיד מידע מאושר על מדריכי החברה."
+        }
+      ],
+      "portraitMediaId": "media-portrait"
+    },
+    {
+      "id": "guide-daniel",
+      "name": "דניאל — מדריך הדגמה",
+      "role": "דמות בדיונית להדגמת תוכן תרבותי",
+      "biography": [
+        {
+          "type": "paragraph",
+          "text": "טקסט קצר לדוגמה, שאינו מתאר אדם אמיתי או הכשרה מקצועית מאושרת."
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-travel-journal",
+      "path": "/blog/travel-journal-demo/",
+      "title": "יומן מסע לדוגמה: להתבונן בדרך",
+      "excerpt": "רשימה קצרה לדוגמה על תשומת לב לפרטים במסע תרבותי.",
+      "publicationDate": "2026-10-01",
+      "seo": {
+        "title": "יומן מסע לדוגמה: להתבונן בדרך | Roniella Tours — הדגמה",
+        "description": "מאמר הדגמה מקורי על התבוננות בפרטי הדרך ועל הקשבה לסיפור המקומי.",
+        "canonicalPath": "/blog/travel-journal-demo/"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "עוצרים כדי להתבונן"
+        },
+        {
+          "type": "paragraph",
+          "text": "לפעמים דווקא עצירה קצרה בדרך פותחת מקום לסיפור חדש. זהו טקסט מקורי לדוגמה, הממחיש כיצד מאמר יופיע כבר בתשובת השרת."
+        },
+        {
+          "type": "image",
+          "mediaId": "media-arches"
+        },
+        {
+          "type": "paragraph",
+          "text": "נבחן את הפרטים שסביבנו, נשאל שאלות ונחבר בין המראות לרעיונות שעלו בשיחה."
+        }
+      ],
+      "relatedDestinationIds": [
+        "destination-uzbekistan"
+      ],
+      "relatedTourIds": [
+        "tour-silk-road"
+      ],
+      "slug": "travel-journal-demo"
+    },
+    {
+      "id": "post-greece-notes",
+      "path": "/blog/greece-notes-demo/",
+      "title": "מבט על יוון — רשימה לדוגמה",
+      "excerpt": "המחשה קצרה למאמר המשלב טקסט, כותרת ורשימה.",
+      "publicationDate": "2026-10-10",
+      "seo": {
+        "title": "מבט על יוון — רשימה לדוגמה | Roniella Tours — הדגמה",
+        "description": "רשימת הדגמה מקורית על נוף, סיפור ושאלות לקראת מסע ביוון.",
+        "canonicalPath": "/blog/greece-notes-demo/"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "הנוף מספק נקודת פתיחה לשיחה על המקום. רשימת הדגמה זו אינה תיאור של טיול שהתקיים."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "שאלות לדרך"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "מה מושך את העין בנוף?",
+            "איזה סיפור נרצה להכיר?",
+            "מה נרצה לשאול בסיום היום?"
+          ]
+        }
+      ],
+      "relatedDestinationIds": [
+        "destination-greece"
+      ],
+      "relatedTourIds": [
+        "tour-greece"
+      ],
+      "slug": "greece-notes-demo"
+    }
+  ],
+  "mediaAssets": [
+    {
+      "id": "media-arches",
+      "publicPath": "/assets/arches.svg",
+      "alt": "איור מקומי לדוגמה של קשתות וכיפה",
+      "width": 960,
+      "height": 540,
+      "caption": "איור מציין מקום — אינו צילום מהיעד",
+      "credit": "איור מקומי שנוצר עבור ההדגמה"
+    },
+    {
+      "id": "media-hills",
+      "publicPath": "/assets/hills.svg",
+      "alt": "איור מקומי לדוגמה של גבעות וים",
+      "width": 960,
+      "height": 540,
+      "caption": "איור נוף לדוגמה"
+    },
+    {
+      "id": "media-portrait",
+      "publicPath": "/assets/portrait.svg",
+      "alt": "צללית כללית לדוגמה; אינה דיוקן של אדם אמיתי",
+      "width": 480,
+      "height": 360
+    }
+  ],
+  "galleries": [
+    {
+      "id": "gallery-uzbekistan",
+      "title": "קשתות ונוף — איורי הדגמה",
+      "destinationId": "destination-uzbekistan",
+      "mediaIds": [
+        "media-arches",
+        "media-hills"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-example",
+      "title": "רשומת וידיאו לדוגמה",
+      "description": "קישור לסרטון שנמצא במאגר הייחוס הישן. תוכן הסרטון וזכויות השימוש טרם אומתו; נדרש אישור לפני פרסום.",
+      "provider": "youtube",
+      "externalUrl": "https://www.youtube.com/watch?v=0ig45aOXt7A"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-example",
+      "displayName": "מטיילת לדוגמה — דמות בדיונית",
+      "quote": "זהו ציטוט הדגמה לבדיקת עיצוב ההמלצות. אין מדובר בחוות דעת אמיתית.",
+      "tourId": "tour-silk-road"
+    }
+  ]
+}

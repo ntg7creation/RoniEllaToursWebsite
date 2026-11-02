@@ -1,3 +1,19 @@
 # Local browser profiles and screenshot output from visual checks.
 /RoniEllaTours-web/.edge-*/
 /RoniEllaTours-web/screenshots/
+
+roni ella tours database password.txt
+
+# Local credentials, hosting links, dependencies, and build output.
+.env
+.env.*
+!.env.example
+!local.env.example
+.vercel/
+.supabase/
+node_modules/
+*.log
+
+# Design reference exports stay local; implementation and research live in rebuild/.
+/Modern Tour Company Website/
+/Modern Tour Company Website.zip

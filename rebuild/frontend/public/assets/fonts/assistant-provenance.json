@@ -1,0 +1,24 @@
+{
+  "source": "https://fonts.googleapis.com/css2?family=Assistant:wght@400..700&display=swap",
+  "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/assistant/OFL.txt",
+  "assets": [
+    {
+      "file": "assistant-1.woff2",
+      "source": "https://fonts.gstatic.com/s/assistant/v24/2sDcZGJYnIjSi6H75xkzamW5O7w.woff2",
+      "bytes": 7312,
+      "sha256": "f9805e7a16e108bcf6701e6a623fcf560bff3f28522fa94d310e833b3bd60400"
+    },
+    {
+      "file": "assistant-2.woff2",
+      "source": "https://fonts.gstatic.com/s/assistant/v24/2sDcZGJYnIjSi6H75xkzZmW5O7w.woff2",
+      "bytes": 11132,
+      "sha256": "5e2544c15529ea4e9d1e9a8b074cab8013bc0c144b0fd9af9259eae94131a52c"
+    },
+    {
+      "file": "assistant-3.woff2",
+      "source": "https://fonts.gstatic.com/s/assistant/v24/2sDcZGJYnIjSi6H75xkzaGW5.woff2",
+      "bytes": 22096,
+      "sha256": "26b77cc3179a17ab4cf970985d5e51f06c472abcc6415f9bff6651e9285f21c2"
+    }
+  ]
+}

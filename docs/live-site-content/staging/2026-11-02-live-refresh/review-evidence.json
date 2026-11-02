@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 1,
+  "crawlRunId": "2026-11-02-live-refresh",
+  "method": "Compare every readable text node in the immutable primary HTML document (forms/scripts/SVG excluded) against ordered content blocks plus separated widget evidence. This is automated fidelity evidence, not editorial approval.",
+  "rows": [
+    {
+      "pageId": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
+      "publicPath": "/blog/",
+      "pageType": "blog",
+      "sourceTextNodes": 49,
+      "preservedTextNodes": 49,
+      "missingText": [],
+      "sourceH1": [
+        "בלוג"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "בלוג - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/בלוג/"
+    },
+    {
+      "pageId": "page-32a0beb0-48a4-4812-b05f-9d3dc80d9df4",
+      "publicPath": "/blog/abu-simbel/",
+      "pageType": "article",
+      "sourceTextNodes": 37,
+      "preservedTextNodes": 37,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לאבו סימבל"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לאבו סימבל - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לאבו-סימבל/"
+    },
+    {
+      "pageId": "page-f3047d75-2bb0-4e63-8de0-bc4eaf27d68a",
+      "publicPath": "/blog/hanging-church/",
+      "pageType": "article",
+      "sourceTextNodes": 31,
+      "preservedTextNodes": 31,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לכנסייה תלויה / כנסיית אל-מועלק"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לכנסייה תלויה / כנסיית אל-מועלק - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/כנסייה-תלויה-כנסייה-אל-מועלק/"
+    },
+    {
+      "pageId": "page-abef17c9-f313-4611-8203-e47d306b916a",
+      "publicPath": "/blog/memphis-saqqara/",
+      "pageType": "article",
+      "sourceTextNodes": 33,
+      "preservedTextNodes": 33,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לממפיס סקארה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לממפיס סקארה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לממפיס-סקארה/"
+    },
+    {
+      "pageId": "page-8f0d4e17-ba3f-4ff0-ad60-5097b256cfd7",
+      "publicPath": "/blog/cairo/",
+      "pageType": "article",
+      "sourceTextNodes": 40,
+      "preservedTextNodes": 40,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לקהיר"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לקהיר - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לקהיר/"
+    },
+    {
+      "pageId": "page-0ece30a3-48a0-4586-bed3-100457f83c8d",
+      "publicPath": "/blog/alexandria/",
+      "pageType": "article",
+      "sourceTextNodes": 42,
+      "preservedTextNodes": 42,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לאלכסנדריה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לאלכסנדריה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לאלכסנדריה/"
+    },
+    {
+      "pageId": "page-7f6996d9-3dde-4d7a-8d00-5309944361a2",
+      "publicPath": "/blog/dendera-zodiac/",
+      "pageType": "article",
+      "sourceTextNodes": 34,
+      "preservedTextNodes": 34,
+      "missingText": [],
+      "sourceH1": [
+        "מקדשי דנדרה / זודיאק של דנדרה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "מקדשי דנדרה / זודיאק של דנדרה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/מקדשי-דנדרה-זודיאק-של-דנדרה/"
+    },
+    {
+      "pageId": "page-56dcafb5-3628-4c18-953c-02b0deb8adc9",
+      "publicPath": "/blog/aswan-dam/",
+      "pageType": "article",
+      "sourceTextNodes": 39,
+      "preservedTextNodes": 39,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לסכר אסואן"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לסכר אסואן - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לסכר-אסואן/"
+    },
+    {
+      "pageId": "page-1dfc1f64-9c6a-4a46-8199-47d84ad3ff19",
+      "publicPath": "/blog/ancient-greece-facts/",
+      "pageType": "article",
+      "sourceTextNodes": 38,
+      "preservedTextNodes": 38,
+      "missingText": [],
+      "sourceH1": [
+        "חמישה דברים שלא ידעתם על יוון העתיקה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "חמישה דברים שלא ידעתם על יוון העתיקה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [
+        "אסטרונומים ושופטים, מערכות הביוב ותפקיד הנשים ביוון העתיקה. חמישה דברים שלא ידעתם שתוכלו ללמוד בטיול מאורגן בצפון יוון שיוצא לדרך באוקטובר"
+      ],
+      "sourceCanonical": "https://roniellatours.com/חמישה-דברים-שלא-ידעתם-על-יוון-העתיקה/"
+    },
+    {
+      "pageId": "page-d0f02c63-5adc-429a-9207-067f632a39c3",
+      "publicPath": "/blog/ancient-china-facts/",
+      "pageType": "article",
+      "sourceTextNodes": 36,
+      "preservedTextNodes": 36,
+      "missingText": [],
+      "sourceH1": [
+        "חמישה דברים שלא ידעתם על סין העתיקה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "חמישה דברים שלא ידעתם על סין העתיקה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [
+        "חמישה עובדות שלא ידעתם על מדעים, רפואה ומסחר בסין העתיקה. על כל אלו ועוד תוכלו ללמוד בטיול המאורגן שלנו בסין שיוצא לדרך בסמפטמבר הקרוב"
+      ],
+      "sourceCanonical": "https://roniellatours.com/חמישה-דברים-שלא-ידעתם-על-סין-העתיקה/"
+    },
+    {
+      "pageId": "page-d642ebf1-f724-414e-8d32-a5c213cdd9be",
+      "publicPath": "/blog/pyramids/",
+      "pageType": "article",
+      "sourceTextNodes": 34,
+      "preservedTextNodes": 34,
+      "missingText": [],
+      "sourceH1": [
+        "טיול לפירמידות"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול לפירמידות - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-לפירמידות/"
+    },
+    {
+      "pageId": "page-10d00229-15ad-48b7-9c9d-7bb2bac24a7a",
+      "publicPath": "/blog/athens/",
+      "pageType": "article",
+      "sourceTextNodes": 47,
+      "preservedTextNodes": 47,
+      "missingText": [],
+      "sourceH1": [
+        "אתונה – בירת יוון והלב הפועם של התרבות המערבית"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "אתונה - בירת יוון והלב הפועם של התרבות המערבית - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [
+        "גלו את אתונה, בירת יוון, במסע מרתק שמתרכז בהיסטוריה של יוון העתיקה. בואו לחוות את הפרתנון, המוזיאון הלאומי לארכאולוגיה, אגורה העתיקה ועוד."
+      ],
+      "sourceCanonical": "https://roniellatours.com/אתונה-בירת-יוון-והלב-הפועם-של-התרבות-ה/"
+    },
+    {
+      "pageId": "page-a8b24e49-16c5-4b84-a519-0de512ec4252",
+      "publicPath": "/blog/beijing/",
+      "pageType": "article",
+      "sourceTextNodes": 46,
+      "preservedTextNodes": 46,
+      "missingText": [],
+      "sourceH1": [
+        "בייג’ינג – בירת סין"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "בייג'ינג - בירת סין - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [
+        "הצטרפו לטיול בלתי נשכח בבייג'ינג, בירת סין, המשלבת היסטוריה מרשימה ותרבות מודרנית. גלו את העיר האסורה, חומת סין הגדולה, מקדש השמיים ועוד."
+      ],
+      "sourceCanonical": "https://roniellatours.com/בייגינג-בירת-סין/"
+    },
+    {
+      "pageId": "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68",
+      "publicPath": "/blog/china-experience/",
+      "pageType": "article",
+      "sourceTextNodes": 94,
+      "preservedTextNodes": 94,
+      "missingText": [],
+      "sourceH1": [
+        "טיול מאורגן לסין – חוויה של פעם בחיים"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול מאורגן לסין – חוויה של פעם בחיים - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-מאורגן-לסין-חוויה-של-פעם-בחיים/"
+    },
+    {
+      "pageId": "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+      "publicPath": "/blog/china-cultural-journey/",
+      "pageType": "article",
+      "sourceTextNodes": 102,
+      "preservedTextNodes": 102,
+      "missingText": [],
+      "sourceH1": [
+        "טיול מאורגן לסין – מסע תרבותי אל ליבה של האימפריה הסינית"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול מאורגן לסין - מסע תרבותי אל ליבה של האימפריה הסינית - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/מסע-תרבותי-אימפריה-סינית/"
+    },
+    {
+      "pageId": "page-96557157-6056-4ad0-b9a5-890867a778b1",
+      "publicPath": "/blog/uzbekistan-silk-road/",
+      "pageType": "article",
+      "sourceTextNodes": 135,
+      "preservedTextNodes": 135,
+      "missingText": [],
+      "sourceH1": [
+        "טיול מאורגן לאוזבקיסטן – מסע מרתק אל ליבה של דרך המשי"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיול מאורגן לאוזבקיסטן - מסע מרתק אל ליבה של דרך המשי - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיול-מאורגן-לאוזבקיסטן/"
+    },
+    {
+      "pageId": "page-11b19c6d-4634-4aaf-82ce-7e1f5fb35795",
+      "publicPath": "/",
+      "pageType": "home",
+      "sourceTextNodes": 91,
+      "preservedTextNodes": 91,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "טיולי היסטוריה ותרבות מאורגנים בחו\"ל - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [
+        "עמק המלכים הינה חברה לטיולי היסטוריה ותרבות מאורגנים בחו\"ל, טיולים לעולם העתיק ומעבר עם יעדים כמו: יוון, מצרים, סין ועוד. לטיולים הקרובים »"
+      ],
+      "sourceCanonical": "https://roniellatours.com/"
+    },
+    {
+      "pageId": "page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f",
+      "publicPath": "/accessibility/",
+      "pageType": "accessibility",
+      "sourceTextNodes": 28,
+      "preservedTextNodes": 28,
+      "missingText": [],
+      "sourceH1": [
+        "הצהרת נגישות"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "הצהרת נגישות - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הצהרת-נגישות/"
+    },
+    {
+      "pageId": "page-357b4143-9236-4375-a9ea-b8c86e8f5c17",
+      "publicPath": "/testimonials/",
+      "pageType": "testimonials",
+      "sourceTextNodes": 4,
+      "preservedTextNodes": 4,
+      "missingText": [],
+      "sourceH1": [
+        "המלצות"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "המלצות - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/המלצות/"
+    },
+    {
+      "pageId": "page-4c573761-052a-4365-98fe-78b021e4cf4b",
+      "publicPath": "/prices-and-terms/",
+      "pageType": "terms",
+      "sourceTextNodes": 59,
+      "preservedTextNodes": 59,
+      "missingText": [],
+      "sourceH1": [
+        "מחירים ותנאים"
+      ],
+      "itinerarySections": [],
+      "termsSections": [
+        {
+          "heading": "מחירים ותנאים",
+          "start": 0,
+          "end": 33
+        },
+        {
+          "heading": "תנאי תשלום",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "heading": "תנאי ביטול",
+          "start": 4,
+          "end": 10
+        },
+        {
+          "heading": "תנאים ומדיניות המארגנים",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "sourceTitle": [
+        "מחירים ותנאים - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/מחירים-ותנאים/"
+    },
+    {
+      "pageId": "page-233e9f1f-20f0-4fdb-af54-ccea5804ee39",
+      "publicPath": "/videos/",
+      "pageType": "videos",
+      "sourceTextNodes": 4,
+      "preservedTextNodes": 4,
+      "missingText": [],
+      "sourceH1": [
+        "וידיאו"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "וידיאו - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/וידיאו/"
+    },
+    {
+      "pageId": "page-df1f53e2-e60a-494d-8089-e928f7441bbb",
+      "publicPath": "/gallery/",
+      "pageType": "gallery",
+      "sourceTextNodes": 8,
+      "preservedTextNodes": 8,
+      "missingText": [],
+      "sourceH1": [
+        "גלריה"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "גלריה - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/גלריה/"
+    },
+    {
+      "pageId": "page-fe5b238c-8e40-4c47-86ac-931d5f95672d",
+      "publicPath": "/about/",
+      "pageType": "about",
+      "sourceTextNodes": 23,
+      "preservedTextNodes": 23,
+      "missingText": [],
+      "sourceH1": [
+        "מי אנחנו",
+        "למה לטייל איתנו"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "מי אנחנו - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/מי-אנחנו/"
+    },
+    {
+      "pageId": "page-2e63b934-ac47-4c06-9869-8a08048796bc",
+      "publicPath": "/privacy/",
+      "pageType": "privacy",
+      "sourceTextNodes": 81,
+      "preservedTextNodes": 81,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "מדיניות פרטיות - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/privacy-policy/"
+    },
+    {
+      "pageId": "page-d17a3366-d3b4-4007-86de-6c51165a6c69",
+      "publicPath": "/contact/",
+      "pageType": "contact",
+      "sourceTextNodes": 14,
+      "preservedTextNodes": 14,
+      "missingText": [],
+      "sourceH1": [
+        "יצירת קשר"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "יצירת קשר - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/יצירת-קשר/"
+    },
+    {
+      "pageId": "page-1dda50ad-a058-4262-9e38-a99f8ec1e657",
+      "publicPath": "/guides/",
+      "pageType": "guides",
+      "sourceTextNodes": 33,
+      "preservedTextNodes": 33,
+      "missingText": [],
+      "sourceH1": [
+        "המדריכים שלנו"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "המדריכים שלנו - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/המדריכים-שלנו/"
+    },
+    {
+      "pageId": "page-6fce0ca4-1ad8-449d-8d01-84d8141e3f2f",
+      "publicPath": "/tours/",
+      "pageType": "tours",
+      "sourceTextNodes": 49,
+      "preservedTextNodes": 49,
+      "missingText": [],
+      "sourceH1": [
+        "הטיולים שלנו"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "ארכיון טיולים - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/טיולים/"
+    },
+    {
+      "pageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "publicPath": "/tours/northern-greece/",
+      "pageType": "tour",
+      "sourceTextNodes": 287,
+      "preservedTextNodes": 287,
+      "missingText": [],
+      "sourceH1": [
+        "צפון יוון"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "היום הראשון למסע: ברוכים הבאים! עירו של סלומוניקו, קהילה יהודית שער אימפריאלי ורוטונדה מיסתורית",
+          "start": 23,
+          "end": 24
+        },
+        {
+          "heading": "היום השני למסע: אמנות הפסיפס, עיר יפהפיה, תעלות מים ומפל מרשים",
+          "start": 25,
+          "end": 28
+        },
+        {
+          "heading": "היום השלישי למסע: נשים אמיצות, גשרי אבן מקומרים והדולצ'ה ויטה של מלכים ונסיכים בעולם העתיק",
+          "start": 29,
+          "end": 32
+        },
+        {
+          "heading": "היום הרביעי למסע: הסיפור היהודי, חורשה מקודשת וגיזת הזהב",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "heading": "היום החמישי למסע: נופי פרא, הרים הנראים כמו עמודי סלע אדירים, וחיים של התבודדות",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "heading": "היום השישי למסע: כפר ציורי תלוי על מצוק, הצבא שנלחם בצל, ונבואותיה של הפיתיה במרכז היקום",
+          "start": 39,
+          "end": 41
+        },
+        {
+          "heading": "היום השביעי למסע: מנזר קדום, פילוסופים וזוגות אוהבים",
+          "start": 42,
+          "end": 43
+        },
+        {
+          "heading": "היום השמיני למסע: האלה הבתולה, המנהיג שמת במגיפה וריצת המרתון המרגשת ביותר בתולדות יוון",
+          "start": 44,
+          "end": 45
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 52,
+          "end": 84
+        }
+      ],
+      "sourceTitle": [
+        "צפון יוון - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/צפון-יוון-2/"
+    },
+    {
+      "pageId": "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6",
+      "publicPath": "/tours/china-may-2027/",
+      "pageType": "tour",
+      "sourceTextNodes": 308,
+      "preservedTextNodes": 308,
+      "missingText": [],
+      "sourceH1": [
+        "סין – צ’ונג גואה, האימפריה באמצע העולם – מאי 2027"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "היום הראשון למסע: ממריאים אל ארץ החלום",
+          "start": 19,
+          "end": 20
+        },
+        {
+          "heading": "היום השני למסע: סודות ספר התמורות, פילוסופיה חקוקה באבן",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "heading": "היום השלישי למסע: קונפוציוס, לאמה, פעמון, ופלאים ארכיטקטוניים",
+          "start": 24,
+          "end": 25
+        },
+        {
+          "heading": "היום הרביעי למסע: החומה הסינית הגדולה, זאבים מייללים בחשכה, בנו התשיעי של מלך הדרקונים וקברו של קיסר",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "heading": "היום החמישי למסע: אדם מול טנק, דגם ענק ומרגש, מאוזוליאום ועיר אסורה",
+          "start": 29,
+          "end": 30
+        },
+        {
+          "heading": "היום השישי למסע: ביקורים מלכותיים, מסדרון באורך למעלה מ-700 מטרים, פעמון אדיר, הוטונג ורחוב חנויות מסורתי המתפתל לאינסוף",
+          "start": 31,
+          "end": 32
+        },
+        {
+          "heading": "היום השביעי למסע: בין שתי ערי בירה: מבייג'ינג לסיאן",
+          "start": 33,
+          "end": 34
+        },
+        {
+          "heading": "היום השמיני למסע: הצדעה לאלפי חיילי טרהקוטה, קיסר עם\nדגים מלוחים, דגמי מרכבות יפהפיים ודמעות באופרה סינית אמיתית",
+          "start": 35,
+          "end": 36
+        },
+        {
+          "heading": "היום התשיעי למסע: פסלי זהב ענקיים, מסעו של נזיר להודו, ומסגד סיני בלתי שגרתי",
+          "start": 37,
+          "end": 38
+        },
+        {
+          "heading": "היום העשירי למסע: אתנחתא נפלאה של טבע פראי, נופים פראיים ומערת חלון",
+          "start": 39,
+          "end": 40
+        },
+        {
+          "heading": "היום האחד עשר למסע: לרחף על גשר זכוכית מעל התהום, מפלי מים סואנים, ציוץ ציפורים, שייט ושבילים ירוקים מתפתלים",
+          "start": 41,
+          "end": 42
+        },
+        {
+          "heading": "היום השנים עשר למסע: שני נהרות וארבעה אגמים בלילה קסום",
+          "start": 43,
+          "end": 44
+        },
+        {
+          "heading": "היום השלושה עשר למסע: מערת נטיפים יפהפיה וטראסות אורז קסומות",
+          "start": 45,
+          "end": 46
+        },
+        {
+          "heading": "היום הארבעה עשר למסע: נופי יאנגשו.",
+          "start": 47,
+          "end": 48
+        },
+        {
+          "heading": "היום החמישה עשר למסע: ברוכים הבאים לתל אביב של סין",
+          "start": 49,
+          "end": 50
+        },
+        {
+          "heading": "היום השישה עשר למסע: גני איואניו הקסומים והמורשת היהודית של שנגחאי",
+          "start": 51,
+          "end": 52
+        },
+        {
+          "heading": "היום השבעה עשר למסע: ארוחת ערב חגיגית ו\"צט יה (להתראות) צ'ונג גואה\"! - בחזרה מארץ החלום",
+          "start": 53,
+          "end": 55
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 61,
+          "end": 119
+        }
+      ],
+      "sourceTitle": [
+        "סין – צ'ונג גואה, האימפריה באמצע העולם - מאי 2027 - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/סין-צונג-גואה-מאי-2027/"
+    },
+    {
+      "pageId": "page-ab41fae7-625a-40f8-8ef7-83dd3e578e47",
+      "publicPath": "/tours/china-september-2027/",
+      "pageType": "tour",
+      "sourceTextNodes": 308,
+      "preservedTextNodes": 308,
+      "missingText": [],
+      "sourceH1": [
+        "סין – צ’ונג גואה, האימפריה באמצע העולם – ספטמבר 2027"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "היום הראשון למסע: ממריאים אל ארץ החלום",
+          "start": 19,
+          "end": 20
+        },
+        {
+          "heading": "היום השני למסע: סודות ספר התמורות, פילוסופיה חקוקה באבן",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "heading": "היום השלישי למסע: קונפוציוס, לאמה, פעמון, ופלאים ארכיטקטוניים",
+          "start": 24,
+          "end": 25
+        },
+        {
+          "heading": "היום הרביעי למסע: החומה הסינית הגדולה, זאבים מייללים בחשכה, בנו התשיעי של מלך הדרקונים וקברו של קיסר",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "heading": "היום החמישי למסע: אדם מול טנק, דגם ענק ומרגש, מאוזוליאום ועיר אסורה",
+          "start": 29,
+          "end": 30
+        },
+        {
+          "heading": "היום השישי למסע: ביקורים מלכותיים, מסדרון באורך למעלה מ-700 מטרים, פעמון אדיר, הוטונג ורחוב חנויות מסורתי המתפתל לאינסוף",
+          "start": 31,
+          "end": 32
+        },
+        {
+          "heading": "היום השביעי למסע: בין שתי ערי בירה: מבייג'ינג לסיאן",
+          "start": 33,
+          "end": 34
+        },
+        {
+          "heading": "היום השמיני למסע: הצדעה לאלפי חיילי טרהקוטה, קיסר עם\nדגים מלוחים, דגמי מרכבות יפהפיים ודמעות באופרה סינית אמיתית",
+          "start": 35,
+          "end": 36
+        },
+        {
+          "heading": "היום התשיעי למסע: פסלי זהב ענקיים, מסעו של נזיר להודו, ומסגד סיני בלתי שגרתי",
+          "start": 37,
+          "end": 38
+        },
+        {
+          "heading": "היום העשירי למסע: אתנחתא נפלאה של טבע פראי, נופים פראיים ומערת חלון",
+          "start": 39,
+          "end": 40
+        },
+        {
+          "heading": "היום האחד עשר למסע: לרחף על גשר זכוכית מעל התהום, מפלי מים סואנים, ציוץ ציפורים, שייט ושבילים ירוקים מתפתלים",
+          "start": 41,
+          "end": 42
+        },
+        {
+          "heading": "היום השנים עשר למסע: שני נהרות וארבעה אגמים בלילה קסום",
+          "start": 43,
+          "end": 44
+        },
+        {
+          "heading": "היום השלושה עשר למסע: מערת נטיפים יפהפיה וטראסות אורז קסומות",
+          "start": 45,
+          "end": 46
+        },
+        {
+          "heading": "היום הארבעה עשר למסע: נופי יאנגשו.",
+          "start": 47,
+          "end": 48
+        },
+        {
+          "heading": "היום החמישה עשר למסע: ברוכים הבאים לתל אביב של סין",
+          "start": 49,
+          "end": 50
+        },
+        {
+          "heading": "היום השישה עשר למסע: גני איואניו הקסומים והמורשת היהודית של שנגחאי",
+          "start": 51,
+          "end": 52
+        },
+        {
+          "heading": "היום השבעה עשר למסע: ארוחת ערב חגיגית ו\"צט יה (להתראות) צ'ונג גואה\"! - בחזרה מארץ החלום",
+          "start": 53,
+          "end": 55
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 61,
+          "end": 119
+        }
+      ],
+      "sourceTitle": [
+        "סין – צ'ונג גואה, האימפריה באמצע העולם - ספטמבר 2027 - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/סין-צונג-גואה-ספטמבר-2027/"
+    },
+    {
+      "pageId": "page-ea3b483b-a1af-4c08-a715-16a97d3b0082",
+      "publicPath": "/tours/uzbekistan-sukkot-2027/",
+      "pageType": "tour",
+      "sourceTextNodes": 162,
+      "preservedTextNodes": 162,
+      "missingText": [],
+      "sourceH1": [
+        "אוזבקיסטן סוכות 2027"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "יום 1 | תל אביב – טשקנט",
+          "start": 16,
+          "end": 17
+        },
+        {
+          "heading": "יום 2 | טשקנט – בין מסורת, דת ומודרניות",
+          "start": 18,
+          "end": 19
+        },
+        {
+          "heading": "יום 3 | טשקנט – חיווה: עיר האגדות של דרך המשי",
+          "start": 20,
+          "end": 21
+        },
+        {
+          "heading": "יום 4 | מחיווה לבוכרה – לאורך המדבר של מרכז אסיה",
+          "start": 22,
+          "end": 23
+        },
+        {
+          "heading": "יום 5 | בוכרה – יהדות בוכרה והעיר העתיקה",
+          "start": 24,
+          "end": 25
+        },
+        {
+          "heading": "יום 6 | שבת בבוכרה – אדריכלות, היסטוריה ואווירת דרך המשי",
+          "start": 26,
+          "end": 27
+        },
+        {
+          "heading": "יום 7 | מבוכרה לסמרקנד – בעקבות טימור והאסטרונומים",
+          "start": 28,
+          "end": 29
+        },
+        {
+          "heading": "יום 8 | סמרקנד – הפנינה של דרך המשי",
+          "start": 30,
+          "end": 31
+        },
+        {
+          "heading": "יום 9 | סמרקנד – תל אביב",
+          "start": 32,
+          "end": 33
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 41,
+          "end": 77
+        }
+      ],
+      "sourceTitle": [
+        "אוזבקיסטן סוכות 2027 - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/אוזבקיסטן-2027-אפריל-2/"
+    },
+    {
+      "pageId": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "publicPath": "/tours/uzbekistan-march-2027/",
+      "pageType": "tour",
+      "sourceTextNodes": 164,
+      "preservedTextNodes": 164,
+      "missingText": [],
+      "sourceH1": [
+        "אוזבקיסטן מרץ 2027"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "יום 1 | תל אביב – טשקנט",
+          "start": 16,
+          "end": 17
+        },
+        {
+          "heading": "יום 2 | טשקנט – בין מסורת, דת ומודרניות",
+          "start": 18,
+          "end": 19
+        },
+        {
+          "heading": "יום 3 | טשקנט – חיווה: עיר האגדות של דרך המשי",
+          "start": 20,
+          "end": 21
+        },
+        {
+          "heading": "יום 4 | מחיווה לבוכרה – לאורך המדבר של מרכז אסיה",
+          "start": 22,
+          "end": 23
+        },
+        {
+          "heading": "יום 5 | בוכרה – יהדות בוכרה והעיר העתיקה",
+          "start": 24,
+          "end": 25
+        },
+        {
+          "heading": "יום 6 | שבת בבוכרה – אדריכלות, היסטוריה ואווירת דרך המשי",
+          "start": 26,
+          "end": 27
+        },
+        {
+          "heading": "יום 7 | מבוכרה לסמרקנד – בעקבות טימור והאסטרונומים",
+          "start": 28,
+          "end": 29
+        },
+        {
+          "heading": "יום 8 | סמרקנד – הפנינה של דרך המשי",
+          "start": 30,
+          "end": 31
+        },
+        {
+          "heading": "יום 9 | סמרקנד – תל אביב",
+          "start": 32,
+          "end": 33
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 43,
+          "end": 79
+        }
+      ],
+      "sourceTitle": [
+        "אוזבקיסטן מרץ 2027 - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/אוזבקיסטן-מרץ-2027/"
+    },
+    {
+      "pageId": "page-1259e55f-578c-4db2-90b6-274d43d51283",
+      "publicPath": "/tours/uzbekistan-april-2027/",
+      "pageType": "tour",
+      "sourceTextNodes": 138,
+      "preservedTextNodes": 138,
+      "missingText": [],
+      "sourceH1": [
+        "אוזבקיסטן אפריל 2027"
+      ],
+      "itinerarySections": [
+        {
+          "heading": "יום 1 | תל אביב – טשקנט",
+          "start": 19,
+          "end": 20
+        },
+        {
+          "heading": "יום 2 | טשקנט – בין מסורת למודרניות",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "heading": "יום 3 | חיווה — בין חומות דרך המשי",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "heading": "יום 4 | מחיווה לבוכרה — נסיעה במדבר",
+          "start": 27,
+          "end": 29
+        },
+        {
+          "heading": "יום 5 | בוכרה — העיר הקדושה ויהדות בוכרה",
+          "start": 30,
+          "end": 32
+        },
+        {
+          "heading": "יום 6 | מבוכרה לסמרקנד",
+          "start": 33,
+          "end": 35
+        },
+        {
+          "heading": "יום 7 | סמרקנד — פנינת דרך המשי",
+          "start": 36,
+          "end": 38
+        },
+        {
+          "heading": "יום 8 | מסמרקנד לטשקנט",
+          "start": 39,
+          "end": 40
+        },
+        {
+          "heading": "יום 9 | טשקנט – תל אביב",
+          "start": 41,
+          "end": 43
+        }
+      ],
+      "termsSections": [
+        {
+          "heading": "תנאים והערות",
+          "start": 53,
+          "end": 89
+        }
+      ],
+      "sourceTitle": [
+        "אוזבקיסטן אפריל 2027 - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/הטיולים-שלנו/אוזבקיסטן-2027-אפריל/"
+    },
+    {
+      "pageId": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",
+      "publicPath": "/category/general/",
+      "pageType": "categoryArchive",
+      "sourceTextNodes": 30,
+      "preservedTextNodes": 30,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "ארכיון כללי - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/category/כללי/"
+    },
+    {
+      "pageId": "page-60a3dc6c-c9d0-4d90-a4e4-fa1cecf71ab8",
+      "publicPath": "/destinations/uzbekistan/",
+      "pageType": "destinationArchive",
+      "sourceTextNodes": 22,
+      "preservedTextNodes": 22,
+      "missingText": [],
+      "sourceH1": [
+        "אוזבקיסטן"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "ארכיון אוזבקיסטן - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/המדינות/אוזבקיסטן/"
+    },
+    {
+      "pageId": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+      "publicPath": "/destinations/greece/",
+      "pageType": "destinationArchive",
+      "sourceTextNodes": 7,
+      "preservedTextNodes": 7,
+      "missingText": [],
+      "sourceH1": [
+        "יוון"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "ארכיון יוון - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/המדינות/יוון/"
+    },
+    {
+      "pageId": "page-8101b7c5-4a69-4feb-859a-e988f656b78c",
+      "publicPath": "/destinations/china/",
+      "pageType": "destinationArchive",
+      "sourceTextNodes": 36,
+      "preservedTextNodes": 36,
+      "missingText": [],
+      "sourceH1": [
+        "סין"
+      ],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "ארכיון סין - טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/המדינות/סין/"
+    },
+    {
+      "pageId": "page-8b5c126b-4175-4479-8bf8-8581747abd8f",
+      "publicPath": "/authors/yaniv-ozana/",
+      "pageType": "authorArchive",
+      "sourceTextNodes": 6,
+      "preservedTextNodes": 6,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "Yaniv Ozana, מחבר ב-טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/author/yozana/"
+    },
+    {
+      "pageId": "page-02732de0-5f00-435f-b924-831070d3c2bd",
+      "publicPath": "/authors/oren-tal/",
+      "pageType": "authorArchive",
+      "sourceTextNodes": 16,
+      "preservedTextNodes": 16,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "Oren tal, מחבר ב-טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/author/orental/"
+    },
+    {
+      "pageId": "page-28aeda68-0dc8-47bd-ae07-87107734b74d",
+      "publicPath": "/authors/roni/",
+      "pageType": "authorArchive",
+      "sourceTextNodes": 8,
+      "preservedTextNodes": 8,
+      "missingText": [],
+      "sourceH1": [],
+      "itinerarySections": [],
+      "termsSections": [],
+      "sourceTitle": [
+        "Roni, מחבר ב-טיולי העולם העתיק"
+      ],
+      "sourceDescription": [],
+      "sourceCanonical": "https://roniellatours.com/author/roni/"
+    }
+  ]
+}

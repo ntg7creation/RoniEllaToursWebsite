@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-25T20:29:55.560Z",
+  "fontCssSource": "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500..600&family=Noto+Sans+Hebrew:wght@400..600&display=swap",
+  "assets": [
+    {
+      "file": "samarkand.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samarcanda,_Regist%C3%A1n_(cropped).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Samarcanda%2C_Regist%C3%A1n_%28cropped%29.jpg/3840px-Samarcanda%2C_Regist%C3%A1n_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "author": "LBM1948; source crop by Teseo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "treatment": "Unmodified Commons thumbnail; CSS crops in some layouts. Existing source crop noted in attribution.",
+      "sha256": "a65371225e35720375020583f1519f83d799aa228a423eec2aced20bf05f31c6",
+      "bytes": 1637013
+    },
+    {
+      "file": "bukhara.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bujar%C3%A1,_Po-i-Kalyan_01.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Bujar%C3%A1%2C_Po-i-Kalyan_01.jpg/1280px-Bujar%C3%A1%2C_Po-i-Kalyan_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "author": "LBM1948",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "treatment": "Unmodified Commons thumbnail; CSS crops in some layouts. Existing source crop noted in attribution.",
+      "sha256": "7c528fe4d9db52019d1d6a14b83bf7a040a40763f57840e4b4ab2120f9f5d7bf",
+      "bytes": 277942
+    },
+    {
+      "file": "china.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_at_Mutianyu.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Great_Wall_of_China_at_Mutianyu.JPG/960px-Great_Wall_of_China_at_Mutianyu.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "author": "CTLiotta",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "treatment": "Unmodified Commons thumbnail; CSS crops in some layouts. Existing source crop noted in attribution.",
+      "sha256": "ae9d992651b70490b8d5f2643ef3aeea921298040329b0517659f60c182fea0d",
+      "bytes": 397353
+    },
+    {
+      "file": "font-01.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/frankruhllibre/v23/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Ll4ajn.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "acdf9ed0a3fc287df8401d796892c1f72118f291e510e38328396f48e200b08c",
+      "bytes": 18748
+    },
+    {
+      "file": "font-02.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/frankruhllibre/v23/j8_w6_fAw7jrcalD7oKYNX0QfAnPW77l4ajn.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "0ec100915c6f4ad2a4eea9d04381d24e660564508d70237067aa5b80349b8c7f",
+      "bytes": 20932
+    },
+    {
+      "file": "font-03.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/frankruhllibre/v23/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Dl4Q.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "b8081e5e9acd530df59ef062f9274e201569b94c9bfa6881950f3eb259d7b375",
+      "bytes": 44332
+    },
+    {
+      "file": "font-04.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanshebrew/v50/or30Q7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaePiZTNzENg.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "a8d376cc2113e5ab5174bf306b27ebb3b46f84c2e4ce527dd58d110aaf265471",
+      "bytes": 1200
+    },
+    {
+      "file": "font-05.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanshebrew/v50/or30Q7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaePiYTNzENg.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "a8d376cc2113e5ab5174bf306b27ebb3b46f84c2e4ce527dd58d110aaf265471",
+      "bytes": 1200
+    },
+    {
+      "file": "font-06.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanshebrew/v50/or30Q7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaePiWTNzENg.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "8dd0a0bc744eca2c6d5d618bf002f8ef98b2948b31020e3cb64fe3587c9abb74",
+      "bytes": 12264
+    },
+    {
+      "file": "font-07.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanshebrew/v50/or30Q7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaePiaTNzENg.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "c088f4c4bf6d47d549adf622d8cd3c5e19164e7ead11931d8a2ff8832ba256d8",
+      "bytes": 11560
+    },
+    {
+      "file": "font-08.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/notosanshebrew/v50/or30Q7v33eiDljA1IufXTtVf7V6RvEEdhQlk0LlGxCyaePiUTNw.woff2",
+      "license": "SIL Open Font License 1.1",
+      "sha256": "27fd789f4089b6aa76494638b3f94a6c00c69a0519e38add75a3c7e852cab1bc",
+      "bytes": 20192
+    }
+  ]
+}

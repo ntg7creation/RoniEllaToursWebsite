@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceRun": "2026-10-25-live-01",
+  "stagedRun": "2026-10-25-live-01-reviewed",
+  "reviewedChanges": [
+    "Separate related article/tour widgets from article body without dropping text",
+    "Preserve table monetary candidates and suffix currency symbols",
+    "Reference five existing guide profile sections without duplicating biographies",
+    "Record public WordPress identity for stable IDs across renamed URLs",
+    "Preserve root anchors and labeled non-heading condition sections"
+  ],
+  "baselineRecordHashesChecked": true,
+  "sourceSnapshotsChanged": false,
+  "savedPublicPathsChanged": false,
+  "futureCrawls": "Stage only; no automatic baseline overwrite"
+}

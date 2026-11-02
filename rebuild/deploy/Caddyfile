@@ -1,0 +1,13 @@
+{
+  email {$TLS_EMAIL}
+}
+
+{$SITE_HOST} {
+  encode zstd gzip
+  reverse_proxy frontend:3000
+}
+
+# If both apex and www DNS names point to this server, add an explicit alias:
+# www.roniellatours.com {
+#   redir https://roniellatours.com{uri} permanent
+# }

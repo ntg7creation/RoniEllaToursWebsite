@@ -1,0 +1,422 @@
+[
+  {
+    "fromPath": "/בלוג/",
+    "fromQuery": {},
+    "toPath": "/blog/"
+  },
+  {
+    "fromPath": "/טיול-לאבו-סימבל/",
+    "fromQuery": {},
+    "toPath": "/blog/abu-simbel/"
+  },
+  {
+    "fromPath": "/כנסייה-תלויה-כנסייה-אל-מועלק/",
+    "fromQuery": {},
+    "toPath": "/blog/hanging-church/"
+  },
+  {
+    "fromPath": "/טיול-לממפיס-סקארה/",
+    "fromQuery": {},
+    "toPath": "/blog/memphis-saqqara/"
+  },
+  {
+    "fromPath": "/טיול-לקהיר/",
+    "fromQuery": {},
+    "toPath": "/blog/cairo/"
+  },
+  {
+    "fromPath": "/טיול-לאלכסנדריה/",
+    "fromQuery": {},
+    "toPath": "/blog/alexandria/"
+  },
+  {
+    "fromPath": "/מקדשי-דנדרה-זודיאק-של-דנדרה/",
+    "fromQuery": {},
+    "toPath": "/blog/dendera-zodiac/"
+  },
+  {
+    "fromPath": "/טיול-לסכר-אסואן/",
+    "fromQuery": {},
+    "toPath": "/blog/aswan-dam/"
+  },
+  {
+    "fromPath": "/חמישה-דברים-שלא-ידעתם-על-יוון-העתיקה/",
+    "fromQuery": {},
+    "toPath": "/blog/ancient-greece-facts/"
+  },
+  {
+    "fromPath": "/חמישה-דברים-שלא-ידעתם-על-סין-העתיקה/",
+    "fromQuery": {},
+    "toPath": "/blog/ancient-china-facts/"
+  },
+  {
+    "fromPath": "/טיול-לפירמידות/",
+    "fromQuery": {},
+    "toPath": "/blog/pyramids/"
+  },
+  {
+    "fromPath": "/אתונה-בירת-יוון-והלב-הפועם-של-התרבות-ה/",
+    "fromQuery": {},
+    "toPath": "/blog/athens/"
+  },
+  {
+    "fromPath": "/בייגינג-בירת-סין/",
+    "fromQuery": {},
+    "toPath": "/blog/beijing/"
+  },
+  {
+    "fromPath": "/טיול-מאורגן-לסין-חוויה-של-פעם-בחיים/",
+    "fromQuery": {},
+    "toPath": "/blog/china-experience/"
+  },
+  {
+    "fromPath": "/מסע-תרבותי-אימפריה-סינית/",
+    "fromQuery": {},
+    "toPath": "/blog/china-cultural-journey/"
+  },
+  {
+    "fromPath": "/טיול-מאורגן-לאוזבקיסטן/",
+    "fromQuery": {},
+    "toPath": "/blog/uzbekistan-silk-road/"
+  },
+  {
+    "fromPath": "/הצהרת-נגישות/",
+    "fromQuery": {},
+    "toPath": "/accessibility/"
+  },
+  {
+    "fromPath": "/המלצות/",
+    "fromQuery": {},
+    "toPath": "/testimonials/"
+  },
+  {
+    "fromPath": "/מחירים-ותנאים/",
+    "fromQuery": {},
+    "toPath": "/prices-and-terms/"
+  },
+  {
+    "fromPath": "/וידיאו/",
+    "fromQuery": {},
+    "toPath": "/videos/"
+  },
+  {
+    "fromPath": "/גלריה/",
+    "fromQuery": {},
+    "toPath": "/gallery/"
+  },
+  {
+    "fromPath": "/מי-אנחנו/",
+    "fromQuery": {},
+    "toPath": "/about/"
+  },
+  {
+    "fromPath": "/privacy-policy/",
+    "fromQuery": {},
+    "toPath": "/privacy/"
+  },
+  {
+    "fromPath": "/יצירת-קשר/",
+    "fromQuery": {},
+    "toPath": "/contact/"
+  },
+  {
+    "fromPath": "/המדריכים-שלנו/",
+    "fromQuery": {},
+    "toPath": "/guides/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/",
+    "fromQuery": {},
+    "toPath": "/tours/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/צפון-יוון-2/",
+    "fromQuery": {},
+    "toPath": "/tours/northern-greece/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/סין-צונג-גואה-מאי-2027/",
+    "fromQuery": {},
+    "toPath": "/tours/china-may-2027/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/סין-צונג-גואה-ספטמבר-2027/",
+    "fromQuery": {},
+    "toPath": "/tours/china-september-2027/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/אוזבקיסטן-2027-אפריל-2/",
+    "fromQuery": {},
+    "toPath": "/tours/uzbekistan-sukkot-2027/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/אוזבקיסטן-מרץ-2027/",
+    "fromQuery": {},
+    "toPath": "/tours/uzbekistan-march-2027/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/אוזבקיסטן-2027-אפריל/",
+    "fromQuery": {},
+    "toPath": "/tours/uzbekistan-april-2027/"
+  },
+  {
+    "fromPath": "/category/כללי/",
+    "fromQuery": {},
+    "toPath": "/category/general/"
+  },
+  {
+    "fromPath": "/המדינות/אוזבקיסטן/",
+    "fromQuery": {},
+    "toPath": "/destinations/uzbekistan/"
+  },
+  {
+    "fromPath": "/המדינות/יוון/",
+    "fromQuery": {},
+    "toPath": "/destinations/greece/"
+  },
+  {
+    "fromPath": "/המדינות/סין/",
+    "fromQuery": {},
+    "toPath": "/destinations/china/"
+  },
+  {
+    "fromPath": "/author/yozana/",
+    "fromQuery": {},
+    "toPath": "/authors/yaniv-ozana/"
+  },
+  {
+    "fromPath": "/author/orental/",
+    "fromQuery": {},
+    "toPath": "/authors/oren-tal/"
+  },
+  {
+    "fromPath": "/author/roni/",
+    "fromQuery": {},
+    "toPath": "/authors/roni/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/סין-צונג-גואה-6/",
+    "fromQuery": {},
+    "toPath": "/tours/china-september-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "1"
+    },
+    "toPath": "/blog/abu-simbel/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "1831"
+    },
+    "toPath": "/blog/hanging-church/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "1833"
+    },
+    "toPath": "/blog/memphis-saqqara/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "2537"
+    },
+    "toPath": "/blog/cairo/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "2531"
+    },
+    "toPath": "/blog/alexandria/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "2529"
+    },
+    "toPath": "/blog/dendera-zodiac/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "2533"
+    },
+    "toPath": "/blog/aswan-dam/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3870"
+    },
+    "toPath": "/blog/ancient-greece-facts/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3882"
+    },
+    "toPath": "/blog/ancient-china-facts/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "2535"
+    },
+    "toPath": "/blog/pyramids/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3885"
+    },
+    "toPath": "/blog/athens/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3889"
+    },
+    "toPath": "/blog/beijing/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "5516"
+    },
+    "toPath": "/blog/china-experience/"
+  },
+  {
+    "fromPath": "/הטיולים-שלנו/סין-צונג-גואה/",
+    "fromQuery": {},
+    "toPath": "/tours/china-september-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "5727"
+    },
+    "toPath": "/blog/china-cultural-journey/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "5896"
+    },
+    "toPath": "/blog/uzbekistan-silk-road/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3010"
+    },
+    "toPath": "/accessibility/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "47"
+    },
+    "toPath": "/testimonials/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "44"
+    },
+    "toPath": "/prices-and-terms/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3321"
+    },
+    "toPath": "/videos/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "46"
+    },
+    "toPath": "/gallery/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "45"
+    },
+    "toPath": "/about/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "5679"
+    },
+    "toPath": "/privacy/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "48"
+    },
+    "toPath": "/contact/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "49"
+    },
+    "toPath": "/guides/"
+  },
+  {
+    "fromPath": "/טיולים/",
+    "fromQuery": {},
+    "toPath": "/tours/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "3766"
+    },
+    "toPath": "/tours/northern-greece/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "6032"
+    },
+    "toPath": "/tours/china-may-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "6039"
+    },
+    "toPath": "/tours/china-september-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "6022"
+    },
+    "toPath": "/tours/uzbekistan-sukkot-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "5989"
+    },
+    "toPath": "/tours/uzbekistan-march-2027/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "6010"
+    },
+    "toPath": "/tours/uzbekistan-april-2027/"
+  }
+]

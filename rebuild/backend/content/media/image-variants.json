@@ -1,0 +1,92 @@
+[
+  {
+    "file": "samarkand-480.jpg",
+    "source": "samarkand.jpg",
+    "width": 480,
+    "height": 160,
+    "bytes": 22540,
+    "sha256": "ec135eec838dc4b0d8f13913ab6bd2ba5c66c596f8c7f9906f931a9b29f46503",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "samarkand-960.jpg",
+    "source": "samarkand.jpg",
+    "width": 960,
+    "height": 320,
+    "bytes": 84982,
+    "sha256": "69bd47d3dbdc8640468b3cefe58682f1b3376142fd1a868069d722170ebfd9d5",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "samarkand-1280.jpg",
+    "source": "samarkand.jpg",
+    "width": 1280,
+    "height": 426,
+    "bytes": 154046,
+    "sha256": "a5f21c7fbfff7b871cb1a532535ff126a07f1fae87d83b760f18294b30ca7937",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "samarkand-1600.jpg",
+    "source": "samarkand.jpg",
+    "width": 1600,
+    "height": 533,
+    "bytes": 243336,
+    "sha256": "db7f5230f8d91782ae8cdc7638f388bf9adadd765b6921db775d6463c3ccde3f",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "samarkand-1920.jpg",
+    "source": "samarkand.jpg",
+    "width": 1920,
+    "height": 640,
+    "bytes": 352213,
+    "sha256": "439bf7246c7c3cf6728315392bd485b262da6e2b1b276161f6fc4df7b5412b45",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "bukhara-480.jpg",
+    "source": "bukhara.jpg",
+    "width": 480,
+    "height": 321,
+    "bytes": 26650,
+    "sha256": "d8cf1ea14ba4fafc480c57bdbf8db2f5b82edf6811a191556b13451d24d08e42",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "bukhara-960.jpg",
+    "source": "bukhara.jpg",
+    "width": 960,
+    "height": 643,
+    "bytes": 118248,
+    "sha256": "66ca4c6a6ec413d4763c68321133251c598b786721182a55cca908cf1b074bea",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "bukhara-1280.jpg",
+    "source": "bukhara.jpg",
+    "width": 1280,
+    "height": 857,
+    "bytes": 264845,
+    "sha256": "4ad706290ed9cdfcf25d21e4946145a465369a6c38899d465446fde33822c5da",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "china-480.jpg",
+    "source": "china.jpg",
+    "width": 480,
+    "height": 659,
+    "bytes": 87427,
+    "sha256": "497d7b72716730a7832a08c8657b65e88cc7202929264b09d020f244afcf13d6",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  },
+  {
+    "file": "china-960.jpg",
+    "source": "china.jpg",
+    "width": 960,
+    "height": 1318,
+    "bytes": 375428,
+    "sha256": "75d6ec5fbb80481c729e50a4cd2fe573d127c12c2547812622685b4752fc2eee",
+    "treatment": "Proportional resize and JPEG quality 84; source author and license unchanged (credits.json)."
+  }
+]

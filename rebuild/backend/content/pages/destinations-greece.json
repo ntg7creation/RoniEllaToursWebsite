@@ -1,0 +1,66 @@
+{
+  "id": "page-bf7483c1-f008-4008-902e-91ceef37abd1",
+  "path": "/destinations/greece/",
+  "slug": "greece",
+  "pageType": "destinationArchive",
+  "title": "יוון",
+  "heroMediaId": null,
+  "seo": {
+    "title": "ארכיון יוון - טיולי העולם העתיק",
+    "description": null,
+    "canonicalPath": "/destinations/greece/"
+  },
+  "blocks": [
+    {
+      "anchorIds": [],
+      "links": [
+        {
+          "text": "צפון יוון",
+          "href": "/tours/northern-greece/"
+        }
+      ],
+      "type": "heading",
+      "level": 3,
+      "text": "צפון יוון"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "מסע ליוון העתיקה"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "8 ימים"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "סטטוס הטיול: הסתיים. הטיול הבא יפורסם בקרוב"
+    },
+    {
+      "anchorIds": [],
+      "links": [
+        {
+          "text": "לפרטים",
+          "href": "/tours/northern-greece/"
+        }
+      ],
+      "type": "paragraph",
+      "text": "לפרטים"
+    }
+  ],
+  "cards": [
+    {
+      "pageId": "page-91f21a4c-b40b-431c-a1d6-6e2e966c0929",
+      "summary": "צפון יוון מסע ליוון העתיקה 8 ימים סטטוס הטיול: הסתיים. הטיול הבא יפורסם בקרוב לפרטים"
+    }
+  ],
+  "publicationDate": null,
+  "modificationDate": null,
+  "videos": [],
+  "sourceRetrievedAt": "2026-11-02T15:04:56.019Z"
+}

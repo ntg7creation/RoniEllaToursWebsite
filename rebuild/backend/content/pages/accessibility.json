@@ -1,0 +1,168 @@
+{
+  "id": "page-0e958bd7-b13b-4fa1-b49a-57bca790aa2f",
+  "path": "/accessibility/",
+  "slug": "accessibility",
+  "pageType": "accessibility",
+  "title": "הצהרת נגישות",
+  "heroMediaId": null,
+  "seo": {
+    "title": "הצהרת נגישות - טיולי העולם העתיק",
+    "description": null,
+    "canonicalPath": "/accessibility/"
+  },
+  "blocks": [
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "באתר roniellatours.com נעשו מאמצים להנגיש את תכני האתר לכלל האוכלוסייה בהתאם לרמה הנגישות הקבועה בחוק."
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "heading",
+      "level": 2,
+      "text": "מהו אתר נגיש?"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "אתר שמוגדר “נגיש” אמור לספק חווית גלישה נעימה ונוחה לכולם. מדובר על אתר ידידותי, זמין 24 שעות ביממה לשימוש עבור אנשים עם מוגבלויות, לקויות ואנשים המתקשים בהפעלת המחשב והאינטרנט."
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "אתר נגיש מאפשר לכלל הגולשים לגלוש בנוחות ובמהירות וליהנות מהתכנים והשירותים המוצעים באתר בצורה הטובה ביותר."
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "האתר נבנה בהתאם להוראות הנגישות המופיעות ב –W3C’s Web Content Accessibility Guidelines 2.0, level AA"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "heading",
+      "level": 2,
+      "text": "שימוש בתפריט הנגישות"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "אנחנו משתמשים בכלי הנגשת אתרים מבית CODE IN ROL"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "בלחיצה על הכפתור יפתח תפריט נגישות עם כלי עזר שונים:"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "heading",
+      "level": 3,
+      "text": "מה ניתן לשנות?"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "text": "ניווט במקלדת",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "ביטול הבהובים ואנימציות",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "שינוי ניגודיות (כהה / בהירה)",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "הגדלת טקסט",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "הקטנת טקסט",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "שינוי לגופן קריא יותר",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "סימון כותרות",
+          "links": [],
+          "children": []
+        },
+        {
+          "text": "סימון קישורים ולחצנים",
+          "links": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "heading",
+      "level": 2,
+      "text": "מערכות הפעלה ודפדפנים"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "כתובת האתר והדפים השונים הקשורים לדומיין www.shimara.co.il נבדקו במערכות הפעלה Windows ו OSX בדפדפנים: אדג’, כרום ודפדפן Firefox בגרסאות האחרונות."
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "heading",
+      "level": 2,
+      "text": "דיווח על תוכן לא נגיש"
+    },
+    {
+      "anchorIds": [],
+      "links": [
+        {
+          "text": "roniellatours@gmail.com",
+          "href": "mailto:roniellatours@gmail.com"
+        }
+      ],
+      "type": "paragraph",
+      "text": "אנו עושים את מירב המאמצים להציג אתר נגיש שנדרש על פי חוק, ייתכן וחלק מהדפים יהיו פחות נגישים. במידה ומצאתם עמוד שאינו נגיש נשמח אם תשלחו למנהל אחסון האתר פנייה ישירה למייל בכתובת roniellatours@gmail.com"
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "יש לציין את העמוד כולל קישור ישיר על מנת שנוכל לבדוק ברצינות את הפניה, צרו קשר ונפעל לבצע התאמות במידת הצורך לפי יכולתנו."
+    },
+    {
+      "anchorIds": [],
+      "links": [],
+      "type": "paragraph",
+      "text": "הצהרה זאת עודכנה לאחרונה בתאריך: 7/4/24."
+    }
+  ],
+  "cards": [],
+  "publicationDate": null,
+  "modificationDate": null,
+  "videos": [],
+  "sourceRetrievedAt": "2026-11-02T15:04:31.764Z"
+}

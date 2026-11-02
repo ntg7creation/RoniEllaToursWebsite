@@ -1,0 +1,52 @@
+name: roniella
+services:
+  backend:
+    image: roniella-backend:${RELEASE_TAG:-local}
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: backend
+    environment:
+      DEPLOYMENT_ENV: ${DEPLOYMENT_ENV:-preview}
+      CONTENT_PROVIDER: ${CONTENT_PROVIDER:-supabase}
+      API_HOST: 0.0.0.0
+      API_PORT: 3001
+      BACKEND_API_TOKEN: ${BACKEND_API_TOKEN:?Set a random shared backend token}
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_SECRET_KEY: ${SUPABASE_SECRET_KEY:-}
+      SUPABASE_TIMEOUT_MS: ${SUPABASE_TIMEOUT_MS:-8000}
+      CONTENT_CACHE_MS: ${CONTENT_CACHE_MS:-30000}
+    expose: ["3001"]
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs: ["/tmp"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    stop_grace_period: 15s
+  frontend:
+    image: roniella-frontend:${RELEASE_TAG:-local}
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: frontend
+    environment:
+      DEPLOYMENT_ENV: ${DEPLOYMENT_ENV:-preview}
+      HOST: 0.0.0.0
+      PORT: 3000
+      BACKEND_ORIGIN: http://backend:3001
+      BACKEND_API_TOKEN: ${BACKEND_API_TOKEN:?Set a random shared backend token}
+      SITE_ORIGIN: ${SITE_ORIGIN:?Set the canonical public origin}
+      CONTENT_TIMEOUT_MS: ${CONTENT_TIMEOUT_MS:-12000}
+      ALLOW_INDEXING: ${ALLOW_INDEXING:-false}
+    ports: ["127.0.0.1:${WEB_PORT:-3000}:3000"]
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs: ["/tmp"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    stop_grace_period: 15s

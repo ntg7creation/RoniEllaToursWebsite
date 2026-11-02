@@ -1,0 +1,96 @@
+{
+  "businessName": "טיולי העולם העתיק",
+  "language": "he",
+  "timezone": "Asia/Jerusalem",
+  "contact": {
+    "phone": "0733744686",
+    "email": "roniellatours@gmail.com",
+    "address": "דרך בית לחם 74 ירושלים"
+  },
+  "navigation": [
+    {
+      "label": "ראשי",
+      "path": "/"
+    },
+    {
+      "label": "הטיולים שלנו",
+      "path": "/tours/"
+    },
+    {
+      "label": "מי אנחנו",
+      "path": "/about/"
+    },
+    {
+      "label": "גלריה",
+      "path": "/gallery/"
+    },
+    {
+      "label": "וידיאו",
+      "path": "/videos/"
+    },
+    {
+      "label": "המלצות",
+      "path": "/testimonials/"
+    },
+    {
+      "label": "יצירת קשר",
+      "path": "/contact/"
+    },
+    {
+      "label": "בלוג",
+      "path": "/blog/"
+    },
+    {
+      "label": "המדריכים שלנו",
+      "path": "/guides/"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "מדיניות פרטיות",
+      "path": "/privacy/"
+    },
+    {
+      "label": "ראשי",
+      "path": "/"
+    },
+    {
+      "label": "מי אנחנו",
+      "path": "/about/"
+    },
+    {
+      "label": "הצהרת נגישות",
+      "path": "/accessibility/"
+    },
+    {
+      "label": "הטיולים שלנו",
+      "path": "/tours/"
+    },
+    {
+      "label": "בלוג",
+      "path": "/blog/"
+    },
+    {
+      "label": "גלריה",
+      "path": "/gallery/"
+    },
+    {
+      "label": "וידיאו",
+      "path": "/videos/"
+    },
+    {
+      "label": "סין – צ׳אנג גואה – האימפריה באמצע העולם",
+      "path": "/tours/china-september-2027/"
+    }
+  ],
+  "featuredTourIds": [
+    "page-99086b24-3a6e-4817-b05a-9617a417b886",
+    "page-1259e55f-578c-4db2-90b6-274d43d51283",
+    "page-8b705230-ab4d-496c-8e06-f2bcc6254ac6"
+  ],
+  "featuredPostIds": [
+    "page-96557157-6056-4ad0-b9a5-890867a778b1",
+    "page-cb2d6d2e-d1b3-49dd-a9aa-530690824b91",
+    "page-1b9cfdf5-9ee7-4d5f-8fc8-c8bdad1a7c68"
+  ]
+}

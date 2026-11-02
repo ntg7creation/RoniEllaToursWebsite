@@ -1,0 +1,87 @@
+[
+  {
+    "src": "/media/bukhara-960.jpg",
+    "width": 1280,
+    "height": 857,
+    "alt": "כיפת הטורקיז של מתחם פוי כלון והמינרט בבוכרה",
+    "caption": "בוכרה · פרטים קטנים, סיפורים גדולים",
+    "author": "LBM1948",
+    "source": "https://commons.wikimedia.org/wiki/File:Bujar%C3%A1,_Po-i-Kalyan_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "id": "bukhara",
+    "sizes": "(max-width: 56rem) 100vw, 60vw",
+    "variants": [
+      {
+        "src": "/media/bukhara-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/bukhara-960.jpg",
+        "width": 960
+      },
+      {
+        "src": "/media/bukhara-1280.jpg",
+        "width": 1280
+      }
+    ]
+  },
+  {
+    "src": "/media/samarkand-1600.jpg",
+    "width": 3840,
+    "height": 1279,
+    "alt": "המדרסות המעוטרות וכיכר רגיסטן בסמרקנד",
+    "caption": "סמרקנד · כיכר רגיסטן, על דרך המשי",
+    "author": "LBM1948 · חיתוך מקור: Teseo",
+    "source": "https://commons.wikimedia.org/wiki/File:Samarcanda,_Regist%C3%A1n_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "id": "samarkand",
+    "sizes": "(max-width: 38rem) 55rem, (max-width: 56rem) 80rem, 120vw",
+    "variants": [
+      {
+        "src": "/media/samarkand-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/samarkand-960.jpg",
+        "width": 960
+      },
+      {
+        "src": "/media/samarkand-1280.jpg",
+        "width": 1280
+      },
+      {
+        "src": "/media/samarkand-1600.jpg",
+        "width": 1600
+      },
+      {
+        "src": "/media/samarkand-1920.jpg",
+        "width": 1920
+      }
+    ]
+  },
+  {
+    "src": "/media/china-960.jpg",
+    "width": 960,
+    "height": 1318,
+    "alt": "החומה הסינית מתפתלת בין ההרים במוטיאניו",
+    "caption": "סין · החומה במוטיאניו",
+    "author": "CTLiotta",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Wall_of_China_at_Mutianyu.JPG",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "id": "china",
+    "sizes": "(max-width: 56rem) 100vw, 60vw",
+    "variants": [
+      {
+        "src": "/media/china-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/china-960.jpg",
+        "width": 960
+      }
+    ]
+  }
+]

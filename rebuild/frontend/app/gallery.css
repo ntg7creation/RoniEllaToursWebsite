@@ -1,0 +1,50 @@
+/* A loose album wall: natural photo ratios, unequal insets and staggered starts.
+   CSS columns preserve source/tab order without measuring images in JavaScript. */
+.gallery-heading { display: flex; align-items: end; justify-content: space-between; gap: 2.5rem; padding-block: 2rem 3.5rem; }
+.gallery-heading > div:first-child { max-width: 39rem; }
+.gallery-heading h1 { margin-bottom: 1.4rem; }
+.gallery-introduction { font-size: 1.375rem; line-height: 1.8; margin: 0; }
+.gallery-actions { flex-shrink: 0; display: grid; justify-items: start; gap: .9rem; }
+.gallery-actions .button, .gallery-ending .button { gap: 1.5rem; font-family: inherit; cursor: pointer; }
+.gallery-note { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 2rem; padding-block: 1rem; border-block: 1px solid var(--line); color: var(--muted); font-size: 1rem; }
+.gallery-note p { margin: 0; }
+.gallery-wall { --gallery-gap: 6px; columns: 3; column-gap: var(--gallery-gap); padding-block: 2.5rem; }
+.gallery-memory { break-inside: avoid; margin: 0 0 var(--gallery-gap); }
+.gallery-memory:first-child { padding-block-start: var(--gallery-gap); }
+.gallery-memory:nth-child(6n + 2) { padding-block-start: var(--gallery-gap); }
+.gallery-memory:nth-child(7n + 4) { width: calc(100% - 4px); margin-inline: auto; padding-block-start: 3px; }
+.gallery-memory a { position: relative; display: block; color: white; }
+.gallery-memory img { display: block; width: 100%; height: auto; }
+.gallery-enlarge { position: absolute; inset-inline-end: .6rem; bottom: .6rem; padding: .25rem .65rem; background: #102f29e6; color: #fffcf5; font-size: .9375rem; line-height: 1.6; }
+.gallery-memory a:hover .gallery-enlarge, .gallery-memory a:focus-visible .gallery-enlarge { background: #102f29; text-decoration: underline; text-underline-offset: .2em; }
+.gallery-ending { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem 2rem; padding: 2rem 1rem; background: var(--soft-green); }
+.gallery-ending p { width: 100%; text-align: center; margin: 0; font: 500 2.25rem/1.4 var(--display); }
+.gallery-viewer { width: min(75rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); border: 1px solid #d5cebc; padding: 1rem; background: var(--paper); color: var(--ink); overflow: auto; }
+.gallery-viewer::backdrop { background: #071c18ed; }
+.gallery-viewer-content { display: grid; gap: .75rem; }
+.gallery-viewer-toolbar, .gallery-viewer-navigation { display: flex; justify-content: space-between; align-items: center; gap: .75rem; }
+.editorial-shell .gallery-viewer h2 { margin: 0; font: 500 1.25rem/1.5 var(--font); }
+.gallery-viewer button { min-height: 48px; padding: .45rem .85rem; font: 500 1.0625rem/1.5 var(--font); color: var(--ink); background: var(--canvas); border: 1px solid var(--line); cursor: pointer; }
+.gallery-viewer button:hover { background: var(--soft-green); }
+.gallery-viewer-content > img { display: block; width: 100%; height: min(70dvh, 55rem); object-fit: contain; background: #102f29; }
+body:has(.gallery-viewer[open]) { overflow: hidden; }
+@media (max-width: 1100px) {
+  .gallery-heading { display: block; }
+  .gallery-actions { display: flex; flex-wrap: wrap; align-items: center; margin-top: 2rem; gap: 1rem 2rem; }
+}
+@media (max-width: 900px) { .gallery-wall { columns: 2; } }
+@media (max-width: 560px) {
+  .gallery-heading { padding-block: 1rem 2rem; }
+  .gallery-introduction { font-size: 1.25rem; }
+  .gallery-wall { columns: 1; padding-top: 1.5rem; }
+  .gallery-memory, .gallery-memory:first-child, .gallery-memory:nth-child(n) { max-width: 100%; padding-block-start: 0; margin-bottom: var(--gallery-gap); }
+  .gallery-memory:nth-child(2n) { width: calc(100% - 4px); margin-inline: auto 0; margin-top: 0; }
+  .gallery-memory:nth-child(2n + 1) { width: 100%; margin-inline: 0 auto; margin-top: 0; }
+  .gallery-viewer { padding: .65rem; width: calc(100% - 1rem); max-height: calc(100dvh - 1rem); }
+  .gallery-viewer-content > img { height: 62dvh; }
+  .gallery-viewer-navigation button { font-size: 1rem; padding-inline: .5rem; }
+}
+@media print {
+  .gallery-actions, .gallery-ending, .gallery-enlarge, .gallery-viewer { display: none; }
+  .gallery-wall { columns: 2; }
+}

@@ -1,0 +1,36 @@
+name: Deployment readiness (no publishing)
+on:
+  pull_request:
+    paths: ["rebuild/**", ".github/workflows/deployment-readiness.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: rebuild
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: rebuild/package-lock.json
+      - run: npm ci
+      - run: npm run check:deployment
+      - name: Build both runtime images
+        run: docker compose --env-file deploy/local.env.example -f deploy/compose.yml build
+      - name: Exercise the two containers locally
+        run: |
+          docker compose --env-file deploy/local.env.example -f deploy/compose.yml up -d --wait --wait-timeout 180
+          curl --fail http://localhost:3000/health
+          curl --fail http://localhost:3000/gallery/ --output /dev/null
+      - name: Container logs on failure
+        if: failure()
+        run: docker compose --env-file deploy/local.env.example -f deploy/compose.yml logs --tail=50
+      - name: Stop local test containers
+        if: always()
+        run: docker compose --env-file deploy/local.env.example -f deploy/compose.yml down
