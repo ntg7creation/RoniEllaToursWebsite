@@ -1,8 +1,8 @@
 # Two Vercel projects
 
 Use the existing GitHub repository `ntg7creation/RoniEllaToursWebsite`, branch
-`rebuild-deployment`, for both projects. The older apps on `main` are not this
-rebuild. Supabase is already populated; do not repeat the initial seed.
+`main`, for both projects. The rebuilt application and Node 24 build fix are now
+on `main`. Supabase is already populated; do not repeat the initial seed.
 
 These instructions prepare a review site on Vercel's own domains. Do not attach
 `roniellatours.com` or change DNS until the review site is approved.
@@ -23,7 +23,7 @@ Root Directory is a project setting, so moving or editing `vercel.json` cannot
 change it. If dashboard overrides are enabled, use the install/build commands
 in the table below. Remove any custom Ignored Build Step that still checks
 the previous paths. Keep the existing project IDs, domains, environment variables
-and Git production branch (`rebuild-deployment`) for this layout change.
+and Git production branch (`main`) for this layout change.
 
 Push the complete move together, including the root `package.json` and
 `package-lock.json`, `shared/`, `scripts/`, and both application folders. Deploy
@@ -51,12 +51,10 @@ Import the same repository twice in the same Vercel team, backend first:
 | Build Command (provided in vercel.json) | `cd .. && npm run build:vercel:api` | `cd .. && npm run build:vercel:web` |
 | Output Directory | Leave override **off** | Leave override **off** |
 
-Check the selected source branch and commit before deploying. Use
-`rebuild-deployment` as these new projects' Production Branch while reviewing
-this version. In each project's **Settings → Environments → Production →
-Branch Tracking**, set the branch to `rebuild-deployment` and save. If the import
-screen defaults to `main`, change that setting and create a deployment from
-`rebuild-deployment`. A project built from `main` will not contain the rebuild.
+Check the selected source branch and commit before deploying. Both projects use
+`main` as their Production Branch. In each project's **Settings → Environments →
+Production → Branch Tracking**, keep the branch set to `main`. Push application
+changes to `main` to trigger the connected projects' Production deployments.
 
 A Git-triggered deployment labeled **Preview** does not replace the stable
 Production URL and uses Preview environment variables. Check Branch Tracking if

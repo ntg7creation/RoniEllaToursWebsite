@@ -22,7 +22,7 @@ installation and builds from the parent repository root. See the
 
 **Vercel:** [two-project import settings and environment variables](documents/vercel-deployment.md).
 Use `npm.cmd run check:vercel` to build and test both deployable artifacts locally.
-The GitHub branch for this rebuild is `rebuild-deployment`.
+Develop and push to `main`; both Vercel projects track it as their Production Branch.
 
 **Deployment preparation:** [frontend/backend/Supabase deployment guide](documents/deployment.md). The project includes a PostgreSQL content schema, an initial content seed, a Supabase repository adapter, separate Docker targets, Compose/HTTPS examples and a validation-only CI workflow. Connected Vercel projects deploy from their configured Git branch once the project root settings match this layout. `npm.cmd run check:deployment` validates the setup locally.
 
