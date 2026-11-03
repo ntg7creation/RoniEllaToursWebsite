@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
-  <title id="title">תמונת מדריך זמנית</title>
-  <desc id="desc">Placeholder portrait for a guide.</desc>
-  <rect width="800" height="800" fill="#e9dfcf"/>
-  <circle cx="400" cy="298" r="132" fill="#c79a59"/>
-  <path d="M180 720 C205 560 286 482 400 482 C514 482 595 560 620 720 Z" fill="#916344"/>
-  
-</svg>

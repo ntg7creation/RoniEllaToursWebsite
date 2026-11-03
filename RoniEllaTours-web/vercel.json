@@ -1,4 +1,0 @@
-{
-  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }],
-  "functions": { "api/translate.js": { "includeFiles": "src/locales/en/**", "maxDuration": 30 } }
-}

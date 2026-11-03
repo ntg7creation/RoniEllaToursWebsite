@@ -1,0 +1,58 @@
+{
+  "name": "roniella-tours",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "back",
+    "front"
+  ],
+  "engines": {
+    "node": ">=24.11.0 <25",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "predev": "npm run build -w @roniella/shared",
+    "pretypecheck": "npm run build -w @roniella/shared",
+    "pretest": "npm run build -w @roniella/shared",
+    "dev": "concurrently --kill-others -n api,web \"npm run dev -w @roniella/backend\" \"npm run dev -w @roniella/frontend\"",
+    "typecheck": "npm run typecheck --workspaces --if-present && tsc -p scripts/tsconfig.json",
+    "test": "tsx --test shared/tests/*.test.ts back/tests/*.test.ts front/tests/*.test.ts",
+    "build": "npm run build -w @roniella/shared && npm run build -w @roniella/backend && npm run build -w @roniella/frontend",
+    "start": "concurrently --kill-others -n api,web \"npm run start -w @roniella/backend\" \"npm run start -w @roniella/frontend\"",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:browser": "node scripts/browser-smoke.mjs",
+    "test:e2e": "node scripts/ux-e2e.mjs",
+    "test:editorial": "node scripts/editorial-e2e.mjs",
+    "test:design": "node scripts/redesign-review.mjs",
+    "test:files": "node scripts/local-content-e2e.mjs",
+    "sync:gallery": "tsx scripts/sync-gallery.ts",
+    "test:gallery": "node scripts/gallery-e2e.mjs",
+    "db:seed": "tsx scripts/generate-content-seed.ts",
+    "db:verify": "tsx scripts/verify-database.ts",
+    "db:gallery": "tsx scripts/generate-gallery-update.ts",
+    "db:check": "node --env-file=deploy/.env --import tsx scripts/check-supabase.ts",
+    "deploy:preflight": "node --env-file=deploy/.env --import tsx scripts/deployment-preflight.ts",
+    "test:deployment": "tsx scripts/deployment-e2e.ts",
+    "build:vercel:web": "npm run build -w @roniella/shared && npm run build -w @roniella/frontend && node scripts/build-vercel.mjs front",
+    "build:vercel:api": "npm run build -w @roniella/shared && node scripts/build-vercel.mjs back",
+    "build:vercel": "npm run build:vercel:api && npm run build:vercel:web",
+    "test:vercel": "tsx scripts/deployment-e2e.ts --vercel",
+    "test:ssg:browser": "node scripts/ssg-browser-review.mjs",
+    "test:callback:browser": "node scripts/callback-e2e.mjs",
+    "check:deployment": "npm run typecheck && npm test && npm run db:verify && npm run build && npm run test:deployment",
+    "check:vercel": "npm run check:deployment && npm run build:vercel && npm run test:vercel",
+    "db:cli": "supabase --workdir database"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.14",
+    "@types/node": "^24.10.0",
+    "concurrently": "9.2.5",
+    "esbuild": "0.28.2",
+    "playwright": "^1.56.1",
+    "supabase": "3.0.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

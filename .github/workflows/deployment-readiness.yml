@@ -1,7 +1,21 @@
 name: Deployment readiness (no publishing)
 on:
   pull_request:
-    paths: ["rebuild/**", ".github/workflows/deployment-readiness.yml"]
+    paths:
+      - "front/**"
+      - "back/**"
+      - "database/**"
+      - "shared/**"
+      - "scripts/**"
+      - "deploy/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.base.json"
+      - ".npmrc"
+      - ".nvmrc"
+      - "Dockerfile"
+      - ".dockerignore"
+      - ".github/workflows/deployment-readiness.yml"
   workflow_dispatch:
 permissions:
   contents: read
@@ -9,16 +23,13 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    defaults:
-      run:
-        working-directory: rebuild
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: rebuild/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci
       - run: npm run check:vercel
       - name: Build both runtime images

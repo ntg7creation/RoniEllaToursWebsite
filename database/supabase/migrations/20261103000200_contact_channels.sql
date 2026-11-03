@@ -1,0 +1,13 @@
+-- Contact channels and factual callback-form privacy disclosure. Existing editorial values are preserved.
+
+insert into public.content_copy(area,slot,value) select 'contact','whatsappUrl','https://wa.me/972505202480' where exists(select 1 from public.content_site) on conflict(area,slot) do nothing;
+
+insert into public.content_copy(area,slot,value) select 'social','facebookUrl','https://www.facebook.com/ronitoursancientworld/' where exists(select 1 from public.content_site) on conflict(area,slot) do nothing;
+
+insert into public.content_copy(area,slot,value) select 'social','youtubeUrl','https://www.youtube.com/@roniellatours1400' where exists(select 1 from public.content_site) on conflict(area,slot) do nothing;
+
+insert into public.content_blocks(page_id,position,block_type,text,heading_level,anchor_ids,links) select 'page-2e63b934-ac47-4c06-9869-8a08048796bc',9000,'heading','בקשות לשיחה חוזרת באתר',2,'["callback-data"]'::jsonb,'[]'::jsonb where exists(select 1 from public.content_pages where id='page-2e63b934-ac47-4c06-9869-8a08048796bc') on conflict(page_id,position) do nothing;
+
+insert into public.content_blocks(page_id,position,block_type,text,heading_level,anchor_ids,links) select 'page-2e63b934-ac47-4c06-9869-8a08048796bc',9001,'paragraph','בטופס הבקשה לשיחה חוזרת אנו מבקשים שם, מספר טלפון, יעד שמעניין אתכם ואישור למדיניות זו. כתובת דוא״ל היא שדה רשות. הפרטים נמסרים מרצונכם ונשמרים במערכת הפניות של העסק ב־Supabase, לצורך חזרה אליכם ומענה לפנייה. לצורך תיעוד ההסכמה נשמרים גם מועד האישור, גרסת המדיניות והעמוד שממנו נשלחה הבקשה. נשמר מזהה טכני למניעת שימוש לרעה בטופס. הגישה לפניות מוגבלת לצוות המורשה. שליחת הטופס אינה הרשמה לדיוור שיווקי. לבקשות לעיון, תיקון או מחיקת פרטים אפשר לפנות אלינו בכתובת roniellatours@gmail.com. פנייה בוואטסאפ או ביקור בפייסבוק וב־YouTube כפופים גם למדיניות הפרטיות של אותן פלטפורמות.',null,'[]'::jsonb,'[{"text":"roniellatours@gmail.com","href":"mailto:roniellatours@gmail.com"}]'::jsonb where exists(select 1 from public.content_pages where id='page-2e63b934-ac47-4c06-9869-8a08048796bc') on conflict(page_id,position) do nothing;
+
+update public.content_blocks set links='[{"text":"Facebook","href":"https://www.facebook.com/ronitoursancientworld/"},{"text":"Whatsapp","href":"https://wa.me/972505202480"},{"text":"Youtube","href":"https://www.youtube.com/@roniellatours1400"}]'::jsonb where page_id='page-d17a3366-d3b4-4007-86de-6c51165a6c69' and position=4 and links='[{"text":"Whatsapp","href":"/contact/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2NjMiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"},{"text":"Youtube","href":"https://www.youtube.com/channel/UCO0xOQGBKdPbrisrd4BstEg"}]'::jsonb;

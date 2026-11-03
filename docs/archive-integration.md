@@ -1,0 +1,19 @@
+# Runtime integration of the public archive
+
+The local Express backend now reads `../../docs/live-site-content/` from the repository root archive. The frontend's server loaders request the API and render the actual archived content into the first HTML response. `back/fixtures/demo-content.json` is retained only as a legacy domain-model test fixture; it is never a runtime fallback.
+
+`GET /api/v1/content` returns payload **schema version 2**, with `contentSource: "liveArchive"`, the source crawl ID, public site settings, 40 published page projections and 72 observed redirect rules. Source 404s/unresolved records are excluded. Each published page retains the archive's stable ID, explicit English path/slug, original title/body and retrieval time. Six distinct trip pages and 15 articles stay distinct. No tour itineraries or departures were merged.
+
+`LocalContentRepository` implements the narrow `ContentRepository` interface. It reads manifest/page/settings/entity JSON in `.txt` files, validates safe filenames, IDs, ordered blocks, entity references and manifest/page agreement, then calls `adaptArchive`. The adapter selects only public fields. Response validation uses shared browser-safe Zod schemas at both boundaries.
+
+The API does not expose source HTML, snapshot paths, HTTP headers, raw JSON-LD, form definitions, widget settings or editing endpoints. Snapshots are never read by runtime code. External players and photos are not loaded; videos are public links, and image-only gallery/testimonials have honest empty states. Existing contact links are retained, without forms.
+
+Archive prose, lists, headings and tables render through typed React components; arbitrary stored HTML is not injected. Source H1s become one document H1, extra H1s become H2s, duplicate source breadcrumbs are replaced by site breadcrumbs, and disabled form/share prompts are omitted. Article bodies and tour itinerary/terms prose remain intact. Listing cards preserve observed text/order. Source links and known aliases resolve through one shared URL catalog to existing ASCII destinations; unknown source pages are not redirected to unrelated content.
+
+Actual archive headings may contain contradictory guide/price/date facts. The adapter preserves those strings; it does not turn them into approved `Departure` records, infer zero prices or repair ranges. A visible source-content notice and staging noindex remain in place. Archived legal wording carries a review notice. Source descriptions remain missing when absent, and source canonical/robots/schema URLs are not copied over new-site metadata.
+
+The frontend's explicit route list is built from the saved manifest's successful paths and aliases. Server loaders still retrieve all essential content through the backend. Query aliases such as `/?p=...` redirect once with routing parameters removed, preserving unrelated tracking parameters; all destinations must exist. Source section anchors `journy`, `cost`, `include`, and `contact` remain useful on trip pages. Demo-only detail URLs now return 404.
+
+Edit the archived page `.txt` data and restart the API to reload validated content. Restart/rebuild the frontend too when adding/changing paths. Source snapshots and the old application remain unchanged. This is local read-only content integration; it adds no database, authentication, administration, upload, submission, email, payment, analytics or deployment service.
+
+Verification: strict type checking, 20 schema/API/URL tests, client/server production builds, HTTP smoke and installed-Chrome browser smoke. All 40 real page URLs, all six itineraries/terms, full article prose, page-specific metadata, 72 one-hop redirects, unknown/demo URL 404s, retained source fragments, JavaScript-disabled content/navigation, hydration, desktop/mobile overflow, console errors and backend-down/invalid/timeout 503 behavior were checked.

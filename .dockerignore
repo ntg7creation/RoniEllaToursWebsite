@@ -1,0 +1,25 @@
+**/node_modules
+**/dist
+**/build
+**/.react-router
+**/.env
+**/.env.*
+**/*.log
+.git
+.qa
+.openai
+documents
+docs
+database
+deploy
+**/tests
+back/fixtures
+front/public/README*
+**/.vercel
+**/.ssg
+.agents
+.codex
+.aws
+Modern Tour Company Website
+Modern Tour Company Website.zip
+roni ella tours database password.txt
