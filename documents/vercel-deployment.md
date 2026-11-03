@@ -53,9 +53,14 @@ Import the same repository twice in the same Vercel team, backend first:
 
 Check the selected source branch and commit before deploying. Use
 `rebuild-deployment` as these new projects' Production Branch while reviewing
-this version. If the import screen defaults to `main`, change the branch in
-the project's Git/environment settings and create a deployment from
+this version. In each project's **Settings → Environments → Production →
+Branch Tracking**, set the branch to `rebuild-deployment` and save. If the import
+screen defaults to `main`, change that setting and create a deployment from
 `rebuild-deployment`. A project built from `main` will not contain the rebuild.
+
+A Git-triggered deployment labeled **Preview** does not replace the stable
+Production URL and uses Preview environment variables. Check Branch Tracking if
+pushes to this branch should update the existing Vercel review site.
 
 Vercel's **Production** environment means its stable project URL. It does not
 mean the existing business domain has moved. Keep our app's
@@ -64,6 +69,14 @@ until the actual domain cutover.
 
 Both apps depend on `shared/`, root build scripts and the workspace lockfile,
 which is why including files outside each Root Directory is required.
+
+Both `front/package.json` and `back/package.json` explicitly declare
+`engines.node: "24.x"`. Vercel reads the package inside each configured Root
+Directory when selecting the build runtime; the root workspace's engine range
+and `.nvmrc` alone do not pin both Vercel projects. Keep these app declarations
+aligned with the root Node 24 requirement and the generated `nodejs24.x` functions.
+This package setting takes precedence over the dashboard's Node.js version.
+See [Vercel's Node.js version overrides](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions#version-overrides-in-packagejson).
 
 ## 1. Backend environment and deployment
 
