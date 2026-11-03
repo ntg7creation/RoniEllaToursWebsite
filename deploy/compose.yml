@@ -16,6 +16,9 @@ services:
       SUPABASE_SECRET_KEY: ${SUPABASE_SECRET_KEY:-}
       SUPABASE_TIMEOUT_MS: ${SUPABASE_TIMEOUT_MS:-8000}
       CONTENT_CACHE_MS: ${CONTENT_CACHE_MS:-30000}
+      GMAIL_USER: ${GMAIL_USER:-roniellatours@gmail.com}
+      GMAIL_APP_PASSWORD: ${GMAIL_APP_PASSWORD:-}
+      CALLBACK_EMAIL_TO: ${CALLBACK_EMAIL_TO:-roniellatours@gmail.com}
     expose: ["3001"]
     restart: unless-stopped
     init: true

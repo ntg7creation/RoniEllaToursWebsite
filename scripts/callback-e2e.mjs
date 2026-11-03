@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import {mkdir,writeFile} from "node:fs/promises";
 import {fileURLToPath} from "node:url";
 import {launchProduction} from "./processes.mjs";
-const servers=launchProduction({webPort:4400,apiPort:4401});
+const servers=launchProduction({webPort:4400,apiPort:4401,backendEntry:"../scripts/serve-callback-test-api.mjs"});
 const output=new URL("../.qa/callback-review/",import.meta.url);
 await mkdir(output,{recursive:true});
 let browser;
@@ -40,7 +40,7 @@ try{
     await page.getByText('האם התכוונתם',{exact:false}).waitFor();
     await page.getByLabel(/כתובת דוא/).fill('');
     await page.getByRole('button',{name:/שליחת הפרטים/}).click();
-    try{await page.getByRole('heading',{name:'תודה, קיבלנו את הפרטים!'}).waitFor({timeout:10000});}
+    try{await page.getByRole('heading',{name:'תודה, הפנייה נשלחה!'}).waitFor({timeout:10000});}
     catch(error){console.log('Form diagnostic:',(await page.locator('.callback-card').textContent({timeout:1000})).slice(-800));console.log('Server diagnostic:',servers.logs());await page.screenshot({path:fileURLToPath(new URL('failure.png',output)),fullPage:true});throw error;}
     const sizes=await page.evaluate(()=>({width:document.documentElement.scrollWidth,viewport:innerWidth}));
     assert.ok(sizes.width<=sizes.viewport+2);
@@ -58,11 +58,12 @@ try{
   await page.getByLabel(/מספר טלפון לחזרה/).fill('0505202480');
   await page.locator('[name="privacyAccepted"]').check();
   await page.getByRole('button',{name:/שליחת הפרטים/}).click();
-  await page.getByRole('heading',{name:'תודה, קיבלנו את הפרטים!'}).waitFor();
+  await page.getByRole('heading',{name:'תודה, הפנייה נשלחה!'}).waitFor();
   const privacy=await page.goto(servers.origin+'/privacy/');assert.equal(privacy.status(),200);
   assert.ok(await page.getByRole('heading',{name:'בקשות לשיחה חוזרת באתר'}).isVisible());
   measurements.push({javaScript:false,serverValidation:true,valuesPreserved:true,success:true,privacy:true});
   await context.close();
+  assert.equal((await (await fetch(servers.backendOrigin+'/test/email-count')).json()).delivered,3);
   await writeFile(new URL('report.json',output),JSON.stringify(measurements,null,2)+'\n');
-  console.log('PASS: desktop/mobile WhatsApp, phone and social links; default Israel/changeable country; invalid number length, email typo and missing consent blocked; saved callbacks with and without JS; accessible privacy page; no overflow/page errors. Local test requests only.');
+  console.log('PASS: desktop/mobile WhatsApp, phone and social links; default Israel/changeable country; invalid number length, email typo and missing consent blocked; direct email callbacks with mocked SMTP and without JS; accessible privacy page; no overflow/page errors. Local test requests only.');
 }finally{if(browser)await browser.close();await servers.stop();}

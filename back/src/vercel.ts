@@ -2,8 +2,7 @@ import type { RequestListener } from "node:http";
 import { createApp } from "./app.js";
 import { readBackendConfig, safeConfigurationError } from "./config.js";
 import { SupabaseContentRepository } from "./supabase-repository.js";
-import {SupabaseCallbackStore} from "./callback-store.js";
-import {configuredCallbackNotifier} from "./callback-email.js";
+import {configuredCallbackMailer} from "./callback-email.js";
 
 // The build injects filenames only. Photos are static assets outside the function.
 declare const __RONIELLA_STATIC_MEDIA__: string[];
@@ -16,7 +15,7 @@ const handler: RequestListener = (req, res) => {
         throw Error("Vercel requires Supabase and an API token");
       app = createApp(new SupabaseContentRepository({ ...config,
         staticMediaFiles: new Set(__RONIELLA_STATIC_MEDIA__),
-      }), { apiToken: config.apiToken,callbackStore:new SupabaseCallbackStore(config),callbackNotifier:configuredCallbackNotifier(config) });
+      }), { apiToken: config.apiToken,callbackMailer:configuredCallbackMailer() });
     }
     app(req, res);
   } catch (error) {

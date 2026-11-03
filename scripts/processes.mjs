@@ -37,7 +37,7 @@ const presentation = JSON.parse(await (await import("node:fs/promises")).readFil
 export function expectedHeading(page) {
   return page.path === "/" ? presentation["home.hero.heading"] : page.displayTitle ?? page.title;
 }
-export function launchProduction({ webPort = 3400, apiPort = 3401, contentDirectory } = {}) {
+export function launchProduction({ webPort = 3400, apiPort = 3401, contentDirectory, backendEntry = "dist/server.js" } = {}) {
   const origin = `http://127.0.0.1:${webPort}`;
   const backendOrigin = `http://127.0.0.1:${apiPort}`;
   const children = [];
@@ -56,7 +56,7 @@ export function launchProduction({ webPort = 3400, apiPort = 3401, contentDirect
     children.push(child);
     return child;
   }
-  const api = start(["dist/server.js"], "back", {
+  const api = start([backendEntry], "back", {
     API_PORT: String(apiPort),
     ...(contentDirectory ? { CONTENT_DIRECTORY: contentDirectory } : {}),
   });

@@ -18,19 +18,19 @@ const serve = resolve(dirname(require.resolve("@react-router/serve/package.json"
 const db = await migratedTestDatabase();
 const secret = "sb_secret_deployment_test_not_a_real_key", token = "deployment-test-interservice-token-1234567890";
 const origin = "http://127.0.0.1:4100", apiOrigin = "http://127.0.0.1:4101", canonical = "https://roniellatours.com";
-let available = true, calls = 0;
+let available = true, calls = 0, unexpectedDatabaseCalls = 0;
 const children: (ChildProcess & { output?:string })[] = [];
 const bridge = createServer(async (req,res) => {
-  const callback=req.url === "/rest/v1/rpc/create_callback_request";
-  if ((!callback && req.url !== "/rest/v1/rpc/read_site_content") || req.method !== "POST") { res.writeHead(404).end(); return; }
+  if (req.url !== "/rest/v1/rpc/read_site_content" || req.method !== "POST") {
+    unexpectedDatabaseCalls++; res.writeHead(404).end(); return;
+  }
   if (req.headers.apikey !== secret || req.headers.authorization) { res.writeHead(401).end(); return; }
   calls++;
   if (!available) { res.writeHead(503).end("Private upstream diagnostic must not be exposed"); return; }
   try {
-    let body="";for await(const chunk of req)body+=chunk;
+    req.resume();
     const result = await db.transaction(async tx => {
       await tx.exec("set local role service_role");
-      if(callback){await tx.query("select public.create_callback_request($1::jsonb)",[JSON.stringify(JSON.parse(body).payload)]);return {rows:[{content:null}]};}
       return tx.query<{content:unknown}>("select public.read_site_content() as content");
     });
     res.setHeader("Content-Type","application/json"); res.end(JSON.stringify(result.rows[0]!.content));
@@ -94,14 +94,17 @@ try {
   const postCallback=(body:URLSearchParams,source=origin)=>fetch(origin+'/contact/',{method:'POST',headers:{Origin:source,'Content-Type':'application/x-www-form-urlencoded'},body,redirect:'manual'});
   const rejected=await postCallback(new URLSearchParams({name:'Test',phone:'123',country:'IL',email:'',destination:'undecided'}));
   assert.equal(rejected.status,422);assert.ok((await rejected.text()).includes('מספר טלפון תקין'));
-  const accepted=await postCallback(callbackBody);assert.equal(accepted.status,200);assert.ok((await accepted.text()).includes('קיבלנו את הפרטים'));
-  await postCallback(callbackBody);
-  const callbackRows=await db.query<{phone_e164:string;phone_country:string}>("select phone_e164,phone_country from public.callback_requests where submission_id=$1",[callbackId]);
-  assert.equal(callbackRows.rows.length,1);assert.equal(callbackRows.rows[0]!.phone_e164,'+972505202480');assert.equal(callbackRows.rows[0]!.phone_country,'IL');
+  // Production tests intentionally have no Gmail credentials. A valid form must
+  // show a delivery failure instead of falsely claiming success or writing SQL.
+  const unavailable=await postCallback(callbackBody);assert.equal(unavailable.status,503);
+  const unavailableHtml=await unavailable.text();
+  assert.ok(unavailableHtml.includes('לא ניתן לשלוח את הפנייה כרגע'));
+  assert.ok(unavailableHtml.includes('Callback Test Person'));
+  assert.ok(!unavailableHtml.includes('תודה, הפנייה נשלחה!'));
   const enhancedId=crypto.randomUUID(),enhancedBody=new URLSearchParams(callbackBody);enhancedBody.set('submissionId',enhancedId);
   const enhanced=await fetch(origin+'/_.data?index',{method:'POST',headers:{Origin:origin,'Content-Type':'application/x-www-form-urlencoded'},body:enhancedBody});
-  assert.equal(enhanced.status,200);await enhanced.body?.cancel();
-  assert.equal((await db.query<{source_path:string}>("select source_path from public.callback_requests where submission_id=$1",[enhancedId])).rows[0]!.source_path,'/');
+  assert.equal(enhanced.status,503);await enhanced.body?.cancel();
+  assert.equal(unexpectedDatabaseCalls,0,'Email submissions must never call a callback database RPC');
   assert.ok([400,403].includes((await postCallback(callbackBody,'https://unrelated.invalid')).status),'Cross-origin form submissions are rejected by the framework or action');
   if(vercel){
     const proxyHeaders={Origin:'https://roniella-unique-test.vercel.app','x-forwarded-proto':'https','x-forwarded-host':'roniella-unique-test.vercel.app','Content-Type':'application/x-www-form-urlencoded'};

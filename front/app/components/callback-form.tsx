@@ -13,7 +13,7 @@ export function CallbackForm({content}:{content:PublicSiteContent}){
   const focusError=(errors:Partial<Record<CallbackField,string>>)=>requestAnimationFrame(()=>document.getElementById(`${id}-${Object.keys(errors)[0]==="privacy"?"privacyAccepted":Object.keys(errors)[0]}`)?.focus());
   const inputClass=(field:CallbackField)=>errors[field]?"has-error":undefined;
   const error=(field:CallbackField)=>errors[field]?<p className="callback-field-error" id={`${id}-${field}-error`}>{errors[field]}</p>:null;
-  if(reply?.ok)return <section className="callback-card callback-success" role="status" tabIndex={-1}><span aria-hidden="true">✓</span><h3>תודה, קיבלנו את הפרטים!</h3><p>נחזור אליכם לשיחה על המסע הבא שלכם.</p></section>;
+  if(reply?.ok)return <section className="callback-card callback-success" role="status" tabIndex={-1}><span aria-hidden="true">✓</span><h3>תודה, הפנייה נשלחה!</h3><p>נחזור אליכם לשיחה על המסע הבא שלכם.</p></section>;
   return <section className="callback-card" aria-labelledby={`${id}-title`}>
     <h3 id={`${id}-title`}>השאירו פרטים ונחזור אליכם</h3><p className="callback-intro">נשמח להכיר, לענות על שאלות ולעזור לבחור את המסע המתאים.</p>
     <fetcher.Form method="post" action={location.pathname==="/"?"/?index":location.pathname} noValidate className="callback-form" onSubmit={event=>{

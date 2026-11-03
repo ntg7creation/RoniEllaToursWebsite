@@ -2,7 +2,6 @@ import {parsePhoneNumberFromString,getCountries,getCountryCallingCode,type Count
 import {z} from "zod";
 import type {PublicSiteContent} from "./site-content.js";
 
-export const privacyVersion="2026-11-03-callback-v2";
 export const callbackMessages={
   name:"נא להזין שם באורך 2 תווים לפחות.",phone:"נא להזין מספר טלפון תקין, כולל קידומת. לדוגמה: 050-5202480.",
   email:"נא לבדוק את כתובת הדוא״ל, או להשאיר את השדה ריק.",destination:"נא לבחור יעד מהרשימה.",
@@ -12,7 +11,6 @@ export const callbackMessages={
 export type CallbackField=keyof typeof callbackMessages;
 export type CallbackInput={name:string;phone:string;country:string;email:string;destination:string;privacyAccepted:boolean};
 export type CallbackResult={ok:boolean;errors?:Partial<Record<CallbackField,string>>;message?:string;values?:CallbackInput};
-export type CallbackRecord={submissionId:string;name:string;phone:string;country:string;email:string|null;destination:string;destinationLabel:string;sourcePath:string;privacyVersion:string;privacyAccepted:true;clientKey:string};
 export function callbackCountries(){
   const names=new Intl.DisplayNames(["he"],{type:"region"});
   return getCountries().map(code=>({code,label:names.of(code)??code,callingCode:getCountryCallingCode(code)})).sort((a,b)=>a.code==="IL"?-1:b.code==="IL"?1:a.label.localeCompare(b.label,"he"));

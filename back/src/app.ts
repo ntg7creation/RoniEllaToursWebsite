@@ -3,9 +3,8 @@ import type { ContentRepository } from "./content-repository.js";
 import { dirname } from "node:path";
 import { createHash, timingSafeEqual } from "node:crypto";
 import {callbackRouter,emailDomainExists} from "./callback-api.js";
-import type {CallbackStore} from "./callback-store.js";
-import type {CallbackNotifier} from "./callback-email.js";
-export function createApp(repository: ContentRepository, options: { apiToken?: string;callbackStore?:CallbackStore;checkEmail?:typeof emailDomainExists;callbackNotifier?:CallbackNotifier } = {}) {
+import type {CallbackMailer} from "./callback-email.js";
+export function createApp(repository: ContentRepository, options: { apiToken?: string;checkEmail?:typeof emailDomainExists;callbackMailer?:CallbackMailer } = {}) {
   const app = express();
   app.disable("x-powered-by");
   app.use((_req, res, next) => {
@@ -31,7 +30,7 @@ export function createApp(repository: ContentRepository, options: { apiToken?: s
   app.get("/api/v1/content", async (_req, res) => {
     res.json(await repository.getPublicContent());
   });
-  if(options.callbackStore)app.use("/api/v1/callbacks",express.json({limit:"8kb"}),callbackRouter(repository,options.callbackStore,options.checkEmail,options.callbackNotifier));
+  app.use("/api/v1/callbacks",express.json({limit:"8kb"}),callbackRouter(options.callbackMailer,options.checkEmail));
   app.get("/api/v1/media/:filename", async (req, res, next) => {
     if (!/^[a-z0-9][a-z0-9.-]*\.(?:jpg|jpeg|png|webp|avif)$/.test(req.params.filename)) {
       res.status(404).end(); return;

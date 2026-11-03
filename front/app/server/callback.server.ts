@@ -14,7 +14,8 @@ export async function callbackAction({request,url}:ActionFunctionArgs){
   if(field("website"))return result({ok:true});
   const values={name:field("name"),phone:field("phone"),country:field("country"),email:field("email"),destination:field("destination"),privacyAccepted:form.get("privacyAccepted")==="on"};
   const content=await requestPublicContent(request);
-  const {errors}=validateCallback(values,callbackDestinations(content));
+  const destinations=callbackDestinations(content);
+  const {errors}=validateCallback(values,destinations);
   if(Object.keys(errors).length)return result({ok:false,errors,values},422);
   const id=field("submissionId")||randomUUID();
   if(!/^[a-f0-9-]{36}$/i.test(id))return result({ok:false,message:"נא לרענן את העמוד ולנסות שוב."},400);
@@ -22,9 +23,9 @@ export async function callbackAction({request,url}:ActionFunctionArgs){
   const clientKey=createHmac("sha256",serverConfig.apiToken||"local-development-only").update(ip.split(",")[0]!.trim()).digest("hex");
   try{
     const response=await fetch(serverConfig.backendOrigin+"/api/v1/callbacks",{method:"POST",headers:{...backendHeaders(),"Content-Type":"application/json"},
-      body:JSON.stringify({...values,sourcePath:url.pathname,submissionId:id,clientKey}),redirect:"error",signal:AbortSignal.timeout(25000)});
+      body:JSON.stringify({...values,destinationLabel:destinations.find(item=>item.value===values.destination)!.label,sourcePath:url.pathname,submissionId:id,clientKey}),redirect:"error",signal:AbortSignal.timeout(25000)});
     const reply=await response.json() as CallbackResult;
     if(response.ok&&reply.ok)return result({ok:true});
-    return result({ok:false,errors:reply.errors,values,message:reply.message??"הבקשה לא נשמרה. אפשר לנסות שוב או לפנות אלינו בוואטסאפ."},[400,422,429,503].includes(response.status)?response.status:503);
-  }catch{return result({ok:false,message:"לא הצלחנו לשמור את הבקשה כרגע. נא לנסות שוב או לפנות אלינו בוואטסאפ."},503);}
+    return result({ok:false,errors:reply.errors,values,message:reply.message??"הפנייה לא נשלחה. אפשר לנסות שוב או לפנות אלינו בוואטסאפ."},[400,409,422,429,503].includes(response.status)?response.status:503);
+  }catch{return result({ok:false,values,message:"לא ניתן לאשר אם ההודעה נשלחה. נא לפנות אלינו בוואטסאפ לפני שליחה נוספת."},503);}
 }
