@@ -1,0 +1,25 @@
+-- Discontinued migration-review copy is no longer part of the public site or editor.
+delete from public.content_copy where key in (
+  'text.editorial.text1',
+  'text.editorial.text4',
+  'text.editorial.text5',
+  'text.editorial.text6',
+  'text.editorial.text12',
+  'text.editorial.text14',
+  'text.editorial.text17',
+  'text.editorial.text19',
+  'text.editorial.text20',
+  'text.editorial.text21',
+  'text.editorial.text24',
+  'text.editorial.text25',
+  'text.editorial.text26',
+  'text.editorial.text27',
+  'text.pages.text1',
+  'text.pages.text6',
+  'text.pages.text10',
+  'text.pages.text13',
+  'text.pages.text15',
+  'text.pages.text18',
+  'text.pages.text19',
+  'text.pages.text21'
+);

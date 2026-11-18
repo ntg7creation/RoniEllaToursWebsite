@@ -7,6 +7,25 @@ import { editableSections, scheduledBlocks } from '../app/components/editor-sect
 import { pageView } from '../app/server/page-view.server.js';
 import { buildPageSeo } from '../app/server/seo.server.js';
 
+test('tour cards, itineraries and prices use the reviewed departures while the Google gallery stays independent', async () => {
+  const site = await (await LocalContentRepository.load()).getPublicContent();
+  const tours = site.pages.filter(page => page.pageType === 'tour');
+  assert.equal(tours.length, 6);
+  for (const tour of tours) {
+    const details = tour.tourDetails!;
+    const days = editableSections(pageView(site, tour).page.blocks, 'itinerary');
+    assert.equal(days.length, itineraryDayCount(details.dates, details.duration));
+    if (tour.path.includes('china-')) assert.equal(days.at(-1)!.end - days.at(-1)!.start, 1);
+  }
+  const april = tours.find(page => page.path.includes('april'))!;
+  assert.equal(april.tourDetails!.dates, '05/04/2027 - 13/04/2027');
+  assert.ok(april.blocks.some(block => 'text' in block && block.text.includes('05/04/2027 – 13/04/2027')));
+  assert.equal(site.siteSettings.featuredTourIds.length, 3);
+  assert.equal(site.pages.find(p => p.path === '/testimonials/')!.blocks.filter(b => b.type === 'image').length, 3);
+  assert.equal(tours.find(p => p.path.includes('greece'))!.tourDetails!.dates, '');
+  assert.equal(site.gallery!.photos.length, 123);
+});
+
 test('verified WordPress query forms reach the final English URL in one redirect',async()=>{
   const site = await (await LocalContentRepository.load()).getPublicContent();
   const go = (path:string)=>archiveRedirectLocation(new URL(path,'https://roniellatours.com'),site.redirects);
