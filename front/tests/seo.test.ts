@@ -48,3 +48,10 @@ test("SEO preserves explicit copy, escapes through React metadata, and omits unv
   assert.equal(article.headline,page.title); // Kept as data; React Router's JSON-LD renderer escapes it.
   assert.equal(article.offers,undefined);
 });
+test('trip descriptions follow the shared trip summary after unrelated cover settings are saved', async () => {
+  const content = await (await LocalContentRepository.load()).getPublicContent();
+  const original = content.pages.find(page => page.pageType === 'tour')!;
+  const page = { ...original, summary: 'Older imported card text', seo: { ...original.seo, description: null },
+    tourDetails: { summary: 'Current shared trip summary', dates: '', duration: '', price: '', guide: '', status: '' } };
+  assert.equal(pageDescription(page, content), 'Current shared trip summary');
+});

@@ -22,6 +22,7 @@
 .gallery-viewer { width: min(75rem, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); border: 1px solid #d5cebc; padding: 1rem; background: var(--paper); color: var(--ink); overflow: auto; }
 .gallery-viewer::backdrop { background: #071c18ed; }
 .gallery-viewer-content { display: grid; gap: .75rem; }
+.gallery-photo-description { margin: 0; font-size: 1rem; line-height: 1.6; }
 .gallery-viewer-toolbar, .gallery-viewer-navigation { display: flex; justify-content: space-between; align-items: center; gap: .75rem; }
 .editorial-shell .gallery-viewer h2 { margin: 0; font: 500 1.25rem/1.5 var(--font); }
 .gallery-viewer button { min-height: 48px; padding: .45rem .85rem; font: 500 1.0625rem/1.5 var(--font); color: var(--ink); background: var(--canvas); border: 1px solid var(--line); cursor: pointer; }

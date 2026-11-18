@@ -25,7 +25,7 @@ try {
     await db.exec("reset role");
   }
   const policies = await db.query<{relrowsecurity:boolean}>("select relrowsecurity from pg_class where relnamespace='public'::regnamespace and relkind='r' and relname like 'content_%'");
-  assert.equal(policies.rows.length, 13); assert.ok(policies.rows.every(row => row.relrowsecurity));
+  assert.equal(policies.rows.length, 15); assert.ok(policies.rows.every(row => row.relrowsecurity));
   const tour = source.pages.find(page => page.pageType === "tour")!;
   await db.query("update public.content_pages set published=false where id=$1",[tour.id]);
   const draftView = await read();
@@ -50,5 +50,5 @@ try {
   const page = source.pages[0]!;
   await assert.rejects(db.query("insert into public.content_page_cards(page_id,position,target_page_id) values($1,9999,'missing-page')",[page.id]), /foreign key/);
   await assert.rejects(db.exec("insert into public.content_media(id,kind,position,src,width,height,alt) values('bad','gallery',999,'/media/../../private.json',1,1,'bad')"), /check constraint/);
-  console.log(`PASS: actual PostgreSQL migrations and seed; exact round-trip of ${source.pages.length} pages and ${source.gallery?.photos.length} gallery photos; all 13 tables protected; anonymous/authenticated access denied; server read-only grants; drafts excluded; editorial edits and safe bootstrap refusal; foreign-key/path checks.`);
+  console.log(`PASS: actual PostgreSQL migrations and seed; exact round-trip of ${source.pages.length} pages and ${source.gallery?.photos.length} gallery photos; all 15 content tables protected; anonymous/authenticated access denied; server read-only grants; drafts excluded; editorial edits and safe bootstrap refusal; foreign-key/path checks.`);
 } finally { await db.close(); }

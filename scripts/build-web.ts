@@ -45,7 +45,7 @@ try {
   if (relative(app,output) !== ["build","ssg"].join(sep)) throw Error("Unsafe SSG output");
   await rm(output,{recursive:true,force:true});
   await mkdir(output,{recursive:true});
-  const pages: Record<string,string> = {};
+  const pages: Record<string,string> = {}, dataPages: Record<string,string> = {};
   for (const [index,path] of paths.entries()) {
     const source=resolve(client,`.${path}`,"index.html"), rel=relative(client,source);
     if (rel.startsWith("..") || isAbsolute(rel)) throw Error("Unsafe generated path");
@@ -54,6 +54,8 @@ try {
       throw Error(`SSG metadata missing: ${path}`);
     const filename=`page-${index}.html`;
     await cp(source,resolve(output,filename)); pages[path]=filename;
+    const dataFile = `page-${index}.data`;
+    await cp(resolve(client,`.${path}`,'_.data'),resolve(output,dataFile)); dataPages[path]=dataFile;
     // HTML/data are served behind the content-aware runtime, never as stale public assets.
     await rm(source);
   }
@@ -67,6 +69,6 @@ try {
   }
   await removeData(client);
   await writeFile(resolve(output,"manifest.json"),JSON.stringify({schemaVersion:1,origin:new URL(origin).origin,
-    noindex:process.env.ALLOW_INDEXING !== "true",revision:createHash("sha256").update(contentRevisionSource(content)).digest("hex"),pages},null,2)+"\n");
-  console.log(`SSG: ${paths.length} pages generated from ${remote ? "published backend" : "local development"} content. Gallery remains dynamic.`);
+    noindex:process.env.ALLOW_INDEXING !== "true",revision:createHash("sha256").update(contentRevisionSource(content)).digest("hex"),pages,dataPages},null,2)+"\n");
+  console.log(`SSG: ${paths.length} HTML documents and navigation responses generated from ${remote ? "published backend" : "local development"} content. Gallery remains dynamic.`);
 } finally { await rm(snapshotFile,{force:true}); }

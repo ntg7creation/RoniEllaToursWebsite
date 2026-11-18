@@ -3,11 +3,13 @@ import { relative, isAbsolute, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { LocalContentManifestSchema, parseSiteContent, type PublicSiteContent } from "@roniella/shared/site-content";
 import { registeredMedia, validateRuntimeContent } from "./runtime-content.js";
+import type { DrivePhotoReference } from '@roniella/shared/google-drive';
 
-export type MediaFile = { path: string; filename: string; staticPath?: never }
-  | { staticPath: string; filename: string; path?: never };
+export type MediaFile = { path: string; filename: string; staticPath?: never; googleDrive?: never }
+  | { staticPath: string; filename: string; path?: never; googleDrive?: never }
+  | { googleDrive: DrivePhotoReference; edge: number; filename: string; path?: never; staticPath?: never };
 export interface ContentRepository {
-  getPublicContent(): Promise<PublicSiteContent>;
+  getPublicContent(fresh?: boolean): Promise<PublicSiteContent>;
   getMedia?(filename: string): Promise<MediaFile | undefined>;
 }
 export const defaultContentDirectory = new URL("../content/", import.meta.url);

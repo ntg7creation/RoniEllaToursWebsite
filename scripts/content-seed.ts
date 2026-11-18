@@ -31,11 +31,15 @@ export function createContentSeed(content: PublicSiteContent): string {
       ...(kind === "site" ? [asset.caption,asset.author,asset.source,asset.license,asset.licenseUrl,asset.sizes] : Array(6).fill(null))]));
   insert("content_media_variants", ["media_id","position","src","width"],
     assets.flatMap(({asset}) => asset.variants.map((variant,i) => [asset.id,i,variant.src,variant.width])));
-  insert("content_pages", ["id","path","page_type","title","display_title","hero_media_id","seo_title","seo_description","publication_date","modification_date","source_retrieved_at","position","published","author_name","author_page_id"],
-    content.pages.map((p,i) => [p.id,p.path,p.pageType,p.title,p.displayTitle ?? null,p.heroMediaId ?? null,p.seo.title,p.seo.description,p.publicationDate,p.modificationDate,p.sourceRetrievedAt,i,true,p.author?.name ?? null,p.author?.pageId ?? null]));
-  insert("content_blocks", ["page_id","position","block_type","text","heading_level","anchor_ids","links","list_ordered","list_items","table_caption","table_rows"],
+  const metadata = content.pages.some(p => p.summary !== undefined || p.destinationDetails || p.seo.keywords || p.seo.socialTitle || p.seo.socialDescription || p.seo.noindex);
+  const images = content.pages.some(p => p.blocks.some(b => b.type === 'image'));
+  insert("content_pages", ["id","path","page_type","title","display_title","hero_media_id","seo_title","seo_description","publication_date","modification_date","source_retrieved_at","position","published","author_name","author_page_id", ...(metadata ? ['summary','destination_dates','seo_keywords','social_title','social_description','seo_noindex'] : [])],
+    content.pages.map((p,i) => [p.id,p.path,p.pageType,p.title,p.displayTitle ?? null,p.heroMediaId ?? null,p.seo.title,p.seo.description,p.publicationDate,p.modificationDate,p.sourceRetrievedAt,i,true,p.author?.name ?? null,p.author?.pageId ?? null,
+      ...(metadata ? [p.summary ?? p.destinationDetails?.summary ?? null,p.destinationDetails?.dates ?? '',p.seo.keywords ?? [],p.seo.socialTitle ?? '',p.seo.socialDescription ?? '',p.seo.noindex ?? false] : [])]));
+  insert("content_blocks", ["page_id","position","block_type","text","heading_level","anchor_ids","links","list_ordered","list_items","table_caption","table_rows", ...(images ? ['media_id','image_alt','image_caption','image_align'] : [])],
     content.pages.flatMap(p => p.blocks.map((b,i) => [p.id,i,b.type,"text" in b ? b.text : null,"level" in b ? b.level : null,b.anchorIds,b.links,
-      b.type === "list" ? b.ordered : null,b.type === "list" ? b.items : null,b.type === "table" ? b.caption : null,b.type === "table" ? b.rows : null])));
+      b.type === "list" ? b.ordered : null,b.type === "list" ? b.items : null,b.type === "table" ? b.caption : null,b.type === "table" ? b.rows : null,
+      ...(images ? b.type === 'image' ? [b.mediaId,b.alt,b.caption,b.align] : [null,null,null,null] : [])])));
   insert("content_page_cards", ["page_id","position","target_page_id","summary"],content.pages.flatMap(p => p.cards.map((c,i) => [p.id,i,c.pageId,c.summary])));
   insert("content_videos", ["page_id","position","title","description","external_url"],content.pages.flatMap(p => p.videos.map((v,i) => [p.id,i,v.title,v.description,v.externalUrl])));
   insert("content_navigation", ["location","position","label","page_id"],

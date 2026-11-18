@@ -1,5 +1,37 @@
 # Two Vercel projects
 
+Contact-page cleanup: frontend `dpl_51UztffKifMYuNXkrmigxjtT86EE` is live on the
+existing stable URL. `/contact/` now contains the callback form without the
+archived introduction or repeated contact panel. Desktop/mobile live layout,
+frontend type checking, production build, and local callback submission checks
+(including no-JavaScript submission with mocked email) passed. No database or
+backend deployment was needed.
+
+Latest release: Drive photo picker, 8 November 2026. Migration
+`20261108001100_drive_photo_links.sql` applied; API
+`dpl_HWdeDKWyV4WGP3xzE3azc2ntAz1o` and frontend
+`dpl_4o2dgNuKRDdHfWAtBuESueyBnT2r` deployed to the existing stable aliases.
+The selector reads the shared public Drive folder, stores stable file links in
+Supabase and serves image renditions without adding local photo files. The
+Google Photos gallery is preserved. The isolated Drive browser tests, 54 unit
+tests, PostgreSQL checks and local Vercel artifact tests passed. Real folder
+listing and both current Drive image renditions were checked anonymously.
+
+Editor extension released 8 November 2026: migration
+`20261108001000_editor_collections_and_seo.sql` applied; backend
+`dpl_E5RU1y1XgcQ1mLRke6mbGHfvbM4U` and frontend
+`dpl_J75EFFb4Pb9UZfCfQGTiqpMihhUY` are ready on their existing stable aliases.
+Deployed from the reviewed working tree with Vercel CLI; no Git push or business
+domain/DNS change was made. Live checks passed for all 40 public pages, API
+readiness, guest admin restrictions and preview noindex. Private before/after
+content snapshots are in the ignored `.qa/` release files; all existing content
+rows were preserved.
+
+For the new unlisted `/admin/login` and inline editor, also complete
+[Google provider, frontend environment and allowlist setup](admin-login-and-editing.md).
+The frontend now needs `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` for this
+optional feature; the Supabase server secret remains backend-only.
+
 Use the existing GitHub repository `ntg7creation/RoniEllaToursWebsite`, branch
 `main`, for both projects. The rebuilt application and Node 24 build fix are now
 on `main`. Supabase is already populated; do not repeat the initial seed.
@@ -206,6 +238,49 @@ after your first real deployments. Choose a function region near the Supabase
 project for both services.
 
 ## Updates and domain cutover
+
+Photo editing release, 8 November 2026: backend
+`dpl_7JjjZeGF8epAuznsosPaxRUbu9Tz` and frontend
+`dpl_4f9EgNDdiUunA7QyprZJFFsjXWuW` are ready on the existing stable aliases.
+Migration `20261108001200_section_photo_editing.sql` was applied without seeds.
+All 15 existing content tables matched their pre-release snapshot exactly
+(40 pages, 1,211 blocks). The release adds contextual photo selection for fixed
+presentation sections and shared Drive portraits for guides, and removes public
+Drive source/license links. No hosted photo selections or test records were
+created. Local checks passed type checking, 55 unit/API tests, PostgreSQL
+migration and admin tests, the full admin browser flow, Drive/section/guide
+photo browser tests including mobile/axe, the production build, and the exact
+Vercel function harness. Read-only live checks passed all 40 pages and 39
+generated responses, public metadata, anonymous editor denial, contact form,
+desktop/mobile image rendering and absence of source/license links. Evidence
+is retained only in ignored `.qa/photo-controls-*` and `.qa/admin/` artifacts.
+
+The follow-up hero-control fix is deployed as frontend
+`dpl_DKqbTfhnqsMojD9Mt7dyxgEKcEN6`. **עריכת תמונת הרקע** now sits beside the
+home opening-text control instead of overlaying the background photograph.
+The local browser flow verified clickability at 1440px, 768px and 320px,
+Drive selection and persistence after reload. Frontend/script type checks,
+production build and the Vercel bundle harness passed. Live read-only review
+verified the same control at all three widths with a browser-only editor-session
+preview, plus guest home/guides/contact rendering. No hosted content was edited.
+
+Navigation reuse release, 9 November 2026: backend
+`dpl_ERp3pwhKTt9SxraCpr4qF3M22LCp` and frontend
+`dpl_DFCgWomt4rGD1ePsVfmBrPvmcGXY` are ready on their existing stable aliases.
+The build packages 39 native navigation-data responses beside the existing HTML.
+Both response types check current publication state before reuse. Warm frontend
+instances validate an unchanged backend snapshot by ETag instead of downloading
+and parsing it again. Editor reads stay unconditional; no database migration or
+hosted content edits were needed. Type checking, all 57 unit/API tests, the
+production build, photo/editor browser flow and Vercel function integration tests
+passed. `npm.cmd run test:vercel -- --browser` additionally verified real desktop
+and mobile navigation through the generated data, plus edit/unpublish invalidation.
+Live checks passed all 39 navigation responses and access restrictions. Three
+sample clicks used `static`/`cached` responses; decoded data decreased from about
+604 KB to 375 KB. Observed click durations varied around 0.8–1.0 seconds, so these
+small samples do not establish a consistent end-to-end speed improvement. Every
+request still has a backend freshness check and network latency. Ignored
+`.qa/navigation-*` files retain the read-only results.
 
 Once the projects are linked, pushes to their configured branches can trigger
 Vercel deployments. Keep database changes backward compatible across releases.

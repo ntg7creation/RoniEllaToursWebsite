@@ -8,7 +8,10 @@
     "./site-content": "./dist/site-content.js",
     "./archive-urls": "./dist/archive-urls.js",
     "./urls": "./dist/urls.js",
-    "./callback": "./dist/callback.js"
+    "./callback": "./dist/callback.js",
+    "./admin": "./dist/admin.js",
+    "./tour-schedule": "./dist/tour-schedule.js",
+    "./google-drive": "./dist/google-drive.js"
   },
   "scripts": {
     "build": "tsc",

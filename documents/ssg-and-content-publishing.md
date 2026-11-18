@@ -1,12 +1,12 @@
 # SSG, automatic regeneration, and SEO preservation
 
-Implemented 2 November 2026. No hosted deployment or database update was performed.
+Implemented 2 November 2026; navigation reuse extended 9 November 2026.
 
 ## What is generated and how it stays current
 
 The normal frontend build now uses React Router's native `prerender` support.
 It discovers all published pages from one validated content snapshot and produces
-39 complete HTML documents, including all 15 blog articles. The gallery remains
+39 complete HTML documents and their native navigation responses, including all 15 blog articles. The gallery remains
 request-rendered so its photo selection can change.
 
 `scripts/build-web.ts` chooses the build source:
@@ -20,15 +20,15 @@ request-rendered so its photo selection can change.
 - `SITE_ORIGIN` and `ALLOW_INDEXING` determine generated canonical URLs and
   indexing tags. Changing the final domain requires a new build.
 
-The generated HTML is packaged inside the frontend server function, alongside
+The generated HTML and navigation data are packaged inside the frontend server function, alongside
 a content revision and environment manifest. It is deliberately kept out of
 public static assets. Before serving a generated document, the runtime reads
 current published content and checks its revision, origin, indexing mode, and
 whether that page still exists. Matching pages use their build-time HTML.
 
 When content changes, the same React Router loaders and SEO code generate fresh
-HTML. A bounded cache of 100 documents per warm function avoids repeating that
-render for the same content revision. The revision compares sorted object keys,
+HTML/data. A bounded cache of 100 responses per warm function avoids repeating
+rendering or data serialization for the same content revision. The revision compares sorted object keys,
 so PostgreSQL JSON ordering cannot cause false changes. Any changed content
 invalidates that instance's cached documents; publication is checked first.
 
@@ -38,16 +38,28 @@ HTML request still checks the backend. This trades some static-hosting speed and
 offline availability for reliable publication checks and simple deployment in
 the existing single React Router function. It does not add a framework or cron.
 
-The backend's existing 30-second content cache bounds normal edit visibility.
-Regeneration happens on the next request after fresh content is available.
+The backend checks the publication revision on every read and reloads its
+validated snapshot when that revision changes or its cache expires.
+Regeneration happens on the next request after a change.
 There is no background job rebuilding unvisited pages. If the backend is
 unavailable, the runtime returns the existing safe 503 rather than serving a
-potentially unpublished document. React Router data requests, redirects, query
-URLs, error responses and gallery requests remain dynamic. Stale `.data` files
-are removed from static output, so browser navigation gets current loader data.
+potentially unpublished document. Ordinary React Router navigation requests now
+reuse their build-time `.data` responses after the same current-content check.
+Changed data regenerates once per warm instance/revision. Redirects, query URLs,
+partial-loader requests, mutations, errors and gallery requests remain dynamic.
+The `.data` artifacts are removed from public static output and kept inside the
+function, so they cannot bypass publication checks.
+
+The frontend retains one validated public-content snapshot in memory and sends
+its ETag on subsequent backend reads. The backend checks the current database
+revision first, then returns a bodyless `304` when unchanged. This avoids
+retransferring, parsing and revalidating the full snapshot between services on
+every navigation. Signed-in editor reads remain unconditional. API failures
+still fail immediately; these changes add no stale time window or CDN caching.
+The frontend also reuses the content hash for the same immutable snapshot.
 
 The response header `X-Roniella-Render` identifies `static`, `regenerated`, or
-`cached` documents. Dynamic gallery/data/error/redirect responses omit it.
+`cached` HTML/navigation responses. Dynamic gallery/error/redirect responses omit it.
 
 ## Owner publishing behavior
 

@@ -1,0 +1,40 @@
+/* Layout configuration for the upstream `accessibility` package. The package
+   supplies the toolbar UI and every display tool; no custom replacement widget. */
+body {
+  --_access-icon-left: 16px;
+  --_access-icon-right: auto;
+  --_access-icon-bottom: 20px;
+  --_access-icon-bg: #173e35;
+  --_access-icon-border: 2px solid #fff;
+  --_access-icon-border-radius: 50%;
+  --_access-icon-transform-hover: none;
+  --_access-menu-width: min(360px, calc(100vw - 24px));
+  --_access-menu-min-width: 0;
+  --_access-menu-left: 12px;
+  --_access-menu-right: auto;
+  --_access-menu-bottom: 82px;
+  --_access-menu-font-family: "Assistant", Arial, sans-serif;
+  --_access-menu-color: #173e35;
+  --_access-menu-item-color: #173e35;
+  --_access-menu-header-color: #173e35;
+  --_access-menu-header-margin: 20px 44px 16px;
+  --_access-menu-item-button-padding: 12px 8px;
+  --_access-menu-item-button-before-collapse-opacity: 1;
+  --_access-menu-item-line-height: 1.5;
+  --_access-menu-max-height: calc(100dvh - 180px);
+  --_access-menu-transition-duration: 0s;
+  --_access-menu-header-btn-hover-rotate: none;
+}
+._access-menu { max-height: calc(100dvh - 100px) !important; text-indent: 0 !important; }
+._access-menu.close { visibility: hidden; }
+._access-menu * { transition: none !important; }
+._access-menu ul li button { min-height: 44px; font: 400 18px/1.5 "Assistant", Arial, sans-serif; }
+/* A checkmark conveys selection alongside the upstream color change. */
+._access-menu button[aria-pressed="true"]::after { content: " ✓"; display: inline-block; margin-inline-start: .35rem; text-indent: 0; font-weight: 700; }
+._access-menu ._menu-btn { width: 44px; height: 44px; }
+._access-menu :focus-visible, ._access-icon:focus-visible { outline: 3px solid #a64a11 !important; outline-offset: 3px; }
+._access-icon { font-style: normal; }
+.accessibility-fallback { position: fixed; left: 16px; bottom: 20px; padding: .6rem 1rem; z-index: 50; background: #173e35; color: #fff; border: 2px solid #fff; border-radius: 2rem; }
+body:has(._access-icon) .accessibility-fallback { display: none; }
+.site-footer { padding-bottom: 6rem; }
+@media print { ._access-icon, ._access-menu, .accessibility-fallback { display: none !important; } }

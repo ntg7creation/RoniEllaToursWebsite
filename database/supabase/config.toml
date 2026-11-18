@@ -23,6 +23,7 @@ port = 54323
 [auth]
 enabled = true
 site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://127.0.0.1:5173/admin/callback", "http://localhost:5173/admin/callback", "http://localhost:3000/admin/callback"]
 
 [analytics]
 enabled = false

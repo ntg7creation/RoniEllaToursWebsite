@@ -42,6 +42,7 @@ try{
     await page.getByRole('button',{name:/שליחת הפרטים/}).click();
     try{await page.getByRole('heading',{name:'תודה, הפנייה נשלחה!'}).waitFor({timeout:10000});}
     catch(error){console.log('Form diagnostic:',(await page.locator('.callback-card').textContent({timeout:1000})).slice(-800));console.log('Server diagnostic:',servers.logs());await page.screenshot({path:fileURLToPath(new URL('failure.png',output)),fullPage:true});throw error;}
+    assert.equal(await page.locator('.callback-success').evaluate(element=>element===document.activeElement),true,'Successful submission moves focus to its confirmation');
     const sizes=await page.evaluate(()=>({width:document.documentElement.scrollWidth,viewport:innerWidth}));
     assert.ok(sizes.width<=sizes.viewport+2);
     assert.deepEqual(errors,[]);measurements.push({width,javaScript:true,errors,...sizes});

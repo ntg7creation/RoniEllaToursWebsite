@@ -21,17 +21,17 @@ const origin = "http://127.0.0.1:4100", apiOrigin = "http://127.0.0.1:4101", can
 let available = true, calls = 0, unexpectedDatabaseCalls = 0;
 const children: (ChildProcess & { output?:string })[] = [];
 const bridge = createServer(async (req,res) => {
-  if (req.url !== "/rest/v1/rpc/read_site_content" || req.method !== "POST") {
+  if (!["/rest/v1/rpc/read_site_content", "/rest/v1/rpc/read_site_revision"].includes(req.url ?? '') || req.method !== "POST") {
     unexpectedDatabaseCalls++; res.writeHead(404).end(); return;
   }
   if (req.headers.apikey !== secret || req.headers.authorization) { res.writeHead(401).end(); return; }
-  calls++;
+  if (req.url === '/rest/v1/rpc/read_site_content') calls++;
   if (!available) { res.writeHead(503).end("Private upstream diagnostic must not be exposed"); return; }
   try {
     req.resume();
     const result = await db.transaction(async tx => {
       await tx.exec("set local role service_role");
-      return tx.query<{content:unknown}>("select public.read_site_content() as content");
+      return tx.query<{content:unknown}>(req.url === '/rest/v1/rpc/read_site_revision' ? 'select public.read_site_revision() as content' : "select public.read_site_content() as content");
     });
     res.setHeader("Content-Type","application/json"); res.end(JSON.stringify(result.rows[0]!.content));
   } catch { res.writeHead(500).end(); }
@@ -116,6 +116,14 @@ try {
   assert.ok(!(await(await fetch(origin)).text()).includes('Callback Test Person'));
   const robots=await(await fetch(origin+"/robots.txt")).text();
   assert.match(robots,/^Allow: \/$/m); assert.ok(robots.includes(`Sitemap: ${canonical}/sitemap.xml`));
+  assert.ok(robots.includes('User-agent: OAI-SearchBot'));
+  const directory = await (await fetch(origin+'/llms.txt')).text();
+  assert.ok(directory.includes(canonical+'/tours/china-may-2027/'));
+  assert.ok(!directory.includes('/admin/') && !directory.includes('/thank-you/'));
+  assert.equal((await fetch(origin+'/sitemap_index.xml',{redirect:'manual'})).headers.get('location'),'/sitemap.xml');
+  assert.match((await fetch(origin+'/thank-you/')).headers.get('x-robots-tag') ?? '', /noindex/);
+  const shortlink = await fetch(origin+'/?page_id=6032&post_type=trips&utm_source=partner',{redirect:'manual'});
+  assert.equal(shortlink.status,301); assert.equal(shortlink.headers.get('location'),'/tours/china-may-2027/?utm_source=partner');
   assert.equal(((await(await fetch(origin+"/sitemap.xml")).text()).match(/<url>/g)??[]).length,40);
   for(const rule of content.redirects) {
     const url=new URL(rule.fromPath,origin);
@@ -148,6 +156,7 @@ try {
       if (project === "front") {
         const generated=JSON.parse(await readFile(new URL("functions/server.func/ssg/manifest.json",base),"utf8"));
         assert.equal(Object.keys(generated.pages).length,39);
+        assert.equal(Object.keys(generated.dataPages).length,39);
         assert.ok(!generated.pages["/gallery/"]);
         for (const [path,file] of Object.entries(generated.pages)) {
           const html=await readFile(new URL(`functions/server.func/ssg/${file}`,base),"utf8");
@@ -217,13 +226,41 @@ try {
     const expected=await readFile(new URL(`../front/.vercel/output/functions/server.func/ssg/${generated.pages['/']}`,import.meta.url),"utf8");
     assert.equal(await staticResponse.text(),expected);
     assert.equal((await fetch(origin)).headers.get("x-roniella-render"),"cached");
+    const staticData=await fetch(origin+'/tours/_.data');
+    assert.equal(staticData.headers.get('x-roniella-render'),'static');
+    assert.match(staticData.headers.get('content-type')??'',/text\/x-script/);
+    assert.equal(await staticData.text(),await readFile(new URL(`../front/.vercel/output/functions/server.func/ssg/${generated.dataPages['/tours/']}`,import.meta.url),'utf8'));
+    assert.equal((await fetch(origin+'/tours/_.data')).headers.get('x-roniella-render'),'cached');
+    assert.equal((await fetch(origin+'/tours/_.data?check=1')).headers.get('x-roniella-render'),null,'Query-specific data bypasses the generated response');
+    if(process.argv.includes('--browser')){
+    const {chromium}=await import('playwright');
+    const browser=await chromium.launch({channel:'chrome',headless:true});
+    try{
+      const browserPage=await browser.newPage({viewport:{width:1440,height:1000}}),errors:string[]=[];
+      browserPage.on('pageerror',error=>errors.push(error.message));
+      await browserPage.goto(origin);
+      for(const path of ['/tours/','/about/']){
+        const navigation=browserPage.waitForResponse(response=>new URL(response.url()).pathname===path+'_.data');
+        await browserPage.locator(`.desktop-nav a[href="${path}"]`).click();
+        assert.ok(['static','cached'].includes((await navigation).headers()['x-roniella-render']??''));
+        await browserPage.waitForURL(origin+path);await browserPage.locator('main h1').waitFor();
+      }
+      await browserPage.setViewportSize({width:320,height:844});await browserPage.locator('.mobile-menu>summary').click();
+      await browserPage.locator('.mobile-menu nav a[href="/blog/"]').click();await browserPage.waitForURL(origin+'/blog/');
+      await browserPage.locator('main h1').waitFor();assert.deepEqual(errors,[]);
+    }finally{await browser.close();}
+    }
     await db.exec("update public.content_copy set value='Static page regenerated after edit' where area='home.hero' and slot='heading'");
     const regenerated=await fetch(origin);
     assert.equal(regenerated.headers.get("x-roniella-render"),"regenerated");
     assert.ok(htmlText(await regenerated.text()).includes('Static page regenerated after edit'));
+    const changedData=await fetch(origin+'/tours/_.data');assert.equal(changedData.headers.get('x-roniella-render'),'regenerated');
+    assert.ok((await changedData.text()).includes('Static page regenerated after edit'));
+    assert.equal((await fetch(origin+'/tours/_.data')).headers.get('x-roniella-render'),'cached');
     const article=content.pages.find((page:{pageType:string})=>page.pageType==='article');
     await db.query("update public.content_pages set published=false where id=$1",[article.id]);
     assert.equal((await fetch(origin+article.path)).status,404);
+    assert.equal((await fetch(origin+article.path+'_.data')).status,404,'Unpublishing also invalidates navigation data');
     await db.query("update public.content_pages set published=true where id=$1",[article.id]);
     await stop(staticWeb);
     console.log('PASS: 39 real SSG HTML artifacts; exact static HTML response; content changes regenerate HTML; cached page deletion gives 404; metadata defaults, curated override, automatic blog discovery and live data responses.');
@@ -236,6 +273,7 @@ try {
   if (vercel) assert.ok((await previewResponse.text()).includes('rel="canonical" href="https://roniella-preview-test.vercel.app/"'));
   assert.match(await(await fetch(origin+"/robots.txt")).text(),/Disallow: \/\n/);
   assert.equal((await fetch(origin+"/sitemap.xml")).status,404);
+  assert.equal((await fetch(origin+"/llms.txt")).status,404);
   const assets=new URL("../front/build/client/assets/",import.meta.url);
   for(const file of (await readdir(assets)).filter(file=>file.endsWith(".js"))) {
     const js=await readFile(new URL(file,assets),"utf8");
@@ -243,7 +281,7 @@ try {
   }
   assert.ok(calls>40);
   if (vercel) console.log("PASS: actual Vercel function bundles under local HTTP harness; static backend photos, protected API/CDN requests, streamed same-origin images, client assets/data route, preview origin, no photos/secrets bundled into functions. Hosted Vercel runtime not exercised.");
-  console.log("PASS: production SSR → authenticated backend → Supabase HTTP adapter → real PostgreSQL; 40 pages/72 redirects; live database edits and new routes without rebuild; drafts/404s; gallery/backend media; production sitemap/canonicals; preview noindex; failed database readiness/503/recovery; no secrets in HTML/client bundles. Local test only, no hosted services contacted.");
+  console.log("PASS: production SSR → authenticated backend → Supabase HTTP adapter → real PostgreSQL; all published pages and legacy redirects; live database edits and new routes without rebuild; drafts/404s; gallery/backend media; production sitemap/canonicals; preview noindex; failed database readiness/503/recovery; no secrets in HTML/client bundles. Local test only, no hosted services contacted.");
 } catch(error) {
   for(const child of children) console.error(child.output);
   throw error;

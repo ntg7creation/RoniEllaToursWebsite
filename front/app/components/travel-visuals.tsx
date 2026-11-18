@@ -1,30 +1,30 @@
 import type { SitePage } from "@roniella/shared/site-content";
 import { useSiteContent } from "./site-content-context";
+import type { PhotoSlot } from '@roniella/shared/admin';
+import { AdminManageButton, AdminPhotoButton } from './admin-context';
 
 export type PhotoName = string;
 
-export function Photograph({ name, priority = false, className = "" }: {
-  name: PhotoName; priority?: boolean; className?: string;
+export function Photograph({ name, priority = false, className = "", alt, caption, slot, editPageId, showCaption=true, showEditButton=true }: {
+  name: PhotoName; priority?: boolean; className?: string; alt?: string; caption?: string; slot?:PhotoSlot; editPageId?:string; showCaption?:boolean; showEditButton?:boolean;
 }) {
-  const photo = useSiteContent().media.find(asset => asset.id === name);
+  const content=useSiteContent();
+  const selected=slot&&Object.hasOwn(content.photoSlots??{},slot)?content.photoSlots![slot]:name;
+  if(selected===null)return slot&&showEditButton?<AdminPhotoButton slot={slot}/>:null;
+  const photo = content.media.find(asset => asset.id === selected);
   if (!photo) throw Error(`Missing media asset: ${name}`);
   return (
     <figure className={`editorial-photograph ${className}`}>
+      {showEditButton&&(slot?<AdminPhotoButton slot={slot}/>:editPageId?<AdminManageButton pageId={editPageId} mode="settings" className="admin-photo-edit">עריכת תמונה / Edit image</AdminManageButton>:null)}
       <img src={photo.src}
         srcSet={photo.variants.map(variant => `${variant.src} ${variant.width}w`).join(", ")}
         sizes={photo.sizes}
         width={photo.width} height={photo.height}
-        alt={photo.alt} loading={priority ? "eager" : "lazy"}
+        alt={alt ?? photo.alt} loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"} decoding="async" />
-      <figcaption>
-        <span>{photo.caption}</span>
-        <details className="photo-credit">
-          <summary>צילום ורישיון</summary>
-          <p><a href={photo.source} rel="noreferrer"><bdi>{photo.author}</bdi></a>{" · "}
-            <a href={photo.licenseUrl} rel="noreferrer"><bdi>{photo.license}</bdi></a>
-            . התצלום הוקטן ונחתך לתצוגה לפי גודל המסך.</p>
-        </details>
-      </figcaption>
+      {showCaption&&<figcaption>
+        <span>{caption ?? photo.caption}</span>
+      </figcaption>}
     </figure>
   );
 }
@@ -38,9 +38,10 @@ export function PagePhotograph({ page, priority = false, placeholder = false }: 
   page: SitePage; priority?: boolean; placeholder?: boolean;
 }) {
   const photo = photoForPage(page);
-  if (photo) return <Photograph name={photo} priority={priority} className="page-photograph" />;
+  if (photo) return <Photograph name={photo} priority={priority} className="page-photograph" editPageId={page.id} />;
   return placeholder ? (
-    <div className="travel-photo-placeholder" role="img" aria-label="מקום לתצלום מהמסע">
+    <div className="travel-photo-placeholder">
+      <AdminManageButton pageId={page.id} mode="settings" className="admin-photo-edit">בחירת תמונה / Choose image</AdminManageButton>
       <CompassRose /><span>צילום מהמסע יתווסף בהמשך</span>
     </div>
   ) : null;

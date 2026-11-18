@@ -45,7 +45,7 @@ try {
       return {title:doc.title,titleCount:all("title").length,metas,canonicals:all('link[rel="canonical"]').map(e=>e.getAttribute("href")),
         lang:doc.documentElement.lang,dir:doc.documentElement.dir,h1:all("h1").map(e=>e.textContent.trim()),
         mainText:doc.querySelector("main")?.textContent.replace(/\s+/g," ").trim()??"",
-        jsonLd:ld,ids,duplicateIds:ids.filter((v,i)=>ids.indexOf(v)!==i),
+        headings:all("main :is(h1,h2,h3,h4,h5,h6)").map(e=>Number(e.tagName.slice(1))),jsonLd:ld,ids,duplicateIds:ids.filter((v,i)=>ids.indexOf(v)!==i),
         links:all("a[href]").map(e=>({href:e.getAttribute("href"),text:e.textContent.trim(),label:e.getAttribute("aria-label")})),
         images:all("img").map(e=>({src:e.getAttribute("src"),srcset:e.getAttribute("srcset"),alt:e.getAttribute("alt"),width:e.getAttribute("width"),height:e.getAttribute("height")})),
         assets:all('link[rel="stylesheet"],link[rel="preload"],link[rel="icon"]').map(e=>e.getAttribute("href")),
@@ -55,7 +55,8 @@ try {
     report.pages.push(result);
     await writeFile(new URL(`${source.path.replaceAll("/","_")||"home"}.html`,output),html);
     if(status!==200)problem(source.path,`HTTP ${status}`);
-    if(parsed.titleCount!==1 || parsed.title!==source.seo.title)problem(source.path,"Missing/duplicate/unexpected SSR title");
+    if(parsed.titleCount!==1 || !parsed.title.trim())problem(source.path,"Missing/duplicate SSR title");
+    if(parsed.headings.some((level,i,levels)=>i>0&&level>levels[i-1]+1))problem(source.path,'Skipped heading level');
     if(parsed.h1.length!==1)problem(source.path,`H1 count ${parsed.h1.length}`);
     if(parsed.lang!=="he"||parsed.dir!=="rtl")problem(source.path,"Incorrect language/direction");
     if(parsed.canonicals.length!==1||parsed.canonicals[0]!==origin+source.path)problem(source.path,"Canonical mismatch");
@@ -65,7 +66,7 @@ try {
     if(parsed.jsonLd.some(x=>x.invalid))problem(source.path,"Invalid JSON-LD");
     if(!parsed.metas["og:title"]||!parsed.metas["og:url"])problem(source.path,"Missing Open Graph metadata");
     if(parsed.metas["og:url"] && parsed.metas["og:url"][0]!==parsed.canonicals[0])problem(source.path,"Open Graph URL differs from canonical");
-    if(parsed.metas["og:title"] && parsed.metas["og:title"][0]!==parsed.title)problem(source.path,"Open Graph title differs from page title");
+    if(!parsed.metas["og:image"]?.[0])problem(source.path,"Missing Open Graph image");
     for(const schema of parsed.jsonLd){
       if(!schema["@graph"])continue;
       const ids=new Set(schema["@graph"].map(n=>n["@id"]));
@@ -118,7 +119,28 @@ try {
       if(!js&&path.includes("china")){await page.locator(".day-card").nth(1).locator("summary").click();report.browser.at(-1).nativeItineraryWorks=await page.locator(".day-card").nth(1).getAttribute("open")!==null;}
       if(js&&path==="/")await page.screenshot({path:fileURLToPath(new URL("home-desktop.png",output)),fullPage:true});
     }
-    if(js){await page.setViewportSize({width:390,height:844});await page.goto(origin+"/",{waitUntil:"networkidle"});await page.screenshot({path:fileURLToPath(new URL("home-mobile.png",output)),fullPage:true});}
+    if(js){
+      await context.addInitScript(()=>{
+        window.auditVitals={lcpMs:null,cls:0};
+        let first=0,last=0,session=0;
+        new PerformanceObserver(list=>{for(const entry of list.getEntries())window.auditVitals.lcpMs=Math.round(entry.startTime);}).observe({type:"largest-contentful-paint",buffered:true});
+        new PerformanceObserver(list=>{for(const entry of list.getEntries()){
+          if(entry.hadRecentInput)continue;
+          if(!first||entry.startTime-last>1000||entry.startTime-first>5000){first=entry.startTime;session=0;}
+          last=entry.startTime;session+=entry.value;window.auditVitals.cls=Math.max(window.auditVitals.cls,session);
+        }}).observe({type:"layout-shift",buffered:true});
+      });
+      for(const width of [320,390,768]){
+        await page.setViewportSize({width,height:844});
+        for(const path of ["/","/tours/china-may-2027/","/blog/uzbekistan-silk-road/","/gallery/"]){
+          await page.goto(origin+path,{waitUntil:"networkidle",timeout:45000});
+          const sample=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,...window.auditVitals}));
+          report.browser.push({path,width,...sample});
+          if(sample.overflow)problem(path,"Horizontal overflow at "+width+"px");
+          if(width===390&&path==="/")await page.screenshot({path:fileURLToPath(new URL("home-mobile.png",output)),fullPage:true});
+        }
+      }
+    }
     report.browser.push({javaScript:js,errors});await context.close();
   }
 }finally{

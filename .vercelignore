@@ -1,0 +1,28 @@
+# CLI deployments must upload application source only. Git-ignore rules are not
+# sufficient for every CLI upload mode, especially when deploying a dirty tree.
+.git
+.qa
+.agents
+.codex
+.aws
+.supabase
+**/.vercel
+**/node_modules
+**/build
+**/dist
+**/.ssg
+**/.react-router
+**/.env
+**/.env.*
+**/*.log
+**/*.backup.sql
+**/*.dump
+**/*password*.txt
+back/private-data
+database
+deploy
+docs
+documents
+Modern Tour Company Website
+Modern Tour Company Website.zip
+FREELANCE_PROJECT_RESUME_CONTEXT.md

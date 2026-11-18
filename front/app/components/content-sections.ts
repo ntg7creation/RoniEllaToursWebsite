@@ -3,6 +3,12 @@ import type {
   SitePage,
   PublicSiteContent,
 } from "@roniella/shared/site-content";
+import { editableSections } from './editor-sections';
+import { durationLabel, itineraryDayCount } from '@roniella/shared/tour-schedule';
+
+export function guideProfiles(page:SitePage):ContentSection[]{
+  return editableSections(page.blocks,'guides').map(group=>({title:group.heading.text,blocks:page.blocks.slice(group.start+1,group.end),anchors:group.heading.anchorIds,links:group.heading.links,heading:group.heading}));
+}
 
 export const blockText = (block: SiteBlock): string =>
   "text" in block
@@ -16,6 +22,7 @@ export type ContentSection = {
   blocks: SiteBlock[];
   anchors: string[];
   links: SiteBlock["links"];
+  heading?: SiteBlock;
 };
 
 // Presentation groups reference the validated source blocks; they do not change the archive.
@@ -31,6 +38,7 @@ export function groupBlocks(
         blocks: [],
         anchors: block.anchorIds,
         links: block.links,
+        heading: block,
       });
     else {
       if (!sections.length)
@@ -57,18 +65,21 @@ export const cleanLabel = (text: string) => text.trim().replace(/[:：]$/, "");
 
 export function tourSections(page: SitePage) {
   const start = page.blocks.findIndex(
-    (b) => b.type === "heading" && b.text === "מסלול הטיול",
+    (b) => b.type === "heading" && (b.anchorIds.includes('editor-itinerary') || b.text === "מסלול הטיול"),
   );
   const price = page.blocks.findIndex(
-    (b) => b.type === "heading" && b.text === "תאריכי יציאה ומחירים",
+    (b) => b.type === "heading" && (b.anchorIds.includes('editor-prices') || b.text === "תאריכי יציאה ומחירים"),
   );
   const terms = page.blocks.findIndex(
-    (b) => b.type === "heading" && b.text === "תנאים והערות",
+    (b) => b.type === "heading" && (b.anchorIds.includes('editor-terms') || b.text === "תנאים והערות"),
   );
   const tail = page.blocks.findIndex(
-    (b, i) => i > terms && b.type === "heading" && b.text === "למה לטייל איתנו",
+    (b, i) => i > terms && b.type === "heading" && (b.anchorIds.includes('editor-more') || b.text === "למה לטייל איתנו"),
   );
   return {
+    itineraryTitle: start < 0 ? 'מסלול הטיול' : blockText(page.blocks[start]!),
+    priceTitle: price < 0 ? 'תאריכי יציאה ומחירים' : blockText(page.blocks[price]!),
+    termsTitle: terms < 0 ? 'תנאים והערות' : blockText(page.blocks[terms]!),
     overview: page.blocks
       .slice(0, start < 0 ? page.blocks.length : start)
       .filter(
@@ -85,7 +96,7 @@ export function tourSections(page: SitePage) {
         ? []
         : groupBlocks(
             page.blocks.slice(start + 1, price < 0 ? undefined : price),
-            (b) => b.type === "heading" && /^(?:היום|יום|ימים)\s/.test(b.text),
+            (b) => b.type === "heading" && (b.anchorIds.some(id => id.startsWith('editor-day-')) || /^(?:היום|יום|ימים)\s/.test(b.text)),
           ),
     prices:
       price < 0
@@ -115,6 +126,11 @@ export function sourceCard(page: SitePage, content: PublicSiteContent) {
 }
 
 export function cardCopy(page: SitePage, summary: string) {
+  if (page.tourDetails) {
+    const count = page.syncItinerary !== false ? itineraryDayCount(page.tourDetails.dates, page.tourDetails.duration) : null;
+    return count ? { ...page.tourDetails, duration: durationLabel(count) } : page.tourDetails;
+  }
+  if (page.summary !== undefined) summary = page.summary;
   const text = summary.startsWith(page.title)
     ? summary.slice(page.title.length).trim()
     : summary;
@@ -125,9 +141,11 @@ export function cardCopy(page: SitePage, summary: string) {
     /\d+\s+ימים|\b\d+\b(?=\s+\d{2}\/\d{2}\/\d{4})/,
   )?.[0];
   const status = text.match(/סטטוס הטיול:\s*(.+?)(?:\s+לפרטים|$)/)?.[1];
+  const count = page.pageType === 'tour' && page.syncItinerary !== false ? itineraryDayCount(dates, duration) : null;
   return {
+    price: '', guide: '',
     dates,
-    duration,
+    duration: count ? durationLabel(count) : duration,
     status,
     summary: text
       .replace(dates ?? /$^/, "")

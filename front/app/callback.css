@@ -4,7 +4,7 @@
 .social-links .youtube-play { fill:var(--ink,#173d32); }
 .social-links a:hover,.social-links a:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
 .callback-card { grid-column:1/-1; padding:2.5rem; background:#f8f4e9; color:#183f34; text-align:start; width:100%; min-width:0; }
-.editorial-shell .callback-card h3 { font-family:var(--font-display,'Frank Ruhl Libre',serif); font-size:2.15rem; line-height:1.25; margin:0 0 .75rem; }
+.editorial-shell .callback-card :is(h2,h3) { font-family:var(--font-display,'Frank Ruhl Libre',serif); font-size:2.15rem; line-height:1.25; margin:0 0 .75rem; }
 .editorial-shell .callback-card p { color:#36584c; font-size:1.1rem; line-height:1.65; }
 .callback-intro { margin-bottom:1.5rem; }
 .callback-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.25rem 1.5rem; }
@@ -30,4 +30,5 @@
 .callback-success > span { font-size:2rem; }
 .contact-panel > .callback-card { flex-basis:100%; }
 .contact-panel { flex-wrap:wrap; }
-@media(max-width:42rem) { .callback-card { padding:1.5rem 1.1rem; } .callback-fields,.callback-phone-row { grid-template-columns:1fr; gap:1rem; } .callback-form .editorial-button { width:100%; } .editorial-shell .callback-card h3 { font-size:1.85rem; } }
+.contact-form-page { max-width:52rem; margin-inline:auto; }
+@media(max-width:42rem) { .callback-card { padding:1.5rem 1.1rem; } .callback-fields,.callback-phone-row { grid-template-columns:1fr; gap:1rem; } .callback-form .editorial-button { width:100%; } .editorial-shell .callback-card :is(h2,h3) { font-size:1.85rem; } }

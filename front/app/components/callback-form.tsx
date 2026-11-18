@@ -2,20 +2,22 @@ import {useId,useRef,useState,useEffect} from "react";
 import {Link,useFetcher,useActionData,useLocation,useLoaderData} from "react-router";
 import {callbackCountries,callbackDestinations,validateCallback,type CallbackField,type CallbackResult} from "@roniella/shared/callback";
 import type {PublicSiteContent} from "@roniella/shared/site-content";
-export function CallbackForm({content}:{content:PublicSiteContent}){
+export function CallbackForm({content,headingLevel=3}:{content:PublicSiteContent;headingLevel?:2|3}){
+  const Heading=headingLevel===2?'h2':'h3';
   const id=useId(),fetcher=useFetcher<CallbackResult>(),action=useActionData<CallbackResult>(),location=useLocation();
   const destinations=callbackDestinations(content),submission=useRef<string>(undefined);
+  const success=useRef<HTMLElement>(null);
   const reply=fetcher.data??action,busy=fetcher.state!=="idle";
   const {callbackCountries:countries}=useLoaderData<{callbackCountries:ReturnType<typeof callbackCountries>}>();
   const [country,setCountry]=useState(reply?.values?.country??"IL");
   const [errors,setErrors]=useState<Partial<Record<CallbackField,string>>>(reply?.errors??{});
-  useEffect(()=>{if(reply?.errors){setErrors(reply.errors);focusError(reply.errors);}},[reply]);
+  useEffect(()=>{if(reply?.ok)success.current?.focus();else if(reply?.errors){setErrors(reply.errors);focusError(reply.errors);}},[reply]);
   const focusError=(errors:Partial<Record<CallbackField,string>>)=>requestAnimationFrame(()=>document.getElementById(`${id}-${Object.keys(errors)[0]==="privacy"?"privacyAccepted":Object.keys(errors)[0]}`)?.focus());
   const inputClass=(field:CallbackField)=>errors[field]?"has-error":undefined;
   const error=(field:CallbackField)=>errors[field]?<p className="callback-field-error" id={`${id}-${field}-error`}>{errors[field]}</p>:null;
-  if(reply?.ok)return <section className="callback-card callback-success" role="status" tabIndex={-1}><span aria-hidden="true">✓</span><h3>תודה, הפנייה נשלחה!</h3><p>נחזור אליכם לשיחה על המסע הבא שלכם.</p></section>;
+  if(reply?.ok)return <section className="callback-card callback-success" ref={success} role="status" tabIndex={-1}><span aria-hidden="true">✓</span><Heading>תודה, הפנייה נשלחה!</Heading><p>נחזור אליכם לשיחה על המסע הבא שלכם.</p></section>;
   return <section className="callback-card" aria-labelledby={`${id}-title`}>
-    <h3 id={`${id}-title`}>השאירו פרטים ונחזור אליכם</h3><p className="callback-intro">נשמח להכיר, לענות על שאלות ולעזור לבחור את המסע המתאים.</p>
+    <Heading id={`${id}-title`}>השאירו פרטים ונחזור אליכם</Heading><p className="callback-intro">נשמח להכיר, לענות על שאלות ולעזור לבחור את המסע המתאים.</p>
     <fetcher.Form method="post" action={location.pathname==="/"?"/?index":location.pathname} noValidate className="callback-form" onSubmit={event=>{
       const form=new FormData(event.currentTarget);
       const checked=validateCallback({name:String(form.get("name")??""),phone:String(form.get("phone")??""),country:String(form.get("country")??""),email:String(form.get("email")??""),destination:String(form.get("destination")??""),privacyAccepted:form.get("privacyAccepted")==="on"},destinations);

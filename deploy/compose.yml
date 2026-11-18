@@ -40,6 +40,8 @@ services:
       BACKEND_ORIGIN: http://backend:3001
       BACKEND_API_TOKEN: ${BACKEND_API_TOKEN:?Set a random shared backend token}
       SITE_ORIGIN: ${SITE_ORIGIN:?Set the canonical public origin}
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_PUBLISHABLE_KEY: ${SUPABASE_PUBLISHABLE_KEY:-}
       CONTENT_TIMEOUT_MS: ${CONTENT_TIMEOUT_MS:-12000}
       ALLOW_INDEXING: ${ALLOW_INDEXING:-false}
     ports: ["127.0.0.1:${WEB_PORT:-3000}:3000"]

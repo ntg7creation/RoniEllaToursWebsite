@@ -4,6 +4,8 @@ import { dirname } from "node:path";
 import { createHash, timingSafeEqual } from "node:crypto";
 import {callbackRouter,emailDomainExists} from "./callback-api.js";
 import type {CallbackMailer} from "./callback-email.js";
+import { driveThumbnailUrl } from '@roniella/shared/google-drive';
+import type { PublicSiteContent } from '@roniella/shared/site-content';
 export function createApp(repository: ContentRepository, options: { apiToken?: string;checkEmail?:typeof emailDomainExists;callbackMailer?:CallbackMailer } = {}) {
   const app = express();
   app.disable("x-powered-by");
@@ -27,8 +29,19 @@ export function createApp(repository: ContentRepository, options: { apiToken?: s
       next();
     });
   }
-  app.get("/api/v1/content", async (_req, res) => {
-    res.json(await repository.getPublicContent());
+  let encoded: { content: PublicSiteContent; body: string; etag: string } | undefined;
+  app.get("/api/v1/content", async (req, res) => {
+    const fresh = req.get("x-roniella-fresh-content") === "1";
+    // Check the database revision first, including for conditional reads. Never
+    // return an unchanged response solely because this instance has a snapshot.
+    const content = await repository.getPublicContent(fresh);
+    if (encoded?.content !== content) {
+      const body = JSON.stringify(content);
+      encoded = { content, body, etag: '"' + createHash('sha256').update(body).digest('hex') + '"' };
+    }
+    res.set('ETag', encoded.etag);
+    if (!fresh && req.get('if-none-match') === encoded.etag) { res.status(304).end(); return; }
+    res.type('json').end(encoded.body);
   });
   app.use("/api/v1/callbacks",express.json({limit:"8kb"}),callbackRouter(options.callbackMailer,options.checkEmail));
   app.get("/api/v1/media/:filename", async (req, res, next) => {
@@ -37,6 +50,10 @@ export function createApp(repository: ContentRepository, options: { apiToken?: s
     }
     const file = await repository.getMedia?.(req.params.filename);
     if (!file) { res.status(404).end(); return; }
+    if ('googleDrive' in file && file.googleDrive) {
+      res.redirect(307, driveThumbnailUrl(file.googleDrive.fileId, file.edge));
+      return;
+    }
     if (file.staticPath) { res.redirect(307, file.staticPath); return; }
     res.set("X-Content-Type-Options", "nosniff");
     res.sendFile(file.filename, { root: dirname(file.path!), dotfiles: "deny" }, error => {

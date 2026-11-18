@@ -1,0 +1,115 @@
+import assert from "node:assert/strict";
+import { mkdir, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { chromium } from "playwright";
+import { launchProduction } from "./processes.mjs";
+
+const servers = launchProduction({ webPort: 4500, apiPort: 4501 });
+const output = new URL("../.qa/accessibility-review/", import.meta.url);
+const metrics = [], errors = [], external = [];
+let browser, lastPage;
+const fontSize = page => page.locator("h1").evaluate(element => parseFloat(getComputedStyle(element).fontSize));
+const noOverflow = async (page, description) => {
+  const outside = await page.evaluate(() => ({ width: innerWidth, scrollWidth: document.documentElement.scrollWidth,
+    elements: [...document.querySelectorAll("body *")].filter(element => { const box = element.getBoundingClientRect(); return box.width && (box.right > innerWidth + 1 || box.left < -1); }).slice(0, 14).map(element => ({ tag: element.tagName, class: element.className, width: element.getBoundingClientRect().width, text: element.textContent.slice(0, 65) })) }));
+  assert.ok(outside.scrollWidth <= outside.width, description + ": " + JSON.stringify(outside));
+};
+try {
+  await servers.ready();
+  await mkdir(output, { recursive: true });
+  browser = await chromium.launch({ channel: "chrome", headless: true });
+  for (const width of [320, 390, 768, 1440]) {
+    const context = await browser.newContext({ viewport: { width, height: 1000 } });
+    const page = await context.newPage();
+    lastPage = page;
+    page.on("pageerror", error => errors.push(error.message));
+    page.on("request", request => { if (!request.url().startsWith(servers.origin)) external.push(request.url()); });
+    await page.goto(servers.origin, { waitUntil: "networkidle" });
+    const launcher = page.getByRole("button", { name: "פתיחת תפריט נגישות", exact: true });
+    await launcher.waitFor();
+    const panel = page.getByRole("dialog", { name: "תפריט נגישות", exact: true });
+    assert.equal(await page.locator("._access-icon").count(), 1);
+    assert.equal(await page.locator("._access-menu").getAttribute("aria-hidden"), "true");
+    await page.keyboard.press("Tab");
+    assert.equal(await page.locator(".skip-link").evaluate(element => element === document.activeElement), true);
+    await launcher.focus();
+    await page.keyboard.press("Space");
+    await panel.waitFor();
+    assert.equal(await panel.locator('[data-access-action="increaseText"]').evaluate(element => getComputedStyle(element).opacity), "1");
+    await page.waitForFunction(() => document.querySelector("._menu-close-btn") === document.activeElement, { }, { timeout: 3000 });
+    await page.keyboard.press("Escape");
+    assert.equal(await launcher.getAttribute("aria-expanded"), "false");
+    await page.waitForFunction(() => document.querySelector("._access-icon") === document.activeElement);
+    await page.keyboard.press("Enter");
+    await panel.waitFor();
+    await page.waitForFunction(() => document.querySelector("._menu-close-btn") === document.activeElement);
+    const originalFont = await fontSize(page);
+    await panel.getByRole("button", { name: "הגדלת טקסט", exact: true }).press("Space");
+    assert.ok(await fontSize(page) > originalFont, "Space activates the upstream text-size tool");
+    await panel.getByRole("button", { name: "הדגשת קישורים", exact: true }).click();
+    assert.equal(await panel.getByRole("button", { name: "הדגשת קישורים", exact: true }).getAttribute("aria-pressed"), "true");
+    assert.ok(await panel.getByRole("button", { name: "הדגשת קישורים", exact: true }).evaluate(element => getComputedStyle(element, "::after").content.includes("✓")), "Selected tools have a visual cue beyond color");
+    assert.match(await page.locator(".brand").evaluate(element => getComputedStyle(element).textDecorationLine), /underline/);
+    await panel.getByRole("button", { name: "גווני אפור", exact: true }).click();
+    assert.match(await page.locator("html").evaluate(element => getComputedStyle(element).filter), /grayscale/);
+    await panel.getByRole("button", { name: "גווני אפור", exact: true }).click();
+    await panel.getByRole("button", { name: "היפוך צבעים", exact: true }).click();
+    assert.match(await page.locator("html").evaluate(element => getComputedStyle(element).filter), /invert/);
+    await panel.getByRole("button", { name: "היפוך צבעים", exact: true }).click();
+    await panel.getByRole("button", { name: "עצירת אנימציות", exact: true }).click();
+    assert.equal(await page.locator(".brand").evaluate(element => getComputedStyle(element).animationName), "none");
+    assert.equal(await page.locator(".brand").evaluate(element => getComputedStyle(element).transitionDuration), "0s");
+    await page.reload({ waitUntil: "networkidle" });
+    await launcher.waitFor();
+    assert.ok(await fontSize(page) > originalFont, "Text size survives a full reload");
+    await launcher.click();
+    assert.equal(await panel.getByRole("button", { name: "הדגשת קישורים", exact: true }).getAttribute("aria-pressed"), "true");
+    await panel.getByRole("button", { name: "איפוס הגדרות הנגישות", exact: true }).click();
+    assert.equal(await panel.locator('[data-access-action="increaseText"]').evaluate(element => getComputedStyle(element).opacity), "1");
+    assert.equal(await fontSize(page), originalFont);
+    for (let step = 0; step < 4; step++) await panel.getByRole("button", { name: "הגדלת טקסט", exact: true }).click();
+    assert.ok(await fontSize(page) >= originalFont * 1.99, `200% text sizing changes real page content: ${originalFont} -> ${await fontSize(page)}; ${await page.locator("html").getAttribute("style")}`);
+    await noOverflow(page, `Home at 200% text and ${width}px`);
+    await panel.getByRole("button", { name: "איפוס הגדרות הנגישות", exact: true }).click();
+    await page.screenshot({ path: fileURLToPath(new URL(`toolbar-${width}.png`, output)) });
+    await page.keyboard.press("Escape");
+    // Exercise React Router navigation rather than loading a fresh document.
+    await page.locator('.site-footer a[href="/tours/"]').first().click();
+    await page.waitForURL(servers.origin + "/tours/");
+    assert.equal(await page.locator("._access-icon").count(), 1);
+    await launcher.click();
+    await panel.getByRole("button", { name: "דיווח על בעיית נגישות", exact: true }).click();
+    await page.waitForURL(servers.origin + "/accessibility/#accessibility-feedback");
+    await page.locator("#accessibility-feedback").waitFor({ state: "attached" });
+    const statement = await page.locator("main").innerText();
+    assert.ok(statement.includes("Ran Buchnik"));
+    assert.ok(!statement.includes("shimara.co.il") && !statement.includes("CODE IN ROL"));
+    await noOverflow(page, `Statement at ${width}px`);
+    metrics.push({ width, originalFont, toolbar: "upstream accessibility@6.1.0", keyboard: true, persistence: true, text200: true });
+    await context.close();
+  }
+  const blocked = await browser.newContext();
+  await blocked.addInitScript(() => Object.defineProperty(window, "localStorage", { get() { throw new DOMException("Blocked", "SecurityError"); } }));
+  const blockedPage = await blocked.newPage();
+  blockedPage.on("pageerror", error => errors.push(error.message));
+  await blockedPage.goto(servers.origin, { waitUntil: "networkidle" });
+  await blockedPage.getByRole("button", { name: "פתיחת תפריט נגישות", exact: true }).click();
+  await blockedPage.getByRole("dialog", { name: "תפריט נגישות" }).getByRole("button", { name: "הגדלת טקסט", exact: true }).click();
+  await blocked.close();
+  const noJs = await browser.newContext({ javaScriptEnabled: false });
+  const staticPage = await noJs.newPage();
+  await staticPage.goto(servers.origin);
+  await staticPage.locator(".accessibility-fallback").click();
+  await staticPage.waitForURL(servers.origin + "/accessibility/");
+  assert.ok((await staticPage.locator("main").innerText()).includes("roniellatours@gmail.com"));
+  await noJs.close();
+  assert.deepEqual(errors, []);
+  assert.deepEqual(external, [], "The npm toolbar and its icons must remain self-hosted");
+  await writeFile(new URL("metrics.json", output), JSON.stringify({ metrics, errors, external }, null, 2) + "\n");
+  console.log("PASS: published Accessibility toolbar with Hebrew labels at 320/390/768/1440px; keyboard and focus, closed-panel tab exclusion, text/links/color/motion tools, 200% reflow, reload persistence, React Router navigation, statement/feedback, blocked storage and no-JavaScript fallback. No external widget requests or real email.");
+} catch (error) {
+  await lastPage?.screenshot({ path: fileURLToPath(new URL("failure.png", output)) }).catch(() => {});
+  console.error({ pageErrors: errors });
+  console.error(servers.logs()); throw error;
+}
+finally { await browser?.close(); await servers.stop(); }

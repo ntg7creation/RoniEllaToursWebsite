@@ -9,7 +9,7 @@
   --canvas: #f7f3e9;
   --accent: #203f39;
   --accent-dark: #16342f;
-  --terracotta: #85602a;
+  --terracotta: #795323;
   --line: #d5cebc;
   --soft-green: #e7e9df;
   --radius: 0;
@@ -25,8 +25,12 @@ body { font-family: var(--font); font-size: 1.25rem; font-weight: 400; line-heig
   --editorial-display: var(--display);
   line-height: 1.85;
   font-family: var(--font);
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
+.editorial-shell :where(section, article, figure, div) { min-width: 0; }
+.editorial-shell .brand { max-width: 100%; flex-shrink: 1; }
+.editorial-shell .brand-name { min-width: 0; }
+.editorial-shell :where(.editorial-button, .editorial-text-link, .button) { max-width: 100%; flex-wrap: wrap; }
 .editorial-shell h1, .editorial-shell h2, .editorial-shell h3 {
   font-family: var(--display); font-weight: 500; letter-spacing: 0;
 }
@@ -80,7 +84,7 @@ body { font-family: var(--font); font-size: 1.25rem; font-weight: 400; line-heig
   margin-block: 5rem 8rem; padding: 2rem 0 2rem 2rem; background: transparent; border: 0;
 }
 .editorial-home-hero h1 { font-size: 5.5rem; line-height: 1.08; max-width: 15ch; margin-bottom: 1.8rem; }
-.editorial-home-hero .editorial-kicker { color: #edca83; }
+.editorial-home-hero .editorial-kicker { color: #ffe5b0; }
 .editorial-home-hero .editorial-hero-description { max-width: 39ch; color: #fffcf5; font-size: 1.375rem; font-weight: 400; line-height: 1.75; margin-bottom: 2rem; }
 .editorial-home-hero .editorial-hero-photo { grid-column: 1 / -1; grid-row: 1; display: grid; grid-template-rows: minmax(46rem, 1fr) auto; height: 100%; }
 .editorial-home-hero .editorial-hero-photo > img { height: 100%; min-height: 0; width: 100%; object-fit: cover; object-position: 35% 50%; border-radius: 0; }
@@ -211,6 +215,7 @@ body { font-family: var(--font); font-size: 1.25rem; font-weight: 400; line-heig
 .editorial-shell .guide-card, .editorial-shell .review-card { border-radius: 0; border-color: var(--line); box-shadow: none; background: transparent; }
 .editorial-shell .guide-card { border: 0; border-top: 1px solid var(--line); padding-block: 2.5rem; }
 .editorial-shell .guide-monogram { background: #e9e3d1; font-family: var(--display); font-weight: 500; color: var(--terracotta); }
+.editorial-shell .guide-card:nth-child(even) .guide-monogram { color: #75482e; }
 .editorial-shell .review-card { border: 0; border-top: 1px solid var(--line); }
 .editorial-shell .contact-panel { border-radius: 0; background: var(--ink); color: var(--paper); padding: 3rem; }
 .editorial-shell .contact-panel a, .editorial-shell .contact-panel .eyebrow { color: #f0dfbb; }

@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { PathSchema, SiteSettingsSchema } from "./index.js";
+import { DrivePhotoReferenceSchema } from './google-drive.js';
 
 const text = z.string().min(1);
 const sourceLink = z.object({
@@ -170,6 +171,8 @@ const publicItem = z.strictObject({
 });
 const baseBlock = { anchorIds: z.array(text), links: z.array(publicLink) };
 export const SiteBlockSchema = z.discriminatedUnion("type", [
+  z.strictObject({ ...baseBlock, type: z.literal('image'), mediaId: text, alt: text,
+    caption: z.string(), align: z.enum(['left', 'right', 'full']) }),
   z.strictObject({
     ...baseBlock,
     type: z.literal("heading"),
@@ -212,6 +215,10 @@ export const SitePageSchema = z.strictObject({
   slug: z.string().nullable(),
   pageType: text,
   title: text,
+  tourDetails: z.strictObject({ summary: z.string(), dates: z.string(), duration: z.string(), price: z.string(), guide: z.string(), status: z.string() }).optional(),
+  syncItinerary: z.boolean().optional(),
+  destinationDetails: z.strictObject({ summary: z.string(), dates: z.string() }).optional(),
+  summary: z.string().optional(),
   heroMediaId: text.nullable().optional(),
   displayTitle: text.optional(),
   author: z.strictObject({name:text,pageId:text.optional()}).optional(),
@@ -219,6 +226,10 @@ export const SitePageSchema = z.strictObject({
     title: text,
     description: z.string().nullable(),
     canonicalPath: PathSchema,
+    keywords: z.array(text).optional(),
+    socialTitle: z.string().optional(),
+    socialDescription: z.string().optional(),
+    noindex: z.boolean().optional(),
   }),
   blocks: z.array(SiteBlockSchema),
   cards: z.array(z.strictObject({ pageId: text, summary: z.string() })),
@@ -272,6 +283,7 @@ export const GallerySchema = z.strictObject({
 });
 export const SiteMediaSchema = z.strictObject({
   id: text,
+  googleDrive: DrivePhotoReferenceSchema.optional(),
   src: mediaPath,
   width: z.number().int().positive(),
   height: z.number().int().positive(),
@@ -308,6 +320,7 @@ export const PublicSiteContentSchema = z
     media: z.array(SiteMediaSchema).default([]),
     gallery: GallerySchema.nullable().default(null),
     presentation: z.record(text, z.string()).default({}),
+    photoSlots: z.record(text, text.nullable()).optional(),
   })
   .superRefine((content, ctx) => {
     const ids = new Set<string>(),
@@ -331,7 +344,13 @@ export const PublicSiteContentSchema = z
     });
     const mediaIds = new Set(content.media.map(asset => asset.id));
     if (mediaIds.size !== content.media.length) fail(["media"], "Duplicate media ID");
+    for (const [slot, id] of Object.entries(content.photoSlots ?? {}))
+      if (id !== null && !mediaIds.has(id)) fail(['photoSlots', slot], 'Unknown section photo reference');
     content.pages.forEach((page, i) => {
+      page.blocks.forEach((block, j) => {
+        if (block.type === 'image' && !mediaIds.has(block.mediaId))
+          fail(['pages', i, 'blocks', j], 'Unknown block media reference');
+      });
       if (page.heroMediaId && !mediaIds.has(page.heroMediaId))
         fail(["pages", i, "heroMediaId"], "Unknown page media reference");
       if (page.author?.pageId && !ids.has(page.author.pageId))

@@ -37,20 +37,35 @@ export function archiveRedirectLocation(
   url: URL,
   rules: SiteRedirect[],
 ): string | null {
-  const path = normalizePath(url.pathname);
+  const requestedPath = normalizePath(url.pathname);
+  const path = requestedPath === "/index.php/" ? "/" : requestedPath;
+  const query = new URLSearchParams(url.search);
+  // WordPress accepts both shortlink forms. Never guess a destination for an
+  // unknown ID, or carry WordPress routing parameters onto the English page.
+  if (path === "/" && query.has("page_id")) {
+    if (query.has("p") && query.get("p") !== query.get("page_id")) return null;
+    query.set("p", query.get("page_id")!);
+    query.delete("page_id");
+  }
+  if (path === "/" && query.get("p") === "3167") {
+    query.delete("p");
+    query.delete("post_type");
+    return "/thank-you/" + (query.size ? "?" + query : "");
+  }
   const rule = rules
     .filter((r) => r.fromPath === path)
     .sort(
       (a, b) =>
         Object.keys(b.fromQuery).length - Object.keys(a.fromQuery).length,
     )
-    .find((r) =>
+    .find((r) => (!query.has("p") || path !== "/" || r.fromQuery.p !== undefined) &&
       Object.entries(r.fromQuery).every(
-        ([k, v]) => url.searchParams.get(k) === v,
+        ([k, v]) => query.get(k) === v,
       ),
     );
   if (!rule) return null;
-  const search = new URLSearchParams(url.search);
+  const search = query;
   for (const key of Object.keys(rule.fromQuery)) search.delete(key);
+  if (rule.fromQuery.p) search.delete("post_type");
   return `${rule.toPath}${search.size ? `?${search}` : ""}`;
 }

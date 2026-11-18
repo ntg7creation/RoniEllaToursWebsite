@@ -29,10 +29,18 @@ export function validateRuntimeContent(content: PublicSiteContent) {
 export async function registeredMedia(content: PublicSiteContent, directory: URL, staticFiles?: ReadonlySet<string>) {
   const root = staticFiles ? "" : await realpath(fileURLToPath(directory));
   const files = new Map<string, MediaFile>();
+  const linkedMedia = new Map(content.media.filter(asset => asset.googleDrive).map(asset => [asset.id, asset.googleDrive!]));
   for (const asset of [...content.media, ...(content.gallery?.photos ?? [])]) {
     for (const src of new Set([asset.src, ...asset.variants.map(v => v.src)])) {
       const filename = basename(src);
       if (files.has(filename)) continue;
+      const linked = linkedMedia.get(asset.id);
+      if (linked) {
+        const edge = /-(480|1600)\.jpg$/.exec(filename)?.[1];
+        if (!edge) throw Error('Invalid linked Drive photo variant');
+        files.set(filename, { filename, googleDrive: linked, edge: Number(edge) });
+        continue;
+      }
       if (staticFiles) {
         if (!staticFiles.has(filename)) throw Error(`Media is missing from this deployment: ${filename}`);
         files.set(filename, { filename, staticPath: `/photos/${filename}` });

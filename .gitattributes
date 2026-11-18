@@ -1,0 +1,2 @@
+# The seed contains multiline editorial text inside SQL literals.
+database/supabase/seed.sql text eol=lf

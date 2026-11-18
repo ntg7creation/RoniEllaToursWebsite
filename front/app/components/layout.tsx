@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from "react-router";
 import { paths, type SiteSettings } from "@roniella/shared";
 import { CompassRose } from "./travel-visuals";
 import {SocialLinks} from "./social-links";
+import { AdminEditButton, AdminLogout } from "./admin-context";
 const fallbackSettings: SiteSettings = {
   businessName: "Roniella Tours",
   language: "he",
@@ -36,10 +37,24 @@ export function SiteLayout({
   children: ReactNode;
 }) {
   const menu = useRef<HTMLDetailsElement>(null);
+  const header = useRef<HTMLElement>(null);
   const location = useLocation();
   useEffect(() => {
     if (menu.current) menu.current.open = false;
   }, [location.pathname]);
+  useEffect(() => {
+    if (!header.current) return;
+    const measure = () => {
+      const height = header.current?.getBoundingClientRect().height ?? 0;
+      const tall = height > window.innerHeight * .45;
+      header.current?.classList.toggle("site-header-tall", tall);
+      document.documentElement.style.setProperty("--site-header-height", `${tall ? 0 : height}px`);
+    };
+    measure();
+    const observer = new ResizeObserver(measure); observer.observe(header.current);
+    window.addEventListener("resize", measure);
+    return () => { observer.disconnect(); window.removeEventListener("resize", measure); document.documentElement.style.removeProperty("--site-header-height"); };
+  }, []);
   const navigationLinks = editorial
     ? settings.navigation.filter((l) =>
         [paths.home, paths.tours, paths.about, paths.guides, paths.blog, "/gallery/"].some(
@@ -50,21 +65,23 @@ export function SiteLayout({
   const navigation = navigationLinks.map((link) => (
     <li key={link.path}>
       <NavLink end={link.path === "/"} to={link.path}>
-        {link.path === paths.home ? "דף הבית" : link.label}
+        {link.label}
       </NavLink>
     </li>
   ));
   return (
     <div className={editorial ? "editorial-shell" : undefined}>
-      <header className="site-header">
+      <header className="site-header" ref={header}>
         <div className="container header-inner">
-          <Link className="brand" to={paths.home} aria-label={`${settings.businessName} — דף הבית`}>
+          <Link className="brand" to={paths.home}>
             <CompassRose className="brand-mark" />
             <span className="brand-name">
               {settings.businessName}
               <span><bdi lang="en">RONIELLA TOURS</bdi> · תרבות והיסטוריה</span>
             </span>
+            <span className="visually-hidden"> — דף הבית</span>
           </Link>
+          <AdminLogout />
           <nav className="desktop-nav" aria-label="ניווט ראשי">
             <ul>{navigation}</ul>
           </nav>
@@ -114,6 +131,7 @@ export function SiteLayout({
         <div className="container">
           <div className="footer-main">
           <div className="footer-heading">
+            <AdminEditButton scope="copy" contentKey="footer">עריכת טקסט בתחתית האתר / Edit footer copy</AdminEditButton>
             <CompassRose />
             <p className="footer-brand">{settings.businessName}</p>
             <p>{presentation?.["footer.tagline"] ?? "היסטוריה, תרבות ואנשים. בדרך אחרת."}</p>
@@ -150,6 +168,7 @@ export function SiteLayout({
 export function ContactLinks({ settings,presentation }: { settings: SiteSettings;presentation?:Record<string,string> }) {
   return (
     <div className="contact-links">
+      <AdminEditButton scope="site" contentKey="site">עריכת פרטי העסק / Edit business and contact details</AdminEditButton>
       <a dir="ltr" href={`tel:${settings.contact.phone.replace(/[ -]/g, "")}`}>
         {settings.contact.phone}
       </a>

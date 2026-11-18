@@ -7,14 +7,15 @@ import { createApp } from "../src/app.js";
 
 test("Supabase adapter uses server API-key headers, coalesces reads, validates data and never exposes upstream errors", async () => {
   const source = await (await LocalContentRepository.load()).getPublicContent();
-  let requests = 0;
+  let requests = 0, revision = '1';
   const secretKey = "sb_secret_local_test_value_only_12345";
   const request = (async (url: string, init: RequestInit) => {
-    requests++;
-    assert.equal(url,"https://example.supabase.co/rest/v1/rpc/read_site_content");
+    assert.ok(['read_site_content', 'read_site_revision'].some(name => url === `https://example.supabase.co/rest/v1/rpc/${name}`));
     assert.equal(new Headers(init.headers).get("apikey"),secretKey);
     assert.equal(new Headers(init.headers).get("authorization"),null);
     assert.equal(init.redirect,"error");
+    if (url.endsWith('read_site_revision')) return Response.json(revision);
+    requests++;
     return Response.json(source);
   }) as typeof fetch;
   const repository = new SupabaseContentRepository({origin:"https://example.supabase.co",secretKey,mediaDirectory:new URL("media/",defaultContentDirectory),timeoutMs:1000,cacheMs:30000},request);
@@ -22,7 +23,14 @@ test("Supabase adapter uses server API-key headers, coalesces reads, validates d
   assert.deepEqual(one,source); assert.deepEqual(two,source); assert.equal(requests,1);
   assert.ok(await repository.getMedia(source.media[0]!.src.split("/").at(-1)!)); assert.equal(requests,1);
   assert.equal(await repository.getMedia("index.json"),undefined);
-  const invalid = new SupabaseContentRepository({origin:"https://example.supabase.co",secretKey,mediaDirectory:defaultContentDirectory,timeoutMs:1000,cacheMs:0},(async()=>Response.json({schemaVersion:999})) as typeof fetch);
+  await repository.getPublicContent(); assert.equal(requests, 1, 'Same revision reuses validated snapshot');
+  const other = new SupabaseContentRepository({origin:'https://example.supabase.co',secretKey,mediaDirectory:new URL('media/',defaultContentDirectory),timeoutMs:1000,cacheMs:30000},request);
+  await other.getPublicContent(); assert.equal(requests, 2);
+  source.pages[0]!.title = 'Saved on another instance'; revision = '2';
+  assert.equal((await repository.getPublicContent()).pages[0]!.title, source.pages[0]!.title);
+  assert.equal((await other.getPublicContent()).pages[0]!.title, source.pages[0]!.title);
+  assert.equal(requests, 4, 'Both warm serverless instances refresh immediately');
+  const invalid = new SupabaseContentRepository({origin:"https://example.supabase.co",secretKey,mediaDirectory:defaultContentDirectory,timeoutMs:1000,cacheMs:0},(async(url)=>Response.json(String(url).endsWith('read_site_revision') ? '1' : {schemaVersion:999})) as typeof fetch);
   await assert.rejects(invalid.getPublicContent(), /validation failed/);
 });
 test("deployment config rejects missing or browser credentials and unsafe hosted database origins", () => {

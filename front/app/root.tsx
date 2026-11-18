@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 import { ErrorPage } from "./components/error-page";
+import { AccessibilityWidget } from "./components/accessibility-widget";
+import { AdminProvider } from "./components/admin-context";
 import type { MiddlewareFunction } from "react-router";
 import { applyResponseHeaders } from "./server/config.server";
 import "./styles.css";
@@ -8,6 +10,8 @@ import "./editorial.css";
 import "./design.css";
 import "./gallery.css";
 import "./callback.css";
+import "./accessibility.css";
+import "./admin.css";
 export const middleware: MiddlewareFunction<Response>[] = [
   async (_args, next) => {
     const response = await next();
@@ -33,7 +37,8 @@ export function Layout({ children }: { children: ReactNode }) {
         <a className="skip-link" href="#main-content">
           דילוג לתוכן הראשי
         </a>
-        {children}
+        <AdminProvider>{children}</AdminProvider>
+        <AccessibilityWidget />
         <ScrollRestoration />
         <Scripts />
       </body>

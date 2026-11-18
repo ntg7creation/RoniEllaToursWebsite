@@ -15,3 +15,6 @@ export function copy(content: PublicSiteContent, key: string) {
   if (value === undefined) throw Error(`Missing site copy: ${key}`);
   return value;
 }
+export function SiteText({ contentKey }: { contentKey: string }) {
+  return copy(useSiteContent(), contentKey);
+}

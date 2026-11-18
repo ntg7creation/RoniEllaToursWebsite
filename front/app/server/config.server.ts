@@ -41,7 +41,8 @@ if (
 )
   throw new Error("CONTENT_TIMEOUT_MS must be an integer from 1 to 30000");
 export function applyResponseHeaders(headers: Headers): void {
-  headers.set("Cache-Control", "no-store");
+  if (deployment !== "local" && serverConfig.siteOrigin.startsWith("https://")) headers.set("Strict-Transport-Security", "max-age=31536000");
+  if (!headers.has("Cache-Control")) headers.set("Cache-Control", "no-store");
   if (serverConfig.noindex) headers.set("X-Robots-Tag", "noindex, nofollow");
   headers.set("X-Content-Type-Options", "nosniff");
 }

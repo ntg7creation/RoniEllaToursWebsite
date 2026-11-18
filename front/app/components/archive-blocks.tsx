@@ -1,6 +1,8 @@
 import { createElement, type ReactNode } from "react";
 import { Link } from "react-router";
 import type { SiteBlock } from "@roniella/shared/site-content";
+import { AdminBlockButton } from './admin-context';
+import { Photograph } from './travel-visuals';
 
 type PublicLink = { text: string; href: string };
 export function Inline({ text, links }: { text: string; links: PublicLink[] }) {
@@ -40,17 +42,24 @@ export function Inline({ text, links }: { text: string; links: PublicLink[] }) {
   nodes.push(text.slice(offset));
   return <>{nodes}</>;
 }
-export function ArchiveBlocks({ blocks }: { blocks: SiteBlock[] }) {
+export function ArchiveBlocks({ blocks, parentLevel = 2 }: { blocks: SiteBlock[]; parentLevel?: number }) {
+  let previousLevel = parentLevel;
+  const headings = blocks.map(block => {
+    if (block.type !== 'heading' || block.text.length > 130) return 'p';
+    previousLevel = Math.min(block.level, previousLevel + 1);
+    return 'h' + previousLevel;
+  });
   return (
     <div className="prose archive-prose">
       {blocks.map((block, i) => (
-        <div key={i} className="content-block">
+        <div key={i} className={`content-block${block.type === 'image' ? ` content-image-block align-${block.align}` : ''}`}>
+          <AdminBlockButton block={block} />
           {block.anchorIds.map((id) => (
             <span className="section-anchor" id={id} key={id} />
           ))}
-          {block.type === "heading" ? (
+          {block.type === 'image' ? <Photograph name={block.mediaId} alt={block.alt} caption={block.caption} /> : block.type === "heading" ? (
             createElement(
-              block.text.length > 130 ? "p" : `h${block.level}`,
+              headings[i]!,
               null,
               <Inline text={block.text} links={block.links} />,
             )

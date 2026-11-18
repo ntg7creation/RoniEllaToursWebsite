@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Form, Link } from "react-router";
 import type { PublicSiteContent, SitePage } from "@roniella/shared/site-content";
+import { AdminEditButton } from "./admin-context";
 
 export function GalleryPage({ page, content, total }: { page: SitePage; content: PublicSiteContent; total: number }) {
   const gallery = content.gallery;
@@ -20,6 +21,7 @@ export function GalleryPage({ page, content, total }: { page: SitePage; content:
     <article className="gallery-page">
       <header className="gallery-heading">
         <div>
+          <AdminEditButton scope="gallery" contentKey="gallery">עריכת פתיח הגלריה / Edit gallery introduction</AdminEditButton>
           <p className="editorial-kicker">{gallery?.heading ?? "רגעים מהמסעות שלנו"}</p>
           <h1>{page.title}</h1>
           <p className="gallery-introduction">{gallery?.introduction}</p>
@@ -38,7 +40,7 @@ export function GalleryPage({ page, content, total }: { page: SitePage; content:
         </div>
         <div className="gallery-wall">
           {photos.map((photo, index) => <figure className="gallery-memory" key={photo.id} data-photo-id={photo.id}>
-            <a href={photo.src} aria-label={`הגדלת תמונה: ${photo.alt}`} onClick={event => {
+            <a href={photo.src} aria-label={`הגדלה: ${photo.alt}`} onClick={event => {
               if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
               event.preventDefault(); setSelected(index);
             }}>
@@ -48,6 +50,7 @@ export function GalleryPage({ page, content, total }: { page: SitePage; content:
                 loading={index < 2 ? "eager" : "lazy"} decoding="async" />
               <span className="gallery-enlarge" aria-hidden="true">הגדלה ↗</span>
             </a>
+            <AdminEditButton scope="media" contentKey={photo.id}>עריכת תיאור התמונה / Edit image alt text</AdminEditButton>
           </figure>)}
         </div>
         <div className="gallery-ending">
@@ -58,10 +61,16 @@ export function GalleryPage({ page, content, total }: { page: SitePage; content:
           <Link to="/tours/" className="editorial-text-link">למסעות הבאים שלנו <span aria-hidden="true">←</span></Link>
         </div>
       </> : <p className="empty-state">התמונות יופיעו כאן לאחר עדכון האלבום. בינתיים אפשר לבקר באלבום המלא.</p>}
-      <dialog ref={dialog} className="gallery-viewer" aria-labelledby="gallery-photo-title"
+      <dialog ref={dialog} className="gallery-viewer" aria-labelledby="gallery-photo-title" aria-describedby="gallery-photo-description"
         onClose={() => setSelected(null)}
         onClick={event => { if (event.target === event.currentTarget) dialog.current?.close(); }}
         onKeyDown={event => {
+          if (event.key === "Tab") {
+            const controls = event.currentTarget.querySelectorAll<HTMLButtonElement>("button:not([disabled])");
+            const first = controls[0], last = controls[controls.length - 1];
+            if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+            else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+          }
           if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
             event.preventDefault(); step(event.key === "ArrowLeft" ? 1 : -1);
           }
@@ -72,6 +81,7 @@ export function GalleryPage({ page, content, total }: { page: SitePage; content:
             <button type="button" autoFocus onClick={() => dialog.current?.close()}>סגירה <span aria-hidden="true">×</span></button>
           </div>
           {active && <img src={active.src} alt={active.alt} width={active.width} height={active.height} />}
+          <p id="gallery-photo-description" className="gallery-photo-description" aria-live="polite" aria-atomic="true">{active?.alt}</p>
           <div className="gallery-viewer-navigation">
             <button type="button" onClick={() => step(-1)}>→ התמונה הקודמת</button>
             <button type="button" onClick={() => step(1)}>התמונה הבאה ←</button>
