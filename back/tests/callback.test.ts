@@ -32,7 +32,7 @@ test("callback validation accepts international/local phone numbers and rejects 
   const content = await (await LocalContentRepository.load()).getPublicContent(), destinations = callbackDestinations(content);
   assert.equal(destinations.length, 4);
   const privacy = JSON.stringify(content.pages.find(page => page.path === "/privacy/"));
-  assert.ok(privacy.includes("הטופס אינו יוצר רשומת פנייה במסד הנתונים"));
+  assert.ok(privacy.includes("מדיניות פרטיות") && privacy.includes("מידע אישי"));
   assert.ok(!privacy.includes("????"));
   for (const phone of ["050-5202480", "+972505202480", "0733744686"]) {
     const result = validateCallback({ ...input, phone }, destinations);

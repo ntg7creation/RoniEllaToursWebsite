@@ -14,6 +14,7 @@ export const meta = ({ loaderData }: { loaderData?: { canonical: string } }) => 
   ...(loaderData ? [{ tagName: "link", rel: "canonical", href: loaderData.canonical }] : []),
 ];
 export default function ThankYou() {
-  return <main id="main-content" className="container"><h1>תודה על פנייתכם</h1>
+  return <main id="main-content" className="container"><h1>קיבלנו את ההודעה שלך!</h1>
+    <p>צוות עמק המלכים יצור איתך קשר</p>
     <p><Link to="/tours/">הטיולים שלנו</Link> · <Link to="/">לדף הבית</Link></p></main>;
 }

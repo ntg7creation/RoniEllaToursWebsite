@@ -4,7 +4,7 @@
   "slug": "uzbekistan-sukkot-2027",
   "pageType": "tour",
   "title": "אוזבקיסטן סוכות 2027",
-  "heroMediaId": "samarkand",
+  "heroMediaId": "wp-325a850f82fa486f",
   "seo": {
     "title": "אוזבקיסטן סוכות 2027 - טיולי העולם העתיק",
     "description": null,
@@ -128,7 +128,9 @@
       "text": "רוצים שנחזור אליכם?"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-itinerary"
+      ],
       "links": [
         {
           "text": "מסלול הטיול",
@@ -258,7 +260,8 @@
     },
     {
       "anchorIds": [
-        "cost"
+        "cost",
+        "editor-prices"
       ],
       "links": [],
       "type": "heading",
@@ -381,7 +384,9 @@
       ]
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-terms"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -683,7 +688,9 @@
       ]
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-more"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -751,5 +758,13 @@
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:49.417Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:58.713Z",
+  "tourDetails": {
+    "summary": "אוזבקיסטן, כולל חופש חיוה",
+    "dates": "17/10/2027 - 25/10/2027",
+    "duration": "9 ימים",
+    "guide": "ד״ר רחלי קרייסברג",
+    "price": "",
+    "status": "בהרשמה"
+  }
 }

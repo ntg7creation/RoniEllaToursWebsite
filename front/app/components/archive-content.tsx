@@ -7,14 +7,13 @@ import type {
   PublicSiteContent,
 } from "@roniella/shared/site-content";
 import { PageHeading, ContactLinks } from "./layout";
-import { ArchiveBlocks, Inline } from "./archive-blocks";
+import { ArchiveBlocks, Inline, Videos } from "./archive-blocks";
 import {
   blockText,
   cardCopy,
   cleanLabel,
   groupBlocks,
   guideProfiles,
-  homeReviews,
   readingBlocks,
   sourceCard,
   tourSections,
@@ -115,38 +114,6 @@ function PageCards({ page, content, ids }: PageProps & { ids?: string[] }) {
   );
 }
 
-function Reviews({
-  content,
-  preview = false,
-}: {
-  content: PublicSiteContent;
-  preview?: boolean;
-}) {
-  const reviews = homeReviews(content);
-  return (
-    <div className="grid review-grid">
-      {(preview ? reviews.slice(0, 3) : reviews).map((r) => (
-        <figure className="review-card" key={r.name}>
-          <span className="quote-mark" aria-hidden="true">
-            ״
-          </span>
-          <blockquote>
-            <p className="quote-preview">{r.quote}</p>
-          </blockquote>
-          <figcaption>
-            <strong>{r.name}</strong>
-            <span>{r.source}</span>
-          </figcaption>
-          <details className="review-full">
-            <summary><SiteText contentKey="text.pages.text1" /></summary>
-            <p>{r.quote}</p>
-          </details>
-        </figure>
-      ))}
-    </div>
-  );
-}
-
 function ContactPanel({ content, legacyLeadAnchor = false }: { content: PublicSiteContent; legacyLeadAnchor?: boolean }) {
   return (
     <section className="contact-panel" id="contact">
@@ -162,33 +129,10 @@ function ContactPanel({ content, legacyLeadAnchor = false }: { content: PublicSi
   );
 }
 
-function Videos({ page }: { page: SitePage }) {
-  if (!page.videos.length) return null;
-  return (
-    <section className="video-section">
-      <h2>{page.pageType === "videos" ? "הסרטונים שלנו" : "וידיאו מהטיול"}</h2>
-      <div className="grid">
-        {page.videos.map((v, i) => (
-          <article className="card video-card" key={v.externalUrl}>
-            <span className="play-symbol" aria-hidden="true">
-              ▷
-            </span>
-            <h3>
-              <a href={v.externalUrl} rel="noreferrer">
-                {v.title || `צפייה בסרטון ${i + 1}`}
-              </a>
-            </h3>
-            {v.description && <p>{v.description}</p>}
-            <span className="eyebrow">ייפתח באתר הסרטונים</span>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
-}
 
 function Tour({ page, content }: PageProps) {
-  const sections = tourSections(page);
+  const photos = page.blocks.filter(block => block.type === "image" && block.anchorIds.some(id => id.startsWith("tour-photo-")));
+  const sections = tourSections(photos.length ? { ...page, blocks: page.blocks.filter(block => !photos.includes(block)) } : page);
   const card = sourceCard(page, content);
   const facts = cardCopy(page, card?.summary ?? '');
   const byline = page.blocks.find(
@@ -249,7 +193,7 @@ function Tour({ page, content }: PageProps) {
             <a href="#contact" className="text-link">
               לשיחה על המסע ←
             </a>
-            <p className="source-note"><SiteText contentKey="text.pages.text6" /></p>
+
           </div>
         </aside>
         <div className="tour-main">
@@ -307,10 +251,6 @@ function Tour({ page, content }: PageProps) {
             <p className="eyebrow"><SiteText contentKey="text.pages.text12" /></p>
             <h2>{sections.priceTitle}</h2>
             <ArchiveBlocks blocks={sections.prices} />
-            <p className="source-note">
-              זהו נוסח המקור, כפי שפורסם. לבירור פרטים עדכניים{" "}
-              <Link to={paths.contact}>צרו קשר</Link>.
-            </p>
           </section>
           <section id="terms" className="terms-section">
             <p className="eyebrow"><SiteText contentKey="text.pages.text14" /></p>
@@ -340,9 +280,10 @@ function Tour({ page, content }: PageProps) {
           <Videos page={page} />
         </div>
       </div>
-      {page.blocks.some(block => block.links.some(link => link.href === `${page.path}#photos`)) && !page.blocks.some(block => block.anchorIds.includes("photos")) && (
-        <section id="photos" className="section-heading"><div><h2><SiteText contentKey="text.pages.text18" /></h2><p><SiteText contentKey="text.pages.text19" /></p></div></section>
-      )}
+      {photos.length > 0 && <section id="photos" className="tour-photo-section">
+        <h2>תמונות מהטיול</h2>
+        <ArchiveBlocks blocks={photos} />
+      </section>}
       <ContactPanel content={content} legacyLeadAnchor={!page.blocks.some(block => block.anchorIds.includes("lead"))} />
     </article>
   );
@@ -402,7 +343,6 @@ function Guides({ page, content }: PageProps) {
 }
 
 function ReadingPage({ page, content }: PageProps) {
-  const legal = ["privacy", "accessibility"].includes(page.pageType);
   const blocks = readingBlocks(page);
   const sections = groupBlocks(
     blocks,
@@ -430,9 +370,6 @@ function ReadingPage({ page, content }: PageProps) {
       <PageHeading title={page.displayTitle ?? page.title} />
       {page.pageType === 'article' && <div className="article-byline">{page.author && <span>{page.author.name}</span>}{page.publicationDate && <time dateTime={page.publicationDate}>{page.publicationDate}</time>}{page.seo.keywords?.map(label => <span className="article-label" key={label}>{label}</span>)}</div>}
       {page.pageType === "article" && <PagePhotograph page={page} priority />}
-      {legal && page.pageType !== "privacy" && (
-        <p className="draft-notice"><SiteText contentKey="text.pages.text21" /></p>
-      )}
       <div className={`reading-layout ${toc.length > 1 ? "has-toc" : ""}`}>
         {toc.length > 1 && (
           <aside className="reading-sidebar">
@@ -498,6 +435,7 @@ export function ArchivePageContent({ page, content, totalGalleryPhotos = 0 }: Pa
   }, [page.id]);
   if (page.pageType === 'contact') return <article className="contact-form-page">
     <h1 className="visually-hidden">{page.displayTitle ?? page.title}</h1>
+    <section className="listing-intro"><ArchiveBlocks blocks={page.blocks} /></section>
     <div id="contact"><span id="lead" className="section-anchor" /><CallbackForm content={content} headingLevel={2} /></div>
   </article>;
   if (page.path === "/") return <EditorialHome page={page} content={content} />;
@@ -510,11 +448,8 @@ export function ArchivePageContent({ page, content, totalGalleryPhotos = 0 }: Pa
   if (page.pageType === "testimonials")
     return (
       <article>
-        <PageHeading
-          title={page.title}
-          summary="המלצות מטיילים שהופיעו בעמוד הבית של האתר הקיים"
-        />
-        <Reviews content={content} />
+        <PageHeading title={page.title} />
+        <div className="testimonial-letters"><ArchiveBlocks blocks={page.blocks} /></div>
       </article>
     );
   const listing = [
@@ -548,7 +483,7 @@ export function ArchivePageContent({ page, content, totalGalleryPhotos = 0 }: Pa
             );
     return (
       <article className="listing-page">
-        <PageHeading title={page.title} summary={page.pageType === "tours" ? "מסעות של תרבות, היסטוריה ומפגש אנושי. מצאו את הדרך שמסקרנת אתכם." : page.pageType === "blog" ? "מקומות, אנשים וסיפורים. ההיכרות עם העולם מתחילה עוד לפני שיוצאים לדרך." : undefined} />
+        <PageHeading title={page.title} />
         {page.pageType === 'blog' && <AdminManageButton collection="article">הוספה, עריכה והסרה של מאמרים / Manage articles</AdminManageButton>}
         {page.pageType === 'tours' && <AdminManageButton>הוספה והסרה של טיולים / Manage tours</AdminManageButton>}
         {page.destinationDetails && <div className="listing-intro"><PagePhotograph page={page} /><p>{page.destinationDetails.summary}</p>{page.destinationDetails.dates && <p>מועד הנסיעה: <bdi>{page.destinationDetails.dates}</bdi></p>}</div>}

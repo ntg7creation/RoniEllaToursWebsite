@@ -4,7 +4,7 @@
   "slug": "contact",
   "pageType": "contact",
   "title": "יצירת קשר",
-  "heroMediaId": null,
+  "heroMediaId": "wp-068f45021c58afe4",
   "seo": {
     "title": "יצירת קשר - טיולי העולם העתיק",
     "description": null,
@@ -71,16 +71,12 @@
       "anchorIds": [],
       "links": [
         {
-          "text": "Facebook",
-          "href": "https://www.facebook.com/ronitoursancientworld/"
-        },
-        {
           "text": "Whatsapp",
-          "href": "https://wa.me/972505202480"
+          "href": "/contact/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2NjMiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
         },
         {
           "text": "Youtube",
-          "href": "https://www.youtube.com/@roniellatours1400"
+          "href": "https://www.youtube.com/channel/UCO0xOQGBKdPbrisrd4BstEg"
         }
       ],
       "type": "paragraph",
@@ -91,5 +87,5 @@
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:40.934Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:49.717Z"
 }

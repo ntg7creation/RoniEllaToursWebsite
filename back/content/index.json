@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "apiSchemaVersion": 2,
   "contentSource": "liveArchive",
-  "crawlRunId": "2026-11-02-live-refresh",
-  "notice": "תוכן מהאתר הקיים — מועדים, מחירים ותנאים טעונים אימות. לבירור פרטים עדכניים פנו אלינו.",
+  "crawlRunId": "2026-11-19-live-refresh",
+  "notice": "לפרטים נוספים ולהרשמה לטיולים ניתן לפנות לצוות טיולי העולם העתיק.",
   "pages": [
     {
       "id": "page-e2ae99d4-4867-4f00-b5de-725583543af6",
@@ -161,14 +161,14 @@
       "file": "pages/tours-uzbekistan-sukkot-2027.json"
     },
     {
-      "id": "page-99086b24-3a6e-4817-b05a-9617a417b886",
-      "path": "/tours/uzbekistan-march-2027/",
-      "file": "pages/tours-uzbekistan-march-2027.json"
-    },
-    {
       "id": "page-1259e55f-578c-4db2-90b6-274d43d51283",
       "path": "/tours/uzbekistan-april-2027/",
       "file": "pages/tours-uzbekistan-april-2027.json"
+    },
+    {
+      "id": "page-99086b24-3a6e-4817-b05a-9617a417b886",
+      "path": "/tours/uzbekistan-march-2027/",
+      "file": "pages/tours-uzbekistan-march-2027.json"
     },
     {
       "id": "page-496b135a-ca6c-4c36-b312-22502e4f12e1",

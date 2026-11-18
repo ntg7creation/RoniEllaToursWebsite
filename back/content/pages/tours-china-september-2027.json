@@ -4,7 +4,7 @@
   "slug": "china-september-2027",
   "pageType": "tour",
   "title": "סין – צ’ונג גואה, האימפריה באמצע העולם – ספטמבר 2027",
-  "heroMediaId": "china",
+  "heroMediaId": "wp-860aa590d9f30f29",
   "seo": {
     "title": "סין – צ'ונג גואה, האימפריה באמצע העולם - ספטמבר 2027 - טיולי העולם העתיק",
     "description": null,
@@ -150,7 +150,9 @@
       "text": "רוצים שנחזור אליכם?"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-itinerary"
+      ],
       "links": [
         {
           "text": "מסלול הטיול",
@@ -402,7 +404,8 @@
     },
     {
       "anchorIds": [
-        "cost"
+        "cost",
+        "editor-prices"
       ],
       "links": [],
       "type": "heading",
@@ -434,7 +437,9 @@
       "text": "טיסות ישירות מתל אביב – בייג׳ין"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-terms"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -789,7 +794,9 @@
       "text": "טופס הרשמה לטיול חתום"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-more"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -863,5 +870,13 @@
       "externalUrl": "https://www.youtube.com/watch?v=0ig45aOXt7A"
     }
   ],
-  "sourceRetrievedAt": "2026-11-02T15:04:48.037Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:57.235Z",
+  "tourDetails": {
+    "summary": "סין – צ'ונג גואה, האימפריה באמצע העולם",
+    "dates": "05/09/2027 - 22/09/2027",
+    "duration": "18 ימים",
+    "guide": "רוני אלה",
+    "price": "6,580$ לאדם בחדר זוגי",
+    "status": "בהרשמה"
+  }
 }

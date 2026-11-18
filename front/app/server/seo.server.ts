@@ -46,7 +46,7 @@ export function seoDefaults(page: SitePage, content: PublicSiteContent, origin: 
     verification:content.presentation['seo.googleVerification'] };
 }
 export function defaultSharePhoto(content: PublicSiteContent) {
-  const selectedHome = content.photoSlots?.['home.hero'];
+  const selectedHome = content.photoSlots?.['home.hero'] ?? content.pages.find(page => page.path === '/')?.heroMediaId;
   return content.media.find(image => image.id === selectedHome) ?? content.media.find(image => image.id === 'samarkand') ?? content.media[0];
 }
 export function buildPageSeo(page: SitePage, content: PublicSiteContent, origin: string, siteNoindex = false) {

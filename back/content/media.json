@@ -83,5 +83,1281 @@
         "width": 960
       }
     ]
+  },
+  {
+    "id": "wp-5a1be87c360ace03",
+    "width": 1600,
+    "height": 967,
+    "src": "/media/wp-5a1be87c360ace03-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-5a1be87c360ace03-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-5a1be87c360ace03-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "שקיעה מעל הפירמידות והספינקס בגיזה",
+    "caption": "שקיעה מעל הפירמידות והספינקס בגיזה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/banner-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%91%D7%9C%D7%95%D7%92/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-42b8bf30aee51fe7",
+    "width": 1600,
+    "height": 583,
+    "src": "/media/wp-42b8bf30aee51fe7-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-42b8bf30aee51fe7-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-42b8bf30aee51fe7-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "הספינקס בגיזה על רקע דקלים ושמים כחולים",
+    "caption": "הספינקס בגיזה על רקע דקלים ושמים כחולים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/ezgif-frame-003.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9B%D7%A0%D7%A1%D7%99%D7%99%D7%94-%D7%AA%D7%9C%D7%95%D7%99%D7%94-%D7%9B%D7%A0%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C-%D7%9E%D7%95%D7%A2%D7%9C%D7%A7/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-8fd45a576358e7d5",
+    "width": 1600,
+    "height": 867,
+    "src": "/media/wp-8fd45a576358e7d5-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-8fd45a576358e7d5-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-8fd45a576358e7d5-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "הפירמידות בגיזה מעבר לדיונות חול",
+    "caption": "הפירמידות בגיזה מעבר לדיונות חול",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/banner6-small.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9C%D7%9E%D7%9E%D7%A4%D7%99%D7%A1-%D7%A1%D7%A7%D7%90%D7%A8%D7%94/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-e25ae529be6cfb1c",
+    "width": 1600,
+    "height": 1200,
+    "src": "/media/wp-e25ae529be6cfb1c-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-e25ae529be6cfb1c-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-e25ae529be6cfb1c-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "מרפסת עמודי הקריאטידות באקרופוליס",
+    "caption": "מרפסת עמודי הקריאטידות באקרופוליס",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_3301-min-1-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9C%D7%90-%D7%99%D7%93%D7%A2%D7%AA%D7%9D-%D7%A2%D7%9C-%D7%99%D7%95%D7%95%D7%9F-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-f591d72286a5318f",
+    "width": 1200,
+    "height": 1600,
+    "src": "/media/wp-f591d72286a5318f-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-f591d72286a5318f-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-f591d72286a5318f-1600.jpg",
+        "width": 1200
+      }
+    ],
+    "alt": "דמות של לוחם חרס בתצוגה במוזיאון",
+    "caption": "דמות של לוחם חרס בתצוגה במוזיאון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_7784-min-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9C%D7%90-%D7%99%D7%93%D7%A2%D7%AA%D7%9D-%D7%A2%D7%9C-%D7%A1%D7%99%D7%9F-%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-8d2e32236e01bff6",
+    "width": 1200,
+    "height": 1600,
+    "src": "/media/wp-8d2e32236e01bff6-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-8d2e32236e01bff6-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-8d2e32236e01bff6-1600.jpg",
+        "width": 1200
+      }
+    ],
+    "alt": "פסל של דמות עם קסדה וחנית על רקע שמיים כחולים",
+    "caption": "פסל של דמות עם קסדה וחנית על רקע שמיים כחולים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_3102-min-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%90%D7%AA%D7%95%D7%A0%D7%94-%D7%91%D7%99%D7%A8%D7%AA-%D7%99%D7%95%D7%95%D7%9F-%D7%95%D7%94%D7%9C%D7%91-%D7%94%D7%A4%D7%95%D7%A2%D7%9D-%D7%A9%D7%9C-%D7%94%D7%AA%D7%A8%D7%91%D7%95%D7%AA-%D7%94/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-068f45021c58afe4",
+    "width": 1600,
+    "height": 1200,
+    "src": "/media/wp-068f45021c58afe4-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-068f45021c58afe4-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-068f45021c58afe4-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "ביתן סיני מואר על רחבה בשעת ערב",
+    "caption": "ביתן סיני מואר על רחבה בשעת ערב",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_7675-min-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%91%D7%99%D7%99%D7%92%D7%99%D7%A0%D7%92-%D7%91%D7%99%D7%A8%D7%AA-%D7%A1%D7%99%D7%9F/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-97483fc4db21ecc5",
+    "width": 1024,
+    "height": 768,
+    "src": "/media/wp-97483fc4db21ecc5-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-97483fc4db21ecc5-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-97483fc4db21ecc5-1600.jpg",
+        "width": 1024
+      }
+    ],
+    "alt": "מבנה עגול עם גג רעפים ושערים אדומים",
+    "caption": "מבנה עגול עם גג רעפים ושערים אדומים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_0857-min-scaled-1024.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%90%D7%95%D7%A8%D7%92%D7%9F-%D7%9C%D7%A1%D7%99%D7%9F-%D7%97%D7%95%D7%95%D7%99%D7%94-%D7%A9%D7%9C-%D7%A4%D7%A2%D7%9D-%D7%91%D7%97%D7%99%D7%99%D7%9D/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-47f12a61209175f5",
+    "width": 1200,
+    "height": 1600,
+    "src": "/media/wp-47f12a61209175f5-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-47f12a61209175f5-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-47f12a61209175f5-1600.jpg",
+        "width": 1200
+      }
+    ],
+    "alt": "מבקרים בחצר מבנה עץ סיני",
+    "caption": "מבקרים בחצר מבנה עץ סיני",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_0481-min-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9E%D7%A1%D7%A2-%D7%AA%D7%A8%D7%91%D7%95%D7%AA%D7%99-%D7%90%D7%99%D7%9E%D7%A4%D7%A8%D7%99%D7%94-%D7%A1%D7%99%D7%A0%D7%99%D7%AA/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-55fbfce2ef1f59bc",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-55fbfce2ef1f59bc-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-55fbfce2ef1f59bc-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-55fbfce2ef1f59bc-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "שורת עמודי אבן בחזית מבנה היסטורי",
+    "caption": "שורת עמודי אבן בחזית מבנה היסטורי",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230807_152024_030-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%98%D7%99%D7%95%D7%9C-%D7%9E%D7%90%D7%95%D7%A8%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-cec8d6bb09f36ca2",
+    "width": 401,
+    "height": 306,
+    "src": "/media/wp-cec8d6bb09f36ca2-480.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-cec8d6bb09f36ca2-480.jpg",
+        "width": 401
+      }
+    ],
+    "alt": "המלצה של יוסי קליין על הטיול למצרים במרץ 2023",
+    "caption": "המלצה של יוסי קליין על הטיול למצרים במרץ 2023",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Group-182.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-11b816a184837187",
+    "width": 375,
+    "height": 250,
+    "src": "/media/wp-11b816a184837187-480.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-11b816a184837187-480.jpg",
+        "width": 375
+      }
+    ],
+    "alt": "המלצה של אלדד חייט על הטיול למצרים בינואר 2023",
+    "caption": "המלצה של אלדד חייט על הטיול למצרים בינואר 2023",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Group-183.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-405a4c8777a3b223",
+    "width": 378,
+    "height": 196,
+    "src": "/media/wp-405a4c8777a3b223-480.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-405a4c8777a3b223-480.jpg",
+        "width": 378
+      }
+    ],
+    "alt": "המלצה של gideon shimshoni על הטיול למצרים",
+    "caption": "המלצה של gideon shimshoni על הטיול למצרים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Group-184.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-cb5a0c648baafd76",
+    "width": 1200,
+    "height": 1600,
+    "src": "/media/wp-cb5a0c648baafd76-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-cb5a0c648baafd76-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-cb5a0c648baafd76-1600.jpg",
+        "width": 1200
+      }
+    ],
+    "alt": "קבוצת מטיילים מול מגדל מואר בלילה",
+    "caption": "קבוצת מטיילים מול מגדל מואר בלילה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/IMG_2305-min-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%92%D7%9C%D7%A8%D7%99%D7%94/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-93d203c6bda6904f",
+    "width": 1600,
+    "height": 999,
+    "src": "/media/wp-93d203c6bda6904f-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-93d203c6bda6904f-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-93d203c6bda6904f-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "יציעי אבן בתיאטרון עתיק למרגלות עיר",
+    "caption": "יציעי אבן בתיאטרון עתיק למרגלות עיר",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/banner-4.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9E%D7%99-%D7%90%D7%A0%D7%97%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-ae350db895480aae",
+    "width": 1116,
+    "height": 779,
+    "src": "/media/wp-ae350db895480aae-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-ae350db895480aae-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-ae350db895480aae-1600.jpg",
+        "width": 1116
+      }
+    ],
+    "alt": "סרקופג מצרי מאבן באולם תצוגה",
+    "caption": "סרקופג מצרי מאבן באולם תצוגה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/photo-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9E%D7%99-%D7%90%D7%A0%D7%97%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-9a6cc1e3220d9f3e",
+    "width": 1600,
+    "height": 1200,
+    "src": "/media/wp-9a6cc1e3220d9f3e-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-9a6cc1e3220d9f3e-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-9a6cc1e3220d9f3e-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "מטיילים על שביל אבן מוקף צמחייה",
+    "caption": "מטיילים על שביל אבן מוקף צמחייה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230804_093747_494-min-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9E%D7%99-%D7%90%D7%A0%D7%97%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-0b9202d1ec48f751",
+    "width": 1184,
+    "height": 884,
+    "src": "/media/wp-0b9202d1ec48f751-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-0b9202d1ec48f751-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-0b9202d1ec48f751-1600.jpg",
+        "width": 1184
+      }
+    ],
+    "alt": "מטיילים מביטים בתבליטים שעל קיר מקדש מצרי",
+    "caption": "מטיילים מביטים בתבליטים שעל קיר מקדש מצרי",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/photo-3.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%9E%D7%99-%D7%90%D7%A0%D7%97%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-3294ed1b52af3cc3",
+    "width": 1200,
+    "height": 900,
+    "src": "/media/wp-3294ed1b52af3cc3-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-3294ed1b52af3cc3-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-3294ed1b52af3cc3-1600.jpg",
+        "width": 1200
+      }
+    ],
+    "alt": "מטיילים בין עצים מעל קיר אבן עתיק",
+    "caption": "מטיילים בין עצים מעל קיר אבן עתיק",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230804_093750_374.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-f749e6ebbfd032e2",
+    "width": 800,
+    "height": 800,
+    "src": "/media/wp-f749e6ebbfd032e2-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-f749e6ebbfd032e2-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-f749e6ebbfd032e2-1600.jpg",
+        "width": 800
+      }
+    ],
+    "alt": "דיוקנו של ד״ר אייל מירון ליד ספרייה",
+    "caption": "דיוקנו של ד״ר אייל מירון ליד ספרייה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%93%D7%A8-%D7%90%D7%99%D7%99%D7%9C-%D7%9E%D7%99%D7%A8%D7%95%D7%9F.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-dc1fc217748cddd6",
+    "width": 800,
+    "height": 800,
+    "src": "/media/wp-dc1fc217748cddd6-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-dc1fc217748cddd6-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-dc1fc217748cddd6-1600.jpg",
+        "width": 800
+      }
+    ],
+    "alt": "רוני אלה מסביר על ציורי קיר מצריים",
+    "caption": "רוני אלה מסביר על ציורי קיר מצריים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%A8%D7%95%D7%A0%D7%99.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-9960086f7033eb63",
+    "width": 800,
+    "height": 800,
+    "src": "/media/wp-9960086f7033eb63-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-9960086f7033eb63-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-9960086f7033eb63-1600.jpg",
+        "width": 800
+      }
+    ],
+    "alt": "דיוקנה של המדריכה רוית פרבר",
+    "caption": "דיוקנה של המדריכה רוית פרבר",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%A8%D7%95%D7%A0%D7%99-%D7%90%D7%9C%D7%94.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-3b827b11e2fa7913",
+    "width": 800,
+    "height": 800,
+    "src": "/media/wp-3b827b11e2fa7913-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-3b827b11e2fa7913-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-3b827b11e2fa7913-1600.jpg",
+        "width": 800
+      }
+    ],
+    "alt": "דיוקנו של המדריך חיים כראל",
+    "caption": "דיוקנו של המדריך חיים כראל",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%97%D7%99%D7%99%D7%9D-%D7%9B%D7%A8%D7%90%D7%9C-003.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-3a5f78c040d8fe8c",
+    "width": 800,
+    "height": 801,
+    "src": "/media/wp-3a5f78c040d8fe8c-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-3a5f78c040d8fe8c-480.jpg",
+        "width": 479
+      },
+      {
+        "src": "/media/wp-3a5f78c040d8fe8c-1600.jpg",
+        "width": 800
+      }
+    ],
+    "alt": "דיוקנה של המדריכה ד״ר רחלי קרייסברג",
+    "caption": "דיוקנה של המדריכה ד״ר רחלי קרייסברג",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%A8%D7%97%D7%9C%D7%99-%D7%A7%D7%A8%D7%99%D7%99%D7%A1%D7%91%D7%A8%D7%92-2.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-5dd40c04864dae0a",
+    "width": 1600,
+    "height": 1200,
+    "src": "/media/wp-5dd40c04864dae0a-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-5dd40c04864dae0a-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-5dd40c04864dae0a-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "אכסדרת עמודים באגורה העתיקה",
+    "caption": "אכסדרת עמודים באגורה העתיקה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%90%D7%92%D7%95%D7%A8%D7%94-%D7%A7%D7%98%D7%9F-scaled.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-4613e18bda6d6c38",
+    "width": 1067,
+    "height": 800,
+    "src": "/media/wp-4613e18bda6d6c38-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-4613e18bda6d6c38-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-4613e18bda6d6c38-1600.jpg",
+        "width": 1067
+      }
+    ],
+    "alt": "פסל אבן לבן בכיכר מוקפת עצים",
+    "caption": "פסל אבן לבן בכיכר מוקפת עצים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_26-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-60a80694706b75cd",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-60a80694706b75cd-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-60a80694706b75cd-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-60a80694706b75cd-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "גרם מדרגות המוביל לבית אבן",
+    "caption": "גרם מדרגות המוביל לבית אבן",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230806_160316_151-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-1a4458df6e588463",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-1a4458df6e588463-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-1a4458df6e588463-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-1a4458df6e588463-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "הדרכה לצד ויטרינה מוארת במוזיאון",
+    "caption": "הדרכה לצד ויטרינה מוארת במוזיאון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_24-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-f1ea64bb80ea9c02",
+    "width": 1062,
+    "height": 800,
+    "src": "/media/wp-f1ea64bb80ea9c02-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-f1ea64bb80ea9c02-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-f1ea64bb80ea9c02-1600.jpg",
+        "width": 1062
+      }
+    ],
+    "alt": "מבנה אירוח ובריכה מול גבעות",
+    "caption": "מבנה אירוח ובריכה מול גבעות",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_17-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-ad50b75c133d45fe",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-ad50b75c133d45fe-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-ad50b75c133d45fe-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-ad50b75c133d45fe-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "ביקור בסדנה עם נול אריגה",
+    "caption": "ביקור בסדנה עם נול אריגה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230805_151654_468-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-b07328e4acff5ce4",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-b07328e4acff5ce4-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-b07328e4acff5ce4-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-b07328e4acff5ce4-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "נוף עמק וכפר למרגלות ההרים",
+    "caption": "נוף עמק וכפר למרגלות ההרים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230806_155747_705-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-bf1acf31bde8e145",
+    "width": 598,
+    "height": 800,
+    "src": "/media/wp-bf1acf31bde8e145-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-bf1acf31bde8e145-480.jpg",
+        "width": 359
+      },
+      {
+        "src": "/media/wp-bf1acf31bde8e145-1600.jpg",
+        "width": 598
+      }
+    ],
+    "alt": "תבליטי אבן בקשת מונומנטלית",
+    "caption": "תבליטי אבן בקשת מונומנטלית",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_27-1-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-e49804d2b7bf5c3b",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-e49804d2b7bf5c3b-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-e49804d2b7bf5c3b-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-e49804d2b7bf5c3b-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "קירות ועמודים מעוטרים בתוך כנסייה",
+    "caption": "קירות ועמודים מעוטרים בתוך כנסייה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230805_152218_954-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-ab2ac2f7ebedb1d0",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-ab2ac2f7ebedb1d0-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-ab2ac2f7ebedb1d0-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-ab2ac2f7ebedb1d0-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "פסל ברונזה בפארק",
+    "caption": "פסל ברונזה בפארק",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_25-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-e4b5eef97bcc0718",
+    "width": 601,
+    "height": 800,
+    "src": "/media/wp-e4b5eef97bcc0718-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-e4b5eef97bcc0718-480.jpg",
+        "width": 361
+      },
+      {
+        "src": "/media/wp-e4b5eef97bcc0718-1600.jpg",
+        "width": 601
+      }
+    ],
+    "alt": "שער אבן בכניסה למבנה היסטורי",
+    "caption": "שער אבן בכניסה למבנה היסטורי",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_18-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-19f933c28c28b353",
+    "width": 1063,
+    "height": 800,
+    "src": "/media/wp-19f933c28c28b353-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-19f933c28c28b353-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-19f933c28c28b353-1600.jpg",
+        "width": 1063
+      }
+    ],
+    "alt": "מטיילים סביב שולחן בעת ארוחה",
+    "caption": "מטיילים סביב שולחן בעת ארוחה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_29-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-d29cd3b1c15abb58",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-d29cd3b1c15abb58-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-d29cd3b1c15abb58-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-d29cd3b1c15abb58-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "פסל רוכב על סוס במוזיאון",
+    "caption": "פסל רוכב על סוס במוזיאון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_12-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-e2afcdbbb4e12864",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-e2afcdbbb4e12864-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-e2afcdbbb4e12864-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-e2afcdbbb4e12864-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "שביל בין קירות אבן בכפר",
+    "caption": "שביל בין קירות אבן בכפר",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230806_160127_056-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-21699947db1fb018",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-21699947db1fb018-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-21699947db1fb018-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-21699947db1fb018-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "מבט על מפרץ וגבעות עטורות עצים",
+    "caption": "מבט על מפרץ וגבעות עטורות עצים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230806_160628_815-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-598194fcdc61afcf",
+    "width": 593,
+    "height": 800,
+    "src": "/media/wp-598194fcdc61afcf-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-598194fcdc61afcf-480.jpg",
+        "width": 356
+      },
+      {
+        "src": "/media/wp-598194fcdc61afcf-1600.jpg",
+        "width": 593
+      }
+    ],
+    "alt": "פריט שריון בתצוגת מוזיאון",
+    "caption": "פריט שריון בתצוגת מוזיאון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_22-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-77d6f03bd13710f9",
+    "width": 597,
+    "height": 800,
+    "src": "/media/wp-77d6f03bd13710f9-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-77d6f03bd13710f9-480.jpg",
+        "width": 358
+      },
+      {
+        "src": "/media/wp-77d6f03bd13710f9-1600.jpg",
+        "width": 597
+      }
+    ],
+    "alt": "הדרכה לצד תבליטי אבן",
+    "caption": "הדרכה לצד תבליטי אבן",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_14-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-bc00730b9e69d1f9",
+    "width": 1074,
+    "height": 800,
+    "src": "/media/wp-bc00730b9e69d1f9-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-bc00730b9e69d1f9-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-bc00730b9e69d1f9-1600.jpg",
+        "width": 1074
+      }
+    ],
+    "alt": "שרידי פסיפס המוצגים במוזיאון",
+    "caption": "שרידי פסיפס המוצגים במוזיאון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_13-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-a942ea96cfb9fa51",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-a942ea96cfb9fa51-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-a942ea96cfb9fa51-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-a942ea96cfb9fa51-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "אכסדרת עמודים לאורך שביל מוצל",
+    "caption": "אכסדרת עמודים לאורך שביל מוצל",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230807_144509_896-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-4080b3ddfeac946f",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-4080b3ddfeac946f-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-4080b3ddfeac946f-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-4080b3ddfeac946f-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "רחבה מוצלת ובה שולחנות ליד המים",
+    "caption": "רחבה מוצלת ובה שולחנות ליד המים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230806_160508_729-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-5238a1788a805688",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-5238a1788a805688-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-5238a1788a805688-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-5238a1788a805688-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "מפל מים בין סלעים ועצים",
+    "caption": "מפל מים בין סלעים ועצים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230805_154449_800-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-427833b25e8965c3",
+    "width": 598,
+    "height": 800,
+    "src": "/media/wp-427833b25e8965c3-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-427833b25e8965c3-480.jpg",
+        "width": 359
+      },
+      {
+        "src": "/media/wp-427833b25e8965c3-1600.jpg",
+        "width": 598
+      }
+    ],
+    "alt": "פרטי תבליט על קשת אבן עתיקה",
+    "caption": "פרטי תבליט על קשת אבן עתיקה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_27-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-42dc7e9ffa561f9c",
+    "width": 1071,
+    "height": 800,
+    "src": "/media/wp-42dc7e9ffa561f9c-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-42dc7e9ffa561f9c-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-42dc7e9ffa561f9c-1600.jpg",
+        "width": 1071
+      }
+    ],
+    "alt": "חלונות מקושתים באולם תפילה",
+    "caption": "חלונות מקושתים באולם תפילה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_30-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-fa0398708ce9d932",
+    "width": 1069,
+    "height": 800,
+    "src": "/media/wp-fa0398708ce9d932-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-fa0398708ce9d932-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-fa0398708ce9d932-1600.jpg",
+        "width": 1069
+      }
+    ],
+    "alt": "ציורי קיר מוזהבים בתוך כנסייה",
+    "caption": "ציורי קיר מוזהבים בתוך כנסייה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_15-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-5e3b538c00ee748a",
+    "width": 601,
+    "height": 800,
+    "src": "/media/wp-5e3b538c00ee748a-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-5e3b538c00ee748a-480.jpg",
+        "width": 361
+      },
+      {
+        "src": "/media/wp-5e3b538c00ee748a-1600.jpg",
+        "width": 601
+      }
+    ],
+    "alt": "מטיילים על שביל אבן במדרון",
+    "caption": "מטיילים על שביל אבן במדרון",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_23-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-a4096f27e5e13bdd",
+    "width": 1072,
+    "height": 800,
+    "src": "/media/wp-a4096f27e5e13bdd-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-a4096f27e5e13bdd-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-a4096f27e5e13bdd-1600.jpg",
+        "width": 1072
+      }
+    ],
+    "alt": "קבוצה בכניסה לכנסייה עם גג רעפים",
+    "caption": "קבוצה בכניסה לכנסייה עם גג רעפים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_16-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-5a7b95f67ba6b08b",
+    "width": 590,
+    "height": 800,
+    "src": "/media/wp-5a7b95f67ba6b08b-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-5a7b95f67ba6b08b-480.jpg",
+        "width": 354
+      },
+      {
+        "src": "/media/wp-5a7b95f67ba6b08b-1600.jpg",
+        "width": 590
+      }
+    ],
+    "alt": "מוצג במוזיאון עם לוח הסבר",
+    "caption": "מוצג במוזיאון עם לוח הסבר",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_21-1.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-e7bf345ed1e45e90",
+    "width": 1066,
+    "height": 800,
+    "src": "/media/wp-e7bf345ed1e45e90-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-e7bf345ed1e45e90-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-e7bf345ed1e45e90-1600.jpg",
+        "width": 1066
+      }
+    ],
+    "alt": "תעלת מים צרה בין מצוקים",
+    "caption": "תעלת מים צרה בין מצוקים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230807_114630_816-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-2d9d92a975324de8",
+    "width": 1065,
+    "height": 800,
+    "src": "/media/wp-2d9d92a975324de8-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-2d9d92a975324de8-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-2d9d92a975324de8-1600.jpg",
+        "width": 1065
+      }
+    ],
+    "alt": "אולם בית כנסת עם נברשת וחלונות צבעוניים",
+    "caption": "אולם בית כנסת עם נברשת וחלונות צבעוניים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/Screenshot_28-2.png",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-9b0710f02d347005",
+    "width": 600,
+    "height": 800,
+    "src": "/media/wp-9b0710f02d347005-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-9b0710f02d347005-480.jpg",
+        "width": 360
+      },
+      {
+        "src": "/media/wp-9b0710f02d347005-1600.jpg",
+        "width": 600
+      }
+    ],
+    "alt": "מבנה עמודים מוקף עצים",
+    "caption": "מבנה עמודים מוקף עצים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/DJI_20230807_150416_074-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A6%D7%A4%D7%95%D7%9F-%D7%99%D7%95%D7%95%D7%9F-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-860aa590d9f30f29",
+    "width": 1600,
+    "height": 967,
+    "src": "/media/wp-860aa590d9f30f29-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-860aa590d9f30f29-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-860aa590d9f30f29-1600.jpg",
+        "width": 1600
+      }
+    ],
+    "alt": "פגודה סינית רב־קומתית מעל צמרות העצים",
+    "caption": "פגודה סינית רב־קומתית מעל צמרות העצים",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/china-category.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%A1%D7%99%D7%9F-%D7%A6%D7%95%D7%A0%D7%92-%D7%92%D7%95%D7%90%D7%94-%D7%9E%D7%90%D7%99-2027/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
+  },
+  {
+    "id": "wp-325a850f82fa486f",
+    "width": 1000,
+    "height": 750,
+    "src": "/media/wp-325a850f82fa486f-1600.jpg",
+    "variants": [
+      {
+        "src": "/media/wp-325a850f82fa486f-480.jpg",
+        "width": 480
+      },
+      {
+        "src": "/media/wp-325a850f82fa486f-1600.jpg",
+        "width": 1000
+      }
+    ],
+    "alt": "חזית מדרסה בסמרקנד מוארת בלילה",
+    "caption": "חזית מדרסה בסמרקנד מוארת בלילה",
+    "author": "שם הצלם לא צוין",
+    "source": "https://roniellatours.com/wp-content/uploads/%D7%90%D7%95%D7%A1%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F-1.jpg",
+    "license": "זכויות השימוש לפי אתר המקור",
+    "licenseUrl": "https://roniellatours.com/%D7%94%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%A0%D7%95/%D7%90%D7%95%D7%96%D7%91%D7%A7%D7%99%D7%A1%D7%98%D7%9F-2027-%D7%90%D7%A4%D7%A8%D7%99%D7%9C-2/",
+    "sizes": "(max-width: 56rem) 100vw, 60vw"
   }
 ]

@@ -4,7 +4,7 @@
   "slug": "blog",
   "pageType": "blog",
   "title": "בלוג",
-  "heroMediaId": null,
+  "heroMediaId": "wp-5a1be87c360ace03",
   "seo": {
     "title": "בלוג - טיולי העולם העתיק",
     "description": null,
@@ -1352,5 +1352,5 @@
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:08.362Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:15.001Z"
 }

@@ -4,7 +4,7 @@
   "slug": "guides",
   "pageType": "guides",
   "title": "המדריכים שלנו",
-  "heroMediaId": null,
+  "heroMediaId": "wp-cb5a0c648baafd76",
   "seo": {
     "title": "המדריכים שלנו - טיולי העולם העתיק",
     "description": null,
@@ -24,6 +24,24 @@
       "type": "heading",
       "level": 2,
       "text": "צוות מדריכים מקצועי ומיומן"
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-cb5a0c648baafd76",
+      "alt": "קבוצת מטיילים מול מגדל מואר בלילה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-3294ed1b52af3cc3",
+      "alt": "מטיילים בין עצים מעל קיר אבן עתיק",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
     },
     {
       "anchorIds": [],
@@ -48,6 +66,17 @@
       "text": "איל מירון"
     },
     {
+      "type": "image",
+      "mediaId": "wp-f749e6ebbfd032e2",
+      "alt": "דיוקנו של ד״ר אייל מירון ליד ספרייה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "editor-guide-photo-guide-760d65e8-6151-4a44-b227-ce61dc8f49fc"
+      ],
+      "links": []
+    },
+    {
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
@@ -61,6 +90,17 @@
       "type": "heading",
       "level": 3,
       "text": "רוני אלה"
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-dc1fc217748cddd6",
+      "alt": "רוני אלה מסביר על ציורי קיר מצריים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "editor-guide-photo-guide-3874d8f6-73b4-4231-a899-a5cae4207369"
+      ],
+      "links": []
     },
     {
       "anchorIds": [],
@@ -78,6 +118,17 @@
       "text": "רוית פרבר"
     },
     {
+      "type": "image",
+      "mediaId": "wp-9960086f7033eb63",
+      "alt": "דיוקנה של המדריכה רוית פרבר",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "editor-guide-photo-guide-dac8c52b-6bfb-44a4-b0e4-317aa5d910d5"
+      ],
+      "links": []
+    },
+    {
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
@@ -93,6 +144,17 @@
       "text": "חיים כראל"
     },
     {
+      "type": "image",
+      "mediaId": "wp-3b827b11e2fa7913",
+      "alt": "דיוקנו של המדריך חיים כראל",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "editor-guide-photo-guide-14c1550c-7621-498c-b97f-328642996f34"
+      ],
+      "links": []
+    },
+    {
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
@@ -106,6 +168,17 @@
       "type": "heading",
       "level": 3,
       "text": "רחלי קרייסברג"
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-3a5f78c040d8fe8c",
+      "alt": "דיוקנה של המדריכה ד״ר רחלי קרייסברג",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "editor-guide-photo-guide-9764db78-d0f3-4318-8d1f-6c3dab6b8269"
+      ],
+      "links": []
     },
     {
       "anchorIds": [],
@@ -149,5 +222,5 @@
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:42.276Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:51.137Z"
 }

@@ -8,7 +8,7 @@ import type {
   SitePage,
 } from "@roniella/shared/site-content";
 import { copy } from "./site-content-context";
-import { ArchiveBlocks } from "./archive-blocks";
+import { ArchiveBlocks, Videos } from "./archive-blocks";
 import { ContactLinks } from "./layout";
 import {CallbackForm} from "./callback-form";
 import {WhatsAppIcon} from "./social-links";
@@ -25,7 +25,6 @@ import {
 } from "./content-sections";
 import {
   displayHeading,
-  editorialTourId,
 } from "./editorial-config";
 
 type PageProps = { page: SitePage; content: PublicSiteContent };
@@ -73,14 +72,21 @@ function EditorialContact({ content }: { content: PublicSiteContent }) {
 
 function Team({
   content,
-  tour = false,
+  tour,
+  home,
 }: {
   content: PublicSiteContent;
-  tour?: boolean;
+  tour?: SitePage;
+  home?: SitePage;
 }) {
   const page = content.pages.find((p) => p.pageType === "guides");
   if (!page) return null;
-  const groups = guideProfiles(page);
+  const groups = guideProfiles(page).filter(group => {
+    if (tour?.tourDetails) return tour.tourDetails.guide.includes(group.title.split(" ").at(-1)!);
+    if (home) return home.blocks.some(block => block.type === "heading" && block.text === group.title);
+    return true;
+  });
+  if (!groups.length) return null;
   return (
     <section className="editorial-team" id={tour ? "guides" : undefined}>
       <div className="editorial-section-intro">
@@ -89,9 +95,7 @@ function Team({
         <p className="editorial-kicker">{copy(content, "team.kicker")}</p>
         <h2>{tour ? "הדרכה שעושה את ההבדל" : copy(content, "team.title")}</h2>
         <p>
-          {tour
-            ? "במקור מופיעים שמות מדריכים שונים. שיבוץ הצוות למועד הזה דורש אישור; אפשר להכיר כאן את אנשי החברה."
-            : copy(content, "team.body")}
+          {tour ? tour.tourDetails?.guide : copy(content, "team.body")}
         </p>
         <Link className="editorial-text-link" to={paths.guides}>
           להיכרות עם הצוות <span aria-hidden="true">←</span>
@@ -132,7 +136,6 @@ function DepartureCards({ page, content }: PageProps) {
         .map(pageId=>page.cards.find(card=>card.pageId===pageId) ?? {pageId,summary:""})
         .map((card) => {
           const target = content.pages.find((p) => p.id === card.pageId)!;
-          const april = target.id === editorialTourId;
           const displayTitle = target.displayTitle ?? target.title;
           const facts = cardCopy(target, sourceCard(target, content)?.summary ?? card.summary);
           const period =
@@ -161,22 +164,14 @@ function DepartureCards({ page, content }: PageProps) {
                   <div>
                     <dt>מועד ומשך</dt>
                     <dd>
-                      {april && !target.tourDetails ? (
-                        "ממתינים לאישור"
-                      ) : (
-                        <>
-                          <bdi dir="ltr">{facts.dates}</bdi>
-                          {facts.duration && <span> · {facts.duration}</span>}
-                        </>
-                      )}
+                      <bdi dir="ltr">{facts.dates}</bdi>
+                      {facts.duration && <span> · {facts.duration}</span>}
                     </dd>
                   </div>
                   <div>
                     <dt>הדרכה</dt>
                     <dd>
-                      {target.tourDetails ? facts.guide : april || !sourceGuide
-                        ? "שיבוץ הצוות באישור"
-                        : `${blockText(sourceGuide).split(/\n+/).filter(Boolean).at(-1)} · לפי המקור`}
+                      {target.tourDetails ? facts.guide : sourceGuide ? blockText(sourceGuide).split(/\n+/).filter(Boolean).at(-1) : ""}
                     </dd>
                   </div>
                 </dl>
@@ -196,11 +191,17 @@ function DepartureCards({ page, content }: PageProps) {
 }
 
 export function EditorialHome({ page, content }: PageProps) {
-  const reviews = homeReviews(content).slice(0, 2);
+  const reviews = homeReviews(content);
   const posts = content.siteSettings.featuredPostIds
-    .map(pageId=>page.cards.find(card=>card.pageId===pageId) ?? {pageId,summary:""})
-    .sort((a, b) => (content.pages.find(p => p.id === b.pageId)?.publicationDate ?? '').localeCompare(content.pages.find(p => p.id === a.pageId)?.publicationDate ?? ''))
-    .slice(0, 2);
+    .map(pageId=>page.cards.find(card=>card.pageId===pageId) ?? {pageId,summary:""});
+  const headings = page.blocks.flatMap(block => block.type === 'heading' ? [block.text] : []);
+  const rank = (destination: SitePage) => {
+    const position = headings.indexOf(destination.title);
+    return position < 0 ? headings.length : position;
+  };
+  const destinations = content.pages
+    .filter(destination => destination.pageType === 'destinationArchive' && (destination.destinationDetails || headings.includes(destination.title)))
+    .sort((a, b) => rank(a) - rank(b));
   return (
     <article className="editorial-home">
       <header className="editorial-home-hero">
@@ -217,7 +218,7 @@ export function EditorialHome({ page, content }: PageProps) {
           </Link>
           <a className="hero-discover-link" href="#destinations">להכיר את היעדים שלנו <span aria-hidden="true">↓</span></a>
         </div>
-        <Photograph name="samarkand" slot="home.hero" priority className="editorial-hero-photo" showEditButton={false} />
+        <Photograph name={page.heroMediaId ?? "samarkand"} slot="home.hero" priority className="editorial-hero-photo" showEditButton={false} />
       </header>
       <section className="travel-welcome">
         <div className="welcome-heading">
@@ -239,7 +240,7 @@ export function EditorialHome({ page, content }: PageProps) {
           <p className="destination-intro">{copy(content, "home.destinations.intro")}</p>
         </div>
         <div className="destination-spread">
-          {content.pages.filter(destination => destination.pageType === 'destinationArchive').map((destination, index) => {
+          {destinations.map((destination, index) => {
             const legacy = destination.path.includes('uzbekistan') ? 'uzbekistan' : destination.path.includes('china') ? 'china' : '';
             const details = destination.destinationDetails;
             return <article className={`destination-feature destination-${index % 2 ? 'china' : 'uzbekistan'}`} key={destination.id}>
@@ -254,7 +255,7 @@ export function EditorialHome({ page, content }: PageProps) {
         </div>
       </section>
       <section className="editorial-approach">
-        <Photograph name="samarkand" slot="home.approach" />
+        <Photograph name={content.pages.find(p => p.path === "/about/")?.heroMediaId ?? "samarkand"} slot="home.approach" />
         <div>
           <p className="editorial-kicker">{copy(content, "home.approach.kicker")}</p>
           <AdminEditButton scope="copy" contentKey="home.approach">עריכת הגישה שלנו / Edit our approach</AdminEditButton>
@@ -304,9 +305,9 @@ export function EditorialHome({ page, content }: PageProps) {
           </Link>
         </div>
         <DepartureCards page={page} content={content} />
-        <p className="editorial-source-note"><SiteText contentKey="text.editorial.text1" /></p>
+
       </section>
-      <Team content={content} />
+      <Team content={content} home={page} />
       <section className="editorial-traveler-stories">
         <div className="editorial-section-heading">
           <div>
@@ -331,7 +332,7 @@ export function EditorialHome({ page, content }: PageProps) {
                 <strong>
                   <bdi>{r.name}</bdi>
                 </strong>
-                <span>{r.source} · מהאתר הקיים</span>
+                <span>{r.source}</span>
               </figcaption>
               <details>
                 <summary><SiteText contentKey="text.editorial.text2" /></summary>
@@ -427,57 +428,9 @@ function useJourneyControls() {
   };
 }
 
-function SourceFacts({
-  page,
-  content,
-  prices,
-}: PageProps & { prices: SiteBlock[] }) {
-  const card = sourceCard(page, content);
-  const copy = card ? cardCopy(page, card.summary) : undefined;
-  const bodyDates = prices.find(
-    (b) => "text" in b && /\d{1,2}\/\d{1,2}/.test(b.text),
-  );
-  return (
-    <details className="editorial-source-details" id="source-facts">
-      <summary><SiteText contentKey="text.editorial.text4" /></summary>
-      <p><SiteText contentKey="text.editorial.text5" /></p>
-      <table>
-        <caption>הבדלים בין חלקי עמוד המקור</caption>
-        <thead>
-          <tr>
-            <th scope="col">נושא</th>
-            <th scope="col">המידע שפורסם</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">כרטיס הטיול</th>
-            <td>
-              <bdi dir="ltr">{copy?.dates ?? "לא צוין"}</bdi> · משך שפורסם:{" "}
-              <bdi>{copy?.duration ?? "לא צוין"}</bdi>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">פרק המחיר</th>
-            <td>
-              {bodyDates ? blockText(bodyDates) : "התאריכים טעונים בירור"}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">הדרכה</th>
-            <td>
-              {page.blocks.filter(block => /רחלי|רוני|מירון/.test(blockText(block))).slice(0, 3).map(block => <p key={blockText(block)}>{blockText(block)}</p>)}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </details>
-  );
-}
-
 export function EditorialTour({ page, content }: PageProps) {
   const sections = tourSections(page);
-  const details = page.tourDetails;
+  const details = cardCopy(page, sourceCard(page, content)?.summary ?? "");
   const controls = useJourneyControls();
   const intro = sections.overview.filter(
     (b) =>
@@ -496,25 +449,22 @@ export function EditorialTour({ page, content }: PageProps) {
     <article className="editorial-tour">
       <header className="editorial-tour-hero">
         <div className="editorial-hero-copy">
-          <p className="editorial-kicker">{details?.dates ?? 'אפריל 2027'} · מסע תרבות והיסטוריה</p>
+          <p className="editorial-kicker"><bdi dir="ltr">{details.dates}</bdi> · מסע תרבות והיסטוריה</p>
           <h1>{displayHeading(page)}</h1>
           <p className="editorial-tour-subtitle">
-            {details ? details.summary : <>בין ערי דרך המשי<br />לסיפורה של יהדות בוכרה</>}
+            {details.summary}
           </p>
           <dl className="editorial-hero-facts">
             <div>
               <dt>מועדי המסע</dt>
               <dd>
-                {details ? details.dates : <>אפריל 2027 <small>תאריכים מדויקים באישור</small></>}
+                <bdi dir="ltr">{details.dates}</bdi>
               </dd>
             </div>
             <div>
               <dt>משך והדרכה</dt>
               <dd>
-                {details ? [cardCopy(page,'').duration, details.guide].filter(Boolean).join(' · ') : <>ממתינים לאישור{" "}
-                <small>
-                  <a href="#source-facts">למה הפרטים בבדיקה?</a>
-                </small></>}
+                {[details.duration, details.guide].filter(Boolean).join(' · ')}
               </dd>
             </div>
             {details?.price && <div><dt>מחיר</dt><dd>{details.price}</dd></div>}
@@ -526,7 +476,6 @@ export function EditorialTour({ page, content }: PageProps) {
         </div>
         <PagePhotograph page={page} priority placeholder />
       </header>
-      <p className="editorial-fact-notice"><SiteText contentKey="text.editorial.text6" /></p>
       <nav className="editorial-section-nav" aria-label="תוכן עמוד הטיול">
         <a href="#overview">על המסע</a>
         <a href="#route">הדרך</a>
@@ -534,17 +483,12 @@ export function EditorialTour({ page, content }: PageProps) {
         <a href="#guides">הדרכה</a>
         <a href="#include">מה כלול</a>
         <a href="#cost">מחיר ותנאים</a>
-        <a href="#questions">שאלות</a>
       </nav>
       <div className="editorial-journey-printable" ref={controls.root}>
         <section className="editorial-overview" id="overview">
           <div>
             <p className="editorial-kicker"><SiteText contentKey="text.editorial.text7" /></p>
-            <h2>
-              ערים שהן סיפור.
-              <br />
-              מסע שמחבר ביניהן.
-            </h2>
+            <h2>על המסע</h2>
           </div>
           <div>
             <ArchiveBlocks blocks={sourceBlocks(intro.slice(0, 2))} />
@@ -599,7 +543,7 @@ export function EditorialTour({ page, content }: PageProps) {
               </div>
             )}
           </div>
-          <p className="editorial-source-note"><SiteText contentKey="text.editorial.text12" /></p>
+
           <div className="editorial-day-list">
             <AdminManageButton pageId={page.id} mode="itinerary">הוספה, עריכה והסרה של ימים / Edit itinerary days</AdminManageButton>
             {sections.days.map((day, i) =>
@@ -622,8 +566,8 @@ export function EditorialTour({ page, content }: PageProps) {
             )}
           </div>
         </section>
-        <Photograph name="bukhara" slot="tour.april.interlude" className="editorial-interlude-photo" />
-        <Team content={content} tour />
+        <Photograph name={page.heroMediaId ?? "bukhara"} slot="tour.april.interlude" className="editorial-interlude-photo" />
+        <Team content={content} tour={page} />
         <section id="include" className="editorial-logistics">
           <div className="editorial-section-heading">
             <div>
@@ -631,7 +575,7 @@ export function EditorialTour({ page, content }: PageProps) {
               <h2><SiteText contentKey="text.editorial.text13" /></h2>
             </div>
           </div>
-          <p className="editorial-source-note"><SiteText contentKey="text.editorial.text14" /></p>
+
           <div className="editorial-logistics-grid">
             <div>
               <h3><SiteText contentKey="text.editorial.text15" /></h3>
@@ -644,40 +588,26 @@ export function EditorialTour({ page, content }: PageProps) {
               {excluded && (
                 <ArchiveBlocks blocks={sourceBlocks(excluded.blocks)} />
               )}
-              <p className="editorial-source-note"><SiteText contentKey="text.editorial.text17" /></p>
+
             </div>
           </div>
         </section>
         <section id="cost" className="editorial-pricing">
           <div>
             <p className="editorial-kicker"><SiteText contentKey="text.editorial.text18" /></p>
-            <h2>
-              מתעניינים במסע?
-              <br />
-              בואו נדבר על הפרטים.
-            </h2>
-            <p><SiteText contentKey="text.editorial.text19" /></p>
+            <h2>{sections.priceTitle}</h2>
             <a className="editorial-button" href="#contact">
               לשיחה על הטיול <span aria-hidden="true">←</span>
             </a>
           </div>
           <div>
-            <SourceFacts
-              page={page}
-              content={content}
-              prices={sections.prices}
-            />
-            <details className="editorial-disclosure source-pricing">
-              <summary><SiteText contentKey="text.editorial.text20" /></summary>
-              <p className="editorial-source-note"><SiteText contentKey="text.editorial.text21" /></p>
-              <ArchiveBlocks blocks={sourceBlocks(sections.prices)} />
-            </details>
+            <ArchiveBlocks blocks={sourceBlocks(sections.prices)} />
           </div>
         </section>
         <section id="terms" className="editorial-terms">
           <p className="editorial-kicker"><SiteText contentKey="text.editorial.text22" /></p>
           <h2><SiteText contentKey="text.editorial.text23" /></h2>
-          <p className="editorial-source-note"><SiteText contentKey="text.editorial.text24" /></p>
+
           {sections.terms.map((s, i) =>
             s.title ? (
               <details className="editorial-disclosure" key={i}>
@@ -689,24 +619,7 @@ export function EditorialTour({ page, content }: PageProps) {
             ),
           )}
         </section>
-        <section id="questions" className="editorial-questions">
-          <p className="editorial-kicker">טוב לדעת</p>
-          <h2><SiteText contentKey="text.editorial.text25" /></h2>
-          <details className="editorial-disclosure">
-            <summary><SiteText contentKey="text.editorial.text26" /></summary>
-            <p>
-              פרטים אלה אינם אחידים בעמוד המקור.{" "}
-              <a href="#contact">פנו אלינו לשיחה</a> לקבלת המידע המאושר.
-            </p>
-          </details>
-          <details className="editorial-disclosure">
-            <summary><SiteText contentKey="text.editorial.text27" /></summary>
-            <p>
-              כל תיאורי הימים מופיעים <a href="#journy">בתוכנית היומית</a>. ניתן
-              לפתוח כל יום בנפרד או להדפיס את העמוד לקריאה נוחה.
-            </p>
-          </details>
-        </section>
+        <Videos page={page} />
         {sections.more.length > 0 && (
           <details className="editorial-disclosure editorial-more">
             <summary><SiteText contentKey="text.editorial.text28" /></summary>

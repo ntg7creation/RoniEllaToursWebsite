@@ -27,5 +27,11 @@ export function pageView(snapshot: PublicSiteContent, original: SitePage) {
   });
   const gallery = snapshot.gallery && { ...snapshot.gallery, photos: page.pageType === 'gallery'
     ? selectGalleryPhotos(snapshot.gallery.photos, snapshot.gallery.displayCount) : [] };
-  return { page, positions, content: { ...snapshot, pages, gallery, redirects: [] } };
+  const imageIds = new Set<string | null | undefined>(['bukhara', 'samarkand', 'china', ...Object.values(snapshot.photoSlots ?? {})]);
+  for (const item of pages) {
+    imageIds.add(item.heroMediaId);
+    for (const block of item.blocks) if (block.type === 'image') imageIds.add(block.mediaId);
+  }
+  const media = snapshot.media.filter(asset => imageIds.has(asset.id));
+  return { page, positions, content: { ...snapshot, pages, media, gallery, redirects: [] } };
 }

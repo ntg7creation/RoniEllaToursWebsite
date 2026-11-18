@@ -1,10 +1,46 @@
 [
-  { "fromPath": "/", "fromQuery": { "p": "6" }, "toPath": "/" },
-  { "fromPath": "/", "fromQuery": { "p": "9" }, "toPath": "/blog/" },
-  { "fromPath": "/", "fromQuery": { "post_type": "trips" }, "toPath": "/tours/" },
-  { "fromPath": "/", "fromQuery": { "post_type": "post" }, "toPath": "/blog/" },
-  { "fromPath": "/", "fromQuery": { "post_type": "page" }, "toPath": "/" },
-  { "fromPath": "/", "fromQuery": { "cat": "1" }, "toPath": "/category/general/" },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "6"
+    },
+    "toPath": "/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "p": "9"
+    },
+    "toPath": "/blog/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "post_type": "trips"
+    },
+    "toPath": "/tours/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "post_type": "post"
+    },
+    "toPath": "/blog/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "post_type": "page"
+    },
+    "toPath": "/"
+  },
+  {
+    "fromPath": "/",
+    "fromQuery": {
+      "cat": "1"
+    },
+    "toPath": "/category/general/"
+  },
   {
     "fromPath": "/בלוג/",
     "fromQuery": {},

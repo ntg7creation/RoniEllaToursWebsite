@@ -1,6 +1,6 @@
 import { createElement, type ReactNode } from "react";
 import { Link } from "react-router";
-import type { SiteBlock } from "@roniella/shared/site-content";
+import type { SiteBlock, SitePage } from "@roniella/shared/site-content";
 import { AdminBlockButton } from './admin-context';
 import { Photograph } from './travel-visuals';
 
@@ -111,5 +111,30 @@ export function ArchiveBlocks({ blocks, parentLevel = 2 }: { blocks: SiteBlock[]
         </div>
       ))}
     </div>
+  );
+}
+
+export function Videos({ page }: { page: SitePage }) {
+  if (!page.videos.length) return null;
+  return (
+    <section className="video-section">
+      <h2>{page.pageType === "videos" ? "הסרטונים שלנו" : "וידיאו מהטיול"}</h2>
+      <div className="grid">
+        {page.videos.map((v, i) => (
+          <article className="card video-card" key={v.externalUrl}>
+            <span className="play-symbol" aria-hidden="true">
+              ▷
+            </span>
+            <h3>
+              <a href={v.externalUrl} rel="noreferrer">
+                {v.title || `צפייה בסרטון ${i + 1}`}
+              </a>
+            </h3>
+            {v.description && <p>{v.description}</p>}
+            <span className="eyebrow">ייפתח באתר הסרטונים</span>
+          </article>
+        ))}
+      </div>
+    </section>
   );
 }

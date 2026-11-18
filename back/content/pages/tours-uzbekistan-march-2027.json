@@ -4,7 +4,7 @@
   "slug": "uzbekistan-march-2027",
   "pageType": "tour",
   "title": "אוזבקיסטן מרץ 2027",
-  "heroMediaId": "samarkand",
+  "heroMediaId": "wp-325a850f82fa486f",
   "seo": {
     "title": "אוזבקיסטן מרץ 2027 - טיולי העולם העתיק",
     "description": null,
@@ -128,7 +128,9 @@
       "text": "רוצים שנחזור אליכם?"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-itinerary"
+      ],
       "links": [
         {
           "text": "מסלול הטיול",
@@ -258,7 +260,8 @@
     },
     {
       "anchorIds": [
-        "cost"
+        "cost",
+        "editor-prices"
       ],
       "links": [],
       "type": "heading",
@@ -269,7 +272,7 @@
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
-      "text": "23/03/27 – 15/03/27"
+      "text": "15/03/2027 – 23/03/2027"
     },
     {
       "anchorIds": [],
@@ -281,13 +284,13 @@
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
-      "text": "עלות לאדם בחדר זוגי: 3,450$"
+      "text": "רישום מוקדם: המחיר לאדם בחדר זוגי לנרשמים עד לתאריך 31/12/2026 – 3,150$ בלבד"
     },
     {
       "anchorIds": [],
       "links": [],
       "type": "paragraph",
-      "text": "הנחה של 200$ לנוסע לנרשמים עד 15/11/2026"
+      "text": "עלות לאדם בחדר זוגי: 3,450$"
     },
     {
       "anchorIds": [],
@@ -393,7 +396,9 @@
       ]
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-terms"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -695,7 +700,9 @@
       ]
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-more"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -763,5 +770,13 @@
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:50.758Z"
+  "sourceRetrievedAt": "2026-11-18T22:08:01.749Z",
+  "tourDetails": {
+    "summary": "אוזבקיסטן - ערי דרך המשי, יהדות בוכרה, ומורשת טימור",
+    "dates": "15/03/2027 - 23/03/2027",
+    "duration": "9 ימים",
+    "guide": "ד\"ר אייל מירון ורוני אלה",
+    "price": "3,150$ לאדם בחדר זוגי לנרשמים עד 31/12/2026, לאחר מכן 3,450$",
+    "status": "בהרשמה"
+  }
 }

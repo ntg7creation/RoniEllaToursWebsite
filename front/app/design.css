@@ -154,6 +154,14 @@ body { font-family: var(--font); font-size: 1.25rem; font-weight: 400; line-heig
 .editorial-quotes blockquote p { font-size: 1.25rem; line-height: 1.9; }
 .editorial-quotes figcaption { border-top: 1px solid var(--line); padding-top: 1rem; }
 .editorial-articles { gap: 4rem; }
+.tour-photo-section .archive-prose, .testimonial-letters .archive-prose {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1.5rem;
+  max-width: none;
+}
+.tour-photo-section figure, .testimonial-letters figure { margin: 0; }
+.tour-photo-section img, .testimonial-letters img { width: 100%; height: auto; }
 .editorial-articles article { padding-top: 2rem; }
 .editorial-articles h3 { font-size: 2rem; }
 .editorial-article-number { font-size: 3.5rem; min-width: 2.8rem; flex: 0 0 auto; white-space: nowrap; }

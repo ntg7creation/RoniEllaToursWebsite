@@ -4,7 +4,7 @@
   "slug": "about",
   "pageType": "about",
   "title": "מי אנחנו",
-  "heroMediaId": null,
+  "heroMediaId": "wp-93d203c6bda6904f",
   "seo": {
     "title": "מי אנחנו - טיולי העולם העתיק",
     "description": null,
@@ -127,11 +127,38 @@
       "type": "heading",
       "level": 3,
       "text": "מחירים הוגנים ואטרקטיביים"
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-ae350db895480aae",
+      "alt": "סרקופג מצרי מאבן באולם תצוגה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-9a6cc1e3220d9f3e",
+      "alt": "מטיילים על שביל אבן מוקף צמחייה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-0b9202d1ec48f751",
+      "alt": "מטיילים מביטים בתבליטים שעל קיר מקדש מצרי",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
     }
   ],
   "cards": [],
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:38.333Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:46.977Z"
 }

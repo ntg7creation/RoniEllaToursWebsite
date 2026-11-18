@@ -10,10 +10,38 @@
     "description": null,
     "canonicalPath": "/testimonials/"
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "image",
+      "mediaId": "wp-cec8d6bb09f36ca2",
+      "alt": "המלצה של יוסי קליין על הטיול למצרים במרץ 2023",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-11b816a184837187",
+      "alt": "המלצה של אלדד חייט על הטיול למצרים בינואר 2023",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-405a4c8777a3b223",
+      "alt": "המלצה של gideon shimshoni על הטיול למצרים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [],
+      "links": []
+    }
+  ],
   "cards": [],
   "publicationDate": null,
   "modificationDate": null,
   "videos": [],
-  "sourceRetrievedAt": "2026-11-02T15:04:33.064Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:41.295Z"
 }

@@ -4,7 +4,7 @@
   "slug": "northern-greece",
   "pageType": "tour",
   "title": "צפון יוון",
-  "heroMediaId": null,
+  "heroMediaId": "wp-5dd40c04864dae0a",
   "seo": {
     "title": "צפון יוון - טיולי העולם העתיק",
     "description": null,
@@ -184,7 +184,9 @@
       "text": "רוצים שנחזור אליכם?"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-itinerary"
+      ],
       "links": [
         {
           "text": "מסלול הטיול",
@@ -343,7 +345,8 @@
     },
     {
       "anchorIds": [
-        "cost"
+        "cost",
+        "editor-prices"
       ],
       "links": [],
       "type": "heading",
@@ -381,7 +384,9 @@
       "text": "יציאה מובטחת בקבוצה קטנה עם מסלול מוקפד שמעניק היכרות מעמיקה עם צפון יוון – חלון הזדמנויות קטן לטיול כזה!"
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-terms"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -712,7 +717,9 @@
       ]
     },
     {
-      "anchorIds": [],
+      "anchorIds": [
+        "editor-more"
+      ],
       "links": [],
       "type": "heading",
       "level": 2,
@@ -781,6 +788,336 @@
       ],
       "type": "paragraph",
       "text": "צור קשר"
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-4613e18bda6d6c38",
+      "alt": "פסל אבן לבן בכיכר מוקפת עצים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-4613e18bda6d6c38"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-60a80694706b75cd",
+      "alt": "גרם מדרגות המוביל לבית אבן",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-60a80694706b75cd"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-1a4458df6e588463",
+      "alt": "הדרכה לצד ויטרינה מוארת במוזיאון",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-1a4458df6e588463"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-f1ea64bb80ea9c02",
+      "alt": "מבנה אירוח ובריכה מול גבעות",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-f1ea64bb80ea9c02"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-ad50b75c133d45fe",
+      "alt": "ביקור בסדנה עם נול אריגה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-ad50b75c133d45fe"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-b07328e4acff5ce4",
+      "alt": "נוף עמק וכפר למרגלות ההרים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-b07328e4acff5ce4"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-bf1acf31bde8e145",
+      "alt": "תבליטי אבן בקשת מונומנטלית",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-bf1acf31bde8e145"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-e49804d2b7bf5c3b",
+      "alt": "קירות ועמודים מעוטרים בתוך כנסייה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-e49804d2b7bf5c3b"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-ab2ac2f7ebedb1d0",
+      "alt": "פסל ברונזה בפארק",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-ab2ac2f7ebedb1d0"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-e4b5eef97bcc0718",
+      "alt": "שער אבן בכניסה למבנה היסטורי",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-e4b5eef97bcc0718"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-19f933c28c28b353",
+      "alt": "מטיילים סביב שולחן בעת ארוחה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-19f933c28c28b353"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-d29cd3b1c15abb58",
+      "alt": "פסל רוכב על סוס במוזיאון",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-d29cd3b1c15abb58"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-e2afcdbbb4e12864",
+      "alt": "שביל בין קירות אבן בכפר",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-e2afcdbbb4e12864"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-21699947db1fb018",
+      "alt": "מבט על מפרץ וגבעות עטורות עצים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-21699947db1fb018"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-598194fcdc61afcf",
+      "alt": "פריט שריון בתצוגת מוזיאון",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-598194fcdc61afcf"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-77d6f03bd13710f9",
+      "alt": "הדרכה לצד תבליטי אבן",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-77d6f03bd13710f9"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-55fbfce2ef1f59bc",
+      "alt": "שורת עמודי אבן בחזית מבנה היסטורי",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-55fbfce2ef1f59bc"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-bc00730b9e69d1f9",
+      "alt": "שרידי פסיפס המוצגים במוזיאון",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-bc00730b9e69d1f9"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-a942ea96cfb9fa51",
+      "alt": "אכסדרת עמודים לאורך שביל מוצל",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-a942ea96cfb9fa51"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-4080b3ddfeac946f",
+      "alt": "רחבה מוצלת ובה שולחנות ליד המים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-4080b3ddfeac946f"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-5238a1788a805688",
+      "alt": "מפל מים בין סלעים ועצים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-5238a1788a805688"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-427833b25e8965c3",
+      "alt": "פרטי תבליט על קשת אבן עתיקה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-427833b25e8965c3"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-42dc7e9ffa561f9c",
+      "alt": "חלונות מקושתים באולם תפילה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-42dc7e9ffa561f9c"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-fa0398708ce9d932",
+      "alt": "ציורי קיר מוזהבים בתוך כנסייה",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-fa0398708ce9d932"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-5e3b538c00ee748a",
+      "alt": "מטיילים על שביל אבן במדרון",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-5e3b538c00ee748a"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-a4096f27e5e13bdd",
+      "alt": "קבוצה בכניסה לכנסייה עם גג רעפים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-a4096f27e5e13bdd"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-5a7b95f67ba6b08b",
+      "alt": "מוצג במוזיאון עם לוח הסבר",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-5a7b95f67ba6b08b"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-e7bf345ed1e45e90",
+      "alt": "תעלת מים צרה בין מצוקים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-e7bf345ed1e45e90"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-2d9d92a975324de8",
+      "alt": "אולם בית כנסת עם נברשת וחלונות צבעוניים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-2d9d92a975324de8"
+      ],
+      "links": []
+    },
+    {
+      "type": "image",
+      "mediaId": "wp-9b0710f02d347005",
+      "alt": "מבנה עמודים מוקף עצים",
+      "caption": "",
+      "align": "full",
+      "anchorIds": [
+        "tour-photo-wp-9b0710f02d347005"
+      ],
+      "links": []
     }
   ],
   "cards": [],
@@ -793,5 +1130,13 @@
       "externalUrl": "https://www.youtube.com/watch?v=ycCzjPy0YjU"
     }
   ],
-  "sourceRetrievedAt": "2026-11-02T15:04:45.193Z"
+  "sourceRetrievedAt": "2026-11-18T22:07:54.183Z",
+  "tourDetails": {
+    "summary": "מסע ליוון העתיקה",
+    "dates": "",
+    "duration": "8 ימים",
+    "guide": "ד\"ר אייל מירון",
+    "price": "",
+    "status": "הסתיים. הטיול הבא יפורסם בקרוב"
+  }
 }

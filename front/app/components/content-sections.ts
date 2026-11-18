@@ -160,6 +160,7 @@ export function readingBlocks(page: SitePage): SiteBlock[] {
   if (page.pageType === "about") {
     const seen = new Set<string>();
     return page.blocks.filter((b) => {
+      if (b.type === "image") return true;
       const key = blockText(b).replace(/\s+/g, " ").trim();
       if (seen.has(key)) return false;
       seen.add(key);
