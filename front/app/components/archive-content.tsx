@@ -449,7 +449,7 @@ export function ArchivePageContent({ page, content, totalGalleryPhotos = 0 }: Pa
     return (
       <article>
         <PageHeading title={page.title} />
-        <div className="testimonial-letters"><ArchiveBlocks blocks={page.blocks} /></div>
+        <div className="testimonial-letters"><ArchiveBlocks blocks={page.blocks} captionFromAlt /></div>
       </article>
     );
   const listing = [

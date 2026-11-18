@@ -42,7 +42,7 @@ export function Inline({ text, links }: { text: string; links: PublicLink[] }) {
   nodes.push(text.slice(offset));
   return <>{nodes}</>;
 }
-export function ArchiveBlocks({ blocks, parentLevel = 2 }: { blocks: SiteBlock[]; parentLevel?: number }) {
+export function ArchiveBlocks({ blocks, parentLevel = 2, captionFromAlt = false }: { blocks: SiteBlock[]; parentLevel?: number; captionFromAlt?: boolean }) {
   let previousLevel = parentLevel;
   const headings = blocks.map(block => {
     if (block.type !== 'heading' || block.text.length > 130) return 'p';
@@ -57,7 +57,7 @@ export function ArchiveBlocks({ blocks, parentLevel = 2 }: { blocks: SiteBlock[]
           {block.anchorIds.map((id) => (
             <span className="section-anchor" id={id} key={id} />
           ))}
-          {block.type === 'image' ? <Photograph name={block.mediaId} alt={block.alt} caption={block.caption} /> : block.type === "heading" ? (
+          {block.type === 'image' ? <Photograph name={block.mediaId} alt={block.alt} caption={block.caption || (captionFromAlt ? block.alt : '')} /> : block.type === "heading" ? (
             createElement(
               headings[i]!,
               null,
